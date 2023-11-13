@@ -1,10 +1,9 @@
 {
   "cSpell.customDictionaries": {
     "card-specific": {
-      "addWords": true,
       "name": "card-specific",
       "path": "${workspaceFolder:credit_card_type_detector_korean}/.cspell/card-specific.txt",
-      "scope": "workspace"
+      "description": "Keywords related to domestic(korean) and international card companies."
     }
   },
   "yaml.schemaStore.enable": false
