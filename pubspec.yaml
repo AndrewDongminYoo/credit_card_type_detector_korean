@@ -1,0 +1,19 @@
+name: credit_card_type_detector_korean
+description: |
+  Recognizes card types through BIN numbers of domestic credit card issuers in Korea.
+  This Flutter package extends the functionality of credit_card_type_detector,
+  maintaining vendor detection while focusing on identifying domestic card issuers.
+
+version: 0.1.0+1
+publish_to: pub.dev
+
+dependencies:
+  credit_card_type_detector: ^3.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dev_dependencies:
+  mocktail: ^1.0.1
+  test: ^1.24.9
+  very_good_analysis: ^5.1.0
