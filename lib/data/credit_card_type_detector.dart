@@ -45,6 +45,7 @@ List<CreditCardType> detectCCType(String ccNumStr) {
         /// 공백을 모두 제거합니다.
         var ccPatternStr = ccNumStr;
         final patternLen = pattern.prefixes[0].length;
+
         /// 패턴 접두사 길이와 일치하도록 CC 번호 문자열을 자릅니다.
         if (patternLen < ccNumStr.length) {
           ccPatternStr = ccPatternStr.substring(0, patternLen);

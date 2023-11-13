@@ -2,9 +2,13 @@ import 'package:credit_card_type_detector_korean/data/constants.dart';
 
 /// 신용 카드 유형과 해당 브랜드에 사용되는 패턴 및 일반적인 보안 코드를 포함하여 특정 카드 브랜드에 대한 일반 정보를 나타냅니다.
 class CreditCardType {
-
-  CreditCardType(this.type, this.prettyType, this.lengths, this.patterns,
-      this.securityCode,);
+  CreditCardType(
+    this.type,
+    this.prettyType,
+    this.lengths,
+    this.patterns,
+    this.securityCode,
+  );
 
   /// 기본값을 사용하여 Visa 카드 유형을 생성합니다.
   CreditCardType.visa()
@@ -121,12 +125,12 @@ class CreditCardType {
 
   @override
   bool operator ==(Object other) =>
-    other is CreditCardType &&
+      other is CreditCardType &&
       type == other.type &&
-          prettyType == other.prettyType &&
-          lengths == other.lengths &&
-          patterns == other.patterns &&
-          securityCode == other.securityCode;
+      prettyType == other.prettyType &&
+      lengths == other.lengths &&
+      patterns == other.patterns &&
+      securityCode == other.securityCode;
 
   @override
   int get hashCode =>
@@ -136,8 +140,8 @@ class CreditCardType {
 /// 신용 카드 번호 패턴이 가질 수 있는 다양한 패턴을 나타냅니다.
 /// 대부분 특정 브랜드에 대해 카드 번호에 사용할 수 있는 접두사를 캡슐화합니다.
 class Pattern {
-
   Pattern(this.prefixes);
+
   /// 카드 번호가 시작하는 값의 범위의 하한과 상한. 즉, `['51', '55']`는 '51'로 시작하는 카드부터 '55'로 시작하는 카드까지를 나타냅니다.
   final List<String> prefixes;
 
@@ -154,7 +158,6 @@ class Pattern {
 }
 
 class SecurityCode {
-
   SecurityCode(this.name, this.length);
 
   /// 표준 CVV를 기반으로 보안 코드를 생성합니다.
@@ -197,15 +200,13 @@ class SecurityCode {
 
   @override
   bool operator ==(Object other) =>
-    other is SecurityCode &&
-      name == other.name && length == other.length;
+      other is SecurityCode && name == other.name && length == other.length;
 
   @override
   int get hashCode => Object.hash(name, length);
 }
 
 class CardCollection {
-
   CardCollection(this.cards);
   CardCollection.empty() : cards = {};
   factory CardCollection.from(CardCollection other) {
@@ -222,7 +223,8 @@ class CardCollection {
   void addCardType(String key, CreditCardType cardType) {
     if (cards.containsKey(key)) {
       throw Exception(
-          'The card "$key" already exists in this collection. Use `updateCardType()` instead',);
+        '이 컬렉션에 "$key" 카드가 이미 있습니다. 대신 `updateCardType()`을 사용하세요.',
+      );
     } else {
       cards[key] = cardType;
     }
