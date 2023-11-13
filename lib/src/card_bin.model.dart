@@ -23,10 +23,8 @@ class CardBinModel {
         updatedAt: json['등록/수정일자'] == null
             ? null
             : updatedAtValues.map[json['등록/수정일자']],
-        changed:
-            json['변경사항'] == null ? null : changedValues.map[json['변경사항']],
-        remarks:
-            json['비고'] == null ? null : remarksValues.map[json['비고']],
+        changed: json['변경사항'] == null ? null : changedValues.map[json['변경사항']],
+        remarks: json['비고'] == null ? null : remarksValues.map[json['비고']],
       );
 
   int id;
@@ -55,7 +53,22 @@ class CardBinModel {
       };
 }
 
-enum UpdatedAt { THE_202310, THE_202210, THE_202301, THE_202304, THE_202307 }
+enum UpdatedAt {
+  /// '2022. 10'
+  THE_202310,
+
+  /// '2023. 01'
+  THE_202210,
+
+  /// '2023. 04'
+  THE_202301,
+
+  /// '2023. 07'
+  THE_202304,
+
+  /// '2023. 10'
+  THE_202307,
+}
 
 final updatedAtValues = EnumValues({
   '2022. 10': UpdatedAt.THE_202210,
@@ -65,14 +78,29 @@ final updatedAtValues = EnumValues({
   '2023. 10': UpdatedAt.THE_202310,
 });
 
-enum Corporate { INDIVIDUAL, CORPORATE }
+enum Corporate {
+  /// '개인'
+  INDIVIDUAL,
+
+  /// '법인'
+  CORPORATE,
+}
 
 final corporateValues = EnumValues({
   '개인': Corporate.INDIVIDUAL,
   '법인': Corporate.CORPORATE,
 });
 
-enum Changed { UPDATED, CREATED, DELETED }
+enum Changed {
+  /// '변경'
+  UPDATED,
+
+  /// '삭제'
+  CREATED,
+
+  /// '신규'
+  DELETED,
+}
 
 final changedValues = EnumValues({
   '변경': Changed.UPDATED,
@@ -80,7 +108,16 @@ final changedValues = EnumValues({
   '신규': Changed.CREATED,
 });
 
-enum CreditDebit { Credit, Debit, GiftCard }
+enum CreditDebit {
+  /// '신용'
+  Credit,
+
+  /// '체크'
+  Debit,
+
+  /// '기프트'
+  GiftCard,
+}
 
 final creditDebitValues = EnumValues({
   '신용': CreditDebit.Credit,
@@ -107,38 +144,91 @@ enum CardIssuer {
 }
 
 final cardIssuerValues = EnumValues({
+  /// 'BC카드'
   'BC카드': CardIssuer.BC,
+
+  /// 'KB국민카드'
   'KB국민카드': CardIssuer.KB,
+
+  /// 'NH농협카드'
   'NH농협카드': CardIssuer.NH,
+
+  /// '광주은행'
   '광주은행': CardIssuer.KWANGJU,
+
+  /// '롯데카드'
   '롯데카드': CardIssuer.LOTTE,
+
+  /// '삼성카드'
   '삼성카드': CardIssuer.SAMSUNG,
+
+  /// '수협은행'
   '수협은행': CardIssuer.SUHYUP,
+
+  /// '신한카드'
   '신한카드': CardIssuer.SHINHAN,
+
+  /// '씨티카드'
   '씨티카드': CardIssuer.CITI,
+
+  /// '우리카드'
   '우리카드': CardIssuer.WOORI,
+
+  /// '전북은행'
   '전북은행': CardIssuer.JB,
+
+  /// '제주은행'
   '제주은행': CardIssuer.JEJU,
+
+  /// '지드림카드'
   '지드림카드': CardIssuer.DREAM,
+
+  /// '하나카드'
   '하나카드': CardIssuer.HANA,
+
+  /// '현대카드'
   '현대카드': CardIssuer.HYUNDAI,
 });
 
-enum Remarks { WOORI_BC }
+enum Remarks {
+  WOORI_BC,
+}
 
 final remarksValues = EnumValues({
+  /// '우리BC카드'
   '우리BC카드': Remarks.WOORI_BC,
 });
 
-enum Brand { LOCAL, MASTER, JCB, DINERS, AMEX, VISA, UNION }
+enum Brand {
+  LOCAL,
+  MASTERCARD,
+  JCB,
+  DINERS_CLUB,
+  AMEX,
+  VISA,
+  UNIONPAY,
+}
 
 final brandValues = EnumValues({
+  /// '로컬'
   '로컬': Brand.LOCAL,
-  '다이너스': Brand.DINERS,
-  '은련': Brand.UNION,
+
+  /// '다이너스'
+  '다이너스': Brand.DINERS_CLUB,
+
+  /// '은련'
+  '은련': Brand.UNIONPAY,
+
+  /// 'JCB'
   'JCB': Brand.JCB,
-  '마스터': Brand.MASTER,
+
+  /// '마스터'
+  '마스터': Brand.MASTERCARD,
+
+  /// '비자'
   '비자': Brand.VISA,
+
+  /// '아멕스'
   '아멕스': Brand.AMEX,
 });
 
