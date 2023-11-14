@@ -15,7 +15,7 @@
     },
     {
       "name": "card-specific",
-      "path": "${workspaceFolder:credit_card_type_detector_korean}/.cspell/card-specific.txt",
+      "path": "https://github.com/AndrewDongminYoo/credit_card_type_detector_korean/blob/main/.cspell/card-specific.txt",
       "description": "Keywords related to domestic(korean) and international card companies."
     },
   ],
