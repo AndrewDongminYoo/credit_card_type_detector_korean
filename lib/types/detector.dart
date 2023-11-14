@@ -1,5 +1,5 @@
-import 'package:credit_card_type_detector_korean/data/constants.dart';
-import 'package:credit_card_type_detector_korean/data/models.dart';
+import 'package:credit_card_type_detector_korean/types/constants.dart';
+import 'package:credit_card_type_detector_korean/types/models.dart';
 
 final CardCollection _defaultCCTypes = CardCollection({
   TYPE_VISA: CreditCardType.visa(),
@@ -95,14 +95,14 @@ int _determineMatchStrength(String ccNumStr, String patternPrefix) {
   }
 }
 
-/// 카드 이름`과 연관된 `신용 카드 유형` 객체를 가져옵니다.
+/// `cardName`과 연관된 `신용 카드 유형` 객체를 가져옵니다.
 CreditCardType? getCardType(String cardName) {
   return _customCards.getCardType(cardName);
 }
 
 /// 카드 컬렉션에 사용자 지정 카드 유형을 추가합니다.
 ///
-/// 카드 이름`이 이미 컬렉션에 있는 경우 `Exception`을 던집니다.
+/// `cardName`이 이미 컬렉션에 있는 경우 `Exception`을 던집니다.
 void addCardType(String cardName, CreditCardType type) {
   _customCards.addCardType(cardName, type);
 }

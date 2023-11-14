@@ -1,4 +1,4 @@
-import 'package:credit_card_type_detector_korean/data/constants.dart';
+import 'package:credit_card_type_detector_korean/types/constants.dart';
 
 /// 신용 카드 유형과 해당 브랜드에 사용되는 패턴 및 일반적인 보안 코드를 포함하여 특정 카드 브랜드에 대한 일반 정보를 나타냅니다.
 class CreditCardType {
