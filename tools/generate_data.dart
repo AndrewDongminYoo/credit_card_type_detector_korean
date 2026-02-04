@@ -145,8 +145,17 @@ String _buildFile(List<String> entries) {
     ..write('// 🌎 Project imports:\n')
     ..write("import 'package:credit_card_type_detector_korean/src/card_bin.model.dart';\n")
     ..write('\n')
-    ..write('/// The full Korean BIN dataset generated from the source CSV.\n')
-    ..write('/// Do not hand-edit the list entries; regenerate via the data-generation script.\n')
+    ..write('/// The full Korean BIN dataset.\n')
+    ..write('///\n')
+    ..write('/// **This file is auto-generated.** Do not edit by hand.\n')
+    ..write('///\n')
+    ..write('/// It is produced by running:\n')
+    ..write('/// ```sh\n')
+    ..write('/// dart tools/generate_data.dart\n')
+    ..write('/// ```\n')
+    ..write('/// which reads the externally-downloaded BIN CSV (신용카드 BIN_Table … .csv)\n')
+    ..write('/// located in the project root and overwrites this file.\n')
+    ..write('/// When the upstream CSV is updated, re-run the script above.\n')
     ..write('const data = [\n');
 
   for (final entry in entries) {

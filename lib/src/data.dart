@@ -1,8 +1,17 @@
 // 🌎 Project imports:
 import 'package:credit_card_type_detector_korean/src/card_bin.model.dart';
 
-/// The full Korean BIN dataset generated from the source CSV.
-/// Do not hand-edit the list entries; regenerate via the data-generation script.
+/// The full Korean BIN dataset.
+///
+/// **This file is auto-generated.** Do not edit by hand.
+///
+/// It is produced by running:
+/// ```sh
+/// dart tools/generate_data.dart
+/// ```
+/// which reads the externally-downloaded BIN CSV (신용카드 BIN_Table … .csv)
+/// located in the project root and overwrites this file.
+/// When the upstream CSV is updated, re-run the script above.
 const data = [
   CardBinModel(
     id: 1,
