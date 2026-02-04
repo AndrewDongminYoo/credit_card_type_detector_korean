@@ -4,7 +4,12 @@
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 [![License: MIT][license_badge]][license_link]
 
-A Very Good Project created by Very Good CLI.
+Korean domestic credit-card BIN detector built on top of
+[`credit_card_type_detector`](https://pub.dev/packages/credit_card_type_detector).
+
+Given a card number it returns matching entries from the official Korean BIN
+table (신용카드 BIN\_Table), optionally combined with the international brand
+detected by the upstream package.
 
 ## Installation 💻
 
@@ -14,6 +19,54 @@ Install via `dart pub add`:
 
 ```sh
 dart pub add credit_card_type_detector_korean
+```
+
+---
+
+## Usage 📖
+
+```dart
+import 'package:credit_card_type_detector_korean/index.dart';
+
+void main() {
+  final detector = CreditCardTypeDetectorKorean();
+
+  // ── Korean BIN lookup ────────────────────────────────────────
+  // Accepts any formatting — spaces, dashes, tabs are stripped automatically.
+  final bins = detector.detect('4599 2700 1234 5678');
+  // bins[0].cardIssuer == '현대카드'
+  // bins[0].brand      == '비자'
+
+  // ── Combined Korean + international detection ────────────────
+  final result = detector.detectCard('4599270012345678');
+  // result.koreanBins         — List<CardBinModel>   (Korean issuer info)
+  // result.internationalTypes — List<CreditCardType> (Visa / Mastercard / …)
+
+  // ── Query helpers ─────────────────────────────────────────────
+  final shinhan = detector.findByIssuer(CARD_ISSUER_SHINHAN);
+  final visaCards = detector.findByBrand(TYPE_VISA_KO);
+  final creditCards = detector.findByCardType(CREDIT_CARD);
+  final corporate = detector.findByCorporate(CARD_TYPE_CORPORATE);
+}
+```
+
+---
+
+## Regenerating the BIN dataset 🔄
+
+The bundled BIN data (`lib/src/data.dart`) is generated from the upstream CSV.
+When a new CSV is available, place it in the project root and run:
+
+```sh
+dart tools/generate_data.dart
+```
+
+The script auto-discovers any file matching `*BIN_Table*.csv` in the project
+root and overwrites `lib/src/data.dart`.  You can also pass the path
+explicitly:
+
+```sh
+dart tools/generate_data.dart path/to/신용카드\ BIN_Table\(20260115\).xls\ -\ 상세.csv
 ```
 
 ---
