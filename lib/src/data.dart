@@ -7,7 +7,7 @@ import 'package:credit_card_type_detector_korean/src/card_bin_model.dart';
 ///
 /// It is produced by running:
 /// ```sh
-/// dart tools/generate_data.dart
+/// dart tool/generate_data.dart
 /// ```
 /// which reads the externally-downloaded BIN CSV (신용카드 BIN_Table … .csv)
 /// located in the project root and overwrites this file.

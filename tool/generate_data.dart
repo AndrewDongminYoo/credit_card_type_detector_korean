@@ -1,7 +1,7 @@
 /// Reads the Korean BIN CSV and writes `lib/src/data.dart`.
 ///
 /// Usage:
-///   dart tools/generate_data.dart [path/to/csv]
+///   dart tool/generate_data.dart [path/to/csv]
 ///
 /// If no path is given the script searches the project root for a file whose
 /// name starts with "신용카드 BIN_Table" and ends with ".csv".
@@ -151,7 +151,7 @@ String _buildFile(List<String> entries) {
     ..write('///\n')
     ..write('/// It is produced by running:\n')
     ..write('/// ```sh\n')
-    ..write('/// dart tools/generate_data.dart\n')
+    ..write('/// dart tool/generate_data.dart\n')
     ..write('/// ```\n')
     ..write('/// which reads the externally-downloaded BIN CSV (신용카드 BIN_Table … .csv)\n')
     ..write('/// located in the project root and overwrites this file.\n')
@@ -203,7 +203,7 @@ String _findCsv(String root) {
   if (csvFiles.isEmpty) {
     _exit(
       'No CSV file matching "*BIN_Table*.csv" found in $root.\n'
-      'Pass the path explicitly: dart tools/generate_data.dart <path>',
+      'Pass the path explicitly: dart tool/generate_data.dart <path>',
     );
   }
   if (csvFiles.length > 1) {

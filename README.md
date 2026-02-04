@@ -26,7 +26,7 @@ dart pub add credit_card_type_detector_korean
 ## Usage 📖
 
 ```dart
-import 'package:credit_card_type_detector_korean/index.dart';
+import 'package:credit_card_type_detector_korean/credit_card_type_detector_korean.dart';
 
 void main() {
   final detector = CreditCardTypeDetectorKorean();
@@ -71,7 +71,7 @@ published by **KICC** (Korea International Card & Commerce).
 When a new CSV is available, place it in the project root and run:
 
 ```sh
-dart tools/generate_data.dart
+dart tool/generate_data.dart
 ```
 
 The script auto-discovers any file matching `*BIN_Table*.csv` in the project
@@ -79,7 +79,7 @@ root and overwrites `lib/src/data.dart`. You can also pass the path
 explicitly:
 
 ```sh
-dart tools/generate_data.dart path/to/신용카드\ BIN_Table\(20260115\).xls\ -\ 상세.csv
+dart tool/generate_data.dart path/to/신용카드\ BIN_Table\(20260115\).xls\ -\ 상세.csv
 ```
 
 ---

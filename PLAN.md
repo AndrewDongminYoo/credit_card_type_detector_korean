@@ -159,7 +159,7 @@ Expand `test/src/credit_card_type_detector_korean_test.dart` (or add sibling tes
 
 ### What to do
 
-- Create a standalone Dart script (e.g., `tools/generate_data.dart`) that:
+- Create a standalone Dart script (e.g., `tool/generate_data.dart`) that:
   1. Reads the CSV file at the repo root.
   2. Parses each row into the same shape as `CardBinModel`.
   3. Emits a valid `data.dart` file with the standard preamble and `final data = [...]` list.
@@ -169,7 +169,7 @@ Expand `test/src/credit_card_type_detector_korean_test.dart` (or add sibling tes
 
 ### Files to touch
 
-- `tools/generate_data.dart` (new)
+- `tool/generate_data.dart` (new)
 - `README.md`
 
 ### Completion criteria
