@@ -1,4 +1,4 @@
-include: package:very_good_analysis/analysis_options.5.1.0.yaml
+include: package:very_good_analysis/analysis_options.yaml
 
 rules:
   avoid_equals_and_hash_code_on_mutable_classes: false
@@ -10,6 +10,7 @@ rules:
 analyzer:
   errors:
     avoid_equals_and_hash_code_on_mutable_classes: ignore
+    avoid_types_on_closure_parameters: ignore
     constant_identifier_names: ignore
     lines_longer_than_80_chars: ignore
     public_member_api_docs: ignore

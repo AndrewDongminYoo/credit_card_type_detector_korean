@@ -27,7 +27,7 @@ RegExp _whiteSpace = RegExp(r'\s+\b|\b\s');
 /// 가장 가능성이 높은 유형을 첫 번째 유형으로 하는 `CreditCardType` 목록을 반환합니다.
 List<CreditCardType> detectCCType(String ccNumStr) {
   final cardTypes = <CreditCardType>[];
-  // ignore: parameter_assignments
+  // ignore: parameter_assignments to remove all whitespaces
   ccNumStr = ccNumStr.replaceAll(_whiteSpace, '');
 
   if (ccNumStr.isEmpty) {
