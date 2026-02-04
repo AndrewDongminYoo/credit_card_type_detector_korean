@@ -6,7 +6,7 @@ Tech stack:
 
 - Dart package (SDK >=3.10.0 <4.0.0)
 - Depends on `credit_card_type_detector`
-- Dev: `test`, `very_good_analysis`, `import_sorter`, `mocktail`
+- Dev: `test`, `very_good_analysis`, `import_sorter`, `mockito`
 
 High-level structure:
 
