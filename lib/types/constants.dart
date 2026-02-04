@@ -1,13 +1,12 @@
-// 🌎 Project imports:
 import 'package:credit_card_type_detector_korean/types/models.dart';
 
-/// CVV 또는 보안 코드의 기본 길이(대부분의 카드가 이 길이를 사용함)
+/// The default length of the CVV or security code (most cards do this)
 const int DEFAULT_SECURITY_CODE_LENGTH = 3;
 
-/// 보안 코드의 대체 길이
+/// The alternate length of the security code
 const int ALT_SECURITY_CODE_LENGTH = 4;
 
-/// 미리 정의된 보안 코드 이름
+/// Predefined security code names
 const String SEC_CODE_CVV = 'CVV';
 const String SEC_CODE_CVC = 'CVC';
 const String SEC_CODE_CID = 'CID';
@@ -15,7 +14,7 @@ const String SEC_CODE_CVN = 'CVN';
 const String SEC_CODE_CVE = 'CVE';
 const String SEC_CODE_CVP2 = 'CVP2';
 
-/// 미리 정의된 카드 브랜드
+/// Predefined card brands
 const String TYPE_VISA = 'visa';
 const String TYPE_MASTERCARD = 'mastercard';
 const String TYPE_AMEX = 'american_express';
@@ -29,7 +28,7 @@ const String TYPE_MIR = 'mir';
 const String TYPE_HIPER = 'hiper';
 const String TYPE_HIPERCARD = 'hipercard';
 
-/// 미리 정의된 예쁜 인쇄 카드 브랜드
+/// Predefined pretty printed card brands
 const String PRETTY_VISA = 'Visa';
 const String PRETTY_MASTERCARD = 'Mastercard';
 const String PRETTY_AMEX = 'American Express';
@@ -43,7 +42,8 @@ const String PRETTY_MIR = 'Mir';
 const String PRETTY_HIPER = 'Hiper';
 const String PRETTY_HIPERCARD = 'Hipercard';
 
-/// 사용 가능한 신용 카드 유형과 각각의 사용 가능한 카드 번호 길이 기본값 매핑
+/// A mapping of possible credit card types to their respective possible
+/// card number length defaults
 const Map<String, List<int>> ccNumLengthDefaults = {
   TYPE_VISA: [16, 18, 19],
   TYPE_MASTERCARD: [16],
@@ -59,7 +59,7 @@ const Map<String, List<int>> ccNumLengthDefaults = {
   TYPE_HIPERCARD: [16],
 };
 
-/// 사용 가능한 신용 카드 유형과 해당 보안 코드 기본값 매핑
+/// A mapping of possible credit card types to their respective security code defaults
 const Map<String, SecurityCode> ccSecurityCodeDefaults = {
   TYPE_VISA: SecurityCode.cvv(),
   TYPE_MASTERCARD: SecurityCode.cvc(),
@@ -75,115 +75,115 @@ const Map<String, SecurityCode> ccSecurityCodeDefaults = {
   TYPE_HIPERCARD: SecurityCode.cvc(),
 };
 
-/// [List<String>]은 범위를 나타냅니다.
-/// 즉, ['51', '55']는 '51'로 시작하는 카드부터 '55'로 시작하는 카드의 범위를 나타냅니다.
-Map<String, Set<Pattern>> cardNumPatternDefaults = {
+/// A [List<String>] represents a range.
+/// i.e. ['51', '55'] represents the range of cards starting with '51' to those starting with '55'
+Map<String, Set<NumPattern>> cardNumPatternDefaults = {
   TYPE_VISA: {
-    Pattern(const ['4']),
+    NumPattern(const ['4']),
   },
   TYPE_MASTERCARD: {
-    Pattern(const ['51', '55']),
-    Pattern(const ['2221', '2229']),
-    Pattern(const ['223', '229']),
-    Pattern(const ['23', '26']),
-    Pattern(const ['270', '271']),
-    Pattern(const ['2720']),
+    NumPattern(const ['51', '55']),
+    NumPattern(const ['2221', '2229']),
+    NumPattern(const ['223', '229']),
+    NumPattern(const ['23', '26']),
+    NumPattern(const ['270', '271']),
+    NumPattern(const ['2720']),
   },
   TYPE_AMEX: {
-    Pattern(const ['34']),
-    Pattern(const ['37']),
+    NumPattern(const ['34']),
+    NumPattern(const ['37']),
   },
   TYPE_DISCOVER: {
-    Pattern(const ['6011']),
-    Pattern(const ['644', '649']),
-    Pattern(const ['65']),
+    NumPattern(const ['6011']),
+    NumPattern(const ['644', '649']),
+    NumPattern(const ['65']),
   },
   TYPE_DINERS_CLUB: {
-    Pattern(const ['300', '305']),
-    Pattern(const ['36']),
-    Pattern(const ['38']),
-    Pattern(const ['39']),
+    NumPattern(const ['300', '305']),
+    NumPattern(const ['36']),
+    NumPattern(const ['38']),
+    NumPattern(const ['39']),
   },
   TYPE_JCB: {
-    Pattern(const ['3528', '3589']),
-    Pattern(const ['2131']),
-    Pattern(const ['1800']),
+    NumPattern(const ['3528', '3589']),
+    NumPattern(const ['2131']),
+    NumPattern(const ['1800']),
   },
   TYPE_UNIONPAY: {
-    Pattern(const ['620']),
-    Pattern(const ['624', '626']),
-    Pattern(const ['62100', '62182']),
-    Pattern(const ['62184', '62187']),
-    Pattern(const ['62185', '62197']),
-    Pattern(const ['62200', '62205']),
-    Pattern(const ['622010', '622999']),
-    Pattern(const ['622018']),
-    Pattern(const ['622019', '622999']),
-    Pattern(const ['62207', '62209']),
-    Pattern(const ['622126', '622925']),
-    Pattern(const ['623', '626']),
-    Pattern(const ['6270']),
-    Pattern(const ['6272']),
-    Pattern(const ['6276']),
-    Pattern(const ['627700', '627779']),
-    Pattern(const ['627781', '627799']),
-    Pattern(const ['6282', '6289']),
-    Pattern(const ['6291']),
-    Pattern(const ['6292']),
-    Pattern(const ['810']),
-    Pattern(const ['8110', '8131']),
-    Pattern(const ['8132', '8151']),
-    Pattern(const ['8152', '8163']),
-    Pattern(const ['8164', '8171']),
+    NumPattern(const ['620']),
+    NumPattern(const ['624', '626']),
+    NumPattern(const ['62100', '62182']),
+    NumPattern(const ['62184', '62187']),
+    NumPattern(const ['62185', '62197']),
+    NumPattern(const ['62200', '62205']),
+    NumPattern(const ['622010', '622999']),
+    NumPattern(const ['622018']),
+    NumPattern(const ['622019', '622999']),
+    NumPattern(const ['62207', '62209']),
+    NumPattern(const ['622126', '622925']),
+    NumPattern(const ['623', '626']),
+    NumPattern(const ['6270']),
+    NumPattern(const ['6272']),
+    NumPattern(const ['6276']),
+    NumPattern(const ['627700', '627779']),
+    NumPattern(const ['627781', '627799']),
+    NumPattern(const ['6282', '6289']),
+    NumPattern(const ['6291']),
+    NumPattern(const ['6292']),
+    NumPattern(const ['810']),
+    NumPattern(const ['8110', '8131']),
+    NumPattern(const ['8132', '8151']),
+    NumPattern(const ['8152', '8163']),
+    NumPattern(const ['8164', '8171']),
   },
   TYPE_MAESTRO: {
-    Pattern(const ['493698']),
-    Pattern(const ['500000', '506698']),
-    Pattern(const ['506779', '508999']),
-    Pattern(const ['56', '59']),
-    Pattern(const ['63']),
-    Pattern(const ['67']),
+    NumPattern(const ['493698']),
+    NumPattern(const ['500000', '506698']),
+    NumPattern(const ['506779', '508999']),
+    NumPattern(const ['56', '59']),
+    NumPattern(const ['63']),
+    NumPattern(const ['67']),
   },
   TYPE_ELO: {
-    Pattern(const ['401178']),
-    Pattern(const ['401179']),
-    Pattern(const ['438935']),
-    Pattern(const ['457631']),
-    Pattern(const ['457632']),
-    Pattern(const ['431274']),
-    Pattern(const ['451416']),
-    Pattern(const ['457393']),
-    Pattern(const ['504175']),
-    Pattern(const ['506699', '506778']),
-    Pattern(const ['509000', '509999']),
-    Pattern(const ['627780']),
-    Pattern(const ['636297']),
-    Pattern(const ['636368']),
-    Pattern(const ['650031', '650033']),
-    Pattern(const ['650035', '650051']),
-    Pattern(const ['650405', '650439']),
-    Pattern(const ['650485', '650538']),
-    Pattern(const ['650541', '650598']),
-    Pattern(const ['650700', '650718']),
-    Pattern(const ['650720', '650727']),
-    Pattern(const ['650901', '650978']),
-    Pattern(const ['651652', '651679']),
-    Pattern(const ['655000', '655019']),
-    Pattern(const ['655021', '655058']),
+    NumPattern(const ['401178']),
+    NumPattern(const ['401179']),
+    NumPattern(const ['438935']),
+    NumPattern(const ['457631']),
+    NumPattern(const ['457632']),
+    NumPattern(const ['431274']),
+    NumPattern(const ['451416']),
+    NumPattern(const ['457393']),
+    NumPattern(const ['504175']),
+    NumPattern(const ['506699', '506778']),
+    NumPattern(const ['509000', '509999']),
+    NumPattern(const ['627780']),
+    NumPattern(const ['636297']),
+    NumPattern(const ['636368']),
+    NumPattern(const ['650031', '650033']),
+    NumPattern(const ['650035', '650051']),
+    NumPattern(const ['650405', '650439']),
+    NumPattern(const ['650485', '650538']),
+    NumPattern(const ['650541', '650598']),
+    NumPattern(const ['650700', '650718']),
+    NumPattern(const ['650720', '650727']),
+    NumPattern(const ['650901', '650978']),
+    NumPattern(const ['651652', '651679']),
+    NumPattern(const ['655000', '655019']),
+    NumPattern(const ['655021', '655058']),
   },
   TYPE_MIR: {
-    Pattern(const ['2200', '2204']),
+    NumPattern(const ['2200', '2204']),
   },
   TYPE_HIPER: {
-    Pattern(const ['637095']),
-    Pattern(const ['637568']),
-    Pattern(const ['637599']),
-    Pattern(const ['637609']),
-    Pattern(const ['637612']),
-    Pattern(const ['63743358']),
-    Pattern(const ['63737423']),
+    NumPattern(const ['637095']),
+    NumPattern(const ['637568']),
+    NumPattern(const ['637599']),
+    NumPattern(const ['637609']),
+    NumPattern(const ['637612']),
+    NumPattern(const ['63743358']),
+    NumPattern(const ['63737423']),
   },
   TYPE_HIPERCARD: {
-    Pattern(const ['606282']),
+    NumPattern(const ['606282']),
   },
 };

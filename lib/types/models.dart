@@ -110,12 +110,12 @@ class CreditCardType {
   final String type;
   final String prettyType;
   final List<int> lengths;
-  final Set<Pattern> patterns;
+  final Set<NumPattern> patterns;
   SecurityCode securityCode;
   int matchStrength = 0;
 
   /// 카드 유형에 새 패턴 추가
-  void addPattern(Pattern pattern) {
+  void addPattern(NumPattern pattern) {
     patterns.add(pattern);
   }
 
@@ -140,8 +140,8 @@ class CreditCardType {
 
 /// 신용 카드 번호 패턴이 가질 수 있는 다양한 패턴을 나타냅니다.
 /// 대부분 특정 브랜드에 대해 카드 번호에 사용할 수 있는 접두사를 캡슐화합니다.
-class Pattern {
-  Pattern(this.prefixes);
+class NumPattern {
+  NumPattern(this.prefixes);
 
   /// 카드 번호가 시작하는 값의 범위의 하한과 상한. 즉, `['51', '55']`는 '51'로 시작하는 카드부터 '55'로 시작하는 카드까지를 나타냅니다.
   final List<String> prefixes;
@@ -152,7 +152,7 @@ class Pattern {
 
   @override
   bool operator ==(Object other) =>
-      other is Pattern && prefixes == other.prefixes;
+      other is NumPattern && prefixes == other.prefixes;
 
   @override
   int get hashCode => Object.hashAll(prefixes);

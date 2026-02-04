@@ -21,7 +21,8 @@ The core task is to implement `CreditCardTypeDetectorKorean` so that, given a ca
 ### What to do
 
 - Create an internal index: `Map<String, List<CardBinModel>>` keyed by the 6-digit BIN string, lazily initialized on first use.
-- All BINs in the current source are exactly 6 digits; the index key is the full BIN value as-is from `CardBinModel.bin`.
+- BINs in the current source are **6 or 8 digits** (3,260 × 6-digit, 352 × 8-digit); the index key is the full BIN value as-is from `CardBinModel.bin`.
+- Lookup uses **longest-prefix-first** matching: for a given card number the detector tries each distinct BIN length in descending order and returns the first hit. This ensures 8-digit BINs take priority over any overlapping 6-digit prefix.
 - The index lives inside `CreditCardTypeDetectorKorean` (or a package-private helper) — it is **not** part of the public API.
 
 ### Files to touch
