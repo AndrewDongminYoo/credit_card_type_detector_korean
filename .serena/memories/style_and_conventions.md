@@ -17,9 +17,12 @@ Generated data:
 Commit messages (from `CLAUDE.md` / VS Code GitLens instructions):
 
 - Format:
+
+  ```plaintext
   <type>: <gitmoji> <subject>
 
   <body>
+  ```
 
 - Types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore` only (no scopes).
 - Emojis: feat ✨ / fix 🐛 / docs 📝 / style 💄 / refactor ♻️ / test ✅ / chore 🔨 (general) or ⬆️ (deps).

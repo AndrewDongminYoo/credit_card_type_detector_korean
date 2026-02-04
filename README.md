@@ -2,13 +2,13 @@
 
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
-[![License: MIT][license_badge]][license_link]
+[![License: BSD-3-Clause][license_badge]][license_link]
 
 Korean domestic credit-card BIN detector built on top of
 [`credit_card_type_detector`](https://pub.dev/packages/credit_card_type_detector).
 
 Given a card number it returns matching entries from the official Korean BIN
-table (신용카드 BIN\_Table), optionally combined with the international brand
+table (신용카드 BIN_Table), optionally combined with the international brand
 detected by the upstream package.
 
 ## Installation 💻
@@ -54,7 +54,20 @@ void main() {
 
 ## Regenerating the BIN dataset 🔄
 
-The bundled BIN data (`lib/src/data.dart`) is generated from the upstream CSV.
+The bundled BIN data (`lib/src/data.dart`) is generated from the upstream CSV
+published by **KICC** (Korea International Card & Commerce).
+
+### Where to download the CSV
+
+1. Visit the KICC VAN support page:
+   [https://www.kicc.co.kr/kr/support/pds/van/pds_van_list.jsp?s_menu=4&t_menu=1](https://www.kicc.co.kr/kr/support/pds/van/pds_van_list.jsp?s_menu=4&t_menu=1)
+2. Find the latest **신용카드 BIN_Table … .xls** entry and download it.
+3. Open the `.xls` file in Excel (or a compatible tool) and export the
+   **상세** sheet as a **CSV (UTF-8)** file.
+4. Place the exported `.csv` in the project root.
+
+### Running the generator
+
 When a new CSV is available, place it in the project root and run:
 
 ```sh
@@ -62,7 +75,7 @@ dart tools/generate_data.dart
 ```
 
 The script auto-discovers any file matching `*BIN_Table*.csv` in the project
-root and overwrites `lib/src/data.dart`.  You can also pass the path
+root and overwrites `lib/src/data.dart`. You can also pass the path
 explicitly:
 
 ```sh
@@ -101,15 +114,9 @@ open coverage/index.html
 
 [dart_install_link]: https://dart.dev/get-dart
 [github_actions_link]: https://docs.github.com/en/actions/learn-github-actions
-[license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[license_link]: https://opensource.org/licenses/MIT
-[logo_black]: https://raw.githubusercontent.com/VGVentures/very_good_brand/main/styles/README/vgv_logo_black.png#gh-light-mode-only
-[logo_white]: https://raw.githubusercontent.com/VGVentures/very_good_brand/main/styles/README/vgv_logo_white.png#gh-dark-mode-only
-[mason_link]: https://github.com/felangel/mason
+[license_badge]: https://img.shields.io/badge/license-BSD-green.svg
+[license_link]: https://opensource.org/license/bsd-3-clause
 [very_good_analysis_badge]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
 [very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
 [very_good_coverage_link]: https://github.com/marketplace/actions/very-good-coverage
-[very_good_ventures_link]: https://verygood.ventures
-[very_good_ventures_link_light]: https://verygood.ventures#gh-light-mode-only
-[very_good_ventures_link_dark]: https://verygood.ventures#gh-dark-mode-only
 [very_good_workflows_link]: https://github.com/VeryGoodOpenSource/very_good_workflows

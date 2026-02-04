@@ -30,7 +30,7 @@ dart run import_sorter:main
 
 Defined in `.vscode/settings.json` under `gitlens.ai.generateCommitMessage.customInstructions`. Follow this exactly:
 
-```
+```plaintext
 <type>: <gitmoji> <subject>
 
 <body>
