@@ -2,7 +2,7 @@
 import 'package:credit_card_type_detector/credit_card_type_detector.dart';
 
 // 🌎 Project imports:
-import 'package:credit_card_type_detector_korean/src/card_bin.model.dart';
+import 'package:credit_card_type_detector_korean/src/card_bin_model.dart';
 import 'package:credit_card_type_detector_korean/src/card_detection_result.dart';
 import 'package:credit_card_type_detector_korean/src/data.dart';
 

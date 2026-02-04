@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'card_bin.model.dart';
+part of 'card_bin_model.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator

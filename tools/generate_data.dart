@@ -143,7 +143,7 @@ String _toCardBinModel(List<String> fields) {
 String _buildFile(List<String> entries) {
   final sb = StringBuffer()
     ..write('// 🌎 Project imports:\n')
-    ..write("import 'package:credit_card_type_detector_korean/src/card_bin.model.dart';\n")
+    ..write("import 'package:credit_card_type_detector_korean/src/card_bin_model.dart';\n")
     ..write('\n')
     ..write('/// The full Korean BIN dataset.\n')
     ..write('///\n')
@@ -201,12 +201,16 @@ String _findCsv(String root) {
       .toList();
 
   if (csvFiles.isEmpty) {
-    _exit('No CSV file matching "*BIN_Table*.csv" found in $root.\n'
-        'Pass the path explicitly: dart tools/generate_data.dart <path>');
+    _exit(
+      'No CSV file matching "*BIN_Table*.csv" found in $root.\n'
+      'Pass the path explicitly: dart tools/generate_data.dart <path>',
+    );
   }
   if (csvFiles.length > 1) {
-    _exit('Multiple BIN CSV files found. Pass the exact path explicitly.\n'
-        'Found: ${csvFiles.map((f) => f.path).join("\n  ")}');
+    _exit(
+      'Multiple BIN CSV files found. Pass the exact path explicitly.\n'
+      'Found: ${csvFiles.map((f) => f.path).join("\n  ")}',
+    );
   }
   return csvFiles[0].path;
 }

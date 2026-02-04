@@ -1,8 +1,8 @@
 // 📦 Package imports:
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part 'card_bin.model.freezed.dart';
-part 'card_bin.model.g.dart';
+part 'card_bin_model.freezed.dart';
+part 'card_bin_model.g.dart';
 
 @freezed
 /// A single row of the Korean BIN database.

@@ -11,14 +11,14 @@ Two layers are present and not yet fully wired together:
 
 2. Korean domestic BIN database (`lib/src/`)
 
-- `card_bin.constants.dart`: issuer/brand/category constants (Korean labels)
-- `card_bin.model.dart`: `CardBinModel` with CSV/JSON field mapping (Korean column names)
+- `card_bin_constants.dart`: issuer/brand/category constants (Korean labels)
+- `card_bin_model.dart`: `CardBinModel` with CSV/JSON field mapping (Korean column names)
 - `data.dart`: generated list of `CardBinModel` rows from the CSV (do not hand-edit)
-- `card_bin.detector.dart`: placeholder for higher-level BIN lookup logic
+- `card_bin_detector.dart`: placeholder for higher-level BIN lookup logic
 
 Public API:
 
-- `lib/index.dart` currently exports only `src/card_bin.detector.dart`.
+- `lib/index.dart` currently exports only `src/card_bin_detector.dart`.
 
 Data rules:
 

@@ -4,7 +4,7 @@
 import 'package:test/test.dart';
 
 // 🌎 Project imports:
-import 'package:credit_card_type_detector_korean/index.dart';
+import 'package:credit_card_type_detector_korean/credit_card_type_detector_korean.dart';
 import 'package:credit_card_type_detector_korean/src/data.dart';
 
 void main() {

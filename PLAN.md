@@ -27,14 +27,14 @@ The core task is to implement `CreditCardTypeDetectorKorean` so that, given a ca
 
 ### Files to touch
 
-- `lib/src/card_bin.detector.dart`
+- `lib/src/card_bin_detector.dart`
 
 ### Completion criteria
 
-- [ ] Index is built exactly once (lazy singleton pattern).
-- [ ] Every entry in `data` is reachable via the index; no row is silently dropped.
-- [ ] Unit test: given a known BIN from the CSV (e.g. `200001`), the index returns the correct `CardBinModel`.
-- [ ] Unit test: a BIN that does not exist in the dataset returns an empty list.
+- [x] Index is built exactly once (lazy singleton pattern).
+- [x] Every entry in `data` is reachable via the index; no row is silently dropped.
+- [x] Unit test: given a known BIN from the CSV (e.g. `200001`), the index returns the correct `CardBinModel`.
+- [x] Unit test: a BIN that does not exist in the dataset returns an empty list.
 
 ---
 
@@ -53,14 +53,14 @@ The core task is to implement `CreditCardTypeDetectorKorean` so that, given a ca
 
 ### Files to touch
 
-- `lib/src/card_bin.detector.dart`
+- `lib/src/card_bin_detector.dart`
 
 ### Completion criteria
 
-- [ ] `detect('200001xxxxxxxxxxxx')` returns a non-empty list containing the Shinhan card entry.
-- [ ] `detect('000000xxxxxxxxxxxx')` (non-existent BIN) returns an empty list.
-- [ ] `detect('')`, `detect('12345')` (too short), `detect('abcdef')` (non-numeric) all return an empty list.
-- [ ] `dart analyze` passes with zero issues.
+- [x] `detect('200001xxxxxxxxxxxx')` returns a non-empty list containing the Shinhan card entry.
+- [x] `detect('000000xxxxxxxxxxxx')` (non-existent BIN) returns an empty list.
+- [x] `detect('')`, `detect('12345')` (too short), `detect('abcdef')` (non-numeric) all return an empty list.
+- [x] `dart analyze` passes with zero issues.
 
 ---
 
@@ -82,16 +82,16 @@ The core task is to implement `CreditCardTypeDetectorKorean` so that, given a ca
 
 ### Files to touch
 
-- `lib/src/card_bin.detector.dart` (or a new `lib/src/card_detection_result.dart`)
+- `lib/src/card_bin_detector.dart` (or a new `lib/src/card_detection_result.dart`)
 - `lib/index.dart`
 
 ### Completion criteria
 
-- [ ] `detectCard` returns both Korean and international results in one call.
-- [ ] A purely international card (e.g., a non-Korean Visa test number) returns a populated `internationalTypes` and an empty `koreanBins`.
-- [ ] A Korean domestic-only card (brand `로컬`) returns a populated `koreanBins` and may return an empty or populated `internationalTypes` depending on prefix overlap.
-- [ ] `lib/index.dart` exports are intentional — only types consumers actually need are public.
-- [ ] `dart analyze` passes.
+- [x] `detectCard` returns both Korean and international results in one call.
+- [x] A purely international card (e.g., a non-Korean Visa test number) returns a populated `internationalTypes` and an empty `koreanBins`.
+- [x] A Korean domestic-only card (brand `로컬`) returns a populated `koreanBins` and may return an empty or populated `internationalTypes` depending on prefix overlap.
+- [x] `lib/index.dart` exports are intentional — only types consumers actually need are public.
+- [x] `dart analyze` passes.
 
 ---
 
@@ -115,15 +115,15 @@ Add the following query methods to `CreditCardTypeDetectorKorean` (all backed by
 
 ### Files to touch
 
-- `lib/src/card_bin.detector.dart`
+- `lib/src/card_bin_detector.dart`
 - `lib/index.dart` (export any new public constants if needed)
 
 ### Completion criteria
 
-- [ ] Each query method returns correct results verified against the source CSV for at least two distinct issuers / brands.
-- [ ] Passing a value that matches no records returns an empty list (no crash).
-- [ ] All new methods are exercised by unit tests.
-- [ ] `dart analyze` passes.
+- [x] Each query method returns correct results verified against the source CSV for at least two distinct issuers / brands.
+- [x] Passing a value that matches no records returns an empty list (no crash).
+- [x] All new methods are exercised by unit tests.
+- [x] `dart analyze` passes.
 
 ---
 
@@ -147,9 +147,9 @@ Expand `test/src/credit_card_type_detector_korean_test.dart` (or add sibling tes
 
 ### Completion criteria
 
-- [ ] `dart test` passes with zero failures.
-- [ ] All test categories above have at least the minimum number of cases listed.
-- [ ] Coverage report (via `dart test --coverage`) shows ≥ 80% line coverage on `lib/src/card_bin.detector.dart`.
+- [x] `dart test` passes with zero failures.
+- [x] All test categories above have at least the minimum number of cases listed.
+- [x] Coverage report (via `dart test --coverage`) shows ≥ 80% line coverage on `lib/src/card_bin_detector.dart`.
 
 ---
 
@@ -174,9 +174,9 @@ Expand `test/src/credit_card_type_detector_korean_test.dart` (or add sibling tes
 
 ### Completion criteria
 
-- [ ] Running the script produces output that is byte-for-byte identical to the current `lib/src/data.dart` (given the same CSV input).
-- [ ] If a new CSV is dropped in, the script produces a valid, compilable `data.dart` without manual intervention.
-- [ ] `dart analyze` on the generated file passes.
+- [x] Running the script produces output that is byte-for-byte identical to the current `lib/src/data.dart` (given the same CSV input).
+- [x] If a new CSV is dropped in, the script produces a valid, compilable `data.dart` without manual intervention.
+- [x] `dart analyze` on the generated file passes.
 
 ---
 
@@ -199,16 +199,16 @@ Expand `test/src/credit_card_type_detector_korean_test.dart` (or add sibling tes
 
 ### Completion criteria
 
-- [ ] `hipercard` named constructor produces values distinct from `hiper` and consistent with `TYPE_HIPERCARD`.
-- [ ] `lib/index.dart` exports are audited and intentional.
-- [ ] `README.md` contains a working usage example.
-- [ ] `dart analyze` and `dart test` both pass cleanly.
+- [x] `hipercard` named constructor produces values distinct from `hiper` and consistent with `TYPE_HIPERCARD`.
+- [x] `lib/index.dart` exports are audited and intentional.
+- [x] `README.md` contains a working usage example.
+- [x] `dart analyze` and `dart test` both pass cleanly.
 
 ---
 
 ## Dependency Graph
 
-```
+```diagram
 Phase 1 (Index)
     ↓
 Phase 2 (Core detect)

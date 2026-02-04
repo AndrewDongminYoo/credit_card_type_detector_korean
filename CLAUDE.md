@@ -55,10 +55,10 @@ A port/adaptation of the `credit_card_type_detector` package logic:
 
 ### Layer 2 — Korean domestic BIN database (`lib/src/`)
 
-- `src/card_bin.constants.dart` — Korean card issuer name constants (`CARD_ISSUER_SHINHAN`, etc.) and Korean brand label constants (`TYPE_LOCAL_KO = '로컬'`, `TYPE_VISA_KO = '비자'`, etc.), plus card category constants (개인/법인, 신용/체크/기프트).
-- `src/card_bin.model.dart` — `CardBinModel`: flat data class mapping one row of the BIN CSV. Fields: `id`, `cardIssuer`, `bin`, `factorName`, `corporate`, `brand`, `creditDebit`, plus optional `updatedAt`/`changed`/`remarks`. Has `fromJson` / `toJson`.
+- `src/card_bin_constants.dart` — Korean card issuer name constants (`CARD_ISSUER_SHINHAN`, etc.) and Korean brand label constants (`TYPE_LOCAL_KO = '로컬'`, `TYPE_VISA_KO = '비자'`, etc.), plus card category constants (개인/법인, 신용/체크/기프트).
+- `src/card_bin_model.dart` — `CardBinModel`: flat data class mapping one row of the BIN CSV. Fields: `id`, `cardIssuer`, `bin`, `factorName`, `corporate`, `brand`, `creditDebit`, plus optional `updatedAt`/`changed`/`remarks`. Has `fromJson` / `toJson`.
 - `src/data.dart` — **Generated file, ~30k lines.** A `final data = [...]` list of `CardBinModel` instances, one per BIN row from the source CSV. Do not hand-edit. Regenerate from the CSV when the source data changes.
-- `src/card_bin.detector.dart` — Currently an **empty placeholder class** (`CreditCardTypeDetectorKorean`). This is where the Korean BIN lookup logic should be implemented, bridging `data.dart` with the detection API.
+- `src/card_bin_detector.dart` — Currently an **empty placeholder class** (`CreditCardTypeDetectorKorean`). This is where the Korean BIN lookup logic should be implemented, bridging `data.dart` with the detection API.
 
 ### Source data
 
@@ -66,7 +66,7 @@ A port/adaptation of the `credit_card_type_detector` package logic:
 
 ### Public API surface
 
-`lib/index.dart` currently only exports `src/card_bin.detector.dart`. The `types/` layer functions (`detectCCType`, etc.) and the `data` list are not part of the public API yet. When wiring things together, be intentional about what gets exported.
+`lib/index.dart` currently only exports `src/card_bin_detector.dart`. The `types/` layer functions (`detectCCType`, etc.) and the `data` list are not part of the public API yet. When wiring things together, be intentional about what gets exported.
 
 ## Linting & Analysis
 

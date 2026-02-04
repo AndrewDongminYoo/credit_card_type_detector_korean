@@ -7,16 +7,16 @@ This package extends `credit_card_type_detector` to return Korean domestic card 
 ## **Key Files**
 
 - `lib/index.dart` entrypoint exports.
-- `lib/src/card_bin.constants.dart` Korean issuer/brand/category constants.
+- `lib/src/card_bin_constants.dart` Korean issuer/brand/category constants.
 - `lib/src/data.dart` generated BIN dataset as `CardBinModel` list.
-- `lib/src/card_bin.model.dart` model plus CSV/JSON field mapping (Korean column names).
-- `lib/src/card_bin.detector.dart` placeholder for higher-level detection logic.
+- `lib/src/card_bin_model.dart` model plus CSV/JSON field mapping (Korean column names).
+- `lib/src/card_bin_detector.dart` placeholder for higher-level detection logic.
 - `lib/types/` credit card type detection logic (upstream style).
 - `test/src/credit_card_type_detector_korean_test.dart` basic smoke test.
 
 ## **Architecture**
 
-There are two layers that are not yet wired together: international vendor detection in `lib/types/` and Korean BIN lookup in `lib/src/`. Public API currently only exports `lib/src/card_bin.detector.dart`.
+There are two layers that are not yet wired together: international vendor detection in `lib/types/` and Korean BIN lookup in `lib/src/`. Public API currently only exports `lib/src/card_bin_detector.dart`.
 
 ## **Data Source**
 
