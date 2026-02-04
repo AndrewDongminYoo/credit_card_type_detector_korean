@@ -5,7 +5,10 @@ description: |
   maintaining vendor detection while focusing on identifying domestic card issuers.
 
 version: 0.1.0+1
-publish_to: none
+
+homepage: https://github.com/AndrewDongminYoo/credit_card_type_detector_korean
+repository: https://github.com/AndrewDongminYoo/credit_card_type_detector_korean
+issue_tracker: https://github.com/AndrewDongminYoo/credit_card_type_detector_korean/issues
 
 dependencies:
   credit_card_type_detector: ^3.0.0
