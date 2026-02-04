@@ -1,0 +1,16 @@
+targets:
+  $default:
+    builders:
+      freezed:
+        options:
+          format: true # default: false
+          copy_with: false # default: true
+          equal: true # default: only if the class does not have a custom `==`
+          map: false # default: map: true, map_or_null: true, maybe_map: true
+          when: false # default: when: true, when_or_null: true, maybe_when: true
+          # from_json: # default: it has `fromJson(Map json) =>`, not return block
+          # to_json: # default: (target has a `fromJson`)
+      json_serializable:
+        options:
+          explicit_to_json: true # default: false
+          include_if_null: false # default: true

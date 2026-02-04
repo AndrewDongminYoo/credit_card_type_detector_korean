@@ -3,11 +3,17 @@ include: package:very_good_analysis/analysis_options.yaml
 analyzer:
   errors:
     avoid_types_on_closure_parameters: ignore
+    constant_identifier_names: ignore
     directives_ordering: ignore
     document_ignores: ignore
+    lines_longer_than_80_chars: ignore
     use_setters_to_change_properties: ignore
   language:
     # Do not cast nullable values to non-nullable types.
     strict-casts: true
     strict-inference: true
     strict-raw-types: true
+
+formatter:
+  page_width: 120
+  trailing_commas: preserve

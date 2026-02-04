@@ -5,16 +5,18 @@ description: |
   maintaining vendor detection while focusing on identifying domestic card issuers.
 
 version: 0.1.0+1
-publish_to: pub.dev
+publish_to: none
 
 dependencies:
-  json_annotation: ^4.10.0
+  credit_card_type_detector: ^3.0.0
+  freezed_annotation: ^3.1.0
 
 environment:
   sdk: ">=3.10.0 <4.0.0"
 
 dev_dependencies:
   build_runner: ^2.10.5
+  freezed: ^3.2.5
   import_sorter: ^4.6.0
   json_serializable: ^6.12.0
   mockito: ^5.6.3
