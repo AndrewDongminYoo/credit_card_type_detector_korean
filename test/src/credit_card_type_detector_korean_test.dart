@@ -224,6 +224,119 @@ void main() {
       });
     });
 
+    // ─── detect edge cases ──────────────────────────────────────────────────
+
+    group('detect - separator & whitespace', () {
+      test('dash-separated card number is normalised correctly', () {
+        // 200001-xxxx-xxxx-xxxx → BIN 200001 (Shinhan)
+        final results = detector.detect('200001-1234-5678-9012');
+        expect(results, isNotEmpty);
+        expect(results[0].bin, '200001');
+        expect(results[0].cardIssuer, '신한카드');
+      });
+
+      test('tab characters are stripped', () {
+        final results = detector.detect('200001\t1234\t5678');
+        expect(results, isNotEmpty);
+        expect(results[0].bin, '200001');
+      });
+
+      test('mixed separators (spaces, dashes, tabs) are all stripped', () {
+        final results = detector.detect('2000\t01-12 34-5678');
+        expect(results, isNotEmpty);
+        expect(results[0].bin, '200001');
+      });
+    });
+
+    group('detect - 8-digit BIN takes priority over overlapping 6-digit BIN', () {
+      // BIN 45992700 (현대카드 비자) shares its first 6 digits with BIN 459927 (신한카드 비자).
+      // The detector must return the 8-digit (more specific) match.
+      test('8-digit BIN 45992700 wins over 6-digit BIN 459927', () {
+        final results = detector.detect('4599270012345678');
+        expect(results, isNotEmpty);
+        expect(results[0].bin, '45992700');
+        expect(results[0].cardIssuer, '현대카드');
+      });
+
+      test('exact 8-digit input returns the 8-digit match', () {
+        final results = detector.detect('45992700');
+        expect(results, isNotEmpty);
+        expect(results[0].bin, '45992700');
+      });
+
+      test('6-digit-only input returns the 6-digit match when 8-digit cannot match', () {
+        // Only 6 digits provided → cannot match 8-digit BIN; falls back to 459927 (신한카드).
+        final results = detector.detect('459927');
+        expect(results, isNotEmpty);
+        expect(results[0].bin, '459927');
+        expect(results[0].cardIssuer, '신한카드');
+      });
+    });
+
+    // ─── CardBinModel serialization ─────────────────────────────────────────
+
+    group('CardBinModel serialization', () {
+      test('fromJson round-trip preserves all required fields', () {
+        final json = <String, dynamic>{
+          '순번': 1,
+          '발급사': '신한카드',
+          'BIN': '200001',
+          '전표인자명': 'SHINHAN',
+          '개인/법인': '개인',
+          '브랜드': '로컬',
+          '신용/체크': '신용',
+        };
+        final model = CardBinModel.fromJson(json);
+        expect(model.id, 1);
+        expect(model.cardIssuer, '신한카드');
+        expect(model.bin, '200001');
+        expect(model.factorName, 'SHINHAN');
+        expect(model.corporate, '개인');
+        expect(model.brand, '로컬');
+        expect(model.creditDebit, '신용');
+        expect(model.updatedAt, isNull);
+        expect(model.changed, isNull);
+        expect(model.remarks, isNull);
+      });
+
+      test('fromJson round-trip preserves optional fields when present', () {
+        final json = <String, dynamic>{
+          '순번': 99,
+          '발급사': '현대카드',
+          'BIN': '37466402',
+          '전표인자명': 'HYUNDAI',
+          '개인/법인': '법인',
+          '브랜드': '아멕스',
+          '신용/체크': '신용',
+          '등록/수정일자': '2025-01-15',
+          '변경사항': '신규',
+          '비고': '테스트용',
+        };
+        final model = CardBinModel.fromJson(json);
+        expect(model.updatedAt, '2025-01-15');
+        expect(model.changed, '신규');
+        expect(model.remarks, '테스트용');
+      });
+
+      test('toJson produces keys matching Korean column names', () {
+        final json = <String, dynamic>{
+          '순번': 1,
+          '발급사': '신한카드',
+          'BIN': '200001',
+          '전표인자명': 'SHINHAN',
+          '개인/법인': '개인',
+          '브랜드': '로컬',
+          '신용/체크': '신용',
+        };
+        final model = CardBinModel.fromJson(json);
+        final roundTripped = model.toJson();
+        expect(roundTripped['순번'], 1);
+        expect(roundTripped['발급사'], '신한카드');
+        expect(roundTripped['BIN'], '200001');
+        expect(roundTripped['신용/체크'], '신용');
+      });
+    });
+
     group('findBy* - consistency', () {
       test('all issuers sum to data.length', () {
         final issuers = data.map((CardBinModel m) => m.cardIssuer).toSet();
