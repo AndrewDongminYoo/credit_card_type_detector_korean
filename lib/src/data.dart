@@ -1,3 +1,4 @@
+// 🌎 Project imports:
 import 'package:credit_card_type_detector_korean/src/card_bin.model.dart';
 
 final data = [

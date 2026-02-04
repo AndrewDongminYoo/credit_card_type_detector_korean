@@ -1,3 +1,4 @@
+// 🌎 Project imports:
 import 'package:credit_card_type_detector_korean/types/constants.dart';
 
 /// 신용 카드 유형과 해당 브랜드에 사용되는 패턴 및 일반적인 보안 코드를 포함하여 특정 카드 브랜드에 대한 일반 정보를 나타냅니다.
@@ -12,99 +13,99 @@ class CreditCardType {
 
   /// 기본값을 사용하여 Visa 카드 유형을 생성합니다.
   CreditCardType.visa()
-      : type = TYPE_VISA,
-        prettyType = PRETTY_VISA,
-        lengths = ccNumLengthDefaults[TYPE_VISA]!,
-        patterns = cardNumPatternDefaults[TYPE_VISA]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_VISA]!;
+    : type = TYPE_VISA,
+      prettyType = PRETTY_VISA,
+      lengths = ccNumLengthDefaults[TYPE_VISA]!,
+      patterns = cardNumPatternDefaults[TYPE_VISA]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_VISA]!;
 
   /// 기본값을 사용하여 Master Card 카드 유형을 생성합니다.
   CreditCardType.mastercard()
-      : type = TYPE_MASTERCARD,
-        prettyType = PRETTY_MASTERCARD,
-        lengths = ccNumLengthDefaults[TYPE_MASTERCARD]!,
-        patterns = cardNumPatternDefaults[TYPE_MASTERCARD]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_MASTERCARD]!;
+    : type = TYPE_MASTERCARD,
+      prettyType = PRETTY_MASTERCARD,
+      lengths = ccNumLengthDefaults[TYPE_MASTERCARD]!,
+      patterns = cardNumPatternDefaults[TYPE_MASTERCARD]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_MASTERCARD]!;
 
   /// 기본값을 사용하여 American Express 카드 유형을 생성합니다.
   CreditCardType.americanExpress()
-      : type = TYPE_AMEX,
-        prettyType = PRETTY_AMEX,
-        lengths = ccNumLengthDefaults[TYPE_AMEX]!,
-        patterns = cardNumPatternDefaults[TYPE_AMEX]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_AMEX]!;
+    : type = TYPE_AMEX,
+      prettyType = PRETTY_AMEX,
+      lengths = ccNumLengthDefaults[TYPE_AMEX]!,
+      patterns = cardNumPatternDefaults[TYPE_AMEX]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_AMEX]!;
 
   /// 기본값을 사용하여 Discover 카드 유형을 생성합니다.
   CreditCardType.discover()
-      : type = TYPE_DISCOVER,
-        prettyType = PRETTY_DISCOVER,
-        lengths = ccNumLengthDefaults[TYPE_DISCOVER]!,
-        patterns = cardNumPatternDefaults[TYPE_DISCOVER]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_DISCOVER]!;
+    : type = TYPE_DISCOVER,
+      prettyType = PRETTY_DISCOVER,
+      lengths = ccNumLengthDefaults[TYPE_DISCOVER]!,
+      patterns = cardNumPatternDefaults[TYPE_DISCOVER]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_DISCOVER]!;
 
   /// 기본값을 사용하여 Diners Club 카드 유형을 생성합니다.
   CreditCardType.dinersClub()
-      : type = TYPE_DINERS_CLUB,
-        prettyType = PRETTY_DINERS_CLUB,
-        lengths = ccNumLengthDefaults[TYPE_DINERS_CLUB]!,
-        patterns = cardNumPatternDefaults[TYPE_DINERS_CLUB]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_DINERS_CLUB]!;
+    : type = TYPE_DINERS_CLUB,
+      prettyType = PRETTY_DINERS_CLUB,
+      lengths = ccNumLengthDefaults[TYPE_DINERS_CLUB]!,
+      patterns = cardNumPatternDefaults[TYPE_DINERS_CLUB]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_DINERS_CLUB]!;
 
   /// 기본값을 사용하여 JCB 카드 유형을 생성합니다.
   CreditCardType.jcb()
-      : type = TYPE_JCB,
-        prettyType = PRETTY_JCB,
-        lengths = ccNumLengthDefaults[TYPE_JCB]!,
-        patterns = cardNumPatternDefaults[TYPE_JCB]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_JCB]!;
+    : type = TYPE_JCB,
+      prettyType = PRETTY_JCB,
+      lengths = ccNumLengthDefaults[TYPE_JCB]!,
+      patterns = cardNumPatternDefaults[TYPE_JCB]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_JCB]!;
 
   /// 기본값을 사용하여 UnionPay 카드 유형을 생성합니다.
   CreditCardType.unionPay()
-      : type = TYPE_UNIONPAY,
-        prettyType = PRETTY_UNIONPAY,
-        lengths = ccNumLengthDefaults[TYPE_UNIONPAY]!,
-        patterns = cardNumPatternDefaults[TYPE_UNIONPAY]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_UNIONPAY]!;
+    : type = TYPE_UNIONPAY,
+      prettyType = PRETTY_UNIONPAY,
+      lengths = ccNumLengthDefaults[TYPE_UNIONPAY]!,
+      patterns = cardNumPatternDefaults[TYPE_UNIONPAY]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_UNIONPAY]!;
 
   /// 기본값을 사용하여 Maestro 카드 유형을 생성합니다.
   CreditCardType.maestro()
-      : type = TYPE_MAESTRO,
-        prettyType = PRETTY_MAESTRO,
-        lengths = ccNumLengthDefaults[TYPE_MAESTRO]!,
-        patterns = cardNumPatternDefaults[TYPE_MAESTRO]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_MAESTRO]!;
+    : type = TYPE_MAESTRO,
+      prettyType = PRETTY_MAESTRO,
+      lengths = ccNumLengthDefaults[TYPE_MAESTRO]!,
+      patterns = cardNumPatternDefaults[TYPE_MAESTRO]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_MAESTRO]!;
 
   /// 기본값을 사용하여 Elo 카드 유형을 생성합니다.
   CreditCardType.elo()
-      : type = TYPE_ELO,
-        prettyType = PRETTY_ELO,
-        lengths = ccNumLengthDefaults[TYPE_ELO]!,
-        patterns = cardNumPatternDefaults[TYPE_ELO]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_ELO]!;
+    : type = TYPE_ELO,
+      prettyType = PRETTY_ELO,
+      lengths = ccNumLengthDefaults[TYPE_ELO]!,
+      patterns = cardNumPatternDefaults[TYPE_ELO]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_ELO]!;
 
   /// 기본값을 사용하여 Mir 카드 유형을 생성합니다.
   CreditCardType.mir()
-      : type = TYPE_MIR,
-        prettyType = PRETTY_MIR,
-        lengths = ccNumLengthDefaults[TYPE_MIR]!,
-        patterns = cardNumPatternDefaults[TYPE_MIR]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_MIR]!;
+    : type = TYPE_MIR,
+      prettyType = PRETTY_MIR,
+      lengths = ccNumLengthDefaults[TYPE_MIR]!,
+      patterns = cardNumPatternDefaults[TYPE_MIR]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_MIR]!;
 
   /// 기본값을 사용하여 Hiper 카드 유형을 생성합니다.
   CreditCardType.hiper()
-      : type = TYPE_HIPER,
-        prettyType = PRETTY_HIPER,
-        lengths = ccNumLengthDefaults[TYPE_HIPER]!,
-        patterns = cardNumPatternDefaults[TYPE_HIPER]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_HIPER]!;
+    : type = TYPE_HIPER,
+      prettyType = PRETTY_HIPER,
+      lengths = ccNumLengthDefaults[TYPE_HIPER]!,
+      patterns = cardNumPatternDefaults[TYPE_HIPER]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_HIPER]!;
 
   /// 기본값을 사용하여 Hipercard 카드 유형을 만듭니다.
   CreditCardType.hipercard()
-      : type = TYPE_HIPER,
-        prettyType = PRETTY_HIPER,
-        lengths = ccNumLengthDefaults[TYPE_HIPER]!,
-        patterns = cardNumPatternDefaults[TYPE_HIPER]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_HIPER]!;
+    : type = TYPE_HIPER,
+      prettyType = PRETTY_HIPER,
+      lengths = ccNumLengthDefaults[TYPE_HIPER]!,
+      patterns = cardNumPatternDefaults[TYPE_HIPER]!,
+      securityCode = ccSecurityCodeDefaults[TYPE_HIPER]!;
 
   final String type;
   final String prettyType;
@@ -162,38 +163,38 @@ class SecurityCode {
 
   /// 표준 CVV를 기반으로 보안 코드를 생성합니다.
   const SecurityCode.cvv()
-      : name = SEC_CODE_CVV,
-        length = DEFAULT_SECURITY_CODE_LENGTH;
+    : name = SEC_CODE_CVV,
+      length = DEFAULT_SECURITY_CODE_LENGTH;
 
   /// 표준 CVC를 기반으로 보안 코드를 만듭니다.
   const SecurityCode.cvc()
-      : name = SEC_CODE_CVC,
-        length = DEFAULT_SECURITY_CODE_LENGTH;
+    : name = SEC_CODE_CVC,
+      length = DEFAULT_SECURITY_CODE_LENGTH;
 
   /// 3자리로 구성된 표준 CID를 기반으로 보안 코드를 만듭니다.
   const SecurityCode.cid3()
-      : name = SEC_CODE_CID,
-        length = DEFAULT_SECURITY_CODE_LENGTH;
+    : name = SEC_CODE_CID,
+      length = DEFAULT_SECURITY_CODE_LENGTH;
 
   /// 4자리 표준 CID를 기반으로 보안 코드를 생성합니다.
   const SecurityCode.cid4()
-      : name = SEC_CODE_CID,
-        length = ALT_SECURITY_CODE_LENGTH;
+    : name = SEC_CODE_CID,
+      length = ALT_SECURITY_CODE_LENGTH;
 
   /// 표준 CVN을 기반으로 보안 코드를 만듭니다.
   const SecurityCode.cvn()
-      : name = SEC_CODE_CVN,
-        length = DEFAULT_SECURITY_CODE_LENGTH;
+    : name = SEC_CODE_CVN,
+      length = DEFAULT_SECURITY_CODE_LENGTH;
 
   /// 표준 CVE를 기반으로 보안 코드를 만듭니다.
   const SecurityCode.cve()
-      : name = SEC_CODE_CVE,
-        length = DEFAULT_SECURITY_CODE_LENGTH;
+    : name = SEC_CODE_CVE,
+      length = DEFAULT_SECURITY_CODE_LENGTH;
 
   /// 표준 CVP2를 기반으로 보안 코드를 만듭니다.
   const SecurityCode.cvp2()
-      : name = SEC_CODE_CVP2,
-        length = DEFAULT_SECURITY_CODE_LENGTH;
+    : name = SEC_CODE_CVP2,
+      length = DEFAULT_SECURITY_CODE_LENGTH;
 
   final String name;
   final int length;
