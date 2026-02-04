@@ -1,55 +1,42 @@
-class CardBinModel {
-  CardBinModel({
-    required this.id,
-    required this.cardIssuer,
-    required this.bin,
-    required this.factorName,
-    required this.corporate,
-    required this.brand,
-    required this.creditDebit,
-    this.updatedAt,
-    this.changed,
-    this.remarks,
-  });
+// 📦 Package imports:
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-  factory CardBinModel.fromJson(Map<String, String?> json) {
-    return CardBinModel(
-      id: json['순번']! as int,
-      cardIssuer: json['발급사']!,
-      bin: json['BIN']!,
-      factorName: json['전표인자명']!,
-      corporate: json['개인/법인']!,
-      brand: json['브랜드']!,
-      creditDebit: json['신용/체크']!,
-      updatedAt: json['등록/수정일자'],
-      changed: json['변경사항'],
-      remarks: json['비고'],
-    );
-  }
+part 'card_bin.model.freezed.dart';
+part 'card_bin.model.g.dart';
 
-  int id;
-  String cardIssuer;
-  String bin;
-  String factorName;
-  String corporate;
-  String brand;
-  String creditDebit;
-  String? updatedAt;
-  String? changed;
-  String? remarks;
+@freezed
+sealed class CardBinModel with _$CardBinModel {
+  const factory CardBinModel({
+    /// 순번
+    @JsonKey(name: '순번') required int id,
 
-  Map<String, dynamic> toJson() {
-    return {
-      '순번': id,
-      '발급사': cardIssuer,
-      'BIN': bin,
-      '전표인자명': factorName,
-      '개인/법인': corporate,
-      '브랜드': brand,
-      '신용/체크': creditDebit,
-      '등록/수정일자': updatedAt,
-      '변경사항': changed,
-      '비고': remarks,
-    };
-  }
+    /// 발급사
+    @JsonKey(name: '발급사') required String cardIssuer,
+
+    /// BIN
+    @JsonKey(name: 'BIN') required String bin,
+
+    /// 전표인자명
+    @JsonKey(name: '전표인자명') required String factorName,
+
+    /// 개인/법인
+    @JsonKey(name: '개인/법인') required String corporate,
+
+    /// 브랜드
+    @JsonKey(name: '브랜드') required String brand,
+
+    /// 신용/체크
+    @JsonKey(name: '신용/체크') required String creditDebit,
+
+    /// 등록/수정일자
+    @JsonKey(name: '등록/수정일자') String? updatedAt,
+
+    /// 변경사항
+    @JsonKey(name: '변경사항') String? changed,
+
+    /// 비고
+    @JsonKey(name: '비고') String? remarks,
+  }) = _CardBinModel;
+
+  factory CardBinModel.fromJson(Map<String, dynamic> json) => _$CardBinModelFromJson(json);
 }
