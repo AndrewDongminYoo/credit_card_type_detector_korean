@@ -7,12 +7,22 @@ const String CARD_TYPE_INDIVIDUAL = '개인';
 /// Cards issued in the name of a legal business entity
 const String CARD_TYPE_CORPORATE = '법인';
 
+/// BIN record change type: updated.
 const String METHOD_TYPE_UPDATED = '변경';
+
+/// BIN record change type: deleted.
 const String METHOD_TYPE_DELETED = '삭제';
+
+/// BIN record change type: newly created.
 const String METHOD_TYPE_CREATED = '신규';
 
+/// Credit card (신용카드).
 const String CREDIT_CARD = '신용';
+
+/// Gift card — prepaid (기프트카드).
 const String GIFT_CARD = '기프트';
+
+/// Debit card (체크카드).
 const String DEBIT_CARD = '체크';
 
 /// 'BC카드'

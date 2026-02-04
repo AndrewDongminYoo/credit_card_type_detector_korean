@@ -5,6 +5,11 @@ part 'card_bin.model.freezed.dart';
 part 'card_bin.model.g.dart';
 
 @freezed
+/// A single row of the Korean BIN database.
+///
+/// Each instance represents one card-number prefix and its associated
+/// issuer, brand, and product metadata as recorded in the upstream
+/// BIN table CSV.
 sealed class CardBinModel with _$CardBinModel {
   const factory CardBinModel({
     /// 순번
