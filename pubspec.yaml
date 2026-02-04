@@ -10,6 +10,7 @@ publish_to: none
 dependencies:
   credit_card_type_detector: ^3.0.0
   freezed_annotation: ^3.1.0
+  json_annotation: ^4.10.0
 
 environment:
   sdk: ">=3.10.0 <4.0.0"

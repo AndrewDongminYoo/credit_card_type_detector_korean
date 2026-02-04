@@ -1,7 +1,7 @@
 // 🌎 Project imports:
 import 'package:credit_card_type_detector_korean/src/card_bin.model.dart';
 
-final data = [
+const data = [
   CardBinModel(
     id: 1,
     cardIssuer: '신한카드',
