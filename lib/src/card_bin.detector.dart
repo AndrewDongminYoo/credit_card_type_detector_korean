@@ -1,6 +1,8 @@
 // 🌎 Project imports:
 import 'package:credit_card_type_detector_korean/src/card_bin.model.dart';
+import 'package:credit_card_type_detector_korean/src/card_detection_result.dart';
 import 'package:credit_card_type_detector_korean/src/data.dart';
+import 'package:credit_card_type_detector_korean/types/detector.dart';
 
 /// Lazily-built index: BIN string → matching [CardBinModel] entries.
 /// Initialized exactly once on first access.
@@ -49,5 +51,17 @@ class CreditCardTypeDetectorKorean {
       if (matches != null) return List.unmodifiable(matches);
     }
     return [];
+  }
+
+  /// Returns a [CardDetectionResult] combining Korean BIN lookup and
+  /// international brand detection for [cardNumber].
+  ///
+  /// Both result lists are unmodifiable. Either or both may be empty depending
+  /// on whether the card matches Korean and/or international patterns.
+  CardDetectionResult detectCard(String cardNumber) {
+    return CardDetectionResult(
+      koreanBins: detect(cardNumber),
+      internationalTypes: List.unmodifiable(detectCCType(cardNumber)),
+    );
   }
 }

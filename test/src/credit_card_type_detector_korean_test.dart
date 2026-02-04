@@ -102,5 +102,45 @@ void main() {
         expect(() => results.add(results[0]), throwsUnsupportedError);
       });
     });
+
+    group('detectCard - combined result', () {
+      test('purely international card returns internationalTypes only', () {
+        // 4111111111111111 is a standard Visa test number not in the Korean BIN table.
+        final result = detector.detectCard('4111111111111111');
+        expect(result.koreanBins, isEmpty);
+        expect(result.internationalTypes, isNotEmpty);
+        expect(result.internationalTypes[0].type, 'visa');
+      });
+
+      test('domestic-only card (로컬) returns koreanBins, empty internationalTypes', () {
+        // BIN 200001 — Shinhan 로컬; prefix 200001 matches no international pattern.
+        final result = detector.detectCard('2000011234567890');
+        expect(result.koreanBins, isNotEmpty);
+        expect(result.koreanBins[0].brand, '로컬');
+        expect(result.internationalTypes, isEmpty);
+      });
+
+      test('Korean card with international brand returns both', () {
+        // BIN 40022351 — BC카드 비자; prefix 4… matches Visa internationally.
+        final result = detector.detectCard('4002235112345678');
+        expect(result.koreanBins, isNotEmpty);
+        expect(result.koreanBins[0].bin, '40022351');
+        expect(result.koreanBins[0].brand, '비자');
+        expect(result.internationalTypes, isNotEmpty);
+        expect(result.internationalTypes[0].type, 'visa');
+      });
+
+      test('both result lists are unmodifiable', () {
+        final result = detector.detectCard('4002235112345678');
+        expect(() => result.koreanBins.add(result.koreanBins[0]), throwsUnsupportedError);
+        expect(() => result.internationalTypes.add(result.internationalTypes[0]), throwsUnsupportedError);
+      });
+
+      test('completely unknown number returns empty on both sides', () {
+        final result = detector.detectCard('0000001234567890');
+        expect(result.koreanBins, isEmpty);
+        expect(result.internationalTypes, isEmpty);
+      });
+    });
   });
 }
