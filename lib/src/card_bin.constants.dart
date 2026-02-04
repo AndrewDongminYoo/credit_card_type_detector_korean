@@ -1,5 +1,5 @@
-// 🌎 Project imports:
-import 'package:credit_card_type_detector_korean/types/constants.dart';
+// 📦 Package imports:
+import 'package:credit_card_type_detector/constants.dart';
 
 /// Cards issued in an individual's name
 const String CARD_TYPE_INDIVIDUAL = '개인';

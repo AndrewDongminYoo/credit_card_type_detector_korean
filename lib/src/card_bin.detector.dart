@@ -1,25 +1,38 @@
+// 📦 Package imports:
+import 'package:credit_card_type_detector/credit_card_type_detector.dart';
+
 // 🌎 Project imports:
 import 'package:credit_card_type_detector_korean/src/card_bin.model.dart';
 import 'package:credit_card_type_detector_korean/src/card_detection_result.dart';
 import 'package:credit_card_type_detector_korean/src/data.dart';
-import 'package:credit_card_type_detector_korean/types/detector.dart';
 
-/// Lazily-built index: BIN string → matching [CardBinModel] entries.
-/// Initialized exactly once on first access.
-/// Keys may be 6 or 8 characters long depending on the source data.
-final Map<String, List<CardBinModel>> _binIndex = _buildBinIndex();
+/// Builds an index over [data] keyed by the value returned by [keyFn].
+Map<String, List<CardBinModel>> _buildIndex(String Function(CardBinModel) keyFn) {
+  final index = <String, List<CardBinModel>>{};
+  for (final model in data) {
+    index.putIfAbsent(keyFn(model), () => []).add(model);
+  }
+  return index;
+}
+
+/// BIN → CardBinModel entries. Keys are 6 or 8 characters long.
+final Map<String, List<CardBinModel>> _binIndex = _buildIndex((m) => m.bin);
 
 /// Distinct BIN lengths present in the index, sorted descending.
 /// Used for longest-prefix-first matching inside [CreditCardTypeDetectorKorean.detect].
 final List<int> _binLengths = _binIndex.keys.map((k) => k.length).toSet().toList()..sort((a, b) => b.compareTo(a));
 
-Map<String, List<CardBinModel>> _buildBinIndex() {
-  final index = <String, List<CardBinModel>>{};
-  for (final model in data) {
-    index.putIfAbsent(model.bin, () => []).add(model);
-  }
-  return index;
-}
+/// Card issuer name → CardBinModel entries.
+final Map<String, List<CardBinModel>> _issuerIndex = _buildIndex((m) => m.cardIssuer);
+
+/// Brand label → CardBinModel entries.
+final Map<String, List<CardBinModel>> _brandIndex = _buildIndex((m) => m.brand);
+
+/// Card type (신용 / 체크 / 기프트) → CardBinModel entries.
+final Map<String, List<CardBinModel>> _cardTypeIndex = _buildIndex((m) => m.creditDebit);
+
+/// Corporate category (개인 / 법인) → CardBinModel entries.
+final Map<String, List<CardBinModel>> _corporateIndex = _buildIndex((m) => m.corporate);
 
 /// Matches any non-digit character (whitespace, letters, punctuation, etc.).
 final _nonDigit = RegExp(r'\D');
@@ -63,5 +76,37 @@ class CreditCardTypeDetectorKorean {
       koreanBins: detect(cardNumber),
       internationalTypes: List.unmodifiable(detectCCType(cardNumber)),
     );
+  }
+
+  /// Returns all BIN records whose issuer matches [issuer].
+  ///
+  /// Use the `CARD_ISSUER_*` constants (e.g. `CARD_ISSUER_SHINHAN`) as the
+  /// argument. Returns an empty list when no records match.
+  List<CardBinModel> findByIssuer(String issuer) {
+    return List.unmodifiable(_issuerIndex[issuer] ?? []);
+  }
+
+  /// Returns all BIN records whose brand matches [brand].
+  ///
+  /// Use the Korean brand constants (e.g. `TYPE_VISA_KO`, `TYPE_LOCAL_KO`) as
+  /// the argument. Returns an empty list when no records match.
+  List<CardBinModel> findByBrand(String brand) {
+    return List.unmodifiable(_brandIndex[brand] ?? []);
+  }
+
+  /// Returns all BIN records whose card type matches [cardType].
+  ///
+  /// Use `CREDIT_CARD`, `DEBIT_CARD`, or `GIFT_CARD` as the argument.
+  /// Returns an empty list when no records match.
+  List<CardBinModel> findByCardType(String cardType) {
+    return List.unmodifiable(_cardTypeIndex[cardType] ?? []);
+  }
+
+  /// Returns all BIN records whose corporate category matches [corporate].
+  ///
+  /// Use `CARD_TYPE_INDIVIDUAL` or `CARD_TYPE_CORPORATE` as the argument.
+  /// Returns an empty list when no records match.
+  List<CardBinModel> findByCorporate(String corporate) {
+    return List.unmodifiable(_corporateIndex[corporate] ?? []);
   }
 }

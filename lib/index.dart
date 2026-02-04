@@ -1,9 +1,9 @@
 /// A Very Good Project created by Very Good CLI.
 library;
 
+export 'package:credit_card_type_detector/credit_card_type_detector.dart' show detectCCType;
+export 'package:credit_card_type_detector/models.dart' show CreditCardType;
+export 'src/card_bin.constants.dart';
 export 'src/card_bin.detector.dart';
 export 'src/card_bin.model.dart';
 export 'src/card_detection_result.dart';
-export 'types/detector.dart';
-export 'types/models.dart';
-export 'src/data.dart';

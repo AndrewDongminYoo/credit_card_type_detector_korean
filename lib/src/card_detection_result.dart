@@ -1,6 +1,8 @@
+// 📦 Package imports:
+import 'package:credit_card_type_detector/models.dart';
+
 // 🌎 Project imports:
 import 'package:credit_card_type_detector_korean/src/card_bin.model.dart';
-import 'package:credit_card_type_detector_korean/types/models.dart';
 
 /// Combined detection result for a single card number.
 ///

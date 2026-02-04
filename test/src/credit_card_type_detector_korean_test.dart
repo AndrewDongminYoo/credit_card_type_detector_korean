@@ -5,6 +5,7 @@ import 'package:test/test.dart';
 
 // 🌎 Project imports:
 import 'package:credit_card_type_detector_korean/index.dart';
+import 'package:credit_card_type_detector_korean/src/data.dart';
 
 void main() {
   const detector = CreditCardTypeDetectorKorean();
@@ -13,6 +14,8 @@ void main() {
     test('can be instantiated', () {
       expect(detector, isNotNull);
     });
+
+    // ─── detect ────────────────────────────────────────────────────────────
 
     group('detect - known BIN', () {
       test('returns matching CardBinModel for BIN 200001 (Shinhan)', () {
@@ -83,7 +86,7 @@ void main() {
 
     group('detect - index consistency', () {
       test('every unique BIN in data is reachable via detect', () {
-        final uniqueBins = data.map((m) => m.bin).toSet();
+        final uniqueBins = data.map((CardBinModel m) => m.bin).toSet();
         for (final bin in uniqueBins) {
           final results = detector.detect(bin);
           expect(results, isNotEmpty, reason: 'BIN $bin not found in index');
@@ -91,7 +94,7 @@ void main() {
       });
 
       test('total reachable entries equals data length (no silent drops)', () {
-        final uniqueBins = data.map((m) => m.bin).toSet();
+        final uniqueBins = data.map((CardBinModel m) => m.bin).toSet();
         var total = 0;
         for (final bin in uniqueBins) {
           total += detector.detect(bin).length;
@@ -104,6 +107,8 @@ void main() {
         expect(() => results.add(results[0]), throwsUnsupportedError);
       });
     });
+
+    // ─── detectCard ─────────────────────────────────────────────────────────
 
     group('detectCard - combined result', () {
       test('purely international card returns internationalTypes only', () {
@@ -142,6 +147,132 @@ void main() {
         final result = detector.detectCard('0000001234567890');
         expect(result.koreanBins, isEmpty);
         expect(result.internationalTypes, isEmpty);
+      });
+    });
+
+    // ─── findBy* query methods ──────────────────────────────────────────────
+
+    group('findByIssuer', () {
+      test('returns non-empty result for 신한카드, all entries match', () {
+        final results = detector.findByIssuer(CARD_ISSUER_SHINHAN);
+        expect(results, isNotEmpty);
+        expect(results, everyElement(predicate<CardBinModel>((m) => m.cardIssuer == CARD_ISSUER_SHINHAN)));
+      });
+
+      test('returns non-empty result for 현대카드, all entries match', () {
+        final results = detector.findByIssuer(CARD_ISSUER_HYUNDAI);
+        expect(results, isNotEmpty);
+        expect(results, everyElement(predicate<CardBinModel>((m) => m.cardIssuer == CARD_ISSUER_HYUNDAI)));
+      });
+
+      test('returns empty for unknown issuer', () {
+        expect(detector.findByIssuer('존재하지않는발급사'), isEmpty);
+      });
+    });
+
+    group('findByBrand', () {
+      test('returns non-empty result for 로컬, all entries match', () {
+        final results = detector.findByBrand(TYPE_LOCAL_KO);
+        expect(results, isNotEmpty);
+        expect(results, everyElement(predicate<CardBinModel>((m) => m.brand == TYPE_LOCAL_KO)));
+      });
+
+      test('returns non-empty result for 아멕스, all entries match', () {
+        final results = detector.findByBrand(TYPE_AMEX_KO);
+        expect(results, isNotEmpty);
+        expect(results, everyElement(predicate<CardBinModel>((m) => m.brand == TYPE_AMEX_KO)));
+      });
+
+      test('returns empty for unknown brand', () {
+        expect(detector.findByBrand('존재하지않는브랜드'), isEmpty);
+      });
+    });
+
+    group('findByCardType', () {
+      test('returns non-empty result for 신용, all entries match', () {
+        final results = detector.findByCardType(CREDIT_CARD);
+        expect(results, isNotEmpty);
+        expect(results, everyElement(predicate<CardBinModel>((m) => m.creditDebit == CREDIT_CARD)));
+      });
+
+      test('returns non-empty result for 기프트, all entries match', () {
+        final results = detector.findByCardType(GIFT_CARD);
+        expect(results, isNotEmpty);
+        expect(results, everyElement(predicate<CardBinModel>((m) => m.creditDebit == GIFT_CARD)));
+      });
+
+      test('returns empty for unknown card type', () {
+        expect(detector.findByCardType('존재하지않는종류'), isEmpty);
+      });
+    });
+
+    group('findByCorporate', () {
+      test('returns non-empty result for 개인, all entries match', () {
+        final results = detector.findByCorporate(CARD_TYPE_INDIVIDUAL);
+        expect(results, isNotEmpty);
+        expect(results, everyElement(predicate<CardBinModel>((m) => m.corporate == CARD_TYPE_INDIVIDUAL)));
+      });
+
+      test('returns non-empty result for 법인, all entries match', () {
+        final results = detector.findByCorporate(CARD_TYPE_CORPORATE);
+        expect(results, isNotEmpty);
+        expect(results, everyElement(predicate<CardBinModel>((m) => m.corporate == CARD_TYPE_CORPORATE)));
+      });
+
+      test('returns empty for unknown corporate type', () {
+        expect(detector.findByCorporate('존재하지않는유형'), isEmpty);
+      });
+    });
+
+    group('findBy* - consistency', () {
+      test('all issuers sum to data.length', () {
+        final issuers = data.map((CardBinModel m) => m.cardIssuer).toSet();
+        var total = 0;
+        for (final issuer in issuers) {
+          total += detector.findByIssuer(issuer).length;
+        }
+        expect(total, data.length);
+      });
+
+      test('all brands sum to data.length', () {
+        final brands = data.map((CardBinModel m) => m.brand).toSet();
+        var total = 0;
+        for (final brand in brands) {
+          total += detector.findByBrand(brand).length;
+        }
+        expect(total, data.length);
+      });
+
+      test('all card types sum to data.length', () {
+        final cardTypes = data.map((CardBinModel m) => m.creditDebit).toSet();
+        var total = 0;
+        for (final cardType in cardTypes) {
+          total += detector.findByCardType(cardType).length;
+        }
+        expect(total, data.length);
+      });
+
+      test('all corporate categories sum to data.length', () {
+        final corporates = data.map((CardBinModel m) => m.corporate).toSet();
+        var total = 0;
+        for (final corp in corporates) {
+          total += detector.findByCorporate(corp).length;
+        }
+        expect(total, data.length);
+      });
+
+      test('all findBy results are unmodifiable', () {
+        final issuerResult = detector.findByIssuer(CARD_ISSUER_SHINHAN);
+        expect(() => issuerResult.add(issuerResult[0]), throwsUnsupportedError);
+
+        final brandResult = detector.findByBrand(TYPE_LOCAL_KO);
+        expect(() => brandResult.add(brandResult[0]), throwsUnsupportedError);
+
+        final cardTypeResult = detector.findByCardType(CREDIT_CARD);
+        expect(() => cardTypeResult.add(cardTypeResult[0]), throwsUnsupportedError);
+
+        final corporateResult = detector.findByCorporate(CARD_TYPE_INDIVIDUAL);
+        expect(() => corporateResult.add(corporateResult[0]), throwsUnsupportedError);
       });
     });
   });
