@@ -111,6 +111,12 @@ void main() {
     // ─── detectCard ─────────────────────────────────────────────────────────
 
     group('detectCard - combined result', () {
+      test('exported detectCCType helper remains available from the package', () {
+        final types = detectCCType('4111111111111111');
+        expect(types, isNotEmpty);
+        expect(types[0].type, 'visa');
+      });
+
       test('purely international card returns internationalTypes only', () {
         // 4111111111111111 is a standard Visa test number not in the Korean BIN table.
         final result = detector.detectCard('4111111111111111');
@@ -334,6 +340,49 @@ void main() {
         expect(roundTripped['발급사'], '신한카드');
         expect(roundTripped['BIN'], '200001');
         expect(roundTripped['신용/체크'], '신용');
+      });
+
+      test('uses value equality across all model fields', () {
+        const model = CardBinModel(
+          id: 99,
+          cardIssuer: '현대카드',
+          bin: '37466402',
+          factorName: 'HYUNDAI',
+          corporate: '법인',
+          brand: '아멕스',
+          creditDebit: '신용',
+          updatedAt: '2025-01-15',
+          changed: '신규',
+          remarks: '테스트용',
+        );
+        const sameModel = CardBinModel(
+          id: 99,
+          cardIssuer: '현대카드',
+          bin: '37466402',
+          factorName: 'HYUNDAI',
+          corporate: '법인',
+          brand: '아멕스',
+          creditDebit: '신용',
+          updatedAt: '2025-01-15',
+          changed: '신규',
+          remarks: '테스트용',
+        );
+        const differentModel = CardBinModel(
+          id: 99,
+          cardIssuer: '현대카드',
+          bin: '37466403',
+          factorName: 'HYUNDAI',
+          corporate: '법인',
+          brand: '아멕스',
+          creditDebit: '신용',
+          updatedAt: '2025-01-15',
+          changed: '신규',
+          remarks: '테스트용',
+        );
+
+        expect(sameModel, model);
+        expect(sameModel.hashCode, model.hashCode);
+        expect(differentModel, isNot(model));
       });
     });
 
