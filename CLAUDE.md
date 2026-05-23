@@ -15,9 +15,9 @@ dart test
 dart test test/src/credit_card_type_detector_korean_test.dart
 
 # Run tests with coverage
-dart pub global activate coverage 1.2.0
+dart pub global activate coverage
 dart test --coverage=coverage
-dart pub global run coverage:format_coverage --lcov --in=coverage --out=coverage/lcov.info
+dart run coverage:format_coverage --lcov --check-ignore --ignore-files="**/*.g.dart" --in=coverage --out=coverage/lcov.info --package=. --report-on=lib
 
 # Lint / analyze
 dart analyze
