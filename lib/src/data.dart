@@ -2864,18 +2864,6 @@ const data = [
   ),
   CardBinModel(
     id: 316,
-    cardIssuer: '현대카드',
-    bin: '370301',
-    factorName: '현대아멕스법인',
-    corporate: '법인',
-    brand: '아멕스',
-    creditDebit: '신용',
-    updatedAt: '2026. 01',
-    changed: '삭제',
-    remarks: '8자리 BIN 대체',
-  ),
-  CardBinModel(
-    id: 317,
     cardIssuer: 'KB국민카드',
     bin: '370302',
     factorName: 'KB국민카드',
@@ -2884,7 +2872,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 318,
+    id: 317,
     cardIssuer: '하나카드',
     bin: '371001',
     factorName: '하나카드',
@@ -2893,7 +2881,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 319,
+    id: 318,
     cardIssuer: '하나카드',
     bin: '371002',
     factorName: '하나카드',
@@ -2902,7 +2890,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 320,
+    id: 319,
     cardIssuer: '하나카드',
     bin: '371003',
     factorName: '하나기업',
@@ -2911,7 +2899,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 321,
+    id: 320,
     cardIssuer: '현대카드',
     bin: '37466402',
     factorName: '현대아멕스법인',
@@ -2920,7 +2908,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 322,
+    id: 321,
     cardIssuer: '현대카드',
     bin: '37466403',
     factorName: '현대아멕스법인',
@@ -2929,7 +2917,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 323,
+    id: 322,
     cardIssuer: '현대카드',
     bin: '37466404',
     factorName: '현대아멕스법인',
@@ -2938,7 +2926,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 324,
+    id: 323,
     cardIssuer: '하나카드',
     bin: '374722',
     factorName: '하나기업',
@@ -2947,7 +2935,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 325,
+    id: 324,
     cardIssuer: '하나카드',
     bin: '374723',
     factorName: '하나기업',
@@ -2956,7 +2944,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 326,
+    id: 325,
     cardIssuer: '하나카드',
     bin: '374724',
     factorName: '하나카드',
@@ -2965,7 +2953,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 327,
+    id: 326,
     cardIssuer: 'KB국민카드',
     bin: '374725',
     factorName: 'KB국민카드',
@@ -2974,7 +2962,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 328,
+    id: 327,
     cardIssuer: 'KB국민카드',
     bin: '375144',
     factorName: 'KB국민카드',
@@ -2983,7 +2971,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 329,
+    id: 328,
     cardIssuer: 'KB국민카드',
     bin: '375145',
     factorName: 'KB국민카드',
@@ -2992,7 +2980,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 330,
+    id: 329,
     cardIssuer: '롯데카드',
     bin: '376250',
     factorName: '롯데카드',
@@ -3001,7 +2989,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 331,
+    id: 330,
     cardIssuer: '롯데카드',
     bin: '376251',
     factorName: '롯데카드',
@@ -3010,7 +2998,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 332,
+    id: 331,
     cardIssuer: '롯데카드',
     bin: '376252',
     factorName: '롯데카드',
@@ -3019,7 +3007,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 333,
+    id: 332,
     cardIssuer: '롯데카드',
     bin: '376253',
     factorName: '롯데카드',
@@ -3028,7 +3016,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 334,
+    id: 333,
     cardIssuer: '롯데카드',
     bin: '376254',
     factorName: '롯데카드',
@@ -3037,7 +3025,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 335,
+    id: 334,
     cardIssuer: '롯데카드',
     bin: '376255',
     factorName: '롯데카드',
@@ -3046,7 +3034,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 336,
+    id: 335,
     cardIssuer: '롯데카드',
     bin: '376256',
     factorName: '롯데카드',
@@ -3055,7 +3043,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 337,
+    id: 336,
     cardIssuer: '롯데카드',
     bin: '376257',
     factorName: '롯데카드',
@@ -3064,7 +3052,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 338,
+    id: 337,
     cardIssuer: '롯데카드',
     bin: '376258',
     factorName: '롯데카드',
@@ -3073,7 +3061,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 339,
+    id: 338,
     cardIssuer: '롯데카드',
     bin: '376259',
     factorName: '롯데카드',
@@ -3082,7 +3070,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 340,
+    id: 339,
     cardIssuer: '롯데카드',
     bin: '376260',
     factorName: '롯데법인카드',
@@ -3091,7 +3079,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 341,
+    id: 340,
     cardIssuer: '롯데카드',
     bin: '376261',
     factorName: '롯데법인카드',
@@ -3100,7 +3088,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 342,
+    id: 341,
     cardIssuer: '롯데카드',
     bin: '376262',
     factorName: '롯데법인카드',
@@ -3109,7 +3097,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 343,
+    id: 342,
     cardIssuer: '롯데카드',
     bin: '376263',
     factorName: '롯데법인카드',
@@ -3118,7 +3106,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 344,
+    id: 343,
     cardIssuer: '롯데카드',
     bin: '376264',
     factorName: '롯데법인카드',
@@ -3127,7 +3115,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 345,
+    id: 344,
     cardIssuer: '롯데카드',
     bin: '376265',
     factorName: '롯데법인카드',
@@ -3136,7 +3124,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 346,
+    id: 345,
     cardIssuer: '롯데카드',
     bin: '376266',
     factorName: '롯데법인카드',
@@ -3145,7 +3133,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 347,
+    id: 346,
     cardIssuer: '롯데카드',
     bin: '376267',
     factorName: '롯데법인카드',
@@ -3154,7 +3142,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 348,
+    id: 347,
     cardIssuer: '롯데카드',
     bin: '376268',
     factorName: '롯데법인카드',
@@ -3163,7 +3151,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 349,
+    id: 348,
     cardIssuer: '롯데카드',
     bin: '376269',
     factorName: '롯데법인카드',
@@ -3172,7 +3160,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 350,
+    id: 349,
     cardIssuer: '롯데카드',
     bin: '376270',
     factorName: '롯데카드',
@@ -3181,7 +3169,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 351,
+    id: 350,
     cardIssuer: '롯데카드',
     bin: '376271',
     factorName: '롯데카드',
@@ -3190,7 +3178,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 352,
+    id: 351,
     cardIssuer: '롯데카드',
     bin: '376272',
     factorName: '롯데카드',
@@ -3199,7 +3187,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 353,
+    id: 352,
     cardIssuer: '롯데카드',
     bin: '376273',
     factorName: '롯데카드',
@@ -3208,7 +3196,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 354,
+    id: 353,
     cardIssuer: '롯데카드',
     bin: '376274',
     factorName: '롯데카드',
@@ -3217,7 +3205,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 355,
+    id: 354,
     cardIssuer: '롯데카드',
     bin: '376275',
     factorName: '롯데카드',
@@ -3226,7 +3214,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 356,
+    id: 355,
     cardIssuer: '롯데카드',
     bin: '376276',
     factorName: '롯데카드',
@@ -3235,7 +3223,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 357,
+    id: 356,
     cardIssuer: '롯데카드',
     bin: '376277',
     factorName: '롯데카드',
@@ -3244,7 +3232,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 358,
+    id: 357,
     cardIssuer: '롯데카드',
     bin: '376278',
     factorName: '롯데카드',
@@ -3253,7 +3241,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 359,
+    id: 358,
     cardIssuer: '롯데카드',
     bin: '376279',
     factorName: '롯데카드',
@@ -3262,7 +3250,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 360,
+    id: 359,
     cardIssuer: '롯데카드',
     bin: '376290',
     factorName: '롯데카드',
@@ -3271,7 +3259,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 361,
+    id: 360,
     cardIssuer: '롯데카드',
     bin: '376291',
     factorName: '롯데법인카드',
@@ -3280,7 +3268,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 362,
+    id: 361,
     cardIssuer: '롯데카드',
     bin: '376292',
     factorName: '롯데카드',
@@ -3289,7 +3277,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 363,
+    id: 362,
     cardIssuer: '삼성카드',
     bin: '376293',
     factorName: '삼성아멕스',
@@ -3298,7 +3286,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 364,
+    id: 363,
     cardIssuer: 'KB국민카드',
     bin: '376364',
     factorName: 'KB국민카드',
@@ -3307,7 +3295,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 365,
+    id: 364,
     cardIssuer: 'KB국민카드',
     bin: '376365',
     factorName: 'KB국민카드',
@@ -3316,7 +3304,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 366,
+    id: 365,
     cardIssuer: '신한카드',
     bin: '377177',
     factorName: '신한카드개인',
@@ -3325,7 +3313,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 367,
+    id: 366,
     cardIssuer: '신한카드',
     bin: '377178',
     factorName: '신한카드개인',
@@ -3334,7 +3322,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 368,
+    id: 367,
     cardIssuer: 'BC카드',
     bin: '377328',
     factorName: '비씨카드',
@@ -3343,7 +3331,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 369,
+    id: 368,
     cardIssuer: 'BC카드',
     bin: '377345',
     factorName: 'iM뱅크비씨카드',
@@ -3354,7 +3342,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 370,
+    id: 369,
     cardIssuer: 'BC카드',
     bin: '377346',
     factorName: 'iM뱅크비씨카드',
@@ -3365,7 +3353,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 371,
+    id: 370,
     cardIssuer: 'BC카드',
     bin: '377374',
     factorName: '비씨카드',
@@ -3374,7 +3362,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 372,
+    id: 371,
     cardIssuer: '하나카드',
     bin: '377966',
     factorName: '하나카드',
@@ -3383,7 +3371,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 373,
+    id: 372,
     cardIssuer: '하나카드',
     bin: '377969',
     factorName: '하나선불',
@@ -3392,7 +3380,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 374,
+    id: 373,
     cardIssuer: '롯데카드',
     bin: '377973',
     factorName: '롯데플래티늄',
@@ -3401,7 +3389,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 375,
+    id: 374,
     cardIssuer: '신한카드',
     bin: '377981',
     factorName: '신한카드',
@@ -3410,7 +3398,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 376,
+    id: 375,
     cardIssuer: '신한카드',
     bin: '377982',
     factorName: '신한카드',
@@ -3419,7 +3407,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 377,
+    id: 376,
     cardIssuer: '신한카드',
     bin: '377983',
     factorName: '신한카드',
@@ -3428,7 +3416,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 378,
+    id: 377,
     cardIssuer: '신한카드',
     bin: '377985',
     factorName: '신한카드법인',
@@ -3437,7 +3425,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 379,
+    id: 378,
     cardIssuer: '신한카드',
     bin: '377988',
     factorName: '신한카드',
@@ -3446,7 +3434,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 380,
+    id: 379,
     cardIssuer: '삼성카드',
     bin: '377989',
     factorName: '삼성아멕스',
@@ -3455,7 +3443,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 381,
+    id: 380,
     cardIssuer: '롯데카드',
     bin: '377990',
     factorName: '롯데카드',
@@ -3464,7 +3452,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 382,
+    id: 381,
     cardIssuer: '롯데카드',
     bin: '377991',
     factorName: '롯데카드',
@@ -3473,7 +3461,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 383,
+    id: 382,
     cardIssuer: '롯데카드',
     bin: '377992',
     factorName: '롯데카드',
@@ -3482,7 +3470,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 384,
+    id: 383,
     cardIssuer: '롯데카드',
     bin: '377993',
     factorName: '롯데카드',
@@ -3491,7 +3479,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 385,
+    id: 384,
     cardIssuer: '롯데카드',
     bin: '377994',
     factorName: '롯데카드',
@@ -3500,7 +3488,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 386,
+    id: 385,
     cardIssuer: '롯데카드',
     bin: '377995',
     factorName: '롯데카드',
@@ -3509,7 +3497,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 387,
+    id: 386,
     cardIssuer: '롯데카드',
     bin: '377996',
     factorName: '롯데카드',
@@ -3518,7 +3506,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 388,
+    id: 387,
     cardIssuer: '롯데카드',
     bin: '377997',
     factorName: '롯데카드',
@@ -3527,7 +3515,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 389,
+    id: 388,
     cardIssuer: '롯데카드',
     bin: '377998',
     factorName: '롯데카드',
@@ -3536,7 +3524,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 390,
+    id: 389,
     cardIssuer: '롯데카드',
     bin: '377999',
     factorName: '롯데카드',
@@ -3545,7 +3533,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 391,
+    id: 390,
     cardIssuer: '삼성카드',
     bin: '379183',
     factorName: '삼성아멕스',
@@ -3554,7 +3542,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 392,
+    id: 391,
     cardIssuer: '삼성카드',
     bin: '379184',
     factorName: '삼성아멕스법인',
@@ -3563,7 +3551,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 393,
+    id: 392,
     cardIssuer: '하나카드',
     bin: '379192',
     factorName: '하나카드',
@@ -3572,7 +3560,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 394,
+    id: 393,
     cardIssuer: '하나카드',
     bin: '379193',
     factorName: '하나기업',
@@ -3581,7 +3569,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 395,
+    id: 394,
     cardIssuer: '삼성카드',
     bin: '379194',
     factorName: '삼성아멕스',
@@ -3590,7 +3578,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 396,
+    id: 395,
     cardIssuer: '롯데카드',
     bin: '379220',
     factorName: '롯데법인카드',
@@ -3599,7 +3587,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 397,
+    id: 396,
     cardIssuer: 'BC카드',
     bin: '379348',
     factorName: '경남비씨카드',
@@ -3608,7 +3596,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 398,
+    id: 397,
     cardIssuer: 'BC카드',
     bin: '379349',
     factorName: '경남비씨카드',
@@ -3617,7 +3605,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 399,
+    id: 398,
     cardIssuer: 'BC카드',
     bin: '379350',
     factorName: '부산비씨카드',
@@ -3626,7 +3614,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 400,
+    id: 399,
     cardIssuer: 'BC카드',
     bin: '379351',
     factorName: '부산비씨카드',
@@ -3635,7 +3623,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 401,
+    id: 400,
     cardIssuer: '롯데카드',
     bin: '379557',
     factorName: '롯데카드',
@@ -3644,7 +3632,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 402,
+    id: 401,
     cardIssuer: '신한카드',
     bin: '379907',
     factorName: '신한카드',
@@ -3653,7 +3641,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 403,
+    id: 402,
     cardIssuer: '하나카드',
     bin: '379909',
     factorName: '하나카드',
@@ -3662,7 +3650,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 404,
+    id: 403,
     cardIssuer: '하나카드',
     bin: '379910',
     factorName: '하나카드',
@@ -3671,7 +3659,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 405,
+    id: 404,
     cardIssuer: '하나카드',
     bin: '379971',
     factorName: '하나카드',
@@ -3680,7 +3668,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 406,
+    id: 405,
     cardIssuer: '신한카드',
     bin: '379985',
     factorName: '신한카드',
@@ -3689,7 +3677,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 407,
+    id: 406,
     cardIssuer: 'BC카드',
     bin: '40022351',
     factorName: 'SC비씨카드',
@@ -3698,7 +3686,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 408,
+    id: 407,
     cardIssuer: 'BC카드',
     bin: '40022360',
     factorName: 'SC비씨카드',
@@ -3707,7 +3695,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 409,
+    id: 408,
     cardIssuer: 'BC카드',
     bin: '40022361',
     factorName: 'SC비씨카드',
@@ -3716,7 +3704,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 410,
+    id: 409,
     cardIssuer: 'BC카드',
     bin: '40022362',
     factorName: 'SC비씨카드',
@@ -3725,7 +3713,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 411,
+    id: 410,
     cardIssuer: 'BC카드',
     bin: '40022363',
     factorName: 'SC비씨카드',
@@ -3734,7 +3722,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 412,
+    id: 411,
     cardIssuer: 'BC카드',
     bin: '40022364',
     factorName: 'SC비씨카드',
@@ -3743,7 +3731,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 413,
+    id: 412,
     cardIssuer: '씨티카드',
     bin: '400569',
     factorName: '씨티체크',
@@ -3752,7 +3740,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 414,
+    id: 413,
     cardIssuer: 'BC카드',
     bin: '400674',
     factorName: '우리체크',
@@ -3762,7 +3750,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 415,
+    id: 414,
     cardIssuer: 'KB국민카드',
     bin: '400696',
     factorName: 'KB 기업카드',
@@ -3771,7 +3759,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 416,
+    id: 415,
     cardIssuer: '신한카드',
     bin: '400772',
     factorName: '신한카드체크',
@@ -3780,7 +3768,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 417,
+    id: 416,
     cardIssuer: '신한카드',
     bin: '400904',
     factorName: '신한카드법인',
@@ -3789,7 +3777,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 418,
+    id: 417,
     cardIssuer: '신한카드',
     bin: '400905',
     factorName: '신한카드',
@@ -3798,7 +3786,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 419,
+    id: 418,
     cardIssuer: '신한카드',
     bin: '400906',
     factorName: '신한카드',
@@ -3807,7 +3795,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 420,
+    id: 419,
     cardIssuer: '삼성카드',
     bin: '400907',
     factorName: '삼성비자법인',
@@ -3816,7 +3804,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 421,
+    id: 420,
     cardIssuer: '삼성카드',
     bin: '400908',
     factorName: '삼성비자',
@@ -3825,7 +3813,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 422,
+    id: 421,
     cardIssuer: '삼성카드',
     bin: '400909',
     factorName: '삼성비자',
@@ -3834,7 +3822,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 423,
+    id: 422,
     cardIssuer: '삼성카드',
     bin: '400910',
     factorName: '삼성비자',
@@ -3843,7 +3831,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 424,
+    id: 423,
     cardIssuer: '삼성카드',
     bin: '400911',
     factorName: '삼성비자',
@@ -3852,7 +3840,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 425,
+    id: 424,
     cardIssuer: '삼성카드',
     bin: '400912',
     factorName: '삼성비자',
@@ -3861,7 +3849,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 426,
+    id: 425,
     cardIssuer: '삼성카드',
     bin: '400913',
     factorName: '삼성비자',
@@ -3870,7 +3858,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 427,
+    id: 426,
     cardIssuer: '신한카드',
     bin: '400933',
     factorName: '신한카드',
@@ -3879,7 +3867,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 428,
+    id: 427,
     cardIssuer: '삼성카드',
     bin: '400951',
     factorName: '삼성비자',
@@ -3888,7 +3876,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 429,
+    id: 428,
     cardIssuer: '하나카드',
     bin: '400978',
     factorName: '하나카드',
@@ -3897,7 +3885,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 430,
+    id: 429,
     cardIssuer: 'BC카드',
     bin: '401278',
     factorName: '신한비씨카드',
@@ -3906,7 +3894,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 431,
+    id: 430,
     cardIssuer: 'BC카드',
     bin: '401570',
     factorName: '우리카드',
@@ -3916,7 +3904,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 432,
+    id: 431,
     cardIssuer: '삼성카드',
     bin: '401584',
     factorName: '삼성비자',
@@ -3925,7 +3913,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 433,
+    id: 432,
     cardIssuer: '롯데카드',
     bin: '401585',
     factorName: '롯데카드',
@@ -3934,7 +3922,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 434,
+    id: 433,
     cardIssuer: 'BC카드',
     bin: '401678',
     factorName: '신한비씨체크',
@@ -3943,7 +3931,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 435,
+    id: 434,
     cardIssuer: '현대카드',
     bin: '401762',
     factorName: '현대비자개인',
@@ -3952,7 +3940,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 436,
+    id: 435,
     cardIssuer: '현대카드',
     bin: '401787',
     factorName: '현대비자개인',
@@ -3961,7 +3949,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 437,
+    id: 436,
     cardIssuer: '신한카드',
     bin: '401844',
     factorName: '신한카드법인',
@@ -3970,7 +3958,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 438,
+    id: 437,
     cardIssuer: '현대카드',
     bin: '401895',
     factorName: '현대비자법인',
@@ -3979,7 +3967,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 439,
+    id: 438,
     cardIssuer: '씨티카드',
     bin: '401898',
     factorName: '씨티카드',
@@ -3988,7 +3976,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 440,
+    id: 439,
     cardIssuer: '현대카드',
     bin: '402017',
     factorName: '현대비자개인',
@@ -3997,7 +3985,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 441,
+    id: 440,
     cardIssuer: '현대카드',
     bin: '402072',
     factorName: '현대비자개인',
@@ -4006,7 +3994,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 442,
+    id: 441,
     cardIssuer: '하나카드',
     bin: '402175',
     factorName: '하나카드',
@@ -4015,7 +4003,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 443,
+    id: 442,
     cardIssuer: '하나카드',
     bin: '402367',
     factorName: '하나체크카드',
@@ -4024,7 +4012,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 444,
+    id: 443,
     cardIssuer: 'BC카드',
     bin: '402502',
     factorName: '우리카드',
@@ -4034,7 +4022,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 445,
+    id: 444,
     cardIssuer: '현대카드',
     bin: '402515',
     factorName: '현대 비자',
@@ -4043,7 +4031,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 446,
+    id: 445,
     cardIssuer: '현대카드',
     bin: '402516',
     factorName: '현대 비자',
@@ -4052,7 +4040,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 447,
+    id: 446,
     cardIssuer: '현대카드',
     bin: '402517',
     factorName: '현대 비자',
@@ -4061,7 +4049,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 448,
+    id: 447,
     cardIssuer: '현대카드',
     bin: '402596',
     factorName: '현대비자법인',
@@ -4070,7 +4058,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 449,
+    id: 448,
     cardIssuer: '현대카드',
     bin: '402822',
     factorName: '현대비자개인',
@@ -4079,7 +4067,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 450,
+    id: 449,
     cardIssuer: '현대카드',
     bin: '402857',
     factorName: '현대 비자',
@@ -4088,7 +4076,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 451,
+    id: 450,
     cardIssuer: '현대카드',
     bin: '402858',
     factorName: '현대 비자',
@@ -4097,7 +4085,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 452,
+    id: 451,
     cardIssuer: '현대카드',
     bin: '402859',
     factorName: '현대 비자',
@@ -4106,7 +4094,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 453,
+    id: 452,
     cardIssuer: '현대카드',
     bin: '402860',
     factorName: '현대 비자',
@@ -4115,7 +4103,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 454,
+    id: 453,
     cardIssuer: '신한카드',
     bin: '402952',
     factorName: '신한카드',
@@ -4124,7 +4112,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 455,
+    id: 454,
     cardIssuer: 'BC카드',
     bin: '403012',
     factorName: '우리카드',
@@ -4134,7 +4122,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 456,
+    id: 455,
     cardIssuer: 'KB국민카드',
     bin: '403290',
     factorName: 'PAYCO카드',
@@ -4145,7 +4133,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 457,
+    id: 456,
     cardIssuer: '현대카드',
     bin: '403293',
     factorName: '현대비자개인',
@@ -4154,7 +4142,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 458,
+    id: 457,
     cardIssuer: '현대카드',
     bin: '403302',
     factorName: '현대비자개인',
@@ -4163,7 +4151,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 459,
+    id: 458,
     cardIssuer: '씨티카드',
     bin: '403346',
     factorName: '씨티카드',
@@ -4172,7 +4160,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 460,
+    id: 459,
     cardIssuer: 'BC카드',
     bin: '403548',
     factorName: '우리카드',
@@ -4182,7 +4170,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 461,
+    id: 460,
     cardIssuer: 'BC카드',
     bin: '403831',
     factorName: 'iM뱅크비씨카드',
@@ -4193,7 +4181,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 462,
+    id: 461,
     cardIssuer: 'BC카드',
     bin: '403839',
     factorName: '경남비씨카드',
@@ -4202,7 +4190,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 463,
+    id: 462,
     cardIssuer: '하나카드',
     bin: '403878',
     factorName: '하나기업',
@@ -4211,7 +4199,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 464,
+    id: 463,
     cardIssuer: '신한카드',
     bin: '403965',
     factorName: '국민행복체크',
@@ -4220,7 +4208,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 465,
+    id: 464,
     cardIssuer: '롯데카드',
     bin: '404149',
     factorName: '롯데체크카드',
@@ -4229,7 +4217,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 466,
+    id: 465,
     cardIssuer: 'BC카드',
     bin: '404331',
     factorName: 'iM뱅크비씨카드',
@@ -4240,7 +4228,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 467,
+    id: 466,
     cardIssuer: 'BC카드',
     bin: '404332',
     factorName: '부산비씨카드',
@@ -4249,7 +4237,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 468,
+    id: 467,
     cardIssuer: 'BC카드',
     bin: '404339',
     factorName: '경남비씨카드',
@@ -4258,7 +4246,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 469,
+    id: 468,
     cardIssuer: '현대카드',
     bin: '404577',
     factorName: '현대비자개인',
@@ -4267,7 +4255,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 470,
+    id: 469,
     cardIssuer: '현대카드',
     bin: '404613',
     factorName: '현대비자개인',
@@ -4276,7 +4264,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 471,
+    id: 470,
     cardIssuer: '현대카드',
     bin: '404619',
     factorName: '현대비자개인',
@@ -4285,7 +4273,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 472,
+    id: 471,
     cardIssuer: 'BC카드',
     bin: '404678',
     factorName: '신한비씨카드',
@@ -4294,7 +4282,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 473,
+    id: 472,
     cardIssuer: 'BC카드',
     bin: '404720',
     factorName: '우리카드',
@@ -4304,7 +4292,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 474,
+    id: 473,
     cardIssuer: '삼성카드',
     bin: '404726',
     factorName: '삼성비자가상',
@@ -4313,7 +4301,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 475,
+    id: 474,
     cardIssuer: '삼성카드',
     bin: '404727',
     factorName: '삼성비자',
@@ -4322,7 +4310,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 476,
+    id: 475,
     cardIssuer: '삼성카드',
     bin: '404728',
     factorName: '삼성비자',
@@ -4331,7 +4319,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 477,
+    id: 476,
     cardIssuer: 'BC카드',
     bin: '404803',
     factorName: 'BC PLATINUM',
@@ -4340,7 +4328,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 478,
+    id: 477,
     cardIssuer: 'BC카드',
     bin: '404806',
     factorName: 'BC PLATINUM',
@@ -4349,7 +4337,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 479,
+    id: 478,
     cardIssuer: 'BC카드',
     bin: '404811',
     factorName: 'NH비씨카드',
@@ -4358,7 +4346,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 480,
+    id: 479,
     cardIssuer: 'BC카드',
     bin: '404812',
     factorName: 'NH비씨카드',
@@ -4367,7 +4355,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 481,
+    id: 480,
     cardIssuer: 'BC카드',
     bin: '404820',
     factorName: '비씨카드',
@@ -4376,7 +4364,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 482,
+    id: 481,
     cardIssuer: 'BC카드',
     bin: '40482351',
     factorName: 'SC비씨카드',
@@ -4385,7 +4373,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 483,
+    id: 482,
     cardIssuer: 'BC카드',
     bin: '40482360',
     factorName: 'SC비씨카드',
@@ -4394,7 +4382,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 484,
+    id: 483,
     cardIssuer: 'BC카드',
     bin: '40482361',
     factorName: 'SC비씨카드',
@@ -4403,7 +4391,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 485,
+    id: 484,
     cardIssuer: 'BC카드',
     bin: '40482362',
     factorName: 'SC비씨카드',
@@ -4412,7 +4400,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 486,
+    id: 485,
     cardIssuer: 'BC카드',
     bin: '40482363',
     factorName: 'SC비씨카드',
@@ -4421,7 +4409,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 487,
+    id: 486,
     cardIssuer: 'BC카드',
     bin: '40482364',
     factorName: 'SC비씨카드',
@@ -4430,7 +4418,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 488,
+    id: 487,
     cardIssuer: 'BC카드',
     bin: '404825',
     factorName: '하나SK비씨카드',
@@ -4439,7 +4427,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 489,
+    id: 488,
     cardIssuer: '현대카드',
     bin: '404933',
     factorName: '현대비자개인',
@@ -4448,7 +4436,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 490,
+    id: 489,
     cardIssuer: '현대카드',
     bin: '404947',
     factorName: '현대비자개인',
@@ -4457,7 +4445,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 491,
+    id: 490,
     cardIssuer: 'BC카드',
     bin: '405203',
     factorName: 'IBK비씨카드',
@@ -4466,7 +4454,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 492,
+    id: 491,
     cardIssuer: '수협은행',
     bin: '405207',
     factorName: '수협카드',
@@ -4475,7 +4463,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 493,
+    id: 492,
     cardIssuer: 'BC카드',
     bin: '405220',
     factorName: '우리카드',
@@ -4485,7 +4473,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 494,
+    id: 493,
     cardIssuer: 'BC카드',
     bin: '405331',
     factorName: 'iM뱅크비씨카드',
@@ -4496,16 +4484,18 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 495,
+    id: 494,
     cardIssuer: 'BC카드',
     bin: '405432',
     factorName: '부산비씨카드',
     corporate: '개인',
     brand: '비자',
     creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '삭제',
   ),
   CardBinModel(
-    id: 496,
+    id: 495,
     cardIssuer: '롯데카드',
     bin: '405438',
     factorName: '롯데카드',
@@ -4514,7 +4504,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 497,
+    id: 496,
     cardIssuer: '롯데카드',
     bin: '405665',
     factorName: '롯데기프트카드',
@@ -4523,7 +4513,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 498,
+    id: 497,
     cardIssuer: '현대카드',
     bin: '405692',
     factorName: '현대비자개인',
@@ -4532,7 +4522,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 499,
+    id: 498,
     cardIssuer: '신한카드',
     bin: '405753',
     factorName: '신한카드체크',
@@ -4543,7 +4533,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 500,
+    id: 499,
     cardIssuer: 'BC카드',
     bin: '406078',
     factorName: '신한비씨카드',
@@ -4552,7 +4542,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 501,
+    id: 500,
     cardIssuer: 'BC카드',
     bin: '406107',
     factorName: '우리체크',
@@ -4562,7 +4552,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 502,
+    id: 501,
     cardIssuer: '롯데카드',
     bin: '406158',
     factorName: '롯데플래티늄',
@@ -4571,7 +4561,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 503,
+    id: 502,
     cardIssuer: 'BC카드',
     bin: '406703',
     factorName: 'IBK비씨카드',
@@ -4580,7 +4570,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 504,
+    id: 503,
     cardIssuer: 'BC카드',
     bin: '406706',
     factorName: 'KB국민비씨카드',
@@ -4589,7 +4579,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 505,
+    id: 504,
     cardIssuer: 'BC카드',
     bin: '406711',
     factorName: 'NH농협비씨카드',
@@ -4598,7 +4588,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 506,
+    id: 505,
     cardIssuer: 'BC카드',
     bin: '40672360',
     factorName: 'SC비씨카드',
@@ -4607,7 +4597,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 507,
+    id: 506,
     cardIssuer: 'BC카드',
     bin: '40672361',
     factorName: 'SC비씨카드',
@@ -4616,7 +4606,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 508,
+    id: 507,
     cardIssuer: 'BC카드',
     bin: '40672362',
     factorName: 'SC비씨카드',
@@ -4625,7 +4615,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 509,
+    id: 508,
     cardIssuer: 'BC카드',
     bin: '40672363',
     factorName: 'SC비씨카드',
@@ -4634,7 +4624,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 510,
+    id: 509,
     cardIssuer: 'BC카드',
     bin: '40672364',
     factorName: 'SC비씨카드',
@@ -4643,7 +4633,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 511,
+    id: 510,
     cardIssuer: 'BC카드',
     bin: '40672398',
     factorName: 'SC비씨카드',
@@ -4652,7 +4642,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 512,
+    id: 511,
     cardIssuer: 'BC카드',
     bin: '406725',
     factorName: '하나SK비씨카드',
@@ -4661,7 +4651,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 513,
+    id: 512,
     cardIssuer: 'BC카드',
     bin: '406731',
     factorName: 'iM뱅크비씨카드',
@@ -4672,7 +4662,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 514,
+    id: 513,
     cardIssuer: 'BC카드',
     bin: '406732',
     factorName: '부산비씨카드',
@@ -4681,7 +4671,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 515,
+    id: 514,
     cardIssuer: 'BC카드',
     bin: '406733',
     factorName: '하나SK비씨카드',
@@ -4690,7 +4680,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 516,
+    id: 515,
     cardIssuer: '제주은행',
     bin: '406745',
     factorName: '제주카드',
@@ -4699,7 +4689,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 517,
+    id: 516,
     cardIssuer: 'BC카드',
     bin: '407407',
     factorName: '비씨카드',
@@ -4708,7 +4698,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 518,
+    id: 517,
     cardIssuer: 'KB국민카드',
     bin: '407423',
     factorName: 'KB국민카드',
@@ -4717,7 +4707,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 519,
+    id: 518,
     cardIssuer: '현대카드',
     bin: '407424',
     factorName: '현대 비자',
@@ -4726,7 +4716,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 520,
+    id: 519,
     cardIssuer: '신한카드',
     bin: '407455',
     factorName: '신한카드',
@@ -4735,7 +4725,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 521,
+    id: 520,
     cardIssuer: 'KB국민카드',
     bin: '407467',
     factorName: 'KB기업카드',
@@ -4744,7 +4734,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 522,
+    id: 521,
     cardIssuer: '현대카드',
     bin: '407469',
     factorName: '현대비자개인',
@@ -4753,7 +4743,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 523,
+    id: 522,
     cardIssuer: 'BC카드',
     bin: '407503',
     factorName: 'IBK비씨카드',
@@ -4762,7 +4752,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 524,
+    id: 523,
     cardIssuer: '수협은행',
     bin: '407541',
     factorName: '수협카드',
@@ -4771,7 +4761,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 525,
+    id: 524,
     cardIssuer: 'KB국민카드',
     bin: '407558',
     factorName: 'KB CEO기업카드',
@@ -4780,7 +4770,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 526,
+    id: 525,
     cardIssuer: '삼성카드',
     bin: '407589',
     factorName: '삼성비자',
@@ -4789,7 +4779,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 527,
+    id: 526,
     cardIssuer: 'BC카드',
     bin: '407603',
     factorName: 'IBK비씨체크',
@@ -4798,7 +4788,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 528,
+    id: 527,
     cardIssuer: '현대카드',
     bin: '407785',
     factorName: '법인퍼플',
@@ -4807,7 +4797,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 529,
+    id: 528,
     cardIssuer: 'KB국민카드',
     bin: '407912',
     factorName: 'PAYCO',
@@ -4816,7 +4806,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 530,
+    id: 529,
     cardIssuer: 'NH농협카드',
     bin: '407916',
     factorName: 'NH기업카드',
@@ -4825,7 +4815,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 531,
+    id: 530,
     cardIssuer: 'NH농협카드',
     bin: '407917',
     factorName: 'NH기업카드',
@@ -4834,7 +4824,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 532,
+    id: 531,
     cardIssuer: 'BC카드',
     bin: '408320',
     factorName: '우리카드',
@@ -4844,7 +4834,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 533,
+    id: 532,
     cardIssuer: 'BC카드',
     bin: '408539',
     factorName: '경남비씨체크',
@@ -4853,7 +4843,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 534,
+    id: 533,
     cardIssuer: '신한카드',
     bin: '408907',
     factorName: '신한카드법인',
@@ -4862,7 +4852,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 535,
+    id: 534,
     cardIssuer: '하나카드',
     bin: '408966',
     factorName: '하나체크카드',
@@ -4871,7 +4861,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 536,
+    id: 535,
     cardIssuer: 'BC카드',
     bin: '40908551',
     factorName: 'SC비씨카드',
@@ -4880,7 +4870,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 537,
+    id: 536,
     cardIssuer: 'BC카드',
     bin: '40908560',
     factorName: 'SC비씨카드',
@@ -4889,7 +4879,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 538,
+    id: 537,
     cardIssuer: 'BC카드',
     bin: '40908561',
     factorName: 'SC비씨카드',
@@ -4898,7 +4888,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 539,
+    id: 538,
     cardIssuer: 'BC카드',
     bin: '40908562',
     factorName: 'SC비씨카드',
@@ -4907,7 +4897,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 540,
+    id: 539,
     cardIssuer: 'BC카드',
     bin: '40908563',
     factorName: 'SC비씨카드',
@@ -4916,7 +4906,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 541,
+    id: 540,
     cardIssuer: 'BC카드',
     bin: '40908564',
     factorName: 'SC비씨카드',
@@ -4925,7 +4915,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 542,
+    id: 541,
     cardIssuer: 'NH농협카드',
     bin: '409216',
     factorName: 'NH카드',
@@ -4934,7 +4924,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 543,
+    id: 542,
     cardIssuer: 'NH농협카드',
     bin: '409217',
     factorName: 'NH카드',
@@ -4943,7 +4933,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 544,
+    id: 543,
     cardIssuer: '씨티카드',
     bin: '410109',
     factorName: '씨티카드',
@@ -4952,7 +4942,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 545,
+    id: 544,
     cardIssuer: 'BC카드',
     bin: '410120',
     factorName: '우리카드',
@@ -4962,7 +4952,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 546,
+    id: 545,
     cardIssuer: 'BC카드',
     bin: '410278',
     factorName: '신한비씨카드',
@@ -4971,7 +4961,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 547,
+    id: 546,
     cardIssuer: 'BC카드',
     bin: '411072',
     factorName: '비씨카드',
@@ -4980,7 +4970,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 548,
+    id: 547,
     cardIssuer: 'KB국민카드',
     bin: '411133',
     factorName: 'KB기업시그니쳐',
@@ -4989,7 +4979,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 549,
+    id: 548,
     cardIssuer: 'BC카드',
     bin: '411471',
     factorName: '우체국체크',
@@ -4998,7 +4988,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 550,
+    id: 549,
     cardIssuer: 'BC카드',
     bin: '411825',
     factorName: '하나SK비씨카드',
@@ -5007,7 +4997,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 551,
+    id: 550,
     cardIssuer: 'KB국민카드',
     bin: '411896',
     factorName: 'KB국민카드',
@@ -5016,7 +5006,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 552,
+    id: 551,
     cardIssuer: 'KB국민카드',
     bin: '411897',
     factorName: 'KB국민카드',
@@ -5025,7 +5015,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 553,
+    id: 552,
     cardIssuer: '하나카드',
     bin: '411904',
     factorName: '하나카드',
@@ -5034,7 +5024,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 554,
+    id: 553,
     cardIssuer: '하나카드',
     bin: '411905',
     factorName: '하나카드',
@@ -5043,7 +5033,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 555,
+    id: 554,
     cardIssuer: 'BC카드',
     bin: '412020',
     factorName: '우리카드',
@@ -5053,7 +5043,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 556,
+    id: 555,
     cardIssuer: 'BC카드',
     bin: '412921',
     factorName: '한패스체크',
@@ -5062,7 +5052,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 557,
+    id: 556,
     cardIssuer: '우리카드',
     bin: '412994',
     factorName: '우리카드',
@@ -5073,7 +5063,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 558,
+    id: 557,
     cardIssuer: 'BC카드',
     bin: '41300500',
     factorName: 'Fint체크',
@@ -5082,7 +5072,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 559,
+    id: 558,
     cardIssuer: 'BC카드',
     bin: '41300560',
     factorName: 'Fint체크',
@@ -5091,7 +5081,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 560,
+    id: 559,
     cardIssuer: '삼성카드',
     bin: '413253',
     factorName: '삼성비자',
@@ -5100,7 +5090,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 561,
+    id: 560,
     cardIssuer: '현대카드',
     bin: '413526',
     factorName: '현대비자개인',
@@ -5109,7 +5099,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 562,
+    id: 561,
     cardIssuer: '현대카드',
     bin: '413700',
     factorName: '현대 비자',
@@ -5118,7 +5108,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 563,
+    id: 562,
     cardIssuer: '삼성카드',
     bin: '413720',
     factorName: '삼성비자',
@@ -5127,7 +5117,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 564,
+    id: 563,
     cardIssuer: '현대카드',
     bin: '413780',
     factorName: '현대비자개인',
@@ -5136,7 +5126,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 565,
+    id: 564,
     cardIssuer: '현대카드',
     bin: '413837',
     factorName: '현대비자법인',
@@ -5145,7 +5135,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 566,
+    id: 565,
     cardIssuer: 'BC카드',
     bin: '414003',
     factorName: 'IBK비씨카드',
@@ -5154,7 +5144,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 567,
+    id: 566,
     cardIssuer: 'BC카드',
     bin: '414006',
     factorName: 'KB국민비씨카드',
@@ -5163,7 +5153,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 568,
+    id: 567,
     cardIssuer: 'BC카드',
     bin: '414011',
     factorName: 'NH농협비씨카드',
@@ -5172,7 +5162,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 569,
+    id: 568,
     cardIssuer: 'BC카드',
     bin: '414012',
     factorName: 'NH농협비씨카드',
@@ -5181,7 +5171,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 570,
+    id: 569,
     cardIssuer: 'BC카드',
     bin: '414020',
     factorName: '비씨카드',
@@ -5190,7 +5180,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 571,
+    id: 570,
     cardIssuer: 'BC카드',
     bin: '41402350',
     factorName: 'SC비씨카드',
@@ -5199,7 +5189,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 572,
+    id: 571,
     cardIssuer: 'BC카드',
     bin: '41402360',
     factorName: 'SC비씨카드',
@@ -5208,7 +5198,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 573,
+    id: 572,
     cardIssuer: 'BC카드',
     bin: '41402361',
     factorName: 'SC비씨카드',
@@ -5217,7 +5207,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 574,
+    id: 573,
     cardIssuer: 'BC카드',
     bin: '41402362',
     factorName: 'SC비씨카드',
@@ -5226,7 +5216,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 575,
+    id: 574,
     cardIssuer: 'BC카드',
     bin: '41402363',
     factorName: 'SC비씨카드',
@@ -5235,7 +5225,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 576,
+    id: 575,
     cardIssuer: 'BC카드',
     bin: '41402364',
     factorName: 'SC비씨카드',
@@ -5244,7 +5234,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 577,
+    id: 576,
     cardIssuer: 'BC카드',
     bin: '414025',
     factorName: '하나SK비씨카드',
@@ -5253,7 +5243,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 578,
+    id: 577,
     cardIssuer: 'BC카드',
     bin: '414027',
     factorName: '씨티비씨카드',
@@ -5262,7 +5252,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 579,
+    id: 578,
     cardIssuer: 'BC카드',
     bin: '414031',
     factorName: 'iM뱅크비씨카드',
@@ -5273,7 +5263,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 580,
+    id: 579,
     cardIssuer: 'BC카드',
     bin: '414032',
     factorName: '부산비씨카드',
@@ -5282,7 +5272,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 581,
+    id: 580,
     cardIssuer: 'BC카드',
     bin: '414039',
     factorName: '경남비씨카드',
@@ -5291,7 +5281,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 582,
+    id: 581,
     cardIssuer: '삼성카드',
     bin: '414296',
     factorName: '삼성비자가상',
@@ -5300,7 +5290,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 583,
+    id: 582,
     cardIssuer: 'BC카드',
     bin: '414520',
     factorName: '우리카드',
@@ -5310,7 +5300,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 584,
+    id: 583,
     cardIssuer: 'BC카드',
     bin: '414625',
     factorName: '하나SK비씨카드',
@@ -5319,7 +5309,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 585,
+    id: 584,
     cardIssuer: '롯데카드',
     bin: '414710',
     factorName: '롯데시그니처',
@@ -5328,7 +5318,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 586,
+    id: 585,
     cardIssuer: 'KB국민카드',
     bin: '414743',
     factorName: 'KB시그니쳐카드',
@@ -5337,7 +5327,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 587,
+    id: 586,
     cardIssuer: '현대카드',
     bin: '414744',
     factorName: '현대비자법인',
@@ -5346,7 +5336,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 588,
+    id: 587,
     cardIssuer: '현대카드',
     bin: '414749',
     factorName: '현대비자법인',
@@ -5355,7 +5345,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 589,
+    id: 588,
     cardIssuer: '하나카드',
     bin: '416206',
     factorName: '하나카드',
@@ -5364,7 +5354,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 590,
+    id: 589,
     cardIssuer: 'BC카드',
     bin: '416207',
     factorName: '하나비씨카드',
@@ -5373,7 +5363,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 591,
+    id: 590,
     cardIssuer: '롯데카드',
     bin: '416237',
     factorName: '롯데카드',
@@ -5382,7 +5372,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 592,
+    id: 591,
     cardIssuer: 'BC카드',
     bin: '416332',
     factorName: '부산비씨카드',
@@ -5391,7 +5381,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 593,
+    id: 592,
     cardIssuer: 'BC카드',
     bin: '416339',
     factorName: '경남비씨카드',
@@ -5400,7 +5390,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 594,
+    id: 593,
     cardIssuer: '현대카드',
     bin: '416455',
     factorName: '현대비자개인',
@@ -5409,7 +5399,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 595,
+    id: 594,
     cardIssuer: 'BC카드',
     bin: '417103',
     factorName: 'IBK비씨카드',
@@ -5418,7 +5408,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 596,
+    id: 595,
     cardIssuer: '현대카드',
     bin: '417233',
     factorName: '현대비자개인',
@@ -5427,7 +5417,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 597,
+    id: 596,
     cardIssuer: '현대카드',
     bin: '417256',
     factorName: '현대비자개인',
@@ -5436,7 +5426,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 598,
+    id: 597,
     cardIssuer: '현대카드',
     bin: '418143',
     factorName: '현대비자개인',
@@ -5445,7 +5435,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 599,
+    id: 598,
     cardIssuer: '신한카드',
     bin: '418163',
     factorName: '신한카드',
@@ -5454,7 +5444,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 600,
+    id: 599,
     cardIssuer: '신한카드',
     bin: '418164',
     factorName: '신한카드체크',
@@ -5463,7 +5453,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 601,
+    id: 600,
     cardIssuer: '현대카드',
     bin: '418173',
     factorName: '현대체크카드',
@@ -5472,7 +5462,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 602,
+    id: 601,
     cardIssuer: '하나카드',
     bin: '418236',
     factorName: '하나카드',
@@ -5481,7 +5471,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 603,
+    id: 602,
     cardIssuer: 'BC카드',
     bin: '419187',
     factorName: '하나비씨카드',
@@ -5490,7 +5480,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 604,
+    id: 603,
     cardIssuer: '현대카드',
     bin: '419696',
     factorName: '현대비자개인',
@@ -5499,7 +5489,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 605,
+    id: 604,
     cardIssuer: '현대카드',
     bin: '419697',
     factorName: '현대비자개인',
@@ -5508,7 +5498,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 606,
+    id: 605,
     cardIssuer: '현대카드',
     bin: '419698',
     factorName: '현대비자법인',
@@ -5517,7 +5507,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 607,
+    id: 606,
     cardIssuer: '현대카드',
     bin: '419699',
     factorName: '현대비자법인',
@@ -5526,7 +5516,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 608,
+    id: 607,
     cardIssuer: 'BC카드',
     bin: '419803',
     factorName: 'IBK비씨체크',
@@ -5535,7 +5525,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 609,
+    id: 608,
     cardIssuer: 'BC카드',
     bin: '41993343',
     factorName: '신협체크',
@@ -5544,7 +5534,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 610,
+    id: 609,
     cardIssuer: 'BC카드',
     bin: '41993344',
     factorName: '신협체크',
@@ -5553,7 +5543,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 611,
+    id: 610,
     cardIssuer: 'BC카드',
     bin: '41993360',
     factorName: '신협체크',
@@ -5562,7 +5552,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 612,
+    id: 611,
     cardIssuer: 'BC카드',
     bin: '41993361',
     factorName: '신협체크',
@@ -5571,7 +5561,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 613,
+    id: 612,
     cardIssuer: 'BC카드',
     bin: '41993362',
     factorName: '신협체크',
@@ -5580,7 +5570,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 614,
+    id: 613,
     cardIssuer: 'BC카드',
     bin: '41993363',
     factorName: '신협체크',
@@ -5589,7 +5579,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 615,
+    id: 614,
     cardIssuer: 'BC카드',
     bin: '41993364',
     factorName: '신협체크',
@@ -5598,7 +5588,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 616,
+    id: 615,
     cardIssuer: 'BC카드',
     bin: '41993365',
     factorName: '신협체크',
@@ -5607,7 +5597,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 617,
+    id: 616,
     cardIssuer: 'BC카드',
     bin: '41993366',
     factorName: '신협체크',
@@ -5616,7 +5606,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 618,
+    id: 617,
     cardIssuer: 'BC카드',
     bin: '41993367',
     factorName: '신협체크',
@@ -5625,7 +5615,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 619,
+    id: 618,
     cardIssuer: 'BC카드',
     bin: '41993368',
     factorName: '신협체크',
@@ -5634,7 +5624,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 620,
+    id: 619,
     cardIssuer: 'BC카드',
     bin: '41993369',
     factorName: '신협체크',
@@ -5643,7 +5633,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 621,
+    id: 620,
     cardIssuer: 'BC카드',
     bin: '42002544',
     factorName: '신협체크',
@@ -5652,7 +5642,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 622,
+    id: 621,
     cardIssuer: 'BC카드',
     bin: '42002560',
     factorName: '신협체크',
@@ -5661,7 +5651,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 623,
+    id: 622,
     cardIssuer: 'BC카드',
     bin: '42002561',
     factorName: '신협체크',
@@ -5670,7 +5660,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 624,
+    id: 623,
     cardIssuer: 'BC카드',
     bin: '42002562',
     factorName: '신협체크',
@@ -5679,7 +5669,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 625,
+    id: 624,
     cardIssuer: 'BC카드',
     bin: '42002563',
     factorName: '신협체크',
@@ -5688,7 +5678,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 626,
+    id: 625,
     cardIssuer: 'BC카드',
     bin: '42002564',
     factorName: '신협체크',
@@ -5697,7 +5687,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 627,
+    id: 626,
     cardIssuer: 'BC카드',
     bin: '42002565',
     factorName: '신협체크',
@@ -5706,7 +5696,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 628,
+    id: 627,
     cardIssuer: 'BC카드',
     bin: '42002566',
     factorName: '신협체크',
@@ -5715,7 +5705,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 629,
+    id: 628,
     cardIssuer: 'BC카드',
     bin: '42002567',
     factorName: '신협체크',
@@ -5724,7 +5714,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 630,
+    id: 629,
     cardIssuer: 'BC카드',
     bin: '42002568',
     factorName: '신협체크',
@@ -5733,7 +5723,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 631,
+    id: 630,
     cardIssuer: 'BC카드',
     bin: '42002569',
     factorName: '신협체크',
@@ -5742,7 +5732,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 632,
+    id: 631,
     cardIssuer: '하나카드',
     bin: '420189',
     factorName: '하나기업',
@@ -5751,7 +5741,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 633,
+    id: 632,
     cardIssuer: '하나카드',
     bin: '420190',
     factorName: '하나기업',
@@ -5760,7 +5750,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 634,
+    id: 633,
     cardIssuer: '하나카드',
     bin: '420701',
     factorName: '하나카드',
@@ -5769,7 +5759,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 635,
+    id: 634,
     cardIssuer: '하나카드',
     bin: '420707',
     factorName: '하나기업',
@@ -5778,7 +5768,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 636,
+    id: 635,
     cardIssuer: 'BC카드',
     bin: '421111',
     factorName: 'NH비씨카드',
@@ -5787,7 +5777,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 637,
+    id: 636,
     cardIssuer: 'BC카드',
     bin: '421112',
     factorName: 'NH비씨카드',
@@ -5796,7 +5786,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 638,
+    id: 637,
     cardIssuer: 'BC카드',
     bin: '421120',
     factorName: '우리카드',
@@ -5806,7 +5796,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 639,
+    id: 638,
     cardIssuer: 'BC카드',
     bin: '421131',
     factorName: 'iM뱅크비씨카드',
@@ -5817,7 +5807,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 640,
+    id: 639,
     cardIssuer: 'BC카드',
     bin: '421132',
     factorName: '부산비씨카드',
@@ -5826,7 +5816,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 641,
+    id: 640,
     cardIssuer: '하나카드',
     bin: '421134',
     factorName: '하나체크카드',
@@ -5835,7 +5825,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 642,
+    id: 641,
     cardIssuer: 'BC카드',
     bin: '421139',
     factorName: '경남비씨카드',
@@ -5844,7 +5834,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 643,
+    id: 642,
     cardIssuer: '수협은행',
     bin: '421418',
     factorName: '수협카드',
@@ -5853,7 +5843,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 644,
+    id: 643,
     cardIssuer: 'BC카드',
     bin: '421420',
     factorName: '우리체크',
@@ -5863,7 +5853,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 645,
+    id: 644,
     cardIssuer: '롯데카드',
     bin: '421468',
     factorName: '롯데체크카드',
@@ -5872,7 +5862,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 646,
+    id: 645,
     cardIssuer: '광주은행',
     bin: '421573',
     factorName: '광주체크',
@@ -5881,7 +5871,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 647,
+    id: 646,
     cardIssuer: '수협은행',
     bin: '421607',
     factorName: '수협체크',
@@ -5890,7 +5880,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 648,
+    id: 647,
     cardIssuer: '신한카드',
     bin: '421685',
     factorName: '신한카드선불',
@@ -5899,7 +5889,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 649,
+    id: 648,
     cardIssuer: '현대카드',
     bin: '421733',
     factorName: '현대비자개인',
@@ -5908,7 +5898,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 650,
+    id: 649,
     cardIssuer: 'BC카드',
     bin: '421820',
     factorName: '우리카드',
@@ -5918,7 +5908,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 651,
+    id: 650,
     cardIssuer: '신한카드',
     bin: '422015',
     factorName: '신한카드체크',
@@ -5927,7 +5917,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 652,
+    id: 651,
     cardIssuer: '신한카드',
     bin: '422016',
     factorName: '신한카드',
@@ -5936,7 +5926,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 653,
+    id: 652,
     cardIssuer: '신한카드',
     bin: '422018',
     factorName: '신한카드',
@@ -5945,7 +5935,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 654,
+    id: 653,
     cardIssuer: '신한카드',
     bin: '422155',
     factorName: '신한카드',
@@ -5954,7 +5944,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 655,
+    id: 654,
     cardIssuer: '수협은행',
     bin: '422190',
     factorName: '수협GIFT',
@@ -5963,7 +5953,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 656,
+    id: 655,
     cardIssuer: 'BC카드',
     bin: '422727',
     factorName: '씨티비씨체크',
@@ -5972,7 +5962,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 657,
+    id: 656,
     cardIssuer: '신한카드',
     bin: '423174',
     factorName: '국민행복신용',
@@ -5981,7 +5971,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 658,
+    id: 657,
     cardIssuer: '현대카드',
     bin: '423210',
     factorName: '현대비자개인',
@@ -5990,7 +5980,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 659,
+    id: 658,
     cardIssuer: '현대카드',
     bin: '423217',
     factorName: '현대비자개인',
@@ -5999,7 +5989,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 660,
+    id: 659,
     cardIssuer: 'BC카드',
     bin: '423950',
     factorName: '비씨카드',
@@ -6008,7 +5998,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 661,
+    id: 660,
     cardIssuer: 'KB국민카드',
     bin: '425863',
     factorName: 'KB인피니트카드',
@@ -6017,7 +6007,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 662,
+    id: 661,
     cardIssuer: '현대카드',
     bin: '426066',
     factorName: '현대선불카드',
@@ -6026,7 +6016,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 663,
+    id: 662,
     cardIssuer: '삼성카드',
     bin: '426578',
     factorName: '삼성카드',
@@ -6035,7 +6025,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 664,
+    id: 663,
     cardIssuer: 'KB국민카드',
     bin: '426586',
     factorName: 'KB 기업카드',
@@ -6044,7 +6034,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 665,
+    id: 664,
     cardIssuer: 'BC카드',
     bin: '426589',
     factorName: '우리카드',
@@ -6054,7 +6044,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 666,
+    id: 665,
     cardIssuer: 'BC카드',
     bin: '426920',
     factorName: '우리카드',
@@ -6064,7 +6054,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 667,
+    id: 666,
     cardIssuer: 'BC카드',
     bin: '427203',
     factorName: 'BC INFINITE',
@@ -6073,7 +6063,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 668,
+    id: 667,
     cardIssuer: '현대카드',
     bin: '427329',
     factorName: '현대비자개인',
@@ -6082,7 +6072,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 669,
+    id: 668,
     cardIssuer: 'BC카드',
     bin: '427352',
     factorName: '새마을체크',
@@ -6091,7 +6081,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 670,
+    id: 669,
     cardIssuer: 'BC카드',
     bin: '427386',
     factorName: '우체국체크',
@@ -6100,7 +6090,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 671,
+    id: 670,
     cardIssuer: 'BC카드',
     bin: '428411',
     factorName: 'NH농협비씨카드',
@@ -6109,7 +6099,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 672,
+    id: 671,
     cardIssuer: 'BC카드',
     bin: '428412',
     factorName: 'NH농협비씨카드',
@@ -6118,7 +6108,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 673,
+    id: 672,
     cardIssuer: 'BC카드',
     bin: '428431',
     factorName: 'iM뱅크비씨카드',
@@ -6129,7 +6119,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 674,
+    id: 673,
     cardIssuer: 'BC카드',
     bin: '428432',
     factorName: '부산비씨카드',
@@ -6138,7 +6128,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 675,
+    id: 674,
     cardIssuer: '현대카드',
     bin: '428465',
     factorName: '현대비자개인',
@@ -6147,7 +6137,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 676,
+    id: 675,
     cardIssuer: '하나카드',
     bin: '428696',
     factorName: '하나체크카드',
@@ -6158,7 +6148,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 677,
+    id: 676,
     cardIssuer: '하나카드',
     bin: '428697',
     factorName: '하나기업',
@@ -6167,7 +6157,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 678,
+    id: 677,
     cardIssuer: '하나카드',
     bin: '428908',
     factorName: '하나기업',
@@ -6176,7 +6166,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 679,
+    id: 678,
     cardIssuer: '하나카드',
     bin: '428909',
     factorName: '하나기업',
@@ -6185,7 +6175,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 680,
+    id: 679,
     cardIssuer: '신한카드',
     bin: '429212',
     factorName: '신한카드',
@@ -6194,7 +6184,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 681,
+    id: 680,
     cardIssuer: '현대카드',
     bin: '429498',
     factorName: '현대 비자',
@@ -6203,7 +6193,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 682,
+    id: 681,
     cardIssuer: '현대카드',
     bin: '429499',
     factorName: '현대 비자',
@@ -6212,7 +6202,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 683,
+    id: 682,
     cardIssuer: '신한카드',
     bin: '429612',
     factorName: '신한VIP카드',
@@ -6221,7 +6211,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 684,
+    id: 683,
     cardIssuer: '하나카드',
     bin: '429972',
     factorName: '하나체크카드',
@@ -6232,7 +6222,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 685,
+    id: 684,
     cardIssuer: '신한카드',
     bin: '430305',
     factorName: '신한카드',
@@ -6241,7 +6231,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 686,
+    id: 685,
     cardIssuer: 'BC카드',
     bin: '430603',
     factorName: '비씨체크카드',
@@ -6250,7 +6240,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 687,
+    id: 686,
     cardIssuer: '신한카드',
     bin: '430969',
     factorName: '신한카드',
@@ -6259,7 +6249,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 688,
+    id: 687,
     cardIssuer: '신한카드',
     bin: '430972',
     factorName: '신한카드체크',
@@ -6268,7 +6258,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 689,
+    id: 688,
     cardIssuer: 'BC카드',
     bin: '430984',
     factorName: '우리카드',
@@ -6278,7 +6268,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 690,
+    id: 689,
     cardIssuer: '신한카드',
     bin: '431236',
     factorName: '신한카드',
@@ -6287,7 +6277,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 691,
+    id: 690,
     cardIssuer: '수협은행',
     bin: '432445',
     factorName: '수협카드',
@@ -6296,7 +6286,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 692,
+    id: 691,
     cardIssuer: 'BC카드',
     bin: '432627',
     factorName: '우리카드',
@@ -6306,7 +6296,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 693,
+    id: 692,
     cardIssuer: 'BC카드',
     bin: '432632',
     factorName: '우리체크',
@@ -6316,7 +6306,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 694,
+    id: 693,
     cardIssuer: '삼성카드',
     bin: '432768',
     factorName: '삼성비자법인',
@@ -6325,7 +6315,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 695,
+    id: 694,
     cardIssuer: '삼성카드',
     bin: '433010',
     factorName: '삼성비자법인',
@@ -6334,7 +6324,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 696,
+    id: 695,
     cardIssuer: '현대카드',
     bin: '433028',
     factorName: '현대 비자',
@@ -6343,7 +6333,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 697,
+    id: 696,
     cardIssuer: '현대카드',
     bin: '433087',
     factorName: '현대비자개인',
@@ -6352,7 +6342,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 698,
+    id: 697,
     cardIssuer: 'KB국민카드',
     bin: '433276',
     factorName: 'KB플래티늄카드',
@@ -6361,7 +6351,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 699,
+    id: 698,
     cardIssuer: 'KB국민카드',
     bin: '433283',
     factorName: 'KB플래티늄카드',
@@ -6370,7 +6360,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 700,
+    id: 699,
     cardIssuer: 'KB국민카드',
     bin: '433290',
     factorName: 'KB플래티늄카드',
@@ -6379,7 +6369,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 701,
+    id: 700,
     cardIssuer: '하나카드',
     bin: '433692',
     factorName: '하나기업',
@@ -6388,7 +6378,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 702,
+    id: 701,
     cardIssuer: '하나카드',
     bin: '433693',
     factorName: '하나기업',
@@ -6397,7 +6387,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 703,
+    id: 702,
     cardIssuer: '씨티카드',
     bin: '434346',
     factorName: '씨티카드',
@@ -6406,7 +6396,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 704,
+    id: 703,
     cardIssuer: '씨티카드',
     bin: '434347',
     factorName: '씨티카드',
@@ -6415,7 +6405,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 705,
+    id: 704,
     cardIssuer: '신한카드',
     bin: '434976',
     factorName: '신한카드체크',
@@ -6424,7 +6414,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 706,
+    id: 705,
     cardIssuer: '현대카드',
     bin: '435661',
     factorName: '현대비자개인',
@@ -6433,7 +6423,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 707,
+    id: 706,
     cardIssuer: '롯데카드',
     bin: '436417',
     factorName: '롯데시그니처',
@@ -6442,7 +6432,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 708,
+    id: 707,
     cardIssuer: '신한카드',
     bin: '436420',
     factorName: '신한카드체크',
@@ -6451,7 +6441,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 709,
+    id: 708,
     cardIssuer: '신한카드',
     bin: '436422',
     factorName: '신한카드체크',
@@ -6460,7 +6450,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 710,
+    id: 709,
     cardIssuer: '롯데카드',
     bin: '436477',
     factorName: '롯데법인카드',
@@ -6469,7 +6459,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 711,
+    id: 710,
     cardIssuer: '롯데카드',
     bin: '436511',
     factorName: '롯데카드',
@@ -6478,7 +6468,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 712,
+    id: 711,
     cardIssuer: '하나카드',
     bin: '436550',
     factorName: '하나카드',
@@ -6487,7 +6477,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 713,
+    id: 712,
     cardIssuer: '신한카드',
     bin: '437368',
     factorName: '신한법인체크',
@@ -6496,7 +6486,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 714,
+    id: 713,
     cardIssuer: '롯데카드',
     bin: '437432',
     factorName: '롯데법인카드',
@@ -6505,7 +6495,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 715,
+    id: 714,
     cardIssuer: '신한카드',
     bin: '437436',
     factorName: '신한카드',
@@ -6514,7 +6504,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 716,
+    id: 715,
     cardIssuer: '신한카드',
     bin: '437437',
     factorName: '신한카드',
@@ -6523,7 +6513,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 717,
+    id: 716,
     cardIssuer: '신한카드',
     bin: '437438',
     factorName: '신한카드체크',
@@ -6532,7 +6522,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 718,
+    id: 717,
     cardIssuer: '현대카드',
     bin: '437539',
     factorName: '현대비자개인',
@@ -6541,7 +6531,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 719,
+    id: 718,
     cardIssuer: '현대카드',
     bin: '437719',
     factorName: '현대비자개인',
@@ -6550,7 +6540,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 720,
+    id: 719,
     cardIssuer: '현대카드',
     bin: '438265',
     factorName: '현대비자개인',
@@ -6559,7 +6549,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 721,
+    id: 720,
     cardIssuer: '롯데카드',
     bin: '438654',
     factorName: '롯데카드',
@@ -6568,7 +6558,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 722,
+    id: 721,
     cardIssuer: 'BC카드',
     bin: '438674',
     factorName: '우리체크',
@@ -6578,7 +6568,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 723,
+    id: 722,
     cardIssuer: '신한카드',
     bin: '438676',
     factorName: '신한카드',
@@ -6587,7 +6577,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 724,
+    id: 723,
     cardIssuer: '현대카드',
     bin: '438901',
     factorName: '현대비자개인',
@@ -6596,7 +6586,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 725,
+    id: 724,
     cardIssuer: 'BC카드',
     bin: '438902',
     factorName: '비씨카드',
@@ -6605,7 +6595,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 726,
+    id: 725,
     cardIssuer: '광주은행',
     bin: '438922',
     factorName: '광주체크',
@@ -6614,7 +6604,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 727,
+    id: 726,
     cardIssuer: '광주은행',
     bin: '439110',
     factorName: '광주신용',
@@ -6623,7 +6613,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 728,
+    id: 727,
     cardIssuer: 'BC카드',
     bin: '440025',
     factorName: '하나SK비씨체크',
@@ -6632,7 +6622,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 729,
+    id: 728,
     cardIssuer: '씨티카드',
     bin: '440445',
     factorName: '씨티카드',
@@ -6641,7 +6631,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 730,
+    id: 729,
     cardIssuer: '씨티카드',
     bin: '440446',
     factorName: '씨티카드',
@@ -6650,7 +6640,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 731,
+    id: 730,
     cardIssuer: '현대카드',
     bin: '441657',
     factorName: '현대비자개인',
@@ -6659,7 +6649,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 732,
+    id: 731,
     cardIssuer: '현대카드',
     bin: '442136',
     factorName: '현대비자개인',
@@ -6668,7 +6658,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 733,
+    id: 732,
     cardIssuer: '삼성카드',
     bin: '442660',
     factorName: '삼성비자',
@@ -6677,7 +6667,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 734,
+    id: 733,
     cardIssuer: 'KB국민카드',
     bin: '443567',
     factorName: 'KB국민카드',
@@ -6686,7 +6676,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 735,
+    id: 734,
     cardIssuer: 'KB국민카드',
     bin: '443569',
     factorName: 'KB국민카드',
@@ -6695,7 +6685,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 736,
+    id: 735,
     cardIssuer: 'KB국민카드',
     bin: '443579',
     factorName: 'KB체크카드',
@@ -6704,7 +6694,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 737,
+    id: 736,
     cardIssuer: '광주은행',
     bin: '445056',
     factorName: '광주GIFT',
@@ -6713,7 +6703,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 738,
+    id: 737,
     cardIssuer: '신한카드',
     bin: '445090',
     factorName: '신한VIP카드',
@@ -6722,7 +6712,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 739,
+    id: 738,
     cardIssuer: '현대카드',
     bin: '445096',
     factorName: '현대법인선불',
@@ -6731,7 +6721,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 740,
+    id: 739,
     cardIssuer: 'BC카드',
     bin: '446054',
     factorName: '비씨카드',
@@ -6740,7 +6730,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 741,
+    id: 740,
     cardIssuer: '현대카드',
     bin: '446603',
     factorName: '현대비자개인',
@@ -6749,7 +6739,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 742,
+    id: 741,
     cardIssuer: 'BC카드',
     bin: '447320',
     factorName: '우리체크',
@@ -6759,7 +6749,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 743,
+    id: 742,
     cardIssuer: 'BC카드',
     bin: '447703',
     factorName: 'IBK비씨체크',
@@ -6768,7 +6758,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 744,
+    id: 743,
     cardIssuer: 'BC카드',
     bin: '447820',
     factorName: '우리체크',
@@ -6778,7 +6768,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 745,
+    id: 744,
     cardIssuer: 'BC카드',
     bin: '448111',
     factorName: 'NH비씨체크',
@@ -6787,7 +6777,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 746,
+    id: 745,
     cardIssuer: 'BC카드',
     bin: '448112',
     factorName: 'NH비씨체크',
@@ -6796,7 +6786,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 747,
+    id: 746,
     cardIssuer: 'BC카드',
     bin: '448125',
     factorName: '하나SK비씨체크',
@@ -6805,7 +6795,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 748,
+    id: 747,
     cardIssuer: 'BC카드',
     bin: '448127',
     factorName: '씨티비씨체크',
@@ -6814,7 +6804,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 749,
+    id: 748,
     cardIssuer: 'KB국민카드',
     bin: '448135',
     factorName: 'KB체크프리패스',
@@ -6823,7 +6813,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 750,
+    id: 749,
     cardIssuer: '현대카드',
     bin: '448168',
     factorName: '개인블랙',
@@ -6832,7 +6822,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 751,
+    id: 750,
     cardIssuer: '씨티카드',
     bin: '448492',
     factorName: '씨티카드',
@@ -6841,7 +6831,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 752,
+    id: 751,
     cardIssuer: '현대카드',
     bin: '448494',
     factorName: '현대정부구매',
@@ -6850,7 +6840,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 753,
+    id: 752,
     cardIssuer: '신한카드',
     bin: '448523',
     factorName: '신한카드법인',
@@ -6859,7 +6849,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 754,
+    id: 753,
     cardIssuer: 'NH농협카드',
     bin: '448537',
     factorName: 'NH카드',
@@ -6868,7 +6858,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 755,
+    id: 754,
     cardIssuer: 'NH농협카드',
     bin: '448555',
     factorName: 'NH카드',
@@ -6877,7 +6867,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 756,
+    id: 755,
     cardIssuer: '신한카드',
     bin: '449914',
     factorName: '신한카드체크',
@@ -6886,7 +6876,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 757,
+    id: 756,
     cardIssuer: 'BC카드',
     bin: '450025',
     factorName: '하나SK비씨체크',
@@ -6895,7 +6885,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 758,
+    id: 757,
     cardIssuer: 'BC카드',
     bin: '450203',
     factorName: 'IBK비씨카드',
@@ -6904,7 +6894,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 759,
+    id: 758,
     cardIssuer: '하나카드',
     bin: '450596',
     factorName: '하나체크카드',
@@ -6913,7 +6903,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 760,
+    id: 759,
     cardIssuer: '신한카드',
     bin: '451099',
     factorName: '신한카드법인',
@@ -6922,7 +6912,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 761,
+    id: 760,
     cardIssuer: '삼성카드',
     bin: '451245',
     factorName: '삼성비자체크',
@@ -6931,7 +6921,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 762,
+    id: 761,
     cardIssuer: '신한카드',
     bin: '451281',
     factorName: '신한법인체크',
@@ -6940,7 +6930,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 763,
+    id: 762,
     cardIssuer: '신한카드',
     bin: '451842',
     factorName: '신한카드',
@@ -6949,7 +6939,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 764,
+    id: 763,
     cardIssuer: '신한카드',
     bin: '451843',
     factorName: '신한카드',
@@ -6958,7 +6948,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 765,
+    id: 764,
     cardIssuer: '신한카드',
     bin: '451844',
     factorName: '신한카드법인',
@@ -6967,7 +6957,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 766,
+    id: 765,
     cardIssuer: '신한카드',
     bin: '451845',
     factorName: '신한카드체크',
@@ -6976,7 +6966,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 767,
+    id: 766,
     cardIssuer: '신한카드',
     bin: '451846',
     factorName: '신한카드체크',
@@ -6985,7 +6975,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 768,
+    id: 767,
     cardIssuer: '씨티카드',
     bin: '452013',
     factorName: '씨티체크',
@@ -6994,7 +6984,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 769,
+    id: 768,
     cardIssuer: 'BC카드',
     bin: '452022',
     factorName: '하나비씨카드',
@@ -7003,7 +6993,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 770,
+    id: 769,
     cardIssuer: '롯데카드',
     bin: '452373',
     factorName: '롯데법인카드',
@@ -7012,7 +7002,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 771,
+    id: 770,
     cardIssuer: 'KB국민카드',
     bin: '452387',
     factorName: 'KB플래티늄카드',
@@ -7021,7 +7011,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 772,
+    id: 771,
     cardIssuer: 'KB국민카드',
     bin: '452388',
     factorName: 'KB국민카드',
@@ -7030,7 +7020,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 773,
+    id: 772,
     cardIssuer: 'KB국민카드',
     bin: '452389',
     factorName: 'KB국민카드',
@@ -7039,7 +7029,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 774,
+    id: 773,
     cardIssuer: '수협은행',
     bin: '453123',
     factorName: '수협카드',
@@ -7048,7 +7038,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 775,
+    id: 774,
     cardIssuer: 'BC카드',
     bin: '45326100',
     factorName: '케이뱅크체크',
@@ -7057,7 +7047,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 776,
+    id: 775,
     cardIssuer: 'BC카드',
     bin: '45326160',
     factorName: '케이뱅크체크',
@@ -7066,7 +7056,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 777,
+    id: 776,
     cardIssuer: '씨티카드',
     bin: '453934',
     factorName: '씨티카드',
@@ -7075,7 +7065,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 778,
+    id: 777,
     cardIssuer: '씨티카드',
     bin: '453936',
     factorName: '씨티카드',
@@ -7084,7 +7074,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 779,
+    id: 778,
     cardIssuer: '현대카드',
     bin: '454303',
     factorName: '법인블랙',
@@ -7093,7 +7083,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 780,
+    id: 779,
     cardIssuer: '신한카드',
     bin: '454478',
     factorName: '신한카드',
@@ -7102,7 +7092,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 781,
+    id: 780,
     cardIssuer: 'BC카드',
     bin: '455303',
     factorName: 'BC 카드',
@@ -7111,7 +7101,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 782,
+    id: 781,
     cardIssuer: 'BC카드',
     bin: '455306',
     factorName: 'BC 카드',
@@ -7120,7 +7110,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 783,
+    id: 782,
     cardIssuer: 'BC카드',
     bin: '455311',
     factorName: 'NH비씨카드',
@@ -7129,7 +7119,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 784,
+    id: 783,
     cardIssuer: 'BC카드',
     bin: '455312',
     factorName: 'NH비씨카드',
@@ -7138,7 +7128,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 785,
+    id: 784,
     cardIssuer: 'BC카드',
     bin: '455320',
     factorName: '비씨카드',
@@ -7147,7 +7137,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 786,
+    id: 785,
     cardIssuer: 'BC카드',
     bin: '45532351',
     factorName: 'SC비씨카드',
@@ -7156,7 +7146,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 787,
+    id: 786,
     cardIssuer: 'BC카드',
     bin: '45532360',
     factorName: 'SC비씨카드',
@@ -7165,7 +7155,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 788,
+    id: 787,
     cardIssuer: 'BC카드',
     bin: '45532361',
     factorName: 'SC비씨카드',
@@ -7174,7 +7164,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 789,
+    id: 788,
     cardIssuer: 'BC카드',
     bin: '45532362',
     factorName: 'SC비씨카드',
@@ -7183,7 +7173,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 790,
+    id: 789,
     cardIssuer: 'BC카드',
     bin: '45532363',
     factorName: 'SC비씨카드',
@@ -7192,7 +7182,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 791,
+    id: 790,
     cardIssuer: 'BC카드',
     bin: '45532364',
     factorName: 'SC비씨카드',
@@ -7201,7 +7191,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 792,
+    id: 791,
     cardIssuer: 'BC카드',
     bin: '455325',
     factorName: '하나SK비씨카드',
@@ -7210,7 +7200,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 793,
+    id: 792,
     cardIssuer: 'BC카드',
     bin: '455331',
     factorName: 'iM뱅크비씨카드',
@@ -7221,7 +7211,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 794,
+    id: 793,
     cardIssuer: 'BC카드',
     bin: '455332',
     factorName: '부산비씨카드',
@@ -7230,7 +7220,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 795,
+    id: 794,
     cardIssuer: 'BC카드',
     bin: '455339',
     factorName: '경남비씨카드',
@@ -7239,7 +7229,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 796,
+    id: 795,
     cardIssuer: 'BC카드',
     bin: '455420',
     factorName: '우리카드',
@@ -7249,7 +7239,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 797,
+    id: 796,
     cardIssuer: '하나카드',
     bin: '455437',
     factorName: '하나체크카드',
@@ -7258,7 +7248,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 798,
+    id: 797,
     cardIssuer: '광주은행',
     bin: '456037',
     factorName: '광주체크',
@@ -7267,7 +7257,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 799,
+    id: 798,
     cardIssuer: '수협은행',
     bin: '456702',
     factorName: '수협카드',
@@ -7276,7 +7266,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 800,
+    id: 799,
     cardIssuer: '수협은행',
     bin: '456703',
     factorName: '수협카드',
@@ -7285,7 +7275,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 801,
+    id: 800,
     cardIssuer: '하나카드',
     bin: '457047',
     factorName: '하나카드',
@@ -7294,7 +7284,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 802,
+    id: 801,
     cardIssuer: '하나카드',
     bin: '457048',
     factorName: '하나카드',
@@ -7303,7 +7293,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 803,
+    id: 802,
     cardIssuer: 'KB국민카드',
     bin: '457318',
     factorName: 'KB국민카드',
@@ -7312,7 +7302,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 804,
+    id: 803,
     cardIssuer: '현대카드',
     bin: '457492',
     factorName: '현대비자개인',
@@ -7321,7 +7311,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 805,
+    id: 804,
     cardIssuer: '현대카드',
     bin: '457493',
     factorName: '현대비자개인',
@@ -7330,7 +7320,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 806,
+    id: 805,
     cardIssuer: 'KB국민카드',
     bin: '457905',
     factorName: 'KB국민카드',
@@ -7339,7 +7329,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 807,
+    id: 806,
     cardIssuer: 'KB국민카드',
     bin: '457972',
     factorName: 'KB국민카드',
@@ -7348,7 +7338,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 808,
+    id: 807,
     cardIssuer: 'KB국민카드',
     bin: '457973',
     factorName: 'KB국민카드',
@@ -7357,7 +7347,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 809,
+    id: 808,
     cardIssuer: '롯데카드',
     bin: '457992',
     factorName: '롯데플래티늄',
@@ -7368,7 +7358,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 810,
+    id: 809,
     cardIssuer: 'KB국민카드',
     bin: '457993',
     factorName: 'KB국민카드',
@@ -7377,7 +7367,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 811,
+    id: 810,
     cardIssuer: '현대카드',
     bin: '458525',
     factorName: '현대비자개인',
@@ -7386,7 +7376,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 812,
+    id: 811,
     cardIssuer: '삼성카드',
     bin: '458532',
     factorName: '삼성비자체크',
@@ -7395,7 +7385,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 813,
+    id: 812,
     cardIssuer: '현대카드',
     bin: '458967',
     factorName: '현대비자개인',
@@ -7404,7 +7394,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 814,
+    id: 813,
     cardIssuer: '씨티카드',
     bin: '459222',
     factorName: '씨티카드',
@@ -7413,7 +7403,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 815,
+    id: 814,
     cardIssuer: '신한카드',
     bin: '459860',
     factorName: '신한카드체크',
@@ -7422,7 +7412,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 816,
+    id: 815,
     cardIssuer: '하나카드',
     bin: '459900',
     factorName: '하나카드',
@@ -7431,7 +7421,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 817,
+    id: 816,
     cardIssuer: '제주은행',
     bin: '459901',
     factorName: '제주카드',
@@ -7440,7 +7430,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 818,
+    id: 817,
     cardIssuer: '신한카드',
     bin: '459904',
     factorName: '신한카드',
@@ -7449,7 +7439,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 819,
+    id: 818,
     cardIssuer: '신한카드',
     bin: '459906',
     factorName: '신한카드',
@@ -7458,7 +7448,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 820,
+    id: 819,
     cardIssuer: '신한카드',
     bin: '459907',
     factorName: '신한카드',
@@ -7467,7 +7457,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 821,
+    id: 820,
     cardIssuer: 'KB국민카드',
     bin: '459910',
     factorName: 'KB국민카드',
@@ -7476,7 +7466,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 822,
+    id: 821,
     cardIssuer: 'KB국민카드',
     bin: '459911',
     factorName: 'KB국민카드',
@@ -7485,7 +7475,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 823,
+    id: 822,
     cardIssuer: 'BC카드',
     bin: '45991200',
     factorName: '케이뱅크체크',
@@ -7494,7 +7484,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 824,
+    id: 823,
     cardIssuer: 'BC카드',
     bin: '45991260',
     factorName: '케이뱅크체크',
@@ -7503,7 +7493,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 825,
+    id: 824,
     cardIssuer: 'KB국민카드',
     bin: '459913',
     factorName: 'KB국민카드',
@@ -7512,7 +7502,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 826,
+    id: 825,
     cardIssuer: '신한카드',
     bin: '459927',
     factorName: '신한카드',
@@ -7521,7 +7511,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 827,
+    id: 826,
     cardIssuer: '하나카드',
     bin: '459930',
     factorName: '하나체크카드',
@@ -7530,7 +7520,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 828,
+    id: 827,
     cardIssuer: '신한카드',
     bin: '459936',
     factorName: '신한카드',
@@ -7539,7 +7529,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 829,
+    id: 828,
     cardIssuer: '하나카드',
     bin: '459950',
     factorName: '하나카드',
@@ -7548,7 +7538,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 830,
+    id: 829,
     cardIssuer: '제주은행',
     bin: '459951',
     factorName: '제주카드',
@@ -7557,7 +7547,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 831,
+    id: 830,
     cardIssuer: '전북은행',
     bin: '459953',
     factorName: '전북JB카드',
@@ -7568,7 +7558,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 832,
+    id: 831,
     cardIssuer: 'KB국민카드',
     bin: '460074',
     factorName: 'KB국민카드',
@@ -7577,7 +7567,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 833,
+    id: 832,
     cardIssuer: 'KB국민카드',
     bin: '460205',
     factorName: 'KB국민카드',
@@ -7586,7 +7576,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 834,
+    id: 833,
     cardIssuer: '신한카드',
     bin: '460561',
     factorName: '신한카드체크',
@@ -7595,7 +7585,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 835,
+    id: 834,
     cardIssuer: '신한카드',
     bin: '461723',
     factorName: '신한카드선불',
@@ -7604,7 +7594,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 836,
+    id: 835,
     cardIssuer: '신한카드',
     bin: '461724',
     factorName: '신한카드',
@@ -7613,7 +7603,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 837,
+    id: 836,
     cardIssuer: '하나카드',
     bin: '461771',
     factorName: '하나카드',
@@ -7622,7 +7612,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 838,
+    id: 837,
     cardIssuer: '전북은행',
     bin: '461774',
     factorName: '전북JB카드',
@@ -7633,7 +7623,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 839,
+    id: 838,
     cardIssuer: '전북은행',
     bin: '461775',
     factorName: '전북JB카드',
@@ -7644,7 +7634,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 840,
+    id: 839,
     cardIssuer: '신한카드',
     bin: '461954',
     factorName: '신한카드체크',
@@ -7653,7 +7643,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 841,
+    id: 840,
     cardIssuer: '하나카드',
     bin: '461980',
     factorName: '하나카드',
@@ -7662,7 +7652,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 842,
+    id: 841,
     cardIssuer: '씨티카드',
     bin: '462890',
     factorName: '씨티카드',
@@ -7671,7 +7661,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 843,
+    id: 842,
     cardIssuer: '현대카드',
     bin: '462898',
     factorName: '현대비자개인',
@@ -7680,7 +7670,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 844,
+    id: 843,
     cardIssuer: 'KB국민카드',
     bin: '463235',
     factorName: 'KB체크카드',
@@ -7689,7 +7679,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 845,
+    id: 844,
     cardIssuer: '삼성카드',
     bin: '463732',
     factorName: '삼성비자',
@@ -7698,7 +7688,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 846,
+    id: 845,
     cardIssuer: '제주은행',
     bin: '463916',
     factorName: '제주체크카드',
@@ -7707,7 +7697,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 847,
+    id: 846,
     cardIssuer: '하나카드',
     bin: '464092',
     factorName: '하나카드',
@@ -7716,7 +7706,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 848,
+    id: 847,
     cardIssuer: '현대카드',
     bin: '464562',
     factorName: '현대 비자',
@@ -7725,7 +7715,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 849,
+    id: 848,
     cardIssuer: '롯데카드',
     bin: '464637',
     factorName: '롯데카드',
@@ -7734,7 +7724,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 850,
+    id: 849,
     cardIssuer: '롯데카드',
     bin: '464647',
     factorName: '롯데카드',
@@ -7743,7 +7733,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 851,
+    id: 850,
     cardIssuer: '삼성카드',
     bin: '464942',
     factorName: '삼성비자체크',
@@ -7752,7 +7742,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 852,
+    id: 851,
     cardIssuer: '현대카드',
     bin: '464955',
     factorName: '현대비자개인',
@@ -7761,7 +7751,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 853,
+    id: 852,
     cardIssuer: '롯데카드',
     bin: '464959',
     factorName: '롯데체크카드',
@@ -7770,7 +7760,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 854,
+    id: 853,
     cardIssuer: '현대카드',
     bin: '464960',
     factorName: '현대비자개인',
@@ -7779,7 +7769,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 855,
+    id: 854,
     cardIssuer: '신한카드',
     bin: '464965',
     factorName: '신한카드체크',
@@ -7788,7 +7778,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 856,
+    id: 855,
     cardIssuer: '하나카드',
     bin: '465306',
     factorName: '하나체크카드',
@@ -7797,7 +7787,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 857,
+    id: 856,
     cardIssuer: '하나카드',
     bin: '465583',
     factorName: '하나체크카드',
@@ -7806,7 +7796,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 858,
+    id: 857,
     cardIssuer: 'BC카드',
     bin: '46561300',
     factorName: '케이뱅크체크',
@@ -7815,7 +7805,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 859,
+    id: 858,
     cardIssuer: 'BC카드',
     bin: '46561360',
     factorName: '케이뱅크체크',
@@ -7824,7 +7814,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 860,
+    id: 859,
     cardIssuer: '신한카드',
     bin: '465887',
     factorName: '신한프리미엄',
@@ -7833,7 +7823,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 861,
+    id: 860,
     cardIssuer: '씨티카드',
     bin: '465888',
     factorName: '씨티카드',
@@ -7842,7 +7832,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 862,
+    id: 861,
     cardIssuer: '수협은행',
     bin: '465889',
     factorName: '수협체크',
@@ -7851,7 +7841,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 863,
+    id: 862,
     cardIssuer: '현대카드',
     bin: '466571',
     factorName: '현대비자개인',
@@ -7860,7 +7850,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 864,
+    id: 863,
     cardIssuer: '롯데카드',
     bin: '467006',
     factorName: '롯데플래티늄',
@@ -7869,7 +7859,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 865,
+    id: 864,
     cardIssuer: '롯데카드',
     bin: '467007',
     factorName: '롯데카드',
@@ -7878,7 +7868,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 866,
+    id: 865,
     cardIssuer: '롯데카드',
     bin: '467008',
     factorName: '롯데카드',
@@ -7887,7 +7877,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 867,
+    id: 866,
     cardIssuer: '롯데카드',
     bin: '467009',
     factorName: '롯데법인카드',
@@ -7896,7 +7886,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 868,
+    id: 867,
     cardIssuer: '삼성카드',
     bin: '467069',
     factorName: '삼성비자법인',
@@ -7905,7 +7895,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 869,
+    id: 868,
     cardIssuer: '삼성카드',
     bin: '467077',
     factorName: '삼성비자',
@@ -7914,7 +7904,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 870,
+    id: 869,
     cardIssuer: '하나카드',
     bin: '467120',
     factorName: '하나기업',
@@ -7923,7 +7913,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 871,
+    id: 870,
     cardIssuer: '하나카드',
     bin: '467121',
     factorName: '하나카드',
@@ -7932,7 +7922,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 872,
+    id: 871,
     cardIssuer: '하나카드',
     bin: '467122',
     factorName: '하나카드',
@@ -7941,7 +7931,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 873,
+    id: 872,
     cardIssuer: '하나카드',
     bin: '467123',
     factorName: '하나기업',
@@ -7952,7 +7942,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 874,
+    id: 873,
     cardIssuer: 'KB국민카드',
     bin: '467309',
     factorName: 'KB체크카드',
@@ -7961,7 +7951,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 875,
+    id: 874,
     cardIssuer: '삼성카드',
     bin: '467963',
     factorName: '삼성비자',
@@ -7970,7 +7960,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 876,
+    id: 875,
     cardIssuer: '씨티카드',
     bin: '468780',
     factorName: '씨티카드',
@@ -7979,7 +7969,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 877,
+    id: 876,
     cardIssuer: '씨티카드',
     bin: '468781',
     factorName: '씨티카드',
@@ -7988,7 +7978,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 878,
+    id: 877,
     cardIssuer: '삼성카드',
     bin: '468908',
     factorName: '삼성카드',
@@ -7997,7 +7987,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 879,
+    id: 878,
     cardIssuer: '삼성카드',
     bin: '468911',
     factorName: '삼성비자',
@@ -8006,7 +7996,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 880,
+    id: 879,
     cardIssuer: '삼성카드',
     bin: '468952',
     factorName: '삼성비자',
@@ -8015,7 +8005,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 881,
+    id: 880,
     cardIssuer: '현대카드',
     bin: '469536',
     factorName: '현대 비자',
@@ -8024,7 +8014,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 882,
+    id: 881,
     cardIssuer: '현대카드',
     bin: '469537',
     factorName: '현대 비자',
@@ -8033,7 +8023,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 883,
+    id: 882,
     cardIssuer: '삼성카드',
     bin: '470399',
     factorName: '삼성비자',
@@ -8042,7 +8032,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 884,
+    id: 883,
     cardIssuer: '삼성카드',
     bin: '470547',
     factorName: '삼성비자법인',
@@ -8051,7 +8041,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 885,
+    id: 884,
     cardIssuer: '삼성카드',
     bin: '470587',
     factorName: '삼성비자체크',
@@ -8060,7 +8050,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 886,
+    id: 885,
     cardIssuer: '삼성카드',
     bin: '470588',
     factorName: '삼성비자체크',
@@ -8069,7 +8059,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 887,
+    id: 886,
     cardIssuer: 'NH농협카드',
     bin: '470616',
     factorName: 'NH Platinum',
@@ -8078,7 +8068,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 888,
+    id: 887,
     cardIssuer: 'NH농협카드',
     bin: '470617',
     factorName: 'NH Platinum',
@@ -8087,7 +8077,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 889,
+    id: 888,
     cardIssuer: 'KB국민카드',
     bin: '470630',
     factorName: 'KB국민카드',
@@ -8096,7 +8086,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 890,
+    id: 889,
     cardIssuer: 'KB국민카드',
     bin: '470631',
     factorName: 'KB국민카드',
@@ -8105,7 +8095,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 891,
+    id: 890,
     cardIssuer: '신한카드',
     bin: '472175',
     factorName: '신한카드',
@@ -8114,7 +8104,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 892,
+    id: 891,
     cardIssuer: '신한카드',
     bin: '472246',
     factorName: '신한카드체크',
@@ -8123,7 +8113,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 893,
+    id: 892,
     cardIssuer: '신한카드',
     bin: '472263',
     factorName: '신한카드',
@@ -8132,7 +8122,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 894,
+    id: 893,
     cardIssuer: '신한카드',
     bin: '472264',
     factorName: '신한카드체크',
@@ -8141,7 +8131,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 895,
+    id: 894,
     cardIssuer: '신한카드',
     bin: '472429',
     factorName: '신한카드체크',
@@ -8150,7 +8140,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 896,
+    id: 895,
     cardIssuer: '전북은행',
     bin: '472637',
     factorName: '전북JB카드',
@@ -8161,7 +8151,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 897,
+    id: 896,
     cardIssuer: '전북은행',
     bin: '472897',
     factorName: '전북JB카드',
@@ -8172,7 +8162,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 898,
+    id: 897,
     cardIssuer: 'NH농협카드',
     bin: '473058',
     factorName: 'NH Signiture',
@@ -8181,7 +8171,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 899,
+    id: 898,
     cardIssuer: 'NH농협카드',
     bin: '473059',
     factorName: 'NH Signiture',
@@ -8190,7 +8180,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 900,
+    id: 899,
     cardIssuer: '삼성카드',
     bin: '473844',
     factorName: '삼성비자',
@@ -8199,7 +8189,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 901,
+    id: 900,
     cardIssuer: 'KB국민카드',
     bin: '473853',
     factorName: 'KB체크카드',
@@ -8208,7 +8198,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 902,
+    id: 901,
     cardIssuer: '삼성카드',
     bin: '473867',
     factorName: '삼성비자',
@@ -8217,7 +8207,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 903,
+    id: 902,
     cardIssuer: '삼성카드',
     bin: '474289',
     factorName: '삼성비자',
@@ -8226,7 +8216,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 904,
+    id: 903,
     cardIssuer: '삼성카드',
     bin: '474290',
     factorName: '삼성비자',
@@ -8235,7 +8225,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 905,
+    id: 904,
     cardIssuer: 'BC카드',
     bin: '474420',
     factorName: '비씨카드',
@@ -8244,7 +8234,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 906,
+    id: 905,
     cardIssuer: 'KB국민카드',
     bin: '474523',
     factorName: 'KB 기업카드',
@@ -8253,7 +8243,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 907,
+    id: 906,
     cardIssuer: '하나카드',
     bin: '474524',
     factorName: '하나기업',
@@ -8262,7 +8252,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 908,
+    id: 907,
     cardIssuer: '하나카드',
     bin: '474606',
     factorName: '하나기업체크',
@@ -8271,7 +8261,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 909,
+    id: 908,
     cardIssuer: '하나카드',
     bin: '474607',
     factorName: '하나카드',
@@ -8280,7 +8270,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 910,
+    id: 909,
     cardIssuer: '하나카드',
     bin: '474608',
     factorName: '하나체크카드',
@@ -8289,7 +8279,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 911,
+    id: 910,
     cardIssuer: '롯데카드',
     bin: '474817',
     factorName: '롯데카드',
@@ -8298,7 +8288,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 912,
+    id: 911,
     cardIssuer: 'BC카드',
     bin: '475503',
     factorName: 'IBK비씨카드',
@@ -8307,7 +8297,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 913,
+    id: 912,
     cardIssuer: 'BC카드',
     bin: '475506',
     factorName: 'KB국민비씨카드',
@@ -8316,7 +8306,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 914,
+    id: 913,
     cardIssuer: 'BC카드',
     bin: '475511',
     factorName: 'NH농협비씨카드',
@@ -8325,7 +8315,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 915,
+    id: 914,
     cardIssuer: 'BC카드',
     bin: '475520',
     factorName: '우리카드',
@@ -8335,7 +8325,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 916,
+    id: 915,
     cardIssuer: 'BC카드',
     bin: '47552350',
     factorName: 'SC비씨카드',
@@ -8344,7 +8334,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 917,
+    id: 916,
     cardIssuer: 'BC카드',
     bin: '47552360',
     factorName: 'SC비씨카드',
@@ -8353,7 +8343,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 918,
+    id: 917,
     cardIssuer: 'BC카드',
     bin: '47552361',
     factorName: 'SC비씨카드',
@@ -8362,7 +8352,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 919,
+    id: 918,
     cardIssuer: 'BC카드',
     bin: '47552362',
     factorName: 'SC비씨카드',
@@ -8371,7 +8361,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 920,
+    id: 919,
     cardIssuer: 'BC카드',
     bin: '47552363',
     factorName: 'SC비씨카드',
@@ -8380,7 +8370,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 921,
+    id: 920,
     cardIssuer: 'BC카드',
     bin: '47552364',
     factorName: 'SC비씨카드',
@@ -8389,7 +8379,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 922,
+    id: 921,
     cardIssuer: 'BC카드',
     bin: '475525',
     factorName: '하나SK비씨카드',
@@ -8398,7 +8388,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 923,
+    id: 922,
     cardIssuer: 'BC카드',
     bin: '475527',
     factorName: '씨티비씨카드',
@@ -8407,7 +8397,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 924,
+    id: 923,
     cardIssuer: 'BC카드',
     bin: '475531',
     factorName: 'iM뱅크비씨카드',
@@ -8418,7 +8408,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 925,
+    id: 924,
     cardIssuer: 'BC카드',
     bin: '475532',
     factorName: '부산비씨카드',
@@ -8427,7 +8417,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 926,
+    id: 925,
     cardIssuer: 'BC카드',
     bin: '475539',
     factorName: '경남비씨카드',
@@ -8436,7 +8426,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 927,
+    id: 926,
     cardIssuer: '삼성카드',
     bin: '476020',
     factorName: '삼성비자',
@@ -8445,7 +8435,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 928,
+    id: 927,
     cardIssuer: '삼성카드',
     bin: '476021',
     factorName: '삼성비자',
@@ -8454,7 +8444,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 929,
+    id: 928,
     cardIssuer: '신한카드',
     bin: '476063',
     factorName: '신한카드체크',
@@ -8463,7 +8453,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 930,
+    id: 929,
     cardIssuer: '현대카드',
     bin: '477065',
     factorName: '현대비자개인',
@@ -8472,7 +8462,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 931,
+    id: 930,
     cardIssuer: '현대카드',
     bin: '477570',
     factorName: '현대비자개인',
@@ -8481,7 +8471,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 932,
+    id: 931,
     cardIssuer: '현대카드',
     bin: '477949',
     factorName: '현대비자개인',
@@ -8490,7 +8480,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 933,
+    id: 932,
     cardIssuer: '신한카드',
     bin: '478892',
     factorName: '신한카드',
@@ -8499,7 +8489,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 934,
+    id: 933,
     cardIssuer: '삼성카드',
     bin: '479588',
     factorName: '삼성비자',
@@ -8508,7 +8498,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 935,
+    id: 934,
     cardIssuer: '하나카드',
     bin: '479589',
     factorName: '하나카드',
@@ -8517,7 +8507,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 936,
+    id: 935,
     cardIssuer: '신한카드',
     bin: '480434',
     factorName: '신한카드법인',
@@ -8526,7 +8516,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 937,
+    id: 936,
     cardIssuer: '하나카드',
     bin: '480443',
     factorName: '하나카드',
@@ -8535,7 +8525,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 938,
+    id: 937,
     cardIssuer: 'KB국민카드',
     bin: '480444',
     factorName: 'KB구매전용카드',
@@ -8544,7 +8534,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 939,
+    id: 938,
     cardIssuer: '광주은행',
     bin: '480451',
     factorName: '광주신용',
@@ -8553,7 +8543,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 940,
+    id: 939,
     cardIssuer: '롯데카드',
     bin: '483543',
     factorName: '롯데인피니트',
@@ -8562,7 +8552,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 941,
+    id: 940,
     cardIssuer: '롯데카드',
     bin: '483544',
     factorName: '롯데법인인피니',
@@ -8571,7 +8561,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 942,
+    id: 941,
     cardIssuer: '신한카드',
     bin: '483578',
     factorName: '신한카드',
@@ -8580,7 +8570,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 943,
+    id: 942,
     cardIssuer: '하나카드',
     bin: '483592',
     factorName: '하나기업체크',
@@ -8589,7 +8579,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 944,
+    id: 943,
     cardIssuer: 'BC카드',
     bin: '483632',
     factorName: '부산비씨카드',
@@ -8598,7 +8588,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 945,
+    id: 944,
     cardIssuer: 'BC카드',
     bin: '483639',
     factorName: '경남비씨카드',
@@ -8607,7 +8597,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 946,
+    id: 945,
     cardIssuer: '신한카드',
     bin: '483792',
     factorName: '신한카드',
@@ -8616,7 +8606,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 947,
+    id: 946,
     cardIssuer: '신한카드',
     bin: '483793',
     factorName: '신한카드',
@@ -8625,7 +8615,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 948,
+    id: 947,
     cardIssuer: '삼성카드',
     bin: '484087',
     factorName: '삼성비자',
@@ -8634,7 +8624,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 949,
+    id: 948,
     cardIssuer: '신한카드',
     bin: '484809',
     factorName: '아이사랑체크',
@@ -8643,7 +8633,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 950,
+    id: 949,
     cardIssuer: 'BC카드',
     bin: '48546200',
     factorName: '케이뱅크체크',
@@ -8652,7 +8642,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 951,
+    id: 950,
     cardIssuer: 'BC카드',
     bin: '48546260',
     factorName: '케이뱅크체크',
@@ -8661,7 +8651,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 952,
+    id: 951,
     cardIssuer: 'BC카드',
     bin: '48546261',
     factorName: '케이뱅크체크',
@@ -8670,7 +8660,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 953,
+    id: 952,
     cardIssuer: 'NH농협카드',
     bin: '485475',
     factorName: 'NH Infinity',
@@ -8679,7 +8669,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 954,
+    id: 953,
     cardIssuer: 'NH농협카드',
     bin: '485476',
     factorName: 'NH Infinity',
@@ -8688,7 +8678,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 955,
+    id: 954,
     cardIssuer: 'NH농협카드',
     bin: '485479',
     factorName: 'NH체크카드',
@@ -8697,7 +8687,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 956,
+    id: 955,
     cardIssuer: 'NH농협카드',
     bin: '485480',
     factorName: 'NH체크카드',
@@ -8706,7 +8696,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 957,
+    id: 956,
     cardIssuer: 'NH농협카드',
     bin: '485492',
     factorName: 'NH Signiture',
@@ -8715,7 +8705,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 958,
+    id: 957,
     cardIssuer: 'NH농협카드',
     bin: '485493',
     factorName: 'NH Signiture',
@@ -8724,7 +8714,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 959,
+    id: 958,
     cardIssuer: '현대카드',
     bin: '486058',
     factorName: '현대비자법인',
@@ -8733,7 +8723,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 960,
+    id: 959,
     cardIssuer: '삼성카드',
     bin: '486467',
     factorName: '삼성비자법인',
@@ -8742,7 +8732,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 961,
+    id: 960,
     cardIssuer: 'BC카드',
     bin: '486578',
     factorName: '신한비씨카드',
@@ -8751,7 +8741,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 962,
+    id: 961,
     cardIssuer: 'BC카드',
     bin: '486579',
     factorName: '신한비씨카드',
@@ -8760,7 +8750,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 963,
+    id: 962,
     cardIssuer: 'BC카드',
     bin: '486678',
     factorName: '신한비씨카드',
@@ -8769,7 +8759,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 964,
+    id: 963,
     cardIssuer: 'BC카드',
     bin: '486679',
     factorName: '신한비씨카드',
@@ -8778,7 +8768,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 965,
+    id: 964,
     cardIssuer: '신한카드',
     bin: '487033',
     factorName: '신한카드체크',
@@ -8787,7 +8777,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 966,
+    id: 965,
     cardIssuer: '롯데카드',
     bin: '488906',
     factorName: '롯데체크카드',
@@ -8796,7 +8786,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 967,
+    id: 966,
     cardIssuer: '하나카드',
     bin: '488919',
     factorName: '하나카드',
@@ -8805,7 +8795,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 968,
+    id: 967,
     cardIssuer: '하나카드',
     bin: '488920',
     factorName: '하나기업',
@@ -8814,7 +8804,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 969,
+    id: 968,
     cardIssuer: '하나카드',
     bin: '488921',
     factorName: '하나기업',
@@ -8823,7 +8813,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 970,
+    id: 969,
     cardIssuer: '롯데카드',
     bin: '488972',
     factorName: '롯데카드',
@@ -8832,7 +8822,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 971,
+    id: 970,
     cardIssuer: '롯데카드',
     bin: '489010',
     factorName: '롯데법인카드',
@@ -8841,7 +8831,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 972,
+    id: 971,
     cardIssuer: '현대카드',
     bin: '489016',
     factorName: '현대비자개인',
@@ -8850,7 +8840,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 973,
+    id: 972,
     cardIssuer: '신한카드',
     bin: '489023',
     factorName: '신한카드체크',
@@ -8859,7 +8849,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 974,
+    id: 973,
     cardIssuer: '롯데카드',
     bin: '489515',
     factorName: '롯데카드',
@@ -8868,7 +8858,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 975,
+    id: 974,
     cardIssuer: '롯데카드',
     bin: '489904',
     factorName: '롯데카드',
@@ -8877,7 +8867,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 976,
+    id: 975,
     cardIssuer: 'BC카드',
     bin: '489930',
     factorName: '우리카드',
@@ -8887,7 +8877,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 977,
+    id: 976,
     cardIssuer: 'BC카드',
     bin: '490011',
     factorName: 'NH비씨카드',
@@ -8896,7 +8886,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 978,
+    id: 977,
     cardIssuer: 'BC카드',
     bin: '490012',
     factorName: 'NH비씨카드',
@@ -8905,7 +8895,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 979,
+    id: 978,
     cardIssuer: 'BC카드',
     bin: '490020',
     factorName: '우리카드',
@@ -8915,7 +8905,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 980,
+    id: 979,
     cardIssuer: 'BC카드',
     bin: '490220',
     factorName: '우리카드',
@@ -8925,7 +8915,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 981,
+    id: 980,
     cardIssuer: '롯데카드',
     bin: '490274',
     factorName: '롯데법인플래티',
@@ -8934,7 +8924,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 982,
+    id: 981,
     cardIssuer: '신한카드',
     bin: '490298',
     factorName: '신한카드법인',
@@ -8943,7 +8933,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 983,
+    id: 982,
     cardIssuer: 'BC카드',
     bin: '490603',
     factorName: 'BC 카드',
@@ -8952,7 +8942,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 984,
+    id: 983,
     cardIssuer: 'BC카드',
     bin: '490606',
     factorName: 'BC 카드',
@@ -8961,7 +8951,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 985,
+    id: 984,
     cardIssuer: 'BC카드',
     bin: '490611',
     factorName: 'NH비씨카드',
@@ -8970,7 +8960,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 986,
+    id: 985,
     cardIssuer: 'BC카드',
     bin: '490612',
     factorName: 'NH비씨카드',
@@ -8979,7 +8969,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 987,
+    id: 986,
     cardIssuer: 'BC카드',
     bin: '490620',
     factorName: '비씨카드',
@@ -8988,7 +8978,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 988,
+    id: 987,
     cardIssuer: 'BC카드',
     bin: '49062351',
     factorName: 'SC비씨카드',
@@ -8997,7 +8987,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 989,
+    id: 988,
     cardIssuer: 'BC카드',
     bin: '49062360',
     factorName: 'SC비씨카드',
@@ -9006,7 +8996,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 990,
+    id: 989,
     cardIssuer: 'BC카드',
     bin: '49062361',
     factorName: 'SC비씨카드',
@@ -9015,7 +9005,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 991,
+    id: 990,
     cardIssuer: 'BC카드',
     bin: '49062362',
     factorName: 'SC비씨카드',
@@ -9024,7 +9014,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 992,
+    id: 991,
     cardIssuer: 'BC카드',
     bin: '49062363',
     factorName: 'SC비씨카드',
@@ -9033,7 +9023,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 993,
+    id: 992,
     cardIssuer: 'BC카드',
     bin: '49062364',
     factorName: 'SC비씨카드',
@@ -9042,7 +9032,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 994,
+    id: 993,
     cardIssuer: 'BC카드',
     bin: '490625',
     factorName: '하나SK비씨카드',
@@ -9051,7 +9041,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 995,
+    id: 994,
     cardIssuer: 'BC카드',
     bin: '490631',
     factorName: 'iM뱅크비씨카드',
@@ -9062,7 +9052,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 996,
+    id: 995,
     cardIssuer: 'BC카드',
     bin: '490632',
     factorName: '부산비씨카드',
@@ -9071,7 +9061,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 997,
+    id: 996,
     cardIssuer: 'BC카드',
     bin: '490639',
     factorName: '경남비씨카드',
@@ -9080,7 +9070,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 998,
+    id: 997,
     cardIssuer: '우리카드',
     bin: '491217',
     factorName: '우리카드',
@@ -9091,7 +9081,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 999,
+    id: 998,
     cardIssuer: '우리카드',
     bin: '491218',
     factorName: '우리카드',
@@ -9102,7 +9092,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1000,
+    id: 999,
     cardIssuer: 'BC카드',
     bin: '492511',
     factorName: 'NH농협비씨카드',
@@ -9111,7 +9101,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1001,
+    id: 1000,
     cardIssuer: 'BC카드',
     bin: '492512',
     factorName: 'NH농협비씨카드',
@@ -9120,7 +9110,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1002,
+    id: 1001,
     cardIssuer: '신한카드',
     bin: '493163',
     factorName: '신한카드법인',
@@ -9129,7 +9119,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1003,
+    id: 1002,
     cardIssuer: '하나카드',
     bin: '493455',
     factorName: '하나체크카드',
@@ -9138,7 +9128,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1004,
+    id: 1003,
     cardIssuer: 'BC카드',
     bin: '496603',
     factorName: '비씨체크카드',
@@ -9147,7 +9137,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1005,
+    id: 1004,
     cardIssuer: '전북은행',
     bin: '498737',
     factorName: '전북JB카드',
@@ -9158,7 +9148,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1006,
+    id: 1005,
     cardIssuer: 'NH농협카드',
     bin: '498819',
     factorName: 'NH Titanium',
@@ -9167,7 +9157,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1007,
+    id: 1006,
     cardIssuer: 'NH농협카드',
     bin: '498820',
     factorName: 'NH카드',
@@ -9176,7 +9166,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1008,
+    id: 1007,
     cardIssuer: 'KB국민카드',
     bin: '502123',
     factorName: 'KB체크카드',
@@ -9185,7 +9175,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1009,
+    id: 1008,
     cardIssuer: '하나카드',
     bin: '502928',
     factorName: '하나체크카드',
@@ -9194,7 +9184,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1010,
+    id: 1009,
     cardIssuer: '삼성카드',
     bin: '510003',
     factorName: '삼성 마스타',
@@ -9203,7 +9193,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1011,
+    id: 1010,
     cardIssuer: '씨티카드',
     bin: '510279',
     factorName: '씨티카드',
@@ -9212,7 +9202,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1012,
+    id: 1011,
     cardIssuer: '현대카드',
     bin: '510315',
     factorName: '현대마스터개인',
@@ -9221,7 +9211,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1013,
+    id: 1012,
     cardIssuer: '롯데카드',
     bin: '510554',
     factorName: '롯데법인카드',
@@ -9230,7 +9220,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1014,
+    id: 1013,
     cardIssuer: '신한카드',
     bin: '510737',
     factorName: '신한카드체크',
@@ -9239,7 +9229,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1015,
+    id: 1014,
     cardIssuer: '전북은행',
     bin: '511070',
     factorName: '전북JB카드',
@@ -9250,7 +9240,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1016,
+    id: 1015,
     cardIssuer: '신한카드',
     bin: '511187',
     factorName: '신한카드체크',
@@ -9259,7 +9249,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1017,
+    id: 1016,
     cardIssuer: '전북은행',
     bin: '511390',
     factorName: '전북JB카드',
@@ -9270,7 +9260,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1018,
+    id: 1017,
     cardIssuer: '하나카드',
     bin: '511845',
     factorName: '하나체크카드',
@@ -9279,7 +9269,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1019,
+    id: 1018,
     cardIssuer: '전북은행',
     bin: '511877',
     factorName: '전북JB체크',
@@ -9290,7 +9280,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1020,
+    id: 1019,
     cardIssuer: 'BC카드',
     bin: '511911',
     factorName: '우리카드',
@@ -9300,7 +9290,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1021,
+    id: 1020,
     cardIssuer: '전북은행',
     bin: '511929',
     factorName: '전북JB카드',
@@ -9311,7 +9301,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1022,
+    id: 1021,
     cardIssuer: '삼성카드',
     bin: '512028',
     factorName: '삼성 마스타',
@@ -9320,7 +9310,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1023,
+    id: 1022,
     cardIssuer: '신한카드',
     bin: '512085',
     factorName: '신한카드',
@@ -9329,7 +9319,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1024,
+    id: 1023,
     cardIssuer: '현대카드',
     bin: '512114',
     factorName: '현대마스터개인',
@@ -9338,7 +9328,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1025,
+    id: 1024,
     cardIssuer: '현대카드',
     bin: '512351',
     factorName: '현대 마스터',
@@ -9347,7 +9337,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1026,
+    id: 1025,
     cardIssuer: '현대카드',
     bin: '512352',
     factorName: '현대 마스터',
@@ -9356,7 +9346,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1027,
+    id: 1026,
     cardIssuer: '현대카드',
     bin: '512353',
     factorName: '현대 마스터',
@@ -9365,7 +9355,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1028,
+    id: 1027,
     cardIssuer: '현대카드',
     bin: '512354',
     factorName: '현대 마스터',
@@ -9374,7 +9364,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1029,
+    id: 1028,
     cardIssuer: '현대카드',
     bin: '512355',
     factorName: '현대 마스터',
@@ -9383,7 +9373,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1030,
+    id: 1029,
     cardIssuer: '현대카드',
     bin: '512359',
     factorName: '현대 마스터',
@@ -9392,7 +9382,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1031,
+    id: 1030,
     cardIssuer: '삼성카드',
     bin: '512365',
     factorName: '삼성 마스타',
@@ -9401,7 +9391,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1032,
+    id: 1031,
     cardIssuer: '롯데카드',
     bin: '512462',
     factorName: '롯데카드',
@@ -9410,7 +9400,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1033,
+    id: 1032,
     cardIssuer: '현대카드',
     bin: '512609',
     factorName: '현대 마스터',
@@ -9419,7 +9409,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1034,
+    id: 1033,
     cardIssuer: '롯데카드',
     bin: '512635',
     factorName: '롯데카드',
@@ -9428,7 +9418,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1035,
+    id: 1034,
     cardIssuer: '현대카드',
     bin: '512647',
     factorName: '현대마스터개인',
@@ -9437,7 +9427,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1036,
+    id: 1035,
     cardIssuer: '전북은행',
     bin: '512668',
     factorName: '전북JB카드',
@@ -9448,7 +9438,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1037,
+    id: 1036,
     cardIssuer: 'BC카드',
     bin: '512813',
     factorName: '우리카드',
@@ -9458,7 +9448,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1038,
+    id: 1037,
     cardIssuer: '신한카드',
     bin: '512830',
     factorName: '신한카드',
@@ -9467,7 +9457,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1039,
+    id: 1038,
     cardIssuer: 'BC카드',
     bin: '513041',
     factorName: 'IBK비씨카드',
@@ -9476,7 +9466,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1040,
+    id: 1039,
     cardIssuer: '신한카드',
     bin: '513243',
     factorName: '신한카드',
@@ -9485,7 +9475,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1041,
+    id: 1040,
     cardIssuer: 'BC카드',
     bin: '513459',
     factorName: 'iM뱅크비씨카드',
@@ -9496,7 +9486,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1042,
+    id: 1041,
     cardIssuer: 'BC카드',
     bin: '513708',
     factorName: '우리카드',
@@ -9506,7 +9496,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1043,
+    id: 1042,
     cardIssuer: '롯데카드',
     bin: '513791',
     factorName: '롯데카드',
@@ -9515,7 +9505,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1044,
+    id: 1043,
     cardIssuer: '롯데카드',
     bin: '513792',
     factorName: '롯데카드',
@@ -9524,7 +9514,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1045,
+    id: 1044,
     cardIssuer: '롯데카드',
     bin: '513894',
     factorName: '롯데카드',
@@ -9533,7 +9523,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1046,
+    id: 1045,
     cardIssuer: 'BC카드',
     bin: '514043',
     factorName: '우리카드',
@@ -9543,7 +9533,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1047,
+    id: 1046,
     cardIssuer: '전북은행',
     bin: '514091',
     factorName: '전북JB체크',
@@ -9554,7 +9544,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1048,
+    id: 1047,
     cardIssuer: '전북은행',
     bin: '514110',
     factorName: '전북JB카드',
@@ -9565,7 +9555,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1049,
+    id: 1048,
     cardIssuer: '전북은행',
     bin: '514473',
     factorName: '전북JB체크',
@@ -9576,7 +9566,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1050,
+    id: 1049,
     cardIssuer: 'KB국민카드',
     bin: '514557',
     factorName: 'KB국민카드',
@@ -9585,7 +9575,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1051,
+    id: 1050,
     cardIssuer: '현대카드',
     bin: '514645',
     factorName: '현대마스터개인',
@@ -9594,7 +9584,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1052,
+    id: 1051,
     cardIssuer: '씨티카드',
     bin: '514876',
     factorName: '씨티카드',
@@ -9603,7 +9593,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1053,
+    id: 1052,
     cardIssuer: '신한카드',
     bin: '515197',
     factorName: '신한카드체크',
@@ -9612,7 +9602,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1054,
+    id: 1053,
     cardIssuer: '전북은행',
     bin: '515363',
     factorName: '전북JB카드',
@@ -9623,7 +9613,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1055,
+    id: 1054,
     cardIssuer: '신한카드',
     bin: '515594',
     factorName: '신한프리미엄',
@@ -9632,7 +9622,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1056,
+    id: 1055,
     cardIssuer: 'BC카드',
     bin: '515954',
     factorName: '우리체크',
@@ -9642,7 +9632,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1057,
+    id: 1056,
     cardIssuer: 'BC카드',
     bin: '516006',
     factorName: '우리카드',
@@ -9652,7 +9642,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1058,
+    id: 1057,
     cardIssuer: 'BC카드',
     bin: '516078',
     factorName: '신한비씨카드',
@@ -9661,7 +9651,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1059,
+    id: 1058,
     cardIssuer: 'BC카드',
     bin: '516341',
     factorName: '우리카드',
@@ -9671,7 +9661,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1060,
+    id: 1059,
     cardIssuer: '하나카드',
     bin: '516411',
     factorName: '하나체크카드',
@@ -9680,7 +9670,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1061,
+    id: 1060,
     cardIssuer: '하나카드',
     bin: '516450',
     factorName: '하나카드',
@@ -9689,7 +9679,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1062,
+    id: 1061,
     cardIssuer: 'KB국민카드',
     bin: '516453',
     factorName: 'KB국민카드',
@@ -9698,7 +9688,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1063,
+    id: 1062,
     cardIssuer: 'BC카드',
     bin: '516520',
     factorName: '비씨카드',
@@ -9707,7 +9697,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1064,
+    id: 1063,
     cardIssuer: '현대카드',
     bin: '516526',
     factorName: '현대마스터개인',
@@ -9716,7 +9706,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1065,
+    id: 1064,
     cardIssuer: '현대카드',
     bin: '516546',
     factorName: '현대마스터개인',
@@ -9725,7 +9715,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1066,
+    id: 1065,
     cardIssuer: '하나카드',
     bin: '516574',
     factorName: '하나체크카드',
@@ -9734,7 +9724,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1067,
+    id: 1066,
     cardIssuer: 'BC카드',
     bin: '516695',
     factorName: '경남비씨카드',
@@ -9743,7 +9733,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1068,
+    id: 1067,
     cardIssuer: '현대카드',
     bin: '517067',
     factorName: '현대마스터개인',
@@ -9752,7 +9742,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1069,
+    id: 1068,
     cardIssuer: '신한카드',
     bin: '517134',
     factorName: '신한카드체크',
@@ -9761,7 +9751,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1070,
+    id: 1069,
     cardIssuer: 'BC카드',
     bin: '517220',
     factorName: '우리카드',
@@ -9771,7 +9761,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1071,
+    id: 1070,
     cardIssuer: 'KB국민카드',
     bin: '517332',
     factorName: 'KB체크카드',
@@ -9780,7 +9770,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1072,
+    id: 1071,
     cardIssuer: 'KB국민카드',
     bin: '517364',
     factorName: 'KB기업카드',
@@ -9789,7 +9779,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1073,
+    id: 1072,
     cardIssuer: 'BC카드',
     bin: '517548',
     factorName: '부산비씨체크',
@@ -9798,7 +9788,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1074,
+    id: 1073,
     cardIssuer: 'BC카드',
     bin: '517560',
     factorName: '경남비씨체크',
@@ -9807,7 +9797,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1075,
+    id: 1074,
     cardIssuer: 'KB국민카드',
     bin: '517575',
     factorName: 'KB체크카드',
@@ -9816,7 +9806,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1076,
+    id: 1075,
     cardIssuer: '삼성카드',
     bin: '517662',
     factorName: '삼성 마스타',
@@ -9825,7 +9815,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1077,
+    id: 1076,
     cardIssuer: '삼성카드',
     bin: '517827',
     factorName: '삼성 마스타',
@@ -9834,7 +9824,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1078,
+    id: 1077,
     cardIssuer: 'BC카드',
     bin: '518135',
     factorName: 'iM뱅크비씨체크',
@@ -9845,7 +9835,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1079,
+    id: 1078,
     cardIssuer: '현대카드',
     bin: '518140',
     factorName: '현대마스터개인',
@@ -9854,7 +9844,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1080,
+    id: 1079,
     cardIssuer: '신한카드',
     bin: '518171',
     factorName: '신한카드',
@@ -9863,7 +9853,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1081,
+    id: 1080,
     cardIssuer: '하나카드',
     bin: '518185',
     factorName: '하나카드',
@@ -9872,7 +9862,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1082,
+    id: 1081,
     cardIssuer: '하나카드',
     bin: '518283',
     factorName: '하나카드',
@@ -9881,7 +9871,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1083,
+    id: 1082,
     cardIssuer: 'BC카드',
     bin: '518420',
     factorName: '비씨카드',
@@ -9890,7 +9880,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1084,
+    id: 1083,
     cardIssuer: '신한카드',
     bin: '518432',
     factorName: '신한카드',
@@ -9899,7 +9889,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1085,
+    id: 1084,
     cardIssuer: '전북은행',
     bin: '518669',
     factorName: 'SSG카드',
@@ -9910,7 +9900,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1086,
+    id: 1085,
     cardIssuer: '삼성카드',
     bin: '518831',
     factorName: '삼성 마스타',
@@ -9919,7 +9909,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1087,
+    id: 1086,
     cardIssuer: '현대카드',
     bin: '518928',
     factorName: '현대 마스터',
@@ -9928,7 +9918,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1088,
+    id: 1087,
     cardIssuer: '현대카드',
     bin: '518929',
     factorName: '현대 마스터',
@@ -9937,7 +9927,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1089,
+    id: 1088,
     cardIssuer: '현대카드',
     bin: '518930',
     factorName: '현대 마스터',
@@ -9946,7 +9936,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1090,
+    id: 1089,
     cardIssuer: 'BC카드',
     bin: '519023',
     factorName: '우리체크',
@@ -9956,7 +9946,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1091,
+    id: 1090,
     cardIssuer: '롯데카드',
     bin: '519157',
     factorName: '롯데카드',
@@ -9965,7 +9955,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1092,
+    id: 1091,
     cardIssuer: '롯데카드',
     bin: '519335',
     factorName: '롯데카드',
@@ -9974,7 +9964,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1093,
+    id: 1092,
     cardIssuer: '신한카드',
     bin: '519635',
     factorName: '신한법인체크',
@@ -9983,7 +9973,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1094,
+    id: 1093,
     cardIssuer: '하나카드',
     bin: '519657',
     factorName: '하나체크카드',
@@ -9992,7 +9982,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1095,
+    id: 1094,
     cardIssuer: '하나카드',
     bin: '519718',
     factorName: '하나카드',
@@ -10001,7 +9991,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1096,
+    id: 1095,
     cardIssuer: '롯데카드',
     bin: '519751',
     factorName: '롯데카드',
@@ -10010,7 +10000,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1097,
+    id: 1096,
     cardIssuer: '씨티카드',
     bin: '519892',
     factorName: '씨티체크',
@@ -10019,7 +10009,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1098,
+    id: 1097,
     cardIssuer: '삼성카드',
     bin: '520025',
     factorName: '삼성마스타가상',
@@ -10028,7 +10018,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1099,
+    id: 1098,
     cardIssuer: '롯데카드',
     bin: '520045',
     factorName: '롯데카드',
@@ -10037,7 +10027,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1100,
+    id: 1099,
     cardIssuer: 'KB국민카드',
     bin: '520172',
     factorName: 'KB국민카드',
@@ -10046,7 +10036,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1101,
+    id: 1100,
     cardIssuer: '현대카드',
     bin: '520421',
     factorName: '현대 마스터',
@@ -10055,7 +10045,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1102,
+    id: 1101,
     cardIssuer: '현대카드',
     bin: '520422',
     factorName: '현대 마스터',
@@ -10064,7 +10054,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1103,
+    id: 1102,
     cardIssuer: 'KB국민카드',
     bin: '520504',
     factorName: 'KB체크카드',
@@ -10073,16 +10063,18 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1104,
+    id: 1103,
     cardIssuer: '롯데카드',
     bin: '520613',
     factorName: '롯데법인카드',
     corporate: '법인',
     brand: '마스터',
     creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '삭제',
   ),
   CardBinModel(
-    id: 1105,
+    id: 1104,
     cardIssuer: 'BC카드',
     bin: '520667',
     factorName: '우리카드',
@@ -10092,7 +10084,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1106,
+    id: 1105,
     cardIssuer: 'KB국민카드',
     bin: '521135',
     factorName: 'KB국민카드',
@@ -10101,7 +10093,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1107,
+    id: 1106,
     cardIssuer: 'BC카드',
     bin: '521176',
     factorName: 'SC비씨체크',
@@ -10110,7 +10102,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1108,
+    id: 1107,
     cardIssuer: '신한카드',
     bin: '521189',
     factorName: '신한카드체크',
@@ -10119,7 +10111,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1109,
+    id: 1108,
     cardIssuer: 'BC카드',
     bin: '521717',
     factorName: 'IBK비씨카드',
@@ -10128,7 +10120,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1110,
+    id: 1109,
     cardIssuer: '롯데카드',
     bin: '521718',
     factorName: '롯데카드',
@@ -10137,7 +10129,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1111,
+    id: 1110,
     cardIssuer: 'KB국민카드',
     bin: '522108',
     factorName: 'KB국민카드',
@@ -10146,7 +10138,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1112,
+    id: 1111,
     cardIssuer: 'KB국민카드',
     bin: '522109',
     factorName: 'KB체크프리패스',
@@ -10155,7 +10147,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1113,
+    id: 1112,
     cardIssuer: '현대카드',
     bin: '522111',
     factorName: '현대 마스터',
@@ -10164,7 +10156,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1114,
+    id: 1113,
     cardIssuer: '현대카드',
     bin: '522112',
     factorName: '현대 카드',
@@ -10173,7 +10165,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1115,
+    id: 1114,
     cardIssuer: '현대카드',
     bin: '522114',
     factorName: '현대 마스터',
@@ -10182,7 +10174,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1116,
+    id: 1115,
     cardIssuer: '현대카드',
     bin: '522115',
     factorName: '현대 마스터',
@@ -10191,7 +10183,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1117,
+    id: 1116,
     cardIssuer: '현대카드',
     bin: '522119',
     factorName: '현대 마스터',
@@ -10200,7 +10192,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1118,
+    id: 1117,
     cardIssuer: '현대카드',
     bin: '522123',
     factorName: '현대 마스터',
@@ -10209,7 +10201,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1119,
+    id: 1118,
     cardIssuer: '현대카드',
     bin: '522124',
     factorName: '현대 마스터',
@@ -10218,7 +10210,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1120,
+    id: 1119,
     cardIssuer: '현대카드',
     bin: '522125',
     factorName: '현대 마스터',
@@ -10227,7 +10219,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1121,
+    id: 1120,
     cardIssuer: '현대카드',
     bin: '522129',
     factorName: '현대 마스터',
@@ -10236,7 +10228,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1122,
+    id: 1121,
     cardIssuer: '신한카드',
     bin: '522447',
     factorName: '신한카드',
@@ -10245,7 +10237,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1123,
+    id: 1122,
     cardIssuer: '전북은행',
     bin: '522509',
     factorName: '전북JB카드',
@@ -10256,7 +10248,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1124,
+    id: 1123,
     cardIssuer: 'KB국민카드',
     bin: '522802',
     factorName: 'KB국민카드',
@@ -10265,7 +10257,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1125,
+    id: 1124,
     cardIssuer: '삼성카드',
     bin: '522855',
     factorName: '삼성 마스타',
@@ -10274,7 +10266,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1126,
+    id: 1125,
     cardIssuer: '삼성카드',
     bin: '522894',
     factorName: '삼성 마스타',
@@ -10283,7 +10275,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1127,
+    id: 1126,
     cardIssuer: 'KB국민카드',
     bin: '522971',
     factorName: 'KB 다이아몬드',
@@ -10292,7 +10284,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1128,
+    id: 1127,
     cardIssuer: '씨티카드',
     bin: '523401',
     factorName: '씨티카드',
@@ -10301,7 +10293,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1129,
+    id: 1128,
     cardIssuer: '씨티카드',
     bin: '523402',
     factorName: '씨티카드',
@@ -10310,7 +10302,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1130,
+    id: 1129,
     cardIssuer: 'BC카드',
     bin: '523424',
     factorName: '우리카드',
@@ -10320,7 +10312,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1131,
+    id: 1130,
     cardIssuer: 'BC카드',
     bin: '523504',
     factorName: '하나비씨체크',
@@ -10329,7 +10321,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1132,
+    id: 1131,
     cardIssuer: '신한카드',
     bin: '523521',
     factorName: '신한카드',
@@ -10338,7 +10330,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1133,
+    id: 1132,
     cardIssuer: 'BC카드',
     bin: '52352751',
     factorName: 'SC비씨카드',
@@ -10347,7 +10339,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1134,
+    id: 1133,
     cardIssuer: 'BC카드',
     bin: '52352760',
     factorName: 'SC비씨카드',
@@ -10356,7 +10348,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1135,
+    id: 1134,
     cardIssuer: 'BC카드',
     bin: '52352761',
     factorName: 'SC비씨카드',
@@ -10365,7 +10357,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1136,
+    id: 1135,
     cardIssuer: 'BC카드',
     bin: '52352762',
     factorName: 'SC비씨카드',
@@ -10374,7 +10366,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1137,
+    id: 1136,
     cardIssuer: 'BC카드',
     bin: '52352763',
     factorName: 'SC비씨카드',
@@ -10383,7 +10375,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1138,
+    id: 1137,
     cardIssuer: 'BC카드',
     bin: '52352764',
     factorName: 'SC비씨카드',
@@ -10392,7 +10384,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1139,
+    id: 1138,
     cardIssuer: 'KB국민카드',
     bin: '523612',
     factorName: 'KB국민카드',
@@ -10401,7 +10393,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1140,
+    id: 1139,
     cardIssuer: '롯데카드',
     bin: '523651',
     factorName: '롯데카드',
@@ -10410,7 +10402,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1141,
+    id: 1140,
     cardIssuer: '하나카드',
     bin: '523830',
     factorName: '하나체크카드',
@@ -10419,7 +10411,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1142,
+    id: 1141,
     cardIssuer: '현대카드',
     bin: '523930',
     factorName: '현대마스터개인',
@@ -10428,7 +10420,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1143,
+    id: 1142,
     cardIssuer: '현대카드',
     bin: '524012',
     factorName: '현대 카드',
@@ -10437,18 +10429,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1144,
-    cardIssuer: '현대카드',
-    bin: '524013',
-    factorName: '현대 마스터',
-    corporate: '개인',
-    brand: '마스터',
-    creditDebit: '신용',
-    updatedAt: '2026. 01',
-    changed: '삭제',
-  ),
-  CardBinModel(
-    id: 1145,
+    id: 1143,
     cardIssuer: '현대카드',
     bin: '524015',
     factorName: '현대 마스터',
@@ -10457,7 +10438,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1146,
+    id: 1144,
     cardIssuer: '현대카드',
     bin: '524019',
     factorName: '현대 마스터',
@@ -10466,7 +10447,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1147,
+    id: 1145,
     cardIssuer: '현대카드',
     bin: '524021',
     factorName: '현대 마스터',
@@ -10475,7 +10456,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1148,
+    id: 1146,
     cardIssuer: '현대카드',
     bin: '524022',
     factorName: '현대 마스터',
@@ -10484,7 +10465,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1149,
+    id: 1147,
     cardIssuer: '현대카드',
     bin: '524023',
     factorName: '현대 마스터',
@@ -10493,7 +10474,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1150,
+    id: 1148,
     cardIssuer: '현대카드',
     bin: '524024',
     factorName: '현대 마스터',
@@ -10502,7 +10483,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1151,
+    id: 1149,
     cardIssuer: '현대카드',
     bin: '524025',
     factorName: '현대 마스터',
@@ -10511,7 +10492,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1152,
+    id: 1150,
     cardIssuer: 'KB국민카드',
     bin: '524028',
     factorName: 'KB국민카드',
@@ -10520,7 +10501,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1153,
+    id: 1151,
     cardIssuer: '현대카드',
     bin: '524029',
     factorName: '현대 마스터',
@@ -10529,7 +10510,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1154,
+    id: 1152,
     cardIssuer: '현대카드',
     bin: '524041',
     factorName: '현대 마스터',
@@ -10538,7 +10519,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1155,
+    id: 1153,
     cardIssuer: 'NH농협카드',
     bin: '524140',
     factorName: 'NH Titanium',
@@ -10547,7 +10528,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1156,
+    id: 1154,
     cardIssuer: 'NH농협카드',
     bin: '524141',
     factorName: 'NH Titanium',
@@ -10556,7 +10537,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1157,
+    id: 1155,
     cardIssuer: '씨티카드',
     bin: '524144',
     factorName: '씨티카드',
@@ -10565,7 +10546,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1158,
+    id: 1156,
     cardIssuer: '하나카드',
     bin: '524180',
     factorName: '하나카드',
@@ -10574,7 +10555,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1159,
+    id: 1157,
     cardIssuer: 'BC카드',
     bin: '524220',
     factorName: '우리카드',
@@ -10584,7 +10565,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1160,
+    id: 1158,
     cardIssuer: '하나카드',
     bin: '524242',
     factorName: '하나체크카드',
@@ -10593,7 +10574,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1161,
+    id: 1159,
     cardIssuer: 'BC카드',
     bin: '524286',
     factorName: '경남비씨체크',
@@ -10602,7 +10583,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1162,
+    id: 1160,
     cardIssuer: '현대카드',
     bin: '524333',
     factorName: '현대 마스터',
@@ -10611,7 +10592,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1163,
+    id: 1161,
     cardIssuer: '하나카드',
     bin: '524335',
     factorName: '하나카드',
@@ -10620,7 +10601,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1164,
+    id: 1162,
     cardIssuer: 'BC카드',
     bin: '524531',
     factorName: 'iM뱅크비씨카드',
@@ -10631,7 +10612,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1165,
+    id: 1163,
     cardIssuer: '신한카드',
     bin: '524603',
     factorName: '신한카드',
@@ -10640,7 +10621,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1166,
+    id: 1164,
     cardIssuer: '현대카드',
     bin: '524713',
     factorName: '현대 마스터',
@@ -10649,7 +10630,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1167,
+    id: 1165,
     cardIssuer: 'KB국민카드',
     bin: '525316',
     factorName: 'KB체크카드',
@@ -10658,7 +10639,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1168,
+    id: 1166,
     cardIssuer: 'BC카드',
     bin: '525549',
     factorName: '우리카드',
@@ -10668,7 +10649,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1169,
+    id: 1167,
     cardIssuer: '롯데카드',
     bin: '525563',
     factorName: '롯데카드',
@@ -10677,7 +10658,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1170,
+    id: 1168,
     cardIssuer: '삼성카드',
     bin: '525783',
     factorName: '삼성 마스타',
@@ -10686,7 +10667,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1171,
+    id: 1169,
     cardIssuer: 'KB국민카드',
     bin: '525982',
     factorName: 'KB국민카드',
@@ -10695,7 +10676,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1172,
+    id: 1170,
     cardIssuer: '수협은행',
     bin: '525989',
     factorName: '수협카드',
@@ -10704,7 +10685,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1173,
+    id: 1171,
     cardIssuer: 'BC카드',
     bin: '526198',
     factorName: '하나비씨카드',
@@ -10713,7 +10694,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1174,
+    id: 1172,
     cardIssuer: '신한카드',
     bin: '526373',
     factorName: '신한카드체크',
@@ -10722,7 +10703,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1175,
+    id: 1173,
     cardIssuer: 'BC카드',
     bin: '526878',
     factorName: '신한비씨카드',
@@ -10731,7 +10712,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1176,
+    id: 1174,
     cardIssuer: '신한카드',
     bin: '527182',
     factorName: '신한카드체크',
@@ -10740,7 +10721,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1177,
+    id: 1175,
     cardIssuer: '삼성카드',
     bin: '527257',
     factorName: '삼성마스타법인',
@@ -10749,7 +10730,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1178,
+    id: 1176,
     cardIssuer: 'KB국민카드',
     bin: '527289',
     factorName: 'KB체크카드',
@@ -10758,7 +10739,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1179,
+    id: 1177,
     cardIssuer: '신한카드',
     bin: '527731',
     factorName: '신한카드',
@@ -10767,7 +10748,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1180,
+    id: 1178,
     cardIssuer: '씨티카드',
     bin: '527810',
     factorName: '씨티체크',
@@ -10776,7 +10757,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1181,
+    id: 1179,
     cardIssuer: '현대카드',
     bin: '528054',
     factorName: '현대 마스터',
@@ -10785,7 +10766,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1182,
+    id: 1180,
     cardIssuer: '전북은행',
     bin: '528268',
     factorName: '전북JB카드',
@@ -10796,7 +10777,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1183,
+    id: 1181,
     cardIssuer: '현대카드',
     bin: '528274',
     factorName: '현대마스터법인',
@@ -10805,7 +10786,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1184,
+    id: 1182,
     cardIssuer: '하나카드',
     bin: '528523',
     factorName: '하나카드',
@@ -10814,7 +10795,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1185,
+    id: 1183,
     cardIssuer: '신한카드',
     bin: '528638',
     factorName: '신한카드',
@@ -10823,7 +10804,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1186,
+    id: 1184,
     cardIssuer: 'NH농협카드',
     bin: '528664',
     factorName: 'NH체크카드',
@@ -10832,7 +10813,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1187,
+    id: 1185,
     cardIssuer: 'NH농협카드',
     bin: '528665',
     factorName: 'NH체크카드',
@@ -10841,7 +10822,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1188,
+    id: 1186,
     cardIssuer: 'BC카드',
     bin: '528692',
     factorName: '경남비씨체크',
@@ -10850,7 +10831,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1189,
+    id: 1187,
     cardIssuer: '현대카드',
     bin: '528815',
     factorName: '현대마스터개인',
@@ -10859,7 +10840,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1190,
+    id: 1188,
     cardIssuer: '우리카드',
     bin: '528936',
     factorName: '우리카드',
@@ -10870,7 +10851,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1191,
+    id: 1189,
     cardIssuer: '롯데카드',
     bin: '528937',
     factorName: '롯데플래티늄',
@@ -10879,7 +10860,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1192,
+    id: 1190,
     cardIssuer: '현대카드',
     bin: '528949',
     factorName: '현대 마스터',
@@ -10888,7 +10869,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1193,
+    id: 1191,
     cardIssuer: '현대카드',
     bin: '528951',
     factorName: '현대 마스터',
@@ -10897,7 +10878,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1194,
+    id: 1192,
     cardIssuer: 'BC카드',
     bin: '529014',
     factorName: 'IBK비씨카드',
@@ -10906,7 +10887,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1195,
+    id: 1193,
     cardIssuer: '신한카드',
     bin: '529269',
     factorName: 'CJ ONE',
@@ -10915,7 +10896,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1196,
+    id: 1194,
     cardIssuer: 'BC카드',
     bin: '529803',
     factorName: 'IBK비씨체크',
@@ -10924,7 +10905,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1197,
+    id: 1195,
     cardIssuer: '하나카드',
     bin: '529875',
     factorName: '하나카드',
@@ -10933,7 +10914,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1198,
+    id: 1196,
     cardIssuer: '하나카드',
     bin: '529877',
     factorName: '하나카드',
@@ -10942,7 +10923,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1199,
+    id: 1197,
     cardIssuer: '삼성카드',
     bin: '529899',
     factorName: '삼성마스터',
@@ -10951,7 +10932,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1200,
+    id: 1198,
     cardIssuer: '현대카드',
     bin: '529942',
     factorName: '현대마스터개인',
@@ -10960,7 +10941,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1201,
+    id: 1199,
     cardIssuer: '신한카드',
     bin: '530369',
     factorName: '신한카드법인',
@@ -10969,7 +10950,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1202,
+    id: 1200,
     cardIssuer: 'BC카드',
     bin: '530432',
     factorName: '부산비씨카드',
@@ -10978,7 +10959,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1203,
+    id: 1201,
     cardIssuer: '삼성카드',
     bin: '531070',
     factorName: '삼성 마스타',
@@ -10987,7 +10968,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1204,
+    id: 1202,
     cardIssuer: '삼성카드',
     bin: '531072',
     factorName: '삼성 마스타',
@@ -10996,7 +10977,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1205,
+    id: 1203,
     cardIssuer: '삼성카드',
     bin: '531080',
     factorName: '삼성 마스타',
@@ -11005,7 +10986,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1206,
+    id: 1204,
     cardIssuer: '삼성카드',
     bin: '531082',
     factorName: '삼성 마스타',
@@ -11014,7 +10995,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1207,
+    id: 1205,
     cardIssuer: '삼성카드',
     bin: '531085',
     factorName: '삼성 마스타',
@@ -11023,7 +11004,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1208,
+    id: 1206,
     cardIssuer: '삼성카드',
     bin: '531088',
     factorName: '삼성 마스타',
@@ -11032,7 +11013,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1209,
+    id: 1207,
     cardIssuer: 'BC카드',
     bin: '531194',
     factorName: 'IBK비씨체크',
@@ -11041,7 +11022,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1210,
+    id: 1208,
     cardIssuer: '신한카드',
     bin: '531408',
     factorName: '신한카드',
@@ -11050,7 +11031,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1211,
+    id: 1209,
     cardIssuer: '하나카드',
     bin: '531838',
     factorName: '하나체크카드',
@@ -11059,7 +11040,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1212,
+    id: 1210,
     cardIssuer: '하나카드',
     bin: '532092',
     factorName: '하나체크카드',
@@ -11068,7 +11049,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1213,
+    id: 1211,
     cardIssuer: '신한카드',
     bin: '532105',
     factorName: '신한카드법인',
@@ -11077,7 +11058,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1214,
+    id: 1212,
     cardIssuer: '하나카드',
     bin: '532147',
     factorName: '하나카드',
@@ -11086,7 +11067,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1215,
+    id: 1213,
     cardIssuer: '현대카드',
     bin: '532188',
     factorName: '현대마스터개인',
@@ -11095,7 +11076,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1216,
+    id: 1214,
     cardIssuer: '현대카드',
     bin: '532296',
     factorName: '현대마스터개인',
@@ -11104,7 +11085,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1217,
+    id: 1215,
     cardIssuer: 'BC카드',
     bin: '532444',
     factorName: '우리카드',
@@ -11114,7 +11095,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1218,
+    id: 1216,
     cardIssuer: '삼성카드',
     bin: '532707',
     factorName: '삼성마스터법인',
@@ -11123,7 +11104,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1219,
+    id: 1217,
     cardIssuer: '하나카드',
     bin: '532750',
     factorName: '토스뱅크',
@@ -11132,7 +11113,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1220,
+    id: 1218,
     cardIssuer: '현대카드',
     bin: '532793',
     factorName: '현대마스터개인',
@@ -11141,7 +11122,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1221,
+    id: 1219,
     cardIssuer: 'BC카드',
     bin: '532799',
     factorName: '우리카드',
@@ -11151,7 +11132,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1222,
+    id: 1220,
     cardIssuer: '신한카드',
     bin: '532913',
     factorName: '신한카드',
@@ -11160,7 +11141,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1223,
+    id: 1221,
     cardIssuer: 'BC카드',
     bin: '533032',
     factorName: '부산비씨카드',
@@ -11169,7 +11150,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1224,
+    id: 1222,
     cardIssuer: '하나카드',
     bin: '533427',
     factorName: '하나기업체크',
@@ -11178,7 +11159,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1225,
+    id: 1223,
     cardIssuer: 'KB국민카드',
     bin: '533774',
     factorName: 'KB국민카드',
@@ -11187,7 +11168,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1226,
+    id: 1224,
     cardIssuer: '롯데카드',
     bin: '533872',
     factorName: '롯데카드',
@@ -11196,7 +11177,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1227,
+    id: 1225,
     cardIssuer: 'BC카드',
     bin: '534132',
     factorName: '우리체크',
@@ -11206,7 +11187,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1228,
+    id: 1226,
     cardIssuer: '롯데카드',
     bin: '534292',
     factorName: '롯데카드',
@@ -11215,7 +11196,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1229,
+    id: 1227,
     cardIssuer: 'BC카드',
     bin: '535020',
     factorName: '우리카드',
@@ -11225,7 +11206,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1230,
+    id: 1228,
     cardIssuer: '수협은행',
     bin: '535052',
     factorName: '수협카드',
@@ -11234,7 +11215,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1231,
+    id: 1229,
     cardIssuer: '신한카드',
     bin: '535180',
     factorName: '신한카드체크',
@@ -11243,7 +11224,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1232,
+    id: 1230,
     cardIssuer: '삼성카드',
     bin: '536125',
     factorName: '삼성마스타체크',
@@ -11252,7 +11233,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1233,
+    id: 1231,
     cardIssuer: '삼성카드',
     bin: '536142',
     factorName: '삼성 마스타',
@@ -11261,7 +11242,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1234,
+    id: 1232,
     cardIssuer: '삼성카드',
     bin: '536148',
     factorName: '삼성 마스타',
@@ -11270,7 +11251,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1235,
+    id: 1233,
     cardIssuer: '삼성카드',
     bin: '536181',
     factorName: '삼성 마스타',
@@ -11279,7 +11260,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1236,
+    id: 1234,
     cardIssuer: 'BC카드',
     bin: '536320',
     factorName: '우리카드',
@@ -11289,7 +11270,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1237,
+    id: 1235,
     cardIssuer: 'BC카드',
     bin: '536323',
     factorName: 'SC비씨카드',
@@ -11298,7 +11279,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1238,
+    id: 1236,
     cardIssuer: 'KB국민카드',
     bin: '536326',
     factorName: 'KB국민카드',
@@ -11307,7 +11288,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1239,
+    id: 1237,
     cardIssuer: '신한카드',
     bin: '536460',
     factorName: '신한카드',
@@ -11316,7 +11297,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1240,
+    id: 1238,
     cardIssuer: 'KB국민카드',
     bin: '536510',
     factorName: '카카오뱅크체크',
@@ -11325,7 +11306,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1241,
+    id: 1239,
     cardIssuer: '롯데카드',
     bin: '536539',
     factorName: '롯데카드',
@@ -11334,7 +11315,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1242,
+    id: 1240,
     cardIssuer: '삼성카드',
     bin: '536617',
     factorName: '삼성마스타체크',
@@ -11343,7 +11324,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1243,
+    id: 1241,
     cardIssuer: 'BC카드',
     bin: '53662349',
     factorName: 'SC비씨체크',
@@ -11352,7 +11333,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1244,
+    id: 1242,
     cardIssuer: 'BC카드',
     bin: '53662351',
     factorName: 'SC비씨체크',
@@ -11361,7 +11342,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1245,
+    id: 1243,
     cardIssuer: 'BC카드',
     bin: '53662360',
     factorName: 'SC비씨체크',
@@ -11370,7 +11351,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1246,
+    id: 1244,
     cardIssuer: 'BC카드',
     bin: '53662361',
     factorName: 'SC비씨체크',
@@ -11379,7 +11360,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1247,
+    id: 1245,
     cardIssuer: 'BC카드',
     bin: '53662362',
     factorName: 'SC비씨체크',
@@ -11388,7 +11369,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1248,
+    id: 1246,
     cardIssuer: 'BC카드',
     bin: '53662363',
     factorName: 'SC비씨체크',
@@ -11397,7 +11378,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1249,
+    id: 1247,
     cardIssuer: 'BC카드',
     bin: '53662364',
     factorName: 'SC비씨체크',
@@ -11406,7 +11387,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1250,
+    id: 1248,
     cardIssuer: 'KB국민카드',
     bin: '536624',
     factorName: 'KB국민카드',
@@ -11415,7 +11396,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1251,
+    id: 1249,
     cardIssuer: '삼성카드',
     bin: '536648',
     factorName: '삼성 마스타',
@@ -11424,7 +11405,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1252,
+    id: 1250,
     cardIssuer: 'BC카드',
     bin: '536802',
     factorName: '우리카드',
@@ -11434,7 +11415,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1253,
+    id: 1251,
     cardIssuer: '수협은행',
     bin: '536883',
     factorName: '수협체크',
@@ -11443,7 +11424,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1254,
+    id: 1252,
     cardIssuer: '수협은행',
     bin: '536945',
     factorName: '수협카드',
@@ -11452,7 +11433,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1255,
+    id: 1253,
     cardIssuer: '수협은행',
     bin: '536946',
     factorName: '수협체크',
@@ -11461,7 +11442,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1256,
+    id: 1254,
     cardIssuer: '전북은행',
     bin: '536984',
     factorName: '전북JB카드',
@@ -11472,7 +11453,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1257,
+    id: 1255,
     cardIssuer: 'BC카드',
     bin: '537042',
     factorName: '우리체크',
@@ -11482,7 +11463,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1258,
+    id: 1256,
     cardIssuer: 'BC카드',
     bin: '537044',
     factorName: '우리카드',
@@ -11492,7 +11473,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1259,
+    id: 1257,
     cardIssuer: 'BC카드',
     bin: '537102',
     factorName: '우리체크',
@@ -11502,7 +11483,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1260,
+    id: 1258,
     cardIssuer: 'BC카드',
     bin: '537120',
     factorName: '우리카드',
@@ -11512,7 +11493,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1261,
+    id: 1259,
     cardIssuer: 'BC카드',
     bin: '537145',
     factorName: '우리체크',
@@ -11522,7 +11503,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1262,
+    id: 1260,
     cardIssuer: '하나카드',
     bin: '537614',
     factorName: '하나기업체크',
@@ -11531,7 +11512,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1263,
+    id: 1261,
     cardIssuer: 'BC카드',
     bin: '537620',
     factorName: '우리카드',
@@ -11541,7 +11522,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1264,
+    id: 1262,
     cardIssuer: 'BC카드',
     bin: '537659',
     factorName: '우리카드',
@@ -11551,7 +11532,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1265,
+    id: 1263,
     cardIssuer: '현대카드',
     bin: '537692',
     factorName: '현대마스터개인',
@@ -11560,7 +11541,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1266,
+    id: 1264,
     cardIssuer: 'BC카드',
     bin: '537703',
     factorName: 'BC 카드',
@@ -11569,7 +11550,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1267,
+    id: 1265,
     cardIssuer: 'BC카드',
     bin: '537706',
     factorName: 'BC 카드',
@@ -11578,7 +11559,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1268,
+    id: 1266,
     cardIssuer: 'BC카드',
     bin: '537711',
     factorName: 'NH비씨카드',
@@ -11587,7 +11568,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1269,
+    id: 1267,
     cardIssuer: 'BC카드',
     bin: '537712',
     factorName: 'NH비씨카드',
@@ -11596,7 +11577,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1270,
+    id: 1268,
     cardIssuer: 'BC카드',
     bin: '537720',
     factorName: '비씨카드',
@@ -11605,7 +11586,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1271,
+    id: 1269,
     cardIssuer: 'BC카드',
     bin: '537723',
     factorName: 'SC비씨카드',
@@ -11614,7 +11595,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1272,
+    id: 1270,
     cardIssuer: 'BC카드',
     bin: '537725',
     factorName: '하나SK비씨카드',
@@ -11623,7 +11604,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1273,
+    id: 1271,
     cardIssuer: 'BC카드',
     bin: '537727',
     factorName: '씨티비씨카드',
@@ -11632,7 +11613,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1274,
+    id: 1272,
     cardIssuer: 'BC카드',
     bin: '537731',
     factorName: 'iM뱅크비씨카드',
@@ -11643,7 +11624,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1275,
+    id: 1273,
     cardIssuer: 'BC카드',
     bin: '537732',
     factorName: '부산비씨카드',
@@ -11652,7 +11633,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1276,
+    id: 1274,
     cardIssuer: 'BC카드',
     bin: '537736',
     factorName: '씨티비씨카드',
@@ -11661,7 +11642,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1277,
+    id: 1275,
     cardIssuer: 'BC카드',
     bin: '537739',
     factorName: '경남비씨카드',
@@ -11670,7 +11651,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1278,
+    id: 1276,
     cardIssuer: 'BC카드',
     bin: '537834',
     factorName: '우리카드',
@@ -11680,7 +11661,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1279,
+    id: 1277,
     cardIssuer: '신한카드',
     bin: '537943',
     factorName: '신한카드체크',
@@ -11689,7 +11670,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1280,
+    id: 1278,
     cardIssuer: 'BC카드',
     bin: '537952',
     factorName: '우리카드',
@@ -11699,7 +11680,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1281,
+    id: 1279,
     cardIssuer: '롯데카드',
     bin: '538003',
     factorName: '롯데카드',
@@ -11708,7 +11689,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1282,
+    id: 1280,
     cardIssuer: 'BC카드',
     bin: '538159',
     factorName: '우체국체크',
@@ -11717,7 +11698,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1283,
+    id: 1281,
     cardIssuer: '롯데카드',
     bin: '538165',
     factorName: '롯데카드',
@@ -11726,7 +11707,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1284,
+    id: 1282,
     cardIssuer: 'BC카드',
     bin: '538179',
     factorName: '우리카드',
@@ -11736,7 +11717,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1285,
+    id: 1283,
     cardIssuer: 'BC카드',
     bin: '538720',
     factorName: '우리카드',
@@ -11746,7 +11727,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1286,
+    id: 1284,
     cardIssuer: 'BC카드',
     bin: '538803',
     factorName: 'BC 카드',
@@ -11755,7 +11736,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1287,
+    id: 1285,
     cardIssuer: 'BC카드',
     bin: '538806',
     factorName: 'BC 카드',
@@ -11764,7 +11745,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1288,
+    id: 1286,
     cardIssuer: 'BC카드',
     bin: '538811',
     factorName: 'NH비씨카드',
@@ -11773,7 +11754,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1289,
+    id: 1287,
     cardIssuer: 'BC카드',
     bin: '538812',
     factorName: 'NH농협비씨카드',
@@ -11782,7 +11763,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1290,
+    id: 1288,
     cardIssuer: 'BC카드',
     bin: '538820',
     factorName: '비씨카드',
@@ -11791,7 +11772,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1291,
+    id: 1289,
     cardIssuer: 'BC카드',
     bin: '538823',
     factorName: 'SC비씨카드',
@@ -11802,7 +11783,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1292,
+    id: 1290,
     cardIssuer: 'BC카드',
     bin: '538825',
     factorName: '하나SK비씨카드',
@@ -11811,7 +11792,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1293,
+    id: 1291,
     cardIssuer: 'BC카드',
     bin: '538827',
     factorName: '씨티비씨카드',
@@ -11822,7 +11803,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1294,
+    id: 1292,
     cardIssuer: 'BC카드',
     bin: '538831',
     factorName: 'iM뱅크비씨카드',
@@ -11833,7 +11814,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1295,
+    id: 1293,
     cardIssuer: 'BC카드',
     bin: '538832',
     factorName: '부산비씨카드',
@@ -11844,7 +11825,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1296,
+    id: 1294,
     cardIssuer: 'BC카드',
     bin: '538836',
     factorName: '씨티비씨카드',
@@ -11853,7 +11834,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1297,
+    id: 1295,
     cardIssuer: 'BC카드',
     bin: '538839',
     factorName: '경남비씨카드',
@@ -11864,7 +11845,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1298,
+    id: 1296,
     cardIssuer: 'BC카드',
     bin: '538903',
     factorName: 'IBK비씨체크',
@@ -11873,7 +11854,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1299,
+    id: 1297,
     cardIssuer: 'BC카드',
     bin: '538920',
     factorName: '우리체크',
@@ -11883,7 +11864,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1300,
+    id: 1298,
     cardIssuer: '롯데카드',
     bin: '539030',
     factorName: '롯데카드',
@@ -11892,7 +11873,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1301,
+    id: 1299,
     cardIssuer: 'BC카드',
     bin: '539771',
     factorName: '경남비씨체크',
@@ -11901,7 +11882,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1302,
+    id: 1300,
     cardIssuer: '삼성카드',
     bin: '540447',
     factorName: '삼성 마스타',
@@ -11910,7 +11891,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1303,
+    id: 1301,
     cardIssuer: '신한카드',
     bin: '540486',
     factorName: '신한카드',
@@ -11919,7 +11900,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1304,
+    id: 1302,
     cardIssuer: '하나카드',
     bin: '540497',
     factorName: '하나카드',
@@ -11928,7 +11909,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1305,
+    id: 1303,
     cardIssuer: '삼성카드',
     bin: '540537',
     factorName: '삼성마스타법인',
@@ -11937,7 +11918,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1306,
+    id: 1304,
     cardIssuer: '하나카드',
     bin: '540554',
     factorName: '하나기업',
@@ -11946,7 +11927,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1307,
+    id: 1305,
     cardIssuer: '하나카드',
     bin: '540799',
     factorName: '하나GIFT',
@@ -11955,7 +11936,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1308,
+    id: 1306,
     cardIssuer: 'KB국민카드',
     bin: '540926',
     factorName: 'KB국민카드',
@@ -11964,7 +11945,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1309,
+    id: 1307,
     cardIssuer: 'KB국민카드',
     bin: '540929',
     factorName: 'KB국민카드',
@@ -11973,7 +11954,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1310,
+    id: 1308,
     cardIssuer: 'KB국민카드',
     bin: '540935',
     factorName: 'KB국민카드',
@@ -11982,7 +11963,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1311,
+    id: 1309,
     cardIssuer: 'KB국민카드',
     bin: '540936',
     factorName: 'KB국민카드',
@@ -11991,7 +11972,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1312,
+    id: 1310,
     cardIssuer: 'KB국민카드',
     bin: '540947',
     factorName: 'KB국민카드',
@@ -12000,7 +11981,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1313,
+    id: 1311,
     cardIssuer: 'KB국민카드',
     bin: '540988',
     factorName: 'KB국민카드',
@@ -12009,7 +11990,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1314,
+    id: 1312,
     cardIssuer: '삼성카드',
     bin: '541145',
     factorName: '삼성 마스타',
@@ -12018,7 +11999,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1315,
+    id: 1313,
     cardIssuer: '현대카드',
     bin: '541259',
     factorName: '현대 마스터',
@@ -12027,7 +12008,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1316,
+    id: 1314,
     cardIssuer: 'KB국민카드',
     bin: '541468',
     factorName: 'KB국민카드',
@@ -12036,7 +12017,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1317,
+    id: 1315,
     cardIssuer: '하나카드',
     bin: '541707',
     factorName: '하나카드',
@@ -12045,7 +12026,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1318,
+    id: 1316,
     cardIssuer: '신한카드',
     bin: '542158',
     factorName: '신한카드',
@@ -12054,7 +12035,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1319,
+    id: 1317,
     cardIssuer: '삼성카드',
     bin: '542184',
     factorName: '삼성카드',
@@ -12063,7 +12044,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1320,
+    id: 1318,
     cardIssuer: 'BC카드',
     bin: '542220',
     factorName: '우리카드',
@@ -12073,7 +12054,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1321,
+    id: 1319,
     cardIssuer: '신한카드',
     bin: '542265',
     factorName: '아이사랑카드',
@@ -12082,7 +12063,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1322,
+    id: 1320,
     cardIssuer: 'NH농협카드',
     bin: '542416',
     factorName: 'NH카드',
@@ -12091,7 +12072,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1323,
+    id: 1321,
     cardIssuer: 'NH농협카드',
     bin: '542564',
     factorName: 'NH Platinum',
@@ -12100,7 +12081,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1324,
+    id: 1322,
     cardIssuer: 'NH농협카드',
     bin: '542586',
     factorName: 'NH Platinum',
@@ -12109,7 +12090,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1325,
+    id: 1323,
     cardIssuer: 'BC카드',
     bin: '542720',
     factorName: '우리카드',
@@ -12119,7 +12100,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1326,
+    id: 1324,
     cardIssuer: '신한카드',
     bin: '542879',
     factorName: '신한카드',
@@ -12128,7 +12109,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1327,
+    id: 1325,
     cardIssuer: 'BC카드',
     bin: '542934',
     factorName: '우리카드',
@@ -12138,7 +12119,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1328,
+    id: 1326,
     cardIssuer: 'NH농협카드',
     bin: '543017',
     factorName: 'NH카드',
@@ -12147,7 +12128,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1329,
+    id: 1327,
     cardIssuer: 'NH농협카드',
     bin: '543241',
     factorName: 'NH Platinum',
@@ -12156,7 +12137,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1330,
+    id: 1328,
     cardIssuer: '현대카드',
     bin: '543333',
     factorName: '현대 마스터',
@@ -12165,7 +12146,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1331,
+    id: 1329,
     cardIssuer: '현대카드',
     bin: '543341',
     factorName: '현대 마스터',
@@ -12174,7 +12155,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1332,
+    id: 1330,
     cardIssuer: '하나카드',
     bin: '543617',
     factorName: '하나카드',
@@ -12183,7 +12164,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1333,
+    id: 1331,
     cardIssuer: '신한카드',
     bin: '544004',
     factorName: '신한카드',
@@ -12192,7 +12173,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1334,
+    id: 1332,
     cardIssuer: '삼성카드',
     bin: '544082',
     factorName: '삼성 마스타',
@@ -12201,7 +12182,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1335,
+    id: 1333,
     cardIssuer: 'BC카드',
     bin: '544120',
     factorName: '우리체크',
@@ -12211,7 +12192,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1336,
+    id: 1334,
     cardIssuer: '현대카드',
     bin: '544167',
     factorName: '현대마스터개인',
@@ -12220,7 +12201,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1337,
+    id: 1335,
     cardIssuer: '하나카드',
     bin: '544174',
     factorName: '하나카드',
@@ -12229,7 +12210,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1338,
+    id: 1336,
     cardIssuer: '현대카드',
     bin: '544203',
     factorName: '현대마스터개인',
@@ -12238,7 +12219,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1339,
+    id: 1337,
     cardIssuer: '현대카드',
     bin: '544689',
     factorName: '현대마스터개인',
@@ -12247,7 +12228,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1340,
+    id: 1338,
     cardIssuer: '삼성카드',
     bin: '545089',
     factorName: '삼성 마스타',
@@ -12256,7 +12237,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1341,
+    id: 1339,
     cardIssuer: 'BC카드',
     bin: '545925',
     factorName: '우리카드',
@@ -12266,7 +12247,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1342,
+    id: 1340,
     cardIssuer: 'NH농협카드',
     bin: '546111',
     factorName: 'NH체크카드',
@@ -12275,7 +12256,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1343,
+    id: 1341,
     cardIssuer: 'NH농협카드',
     bin: '546112',
     factorName: 'NH체크카드',
@@ -12284,7 +12265,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1344,
+    id: 1342,
     cardIssuer: '하나카드',
     bin: '546252',
     factorName: '하나카드',
@@ -12293,7 +12274,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1345,
+    id: 1343,
     cardIssuer: '롯데카드',
     bin: '546418',
     factorName: '롯데기프트카드',
@@ -12302,7 +12283,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1346,
+    id: 1344,
     cardIssuer: '삼성카드',
     bin: '546596',
     factorName: '삼성 마스타',
@@ -12311,7 +12292,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1347,
+    id: 1345,
     cardIssuer: '롯데카드',
     bin: '547109',
     factorName: '롯데카드',
@@ -12320,7 +12301,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1348,
+    id: 1346,
     cardIssuer: '현대카드',
     bin: '547227',
     factorName: '현대마스터개인',
@@ -12329,7 +12310,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1349,
+    id: 1347,
     cardIssuer: 'BC카드',
     bin: '547422',
     factorName: '우리체크',
@@ -12339,7 +12320,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1350,
+    id: 1348,
     cardIssuer: '하나카드',
     bin: '547460',
     factorName: '토스뱅크',
@@ -12348,7 +12329,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1351,
+    id: 1349,
     cardIssuer: '롯데카드',
     bin: '547609',
     factorName: '롯데법인카드',
@@ -12357,7 +12338,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1352,
+    id: 1350,
     cardIssuer: '신한카드',
     bin: '547671',
     factorName: '신한카드법인',
@@ -12366,7 +12347,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1353,
+    id: 1351,
     cardIssuer: '전북은행',
     bin: '547924',
     factorName: '전북JB체크',
@@ -12377,7 +12358,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1354,
+    id: 1352,
     cardIssuer: 'BC카드',
     bin: '548020',
     factorName: '우리체크',
@@ -12387,7 +12368,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1355,
+    id: 1353,
     cardIssuer: '씨티카드',
     bin: '548213',
     factorName: '씨티카드',
@@ -12396,7 +12377,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1356,
+    id: 1354,
     cardIssuer: '씨티카드',
     bin: '548596',
     factorName: '씨티카드',
@@ -12405,7 +12386,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1357,
+    id: 1355,
     cardIssuer: 'BC카드',
     bin: '548728',
     factorName: '우리카드',
@@ -12415,7 +12396,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1358,
+    id: 1356,
     cardIssuer: 'BC카드',
     bin: '548732',
     factorName: '부산비씨카드',
@@ -12424,7 +12405,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1359,
+    id: 1357,
     cardIssuer: '현대카드',
     bin: '548750',
     factorName: '현대마스터개인',
@@ -12433,7 +12414,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1360,
+    id: 1358,
     cardIssuer: '삼성카드',
     bin: '548811',
     factorName: '삼성개인신용',
@@ -12444,7 +12425,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1361,
+    id: 1359,
     cardIssuer: '삼성카드',
     bin: '548816',
     factorName: '삼성 마스타',
@@ -12453,7 +12434,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1362,
+    id: 1360,
     cardIssuer: '삼성카드',
     bin: '548818',
     factorName: '삼성 마스타',
@@ -12462,7 +12443,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1363,
+    id: 1361,
     cardIssuer: '신한카드',
     bin: '548841',
     factorName: '신한카드',
@@ -12471,7 +12452,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1364,
+    id: 1362,
     cardIssuer: '현대카드',
     bin: '548870',
     factorName: '현대마스터개인',
@@ -12480,7 +12461,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1365,
+    id: 1363,
     cardIssuer: 'BC카드',
     bin: '548933',
     factorName: '우리카드',
@@ -12490,7 +12471,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1366,
+    id: 1364,
     cardIssuer: '현대카드',
     bin: '549153',
     factorName: '현대 마스터',
@@ -12499,7 +12480,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1367,
+    id: 1365,
     cardIssuer: '현대카드',
     bin: '549155',
     factorName: '현대 마스터',
@@ -12508,7 +12489,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1368,
+    id: 1366,
     cardIssuer: '현대카드',
     bin: '549509',
     factorName: '현대마스터개인',
@@ -12517,7 +12498,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1369,
+    id: 1367,
     cardIssuer: '하나카드',
     bin: '549737',
     factorName: '토스뱅크',
@@ -12526,7 +12507,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1370,
+    id: 1368,
     cardIssuer: '신한카드',
     bin: '549840',
     factorName: '신한VIP카드',
@@ -12535,7 +12516,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1371,
+    id: 1369,
     cardIssuer: '하나카드',
     bin: '549861',
     factorName: '하나카드',
@@ -12544,7 +12525,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1372,
+    id: 1370,
     cardIssuer: '현대카드',
     bin: '550000',
     factorName: '현대마스터개인',
@@ -12553,7 +12534,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1373,
+    id: 1371,
     cardIssuer: '현대카드',
     bin: '550347',
     factorName: '현대마스터개인',
@@ -12562,7 +12543,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1374,
+    id: 1372,
     cardIssuer: '신한카드',
     bin: '550744',
     factorName: '신한카드체크',
@@ -12571,7 +12552,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1375,
+    id: 1373,
     cardIssuer: 'BC카드',
     bin: '551431',
     factorName: 'iM뱅크비씨체크',
@@ -12582,7 +12563,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1376,
+    id: 1374,
     cardIssuer: '삼성카드',
     bin: '552014',
     factorName: '삼성 마스타',
@@ -12591,7 +12572,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1377,
+    id: 1375,
     cardIssuer: '현대카드',
     bin: '552051',
     factorName: '현대 마스터',
@@ -12600,7 +12581,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1378,
+    id: 1376,
     cardIssuer: '현대카드',
     bin: '552052',
     factorName: '현대 마스터',
@@ -12609,7 +12590,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1379,
+    id: 1377,
     cardIssuer: '신한카드',
     bin: '552087',
     factorName: '신한카드',
@@ -12618,7 +12599,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1380,
+    id: 1378,
     cardIssuer: 'BC카드',
     bin: '552103',
     factorName: 'BC PLATINUM',
@@ -12627,7 +12608,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1381,
+    id: 1379,
     cardIssuer: 'BC카드',
     bin: '552106',
     factorName: 'BC PLATINUM',
@@ -12636,7 +12617,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1382,
+    id: 1380,
     cardIssuer: 'BC카드',
     bin: '552111',
     factorName: 'NH비씨카드',
@@ -12645,7 +12626,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1383,
+    id: 1381,
     cardIssuer: 'BC카드',
     bin: '552112',
     factorName: 'NH비씨카드',
@@ -12654,7 +12635,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1384,
+    id: 1382,
     cardIssuer: '삼성카드',
     bin: '552114',
     factorName: '삼성 마스타',
@@ -12663,7 +12644,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1385,
+    id: 1383,
     cardIssuer: 'BC카드',
     bin: '552120',
     factorName: '비씨카드',
@@ -12672,7 +12653,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1386,
+    id: 1384,
     cardIssuer: 'BC카드',
     bin: '552122',
     factorName: '우리카드',
@@ -12682,7 +12663,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1387,
+    id: 1385,
     cardIssuer: 'BC카드',
     bin: '552123',
     factorName: 'SC비씨카드',
@@ -12691,7 +12672,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1388,
+    id: 1386,
     cardIssuer: 'BC카드',
     bin: '552125',
     factorName: '하나SK비씨카드',
@@ -12700,7 +12681,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1389,
+    id: 1387,
     cardIssuer: 'BC카드',
     bin: '552131',
     factorName: 'iM뱅크비씨카드',
@@ -12711,7 +12692,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1390,
+    id: 1388,
     cardIssuer: 'BC카드',
     bin: '552132',
     factorName: '부산비씨카드',
@@ -12720,7 +12701,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1391,
+    id: 1389,
     cardIssuer: '하나카드',
     bin: '552133',
     factorName: '하나체크카드',
@@ -12729,7 +12710,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1392,
+    id: 1390,
     cardIssuer: '롯데카드',
     bin: '552136',
     factorName: '롯데다이아몬드',
@@ -12738,7 +12719,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1393,
+    id: 1391,
     cardIssuer: 'BC카드',
     bin: '552139',
     factorName: '경남비씨카드',
@@ -12747,7 +12728,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1394,
+    id: 1392,
     cardIssuer: '현대카드',
     bin: '552164',
     factorName: '현대 마스터',
@@ -12756,7 +12737,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1395,
+    id: 1393,
     cardIssuer: '삼성카드',
     bin: '552194',
     factorName: '삼성 마스타',
@@ -12765,7 +12746,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1396,
+    id: 1394,
     cardIssuer: 'BC카드',
     bin: '552220',
     factorName: '우리카드',
@@ -12775,7 +12756,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1397,
+    id: 1395,
     cardIssuer: '현대카드',
     bin: '552290',
     factorName: '개인레드',
@@ -12784,7 +12765,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1398,
+    id: 1396,
     cardIssuer: '하나카드',
     bin: '552323',
     factorName: '하나카드',
@@ -12793,7 +12774,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1399,
+    id: 1397,
     cardIssuer: '현대카드',
     bin: '552376',
     factorName: '개인블랙',
@@ -12802,7 +12783,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1400,
+    id: 1398,
     cardIssuer: '현대카드',
     bin: '552377',
     factorName: '개인퍼플',
@@ -12811,7 +12792,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1401,
+    id: 1399,
     cardIssuer: 'NH농협카드',
     bin: '552386',
     factorName: 'NH World',
@@ -12820,7 +12801,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1402,
+    id: 1400,
     cardIssuer: 'NH농협카드',
     bin: '552387',
     factorName: 'NH World',
@@ -12829,7 +12810,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1403,
+    id: 1401,
     cardIssuer: '하나카드',
     bin: '552407',
     factorName: '하나카드',
@@ -12838,7 +12819,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1404,
+    id: 1402,
     cardIssuer: 'BC카드',
     bin: '552432',
     factorName: '부산비씨카드',
@@ -12847,7 +12828,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1405,
+    id: 1403,
     cardIssuer: '현대카드',
     bin: '552441',
     factorName: '현대마스터개인',
@@ -12856,7 +12837,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1406,
+    id: 1404,
     cardIssuer: '현대카드',
     bin: '552445',
     factorName: '현대마스터개인',
@@ -12865,7 +12846,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1407,
+    id: 1405,
     cardIssuer: 'BC카드',
     bin: '552527',
     factorName: '씨티비씨카드',
@@ -12874,7 +12855,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1408,
+    id: 1406,
     cardIssuer: 'BC카드',
     bin: '552532',
     factorName: '부산비씨카드',
@@ -12883,7 +12864,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1409,
+    id: 1407,
     cardIssuer: 'BC카드',
     bin: '552533',
     factorName: '하나SK비씨카드',
@@ -12892,7 +12873,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1410,
+    id: 1408,
     cardIssuer: '신한카드',
     bin: '552537',
     factorName: '신한카드법인',
@@ -12901,7 +12882,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1411,
+    id: 1409,
     cardIssuer: '신한카드',
     bin: '552576',
     factorName: '신한카드법인',
@@ -12910,7 +12891,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1412,
+    id: 1410,
     cardIssuer: 'BC카드',
     bin: '552803',
     factorName: 'IBK비씨카드',
@@ -12919,7 +12900,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1413,
+    id: 1411,
     cardIssuer: 'BC카드',
     bin: '552806',
     factorName: 'KB국민비씨카드',
@@ -12928,7 +12909,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1414,
+    id: 1412,
     cardIssuer: 'BC카드',
     bin: '552811',
     factorName: 'NH농협비씨카드',
@@ -12937,7 +12918,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1415,
+    id: 1413,
     cardIssuer: 'BC카드',
     bin: '552812',
     factorName: 'NH농협비씨카드',
@@ -12946,7 +12927,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1416,
+    id: 1414,
     cardIssuer: 'BC카드',
     bin: '552821',
     factorName: '신한비씨카드',
@@ -12955,7 +12936,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1417,
+    id: 1415,
     cardIssuer: 'BC카드',
     bin: '55282360',
     factorName: 'SC비씨카드',
@@ -12964,7 +12945,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1418,
+    id: 1416,
     cardIssuer: 'BC카드',
     bin: '55282361',
     factorName: 'SC비씨카드',
@@ -12973,7 +12954,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1419,
+    id: 1417,
     cardIssuer: 'BC카드',
     bin: '55282362',
     factorName: 'SC비씨카드',
@@ -12982,7 +12963,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1420,
+    id: 1418,
     cardIssuer: 'BC카드',
     bin: '55282363',
     factorName: 'SC비씨카드',
@@ -12991,7 +12972,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1421,
+    id: 1419,
     cardIssuer: 'BC카드',
     bin: '55282364',
     factorName: 'SC비씨카드',
@@ -13000,7 +12981,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1422,
+    id: 1420,
     cardIssuer: 'BC카드',
     bin: '55282398',
     factorName: 'SC비씨카드',
@@ -13009,7 +12990,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1423,
+    id: 1421,
     cardIssuer: 'BC카드',
     bin: '552839',
     factorName: '경남비씨카드',
@@ -13018,7 +12999,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1424,
+    id: 1422,
     cardIssuer: 'BC카드',
     bin: '552920',
     factorName: '우리카드',
@@ -13028,7 +13009,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1425,
+    id: 1423,
     cardIssuer: 'BC카드',
     bin: '553078',
     factorName: '신한비씨카드',
@@ -13037,7 +13018,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1426,
+    id: 1424,
     cardIssuer: '현대카드',
     bin: '553142',
     factorName: '현대법인카드',
@@ -13046,7 +13027,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1427,
+    id: 1425,
     cardIssuer: '신한카드',
     bin: '553144',
     factorName: '신한카드법인',
@@ -13055,7 +13036,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1428,
+    id: 1426,
     cardIssuer: '신한카드',
     bin: '553146',
     factorName: '신한카드법인',
@@ -13064,7 +13045,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1429,
+    id: 1427,
     cardIssuer: '삼성카드',
     bin: '553147',
     factorName: '삼성 마스타',
@@ -13073,7 +13054,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1430,
+    id: 1428,
     cardIssuer: '현대카드',
     bin: '553150',
     factorName: '현대마스터법인',
@@ -13082,7 +13063,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1431,
+    id: 1429,
     cardIssuer: 'KB국민카드',
     bin: '553151',
     factorName: 'KB CEO기업카드',
@@ -13091,7 +13072,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1432,
+    id: 1430,
     cardIssuer: '신한카드',
     bin: '553152',
     factorName: '신한카드법인',
@@ -13100,7 +13081,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1433,
+    id: 1431,
     cardIssuer: '롯데카드',
     bin: '553155',
     factorName: '롯데법인플래티',
@@ -13109,7 +13090,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1434,
+    id: 1432,
     cardIssuer: '하나카드',
     bin: '553168',
     factorName: '하나카드',
@@ -13118,7 +13099,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1435,
+    id: 1433,
     cardIssuer: '롯데카드',
     bin: '553169',
     factorName: '롯데법인다이아',
@@ -13127,7 +13108,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1436,
+    id: 1434,
     cardIssuer: 'NH농협카드',
     bin: '553171',
     factorName: 'NH기업카드',
@@ -13136,7 +13117,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1437,
+    id: 1435,
     cardIssuer: 'NH농협카드',
     bin: '553172',
     factorName: 'NH기업카드',
@@ -13145,7 +13126,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1438,
+    id: 1436,
     cardIssuer: '하나카드',
     bin: '553173',
     factorName: '하나기업',
@@ -13154,7 +13135,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1439,
+    id: 1437,
     cardIssuer: '삼성카드',
     bin: '553176',
     factorName: '삼성마스타',
@@ -13163,7 +13144,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1440,
+    id: 1438,
     cardIssuer: '하나카드',
     bin: '553177',
     factorName: '하나카드',
@@ -13172,7 +13153,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1441,
+    id: 1439,
     cardIssuer: 'BC카드',
     bin: '553178',
     factorName: '신한비씨카드',
@@ -13181,7 +13162,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1442,
+    id: 1440,
     cardIssuer: '하나카드',
     bin: '553179',
     factorName: '하나카드',
@@ -13190,7 +13171,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1443,
+    id: 1441,
     cardIssuer: 'NH농협카드',
     bin: '553180',
     factorName: 'NH Diamond',
@@ -13199,7 +13180,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1444,
+    id: 1442,
     cardIssuer: 'NH농협카드',
     bin: '553181',
     factorName: 'NH Diamond',
@@ -13208,7 +13189,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1445,
+    id: 1443,
     cardIssuer: '하나카드',
     bin: '553184',
     factorName: '하나기업',
@@ -13217,7 +13198,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1446,
+    id: 1444,
     cardIssuer: '전북은행',
     bin: '553190',
     factorName: '전북JB카드',
@@ -13228,7 +13209,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1447,
+    id: 1445,
     cardIssuer: 'BC카드',
     bin: '553208',
     factorName: '우리카드',
@@ -13238,7 +13219,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1448,
+    id: 1446,
     cardIssuer: 'BC카드',
     bin: '553211',
     factorName: 'NH농협비씨카드',
@@ -13247,7 +13228,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1449,
+    id: 1447,
     cardIssuer: 'BC카드',
     bin: '553212',
     factorName: 'NH농협비씨카드',
@@ -13256,7 +13237,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1450,
+    id: 1448,
     cardIssuer: 'BC카드',
     bin: '553213',
     factorName: 'NH농협비씨카드',
@@ -13265,7 +13246,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1451,
+    id: 1449,
     cardIssuer: 'BC카드',
     bin: '553214',
     factorName: 'NH농협비씨카드',
@@ -13274,7 +13255,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1452,
+    id: 1450,
     cardIssuer: 'BC카드',
     bin: '553219',
     factorName: '비씨카드',
@@ -13283,7 +13264,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1453,
+    id: 1451,
     cardIssuer: 'BC카드',
     bin: '553220',
     factorName: '우리카드',
@@ -13293,7 +13274,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1454,
+    id: 1452,
     cardIssuer: 'BC카드',
     bin: '553221',
     factorName: 'iM뱅크비씨카드',
@@ -13304,7 +13285,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1455,
+    id: 1453,
     cardIssuer: 'BC카드',
     bin: '553224',
     factorName: '우리체크',
@@ -13314,7 +13295,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1456,
+    id: 1454,
     cardIssuer: 'BC카드',
     bin: '553225',
     factorName: '하나비씨카드',
@@ -13323,7 +13304,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1457,
+    id: 1455,
     cardIssuer: '현대카드',
     bin: '553406',
     factorName: '현대 마스터',
@@ -13332,7 +13313,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1458,
+    id: 1456,
     cardIssuer: '현대카드',
     bin: '553423',
     factorName: '현대 마스터',
@@ -13341,7 +13322,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1459,
+    id: 1457,
     cardIssuer: '전북은행',
     bin: '553531',
     factorName: '전북JB카드',
@@ -13352,7 +13333,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1460,
+    id: 1458,
     cardIssuer: 'BC카드',
     bin: '553820',
     factorName: '우리체크',
@@ -13362,7 +13343,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1461,
+    id: 1459,
     cardIssuer: 'KB국민카드',
     bin: '554345',
     factorName: 'KB기업프리체크',
@@ -13371,7 +13352,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1462,
+    id: 1460,
     cardIssuer: 'KB국민카드',
     bin: '554346',
     factorName: 'KB체크프리패스',
@@ -13380,7 +13361,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1463,
+    id: 1461,
     cardIssuer: 'KB국민카드',
     bin: '554349',
     factorName: 'KB체크프리패스',
@@ -13389,7 +13370,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1464,
+    id: 1462,
     cardIssuer: 'KB국민카드',
     bin: '554382',
     factorName: 'KB체크프리패스',
@@ -13398,7 +13379,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1465,
+    id: 1463,
     cardIssuer: '신한카드',
     bin: '554481',
     factorName: '신한카드',
@@ -13407,7 +13388,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1466,
+    id: 1464,
     cardIssuer: 'BC카드',
     bin: '554578',
     factorName: '신한비씨카드',
@@ -13416,7 +13397,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1467,
+    id: 1465,
     cardIssuer: 'BC카드',
     bin: '554620',
     factorName: '우리카드',
@@ -13426,7 +13407,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1468,
+    id: 1466,
     cardIssuer: 'KB국민카드',
     bin: '554648',
     factorName: 'KB국민카드',
@@ -13435,7 +13416,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1469,
+    id: 1467,
     cardIssuer: 'KB국민카드',
     bin: '554959',
     factorName: 'KB플래티늄카드',
@@ -13444,7 +13425,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1470,
+    id: 1468,
     cardIssuer: 'KB국민카드',
     bin: '554963',
     factorName: 'KB플래티늄카드',
@@ -13453,7 +13434,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1471,
+    id: 1469,
     cardIssuer: 'KB국민카드',
     bin: '554973',
     factorName: 'KB플래티늄카드',
@@ -13462,7 +13443,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1472,
+    id: 1470,
     cardIssuer: '삼성카드',
     bin: '555023',
     factorName: '삼성마스타법인',
@@ -13471,7 +13452,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1473,
+    id: 1471,
     cardIssuer: 'KB국민카드',
     bin: '555231',
     factorName: 'KB기업카드',
@@ -13480,7 +13461,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1474,
+    id: 1472,
     cardIssuer: '삼성카드',
     bin: '555511',
     factorName: '삼성라운지',
@@ -13489,7 +13470,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1475,
+    id: 1473,
     cardIssuer: 'BC카드',
     bin: '555870',
     factorName: '우체국체크',
@@ -13498,7 +13479,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1476,
+    id: 1474,
     cardIssuer: '전북은행',
     bin: '555904',
     factorName: '전북JB카드',
@@ -13509,7 +13490,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1477,
+    id: 1475,
     cardIssuer: 'BC카드',
     bin: '555916',
     factorName: '우리카드',
@@ -13519,7 +13500,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1478,
+    id: 1476,
     cardIssuer: '롯데카드',
     bin: '556608',
     factorName: '롯데법인카드',
@@ -13528,7 +13509,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1479,
+    id: 1477,
     cardIssuer: '하나카드',
     bin: '556659',
     factorName: '하나카드',
@@ -13537,7 +13518,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1480,
+    id: 1478,
     cardIssuer: 'BC카드',
     bin: '556678',
     factorName: '신한비씨카드',
@@ -13546,7 +13527,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1481,
+    id: 1479,
     cardIssuer: 'KB국민카드',
     bin: '557042',
     factorName: 'KB국민카드',
@@ -13555,7 +13536,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1482,
+    id: 1480,
     cardIssuer: 'KB국민카드',
     bin: '557712',
     factorName: 'KB국민카드',
@@ -13564,7 +13545,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1483,
+    id: 1481,
     cardIssuer: 'KB국민카드',
     bin: '557811',
     factorName: 'KB체크기업카드',
@@ -13573,7 +13554,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1484,
+    id: 1482,
     cardIssuer: '전북은행',
     bin: '557889',
     factorName: '전북JB카드',
@@ -13584,7 +13565,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1485,
+    id: 1483,
     cardIssuer: '신한카드',
     bin: '558370',
     factorName: '신한카드',
@@ -13593,7 +13574,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1486,
+    id: 1484,
     cardIssuer: 'BC카드',
     bin: '558420',
     factorName: '우리카드',
@@ -13603,7 +13584,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1487,
+    id: 1485,
     cardIssuer: '씨티카드',
     bin: '558453',
     factorName: '씨티카드',
@@ -13612,7 +13593,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1488,
+    id: 1486,
     cardIssuer: 'BC카드',
     bin: '558503',
     factorName: 'IBK비씨카드',
@@ -13621,7 +13602,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1489,
+    id: 1487,
     cardIssuer: 'BC카드',
     bin: '558506',
     factorName: 'KB국민비씨카드',
@@ -13630,7 +13611,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1490,
+    id: 1488,
     cardIssuer: 'BC카드',
     bin: '558511',
     factorName: 'NH농협비씨카드',
@@ -13639,7 +13620,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1491,
+    id: 1489,
     cardIssuer: 'BC카드',
     bin: '558512',
     factorName: 'NH농협비씨카드',
@@ -13648,7 +13629,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1492,
+    id: 1490,
     cardIssuer: 'BC카드',
     bin: '558520',
     factorName: '비씨카드',
@@ -13657,7 +13638,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1493,
+    id: 1491,
     cardIssuer: 'BC카드',
     bin: '558521',
     factorName: '신한비씨카드',
@@ -13666,7 +13647,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1494,
+    id: 1492,
     cardIssuer: 'BC카드',
     bin: '558523',
     factorName: 'SC비씨카드',
@@ -13675,7 +13656,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1495,
+    id: 1493,
     cardIssuer: 'BC카드',
     bin: '558525',
     factorName: '하나SK비씨카드',
@@ -13684,7 +13665,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1496,
+    id: 1494,
     cardIssuer: 'KB국민카드',
     bin: '558526',
     factorName: 'KB 기업카드',
@@ -13693,7 +13674,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1497,
+    id: 1495,
     cardIssuer: 'BC카드',
     bin: '558527',
     factorName: '씨티비씨카드',
@@ -13702,7 +13683,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1498,
+    id: 1496,
     cardIssuer: 'BC카드',
     bin: '558531',
     factorName: 'iM뱅크비씨카드',
@@ -13713,7 +13694,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1499,
+    id: 1497,
     cardIssuer: 'BC카드',
     bin: '558532',
     factorName: '부산비씨카드',
@@ -13722,7 +13703,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1500,
+    id: 1498,
     cardIssuer: 'BC카드',
     bin: '558539',
     factorName: '경남비씨카드',
@@ -13731,7 +13712,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1501,
+    id: 1499,
     cardIssuer: '현대카드',
     bin: '558735',
     factorName: '현대 마스터',
@@ -13740,7 +13721,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1502,
+    id: 1500,
     cardIssuer: '하나카드',
     bin: '558738',
     factorName: '하나기업',
@@ -13749,7 +13730,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1503,
+    id: 1501,
     cardIssuer: '삼성카드',
     bin: '558749',
     factorName: '삼성마스타법인',
@@ -13758,7 +13739,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1504,
+    id: 1502,
     cardIssuer: '신한카드',
     bin: '558768',
     factorName: '신한카드법인',
@@ -13767,7 +13748,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1505,
+    id: 1503,
     cardIssuer: '현대카드',
     bin: '558813',
     factorName: '현대마스터개인',
@@ -13776,7 +13757,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1506,
+    id: 1504,
     cardIssuer: '현대카드',
     bin: '558817',
     factorName: '현대마스터개인',
@@ -13785,7 +13766,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1507,
+    id: 1505,
     cardIssuer: '하나카드',
     bin: '558822',
     factorName: '하나기업',
@@ -13794,7 +13775,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1508,
+    id: 1506,
     cardIssuer: '현대카드',
     bin: '558875',
     factorName: '현대 마스터',
@@ -13803,7 +13784,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1509,
+    id: 1507,
     cardIssuer: '하나카드',
     bin: '558881',
     factorName: '하나기업',
@@ -13812,7 +13793,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1510,
+    id: 1508,
     cardIssuer: '신한카드',
     bin: '558885',
     factorName: '신한카드',
@@ -13821,7 +13802,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1511,
+    id: 1509,
     cardIssuer: 'BC카드',
     bin: '558903',
     factorName: 'IBK비씨카드',
@@ -13830,7 +13811,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1512,
+    id: 1510,
     cardIssuer: 'BC카드',
     bin: '558906',
     factorName: 'KB국민비씨카드',
@@ -13839,7 +13820,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1513,
+    id: 1511,
     cardIssuer: 'BC카드',
     bin: '558911',
     factorName: 'NH농협비씨카드',
@@ -13848,7 +13829,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1514,
+    id: 1512,
     cardIssuer: 'BC카드',
     bin: '558912',
     factorName: 'NH농협비씨카드',
@@ -13857,7 +13838,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1515,
+    id: 1513,
     cardIssuer: 'BC카드',
     bin: '558914',
     factorName: '우리카드',
@@ -13867,7 +13848,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1516,
+    id: 1514,
     cardIssuer: '현대카드',
     bin: '558915',
     factorName: '법인블랙',
@@ -13876,7 +13857,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1517,
+    id: 1515,
     cardIssuer: 'BC카드',
     bin: '558917',
     factorName: '우리카드',
@@ -13886,7 +13867,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1518,
+    id: 1516,
     cardIssuer: 'BC카드',
     bin: '558920',
     factorName: '우리카드',
@@ -13896,7 +13877,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1519,
+    id: 1517,
     cardIssuer: 'BC카드',
     bin: '558921',
     factorName: '신한비씨카드',
@@ -13905,61 +13886,73 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1520,
+    id: 1518,
     cardIssuer: 'BC카드',
     bin: '55892350',
     factorName: 'SC비씨카드',
     corporate: '법인',
     brand: '마스터',
     creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '삭제',
   ),
   CardBinModel(
-    id: 1521,
+    id: 1519,
     cardIssuer: 'BC카드',
     bin: '55892360',
     factorName: 'SC비씨카드',
     corporate: '법인',
     brand: '마스터',
     creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '삭제',
   ),
   CardBinModel(
-    id: 1522,
+    id: 1520,
     cardIssuer: 'BC카드',
     bin: '55892361',
     factorName: 'SC비씨카드',
     corporate: '법인',
     brand: '마스터',
     creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '삭제',
   ),
   CardBinModel(
-    id: 1523,
+    id: 1521,
     cardIssuer: 'BC카드',
     bin: '55892362',
     factorName: 'SC비씨카드',
     corporate: '법인',
     brand: '마스터',
     creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '삭제',
   ),
   CardBinModel(
-    id: 1524,
+    id: 1522,
     cardIssuer: 'BC카드',
     bin: '55892363',
     factorName: 'SC비씨카드',
     corporate: '법인',
     brand: '마스터',
     creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '삭제',
   ),
   CardBinModel(
-    id: 1525,
+    id: 1523,
     cardIssuer: 'BC카드',
     bin: '55892364',
     factorName: 'SC비씨카드',
     corporate: '법인',
     brand: '마스터',
     creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '삭제',
   ),
   CardBinModel(
-    id: 1526,
+    id: 1524,
     cardIssuer: 'BC카드',
     bin: '558925',
     factorName: '하나SK비씨카드',
@@ -13968,7 +13961,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1527,
+    id: 1525,
     cardIssuer: 'BC카드',
     bin: '558927',
     factorName: '씨티비씨카드',
@@ -13977,7 +13970,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1528,
+    id: 1526,
     cardIssuer: 'BC카드',
     bin: '558931',
     factorName: 'iM뱅크비씨카드',
@@ -13988,7 +13981,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1529,
+    id: 1527,
     cardIssuer: 'BC카드',
     bin: '558932',
     factorName: '부산비씨카드',
@@ -13997,7 +13990,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1530,
+    id: 1528,
     cardIssuer: 'BC카드',
     bin: '558939',
     factorName: '경남비씨카드',
@@ -14006,7 +13999,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1531,
+    id: 1529,
     cardIssuer: '신한카드',
     bin: '558950',
     factorName: '신한VIP카드',
@@ -14015,7 +14008,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1532,
+    id: 1530,
     cardIssuer: '삼성카드',
     bin: '558953',
     factorName: '삼성마스터법인',
@@ -14024,7 +14017,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1533,
+    id: 1531,
     cardIssuer: '하나카드',
     bin: '558961',
     factorName: '하나기업',
@@ -14033,7 +14026,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1534,
+    id: 1532,
     cardIssuer: '현대카드',
     bin: '558970',
     factorName: '법인블랙',
@@ -14042,7 +14035,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1535,
+    id: 1533,
     cardIssuer: '현대카드',
     bin: '558971',
     factorName: '법인퍼플',
@@ -14051,7 +14044,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1536,
+    id: 1534,
     cardIssuer: '현대카드',
     bin: '558972',
     factorName: '법인레드',
@@ -14060,7 +14053,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1537,
+    id: 1535,
     cardIssuer: 'NH농협카드',
     bin: '558975',
     factorName: 'NH World',
@@ -14069,7 +14062,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1538,
+    id: 1536,
     cardIssuer: '삼성카드',
     bin: '558978',
     factorName: '삼성 마스타',
@@ -14078,7 +14071,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1539,
+    id: 1537,
     cardIssuer: 'BC카드',
     bin: '559084',
     factorName: '우리카드',
@@ -14088,7 +14081,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1540,
+    id: 1538,
     cardIssuer: 'BC카드',
     bin: '559123',
     factorName: 'SC비씨카드',
@@ -14097,7 +14090,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1541,
+    id: 1539,
     cardIssuer: '전북은행',
     bin: '559246',
     factorName: '전북JB체크',
@@ -14108,7 +14101,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1542,
+    id: 1540,
     cardIssuer: '현대카드',
     bin: '559293',
     factorName: '현대 카드',
@@ -14117,7 +14110,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1543,
+    id: 1541,
     cardIssuer: '신한카드',
     bin: '559410',
     factorName: '신한카드체크',
@@ -14126,7 +14119,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1544,
+    id: 1542,
     cardIssuer: 'NH농협카드',
     bin: '559434',
     factorName: 'NH체크카드',
@@ -14135,7 +14128,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1545,
+    id: 1543,
     cardIssuer: 'NH농협카드',
     bin: '559438',
     factorName: 'NH체크카드',
@@ -14144,7 +14137,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1546,
+    id: 1544,
     cardIssuer: '롯데카드',
     bin: '559588',
     factorName: '롯데카드',
@@ -14153,7 +14146,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1547,
+    id: 1545,
     cardIssuer: 'BC카드',
     bin: '559620',
     factorName: '우리체크',
@@ -14163,7 +14156,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1548,
+    id: 1546,
     cardIssuer: 'BC카드',
     bin: '559632',
     factorName: '부산비씨체크',
@@ -14172,7 +14165,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1549,
+    id: 1547,
     cardIssuer: 'BC카드',
     bin: '559639',
     factorName: '경남비씨체크',
@@ -14181,7 +14174,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1550,
+    id: 1548,
     cardIssuer: 'KB국민카드',
     bin: '559869',
     factorName: 'KB국민카드',
@@ -14190,7 +14183,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1551,
+    id: 1549,
     cardIssuer: '현대카드',
     bin: '559913',
     factorName: '현대마스터개인',
@@ -14199,7 +14192,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1552,
+    id: 1550,
     cardIssuer: '현대카드',
     bin: '559924',
     factorName: '현대마스터개인',
@@ -14208,7 +14201,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1553,
+    id: 1551,
     cardIssuer: 'BC카드',
     bin: '559957',
     factorName: 'iM뱅크비씨카드',
@@ -14219,7 +14212,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1554,
+    id: 1552,
     cardIssuer: '롯데카드',
     bin: '559962',
     factorName: '롯데법인카드',
@@ -14228,7 +14221,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1555,
+    id: 1553,
     cardIssuer: 'BC카드',
     bin: '60482349',
     factorName: 'SC비씨체크',
@@ -14237,7 +14230,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1556,
+    id: 1554,
     cardIssuer: 'BC카드',
     bin: '60482351',
     factorName: 'SC비씨체크',
@@ -14246,7 +14239,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1557,
+    id: 1555,
     cardIssuer: 'BC카드',
     bin: '60482360',
     factorName: 'SC비씨체크',
@@ -14255,7 +14248,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1558,
+    id: 1556,
     cardIssuer: 'BC카드',
     bin: '60482361',
     factorName: 'SC비씨체크',
@@ -14264,7 +14257,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1559,
+    id: 1557,
     cardIssuer: 'BC카드',
     bin: '60482362',
     factorName: 'SC비씨체크',
@@ -14273,7 +14266,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1560,
+    id: 1558,
     cardIssuer: 'BC카드',
     bin: '60482363',
     factorName: 'SC비씨체크',
@@ -14282,7 +14275,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1561,
+    id: 1559,
     cardIssuer: 'BC카드',
     bin: '60482364',
     factorName: 'SC비씨체크',
@@ -14291,7 +14284,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1562,
+    id: 1560,
     cardIssuer: 'BC카드',
     bin: '605615',
     factorName: '우리체크',
@@ -14301,7 +14294,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1563,
+    id: 1561,
     cardIssuer: '신한카드',
     bin: '606045',
     factorName: '신한카드체크',
@@ -14310,7 +14303,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1564,
+    id: 1562,
     cardIssuer: 'NH농협카드',
     bin: '606052',
     factorName: 'NH체크카드',
@@ -14319,7 +14312,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1565,
+    id: 1563,
     cardIssuer: 'BC카드',
     bin: '620011',
     factorName: 'NH비씨기프트',
@@ -14328,7 +14321,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1566,
+    id: 1564,
     cardIssuer: 'BC카드',
     bin: '620027',
     factorName: '씨티비씨GIFT',
@@ -14337,7 +14330,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1567,
+    id: 1565,
     cardIssuer: 'BC카드',
     bin: '620031',
     factorName: 'iM뱅크비씨GIFT',
@@ -14348,7 +14341,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1568,
+    id: 1566,
     cardIssuer: 'BC카드',
     bin: '620039',
     factorName: '경남비씨GIFT',
@@ -14357,7 +14350,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1569,
+    id: 1567,
     cardIssuer: 'BC카드',
     bin: '620103',
     factorName: 'BC중국통기프트',
@@ -14366,7 +14359,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1570,
+    id: 1568,
     cardIssuer: 'BC카드',
     bin: '620106',
     factorName: 'BC중국통기프트',
@@ -14375,7 +14368,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1571,
+    id: 1569,
     cardIssuer: 'BC카드',
     bin: '620123',
     factorName: 'SC비씨GIFT',
@@ -14384,7 +14377,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1572,
+    id: 1570,
     cardIssuer: 'BC카드',
     bin: '620125',
     factorName: 'BC중국통기프트',
@@ -14393,7 +14386,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1573,
+    id: 1571,
     cardIssuer: 'BC카드',
     bin: '620132',
     factorName: '비씨GIFT',
@@ -14404,7 +14397,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1574,
+    id: 1572,
     cardIssuer: 'BC카드',
     bin: '620220',
     factorName: '비씨GIFT',
@@ -14413,7 +14406,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1575,
+    id: 1573,
     cardIssuer: 'BC카드',
     bin: '620278',
     factorName: '신한비씨GIFT',
@@ -14422,7 +14415,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1576,
+    id: 1574,
     cardIssuer: 'BC카드',
     bin: '620812',
     factorName: 'NH비씨기프트',
@@ -14431,7 +14424,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1577,
+    id: 1575,
     cardIssuer: 'BC카드',
     bin: '621003',
     factorName: '비씨은련체크',
@@ -14440,7 +14433,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1578,
+    id: 1576,
     cardIssuer: 'BC카드',
     bin: '621006',
     factorName: 'IBK비씨체크',
@@ -14449,7 +14442,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1579,
+    id: 1577,
     cardIssuer: 'BC카드',
     bin: '621011',
     factorName: 'NH비씨체크',
@@ -14458,7 +14451,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1580,
+    id: 1578,
     cardIssuer: 'BC카드',
     bin: '621012',
     factorName: 'NH비씨체크',
@@ -14467,7 +14460,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1581,
+    id: 1579,
     cardIssuer: 'BC카드',
     bin: '621020',
     factorName: '우리체크',
@@ -14477,7 +14470,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1582,
+    id: 1580,
     cardIssuer: 'BC카드',
     bin: '621023',
     factorName: 'SC비씨체크카드',
@@ -14486,7 +14479,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1583,
+    id: 1581,
     cardIssuer: 'BC카드',
     bin: '621025',
     factorName: '하나SK비씨체크',
@@ -14495,7 +14488,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1584,
+    id: 1582,
     cardIssuer: '광주은행',
     bin: '621027',
     factorName: '광주체크',
@@ -14504,7 +14497,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1585,
+    id: 1583,
     cardIssuer: 'BC카드',
     bin: '621031',
     factorName: 'iM뱅크비씨체크',
@@ -14515,7 +14508,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1586,
+    id: 1584,
     cardIssuer: 'BC카드',
     bin: '621032',
     factorName: '부산비씨체크',
@@ -14524,7 +14517,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1587,
+    id: 1585,
     cardIssuer: 'BC카드',
     bin: '621039',
     factorName: '경남비씨체크',
@@ -14533,7 +14526,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1588,
+    id: 1586,
     cardIssuer: 'BC카드',
     bin: '621051',
     factorName: '새마을체크',
@@ -14542,7 +14535,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1589,
+    id: 1587,
     cardIssuer: 'BC카드',
     bin: '621078',
     factorName: '신한비씨체크',
@@ -14551,7 +14544,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1590,
+    id: 1588,
     cardIssuer: 'BC카드',
     bin: '621079',
     factorName: '하나비씨체크',
@@ -14560,7 +14553,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1591,
+    id: 1589,
     cardIssuer: 'BC카드',
     bin: '621220',
     factorName: '우리카드',
@@ -14570,7 +14563,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1592,
+    id: 1590,
     cardIssuer: 'BC카드',
     bin: '621249',
     factorName: '중국은행체크',
@@ -14579,7 +14572,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1593,
+    id: 1591,
     cardIssuer: '수협은행',
     bin: '621484',
     factorName: '수협체크',
@@ -14588,7 +14581,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1594,
+    id: 1592,
     cardIssuer: '수협은행',
     bin: '621640',
     factorName: '수협체크',
@@ -14597,7 +14590,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1595,
+    id: 1593,
     cardIssuer: '광주은행',
     bin: '621641',
     factorName: '광주체크',
@@ -14606,7 +14599,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1596,
+    id: 1594,
     cardIssuer: '신한카드',
     bin: '623024',
     factorName: '신한은련체크',
@@ -14615,7 +14608,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1597,
+    id: 1595,
     cardIssuer: 'NH농협카드',
     bin: '623322',
     factorName: 'NH기프트카드',
@@ -14624,7 +14617,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1598,
+    id: 1596,
     cardIssuer: 'NH농협카드',
     bin: '623323',
     factorName: 'NH체크카드',
@@ -14633,7 +14626,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1599,
+    id: 1597,
     cardIssuer: '신한카드',
     bin: '623329',
     factorName: '신한은련선불',
@@ -14642,7 +14635,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1600,
+    id: 1598,
     cardIssuer: 'NH농협카드',
     bin: '623340',
     factorName: 'NH기프트카드',
@@ -14651,7 +14644,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1601,
+    id: 1599,
     cardIssuer: 'NH농협카드',
     bin: '623341',
     factorName: 'NH체크카드',
@@ -14660,7 +14653,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1602,
+    id: 1600,
     cardIssuer: '롯데카드',
     bin: '623358',
     factorName: '롯데체크카드',
@@ -14669,7 +14662,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1603,
+    id: 1601,
     cardIssuer: 'KB국민카드',
     bin: '623374',
     factorName: 'KB체크카드',
@@ -14678,7 +14671,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1604,
+    id: 1602,
     cardIssuer: 'BC카드',
     bin: '623379',
     factorName: '우리체크',
@@ -14688,7 +14681,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1605,
+    id: 1603,
     cardIssuer: 'BC카드',
     bin: '623387',
     factorName: '비씨카드',
@@ -14697,7 +14690,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1606,
+    id: 1604,
     cardIssuer: 'BC카드',
     bin: '623390',
     factorName: 'iM뱅크비씨체크',
@@ -14708,7 +14701,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1607,
+    id: 1605,
     cardIssuer: 'BC카드',
     bin: '623391',
     factorName: 'NH농협비씨체크',
@@ -14717,7 +14710,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1608,
+    id: 1606,
     cardIssuer: 'BC카드',
     bin: '623392',
     factorName: 'NH농협비씨체크',
@@ -14726,7 +14719,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1609,
+    id: 1607,
     cardIssuer: 'BC카드',
     bin: '623393',
     factorName: '우리체크',
@@ -14736,7 +14729,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1610,
+    id: 1608,
     cardIssuer: 'BC카드',
     bin: '623394',
     factorName: 'SC비씨체크',
@@ -14745,7 +14738,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1611,
+    id: 1609,
     cardIssuer: 'BC카드',
     bin: '623395',
     factorName: 'IBK비씨체크',
@@ -14754,7 +14747,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1612,
+    id: 1610,
     cardIssuer: 'BC카드',
     bin: '623451',
     factorName: 'NH농협비씨체크',
@@ -14763,7 +14756,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1613,
+    id: 1611,
     cardIssuer: 'BC카드',
     bin: '623452',
     factorName: 'NH농협비씨체크',
@@ -14772,7 +14765,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1614,
+    id: 1612,
     cardIssuer: 'BC카드',
     bin: '623453',
     factorName: 'IBK비씨체크',
@@ -14781,7 +14774,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1615,
+    id: 1613,
     cardIssuer: 'BC카드',
     bin: '623454',
     factorName: '우리체크',
@@ -14791,7 +14784,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1616,
+    id: 1614,
     cardIssuer: 'BC카드',
     bin: '623470',
     factorName: '우리체크',
@@ -14801,7 +14794,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1617,
+    id: 1615,
     cardIssuer: 'KB국민카드',
     bin: '623489',
     factorName: 'KB체크카드',
@@ -14810,7 +14803,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1618,
+    id: 1616,
     cardIssuer: '롯데카드',
     bin: '624313',
     factorName: '롯데법인카드',
@@ -14819,7 +14812,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1619,
+    id: 1617,
     cardIssuer: 'NH농협카드',
     bin: '624320',
     factorName: 'NH카드',
@@ -14828,7 +14821,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1620,
+    id: 1618,
     cardIssuer: 'NH농협카드',
     bin: '624321',
     factorName: 'NH기업카드',
@@ -14837,7 +14830,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1621,
+    id: 1619,
     cardIssuer: 'NH농협카드',
     bin: '624324',
     factorName: 'NH카드',
@@ -14846,7 +14839,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1622,
+    id: 1620,
     cardIssuer: 'NH농협카드',
     bin: '624325',
     factorName: 'NH기업카드',
@@ -14855,7 +14848,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1623,
+    id: 1621,
     cardIssuer: '신한카드',
     bin: '624331',
     factorName: '신한은련개인',
@@ -14864,7 +14857,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1624,
+    id: 1622,
     cardIssuer: '신한카드',
     bin: '624332',
     factorName: '신한은련개인',
@@ -14873,7 +14866,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1625,
+    id: 1623,
     cardIssuer: '롯데카드',
     bin: '624333',
     factorName: '롯데카드',
@@ -14882,7 +14875,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1626,
+    id: 1624,
     cardIssuer: 'NH농협카드',
     bin: '624335',
     factorName: 'NH카드',
@@ -14891,7 +14884,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1627,
+    id: 1625,
     cardIssuer: 'BC카드',
     bin: '624336',
     factorName: '우리카드',
@@ -14901,7 +14894,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1628,
+    id: 1626,
     cardIssuer: '신한카드',
     bin: '624339',
     factorName: '신한은련법인',
@@ -14910,7 +14903,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1629,
+    id: 1627,
     cardIssuer: '하나카드',
     bin: '624340',
     factorName: '하나체크카드',
@@ -14919,7 +14912,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1630,
+    id: 1628,
     cardIssuer: '우리카드',
     bin: '624343',
     factorName: '우리카드',
@@ -14930,7 +14923,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1631,
+    id: 1629,
     cardIssuer: 'BC카드',
     bin: '624344',
     factorName: '비씨카드',
@@ -14939,7 +14932,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1632,
+    id: 1630,
     cardIssuer: 'BC카드',
     bin: '624345',
     factorName: 'IBK비씨카드',
@@ -14948,7 +14941,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1633,
+    id: 1631,
     cardIssuer: 'BC카드',
     bin: '624346',
     factorName: '우리카드',
@@ -14958,7 +14951,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1634,
+    id: 1632,
     cardIssuer: 'BC카드',
     bin: '624347',
     factorName: '비씨카드',
@@ -14967,7 +14960,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1635,
+    id: 1633,
     cardIssuer: '신한카드',
     bin: '624348',
     factorName: '신한은련체크',
@@ -14976,7 +14969,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1636,
+    id: 1634,
     cardIssuer: 'NH농협카드',
     bin: '624349',
     factorName: 'NH Platium',
@@ -14985,7 +14978,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1637,
+    id: 1635,
     cardIssuer: 'NH농협카드',
     bin: '624350',
     factorName: 'NH Platium',
@@ -14994,7 +14987,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1638,
+    id: 1636,
     cardIssuer: 'KB국민카드',
     bin: '624358',
     factorName: 'KB국민카드',
@@ -15003,7 +14996,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1639,
+    id: 1637,
     cardIssuer: 'NH농협카드',
     bin: '624359',
     factorName: 'NH카드',
@@ -15012,7 +15005,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1640,
+    id: 1638,
     cardIssuer: 'NH농협카드',
     bin: '624360',
     factorName: 'NH체크카드',
@@ -15021,7 +15014,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1641,
+    id: 1639,
     cardIssuer: 'BC카드',
     bin: '624361',
     factorName: '우리체크',
@@ -15031,7 +15024,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1642,
+    id: 1640,
     cardIssuer: 'NH농협카드',
     bin: '624362',
     factorName: 'NH체크카드',
@@ -15040,7 +15033,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1643,
+    id: 1641,
     cardIssuer: 'NH농협카드',
     bin: '624363',
     factorName: 'NH체크카드',
@@ -15049,7 +15042,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1644,
+    id: 1642,
     cardIssuer: '현대카드',
     bin: '624368',
     factorName: '현대 카드',
@@ -15058,7 +15051,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1645,
+    id: 1643,
     cardIssuer: 'KB국민카드',
     bin: '624370',
     factorName: 'KB국민카드',
@@ -15067,7 +15060,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1646,
+    id: 1644,
     cardIssuer: 'BC카드',
     bin: '624373',
     factorName: '우리카드',
@@ -15077,7 +15070,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1647,
+    id: 1645,
     cardIssuer: 'BC카드',
     bin: '624374',
     factorName: '우리카드',
@@ -15087,7 +15080,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1648,
+    id: 1646,
     cardIssuer: 'BC카드',
     bin: '624375',
     factorName: '비씨카드',
@@ -15096,7 +15089,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1649,
+    id: 1647,
     cardIssuer: '현대카드',
     bin: '624376',
     factorName: '현대 카드',
@@ -15105,7 +15098,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1650,
+    id: 1648,
     cardIssuer: '현대카드',
     bin: '624377',
     factorName: '현대 카드',
@@ -15114,7 +15107,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1651,
+    id: 1649,
     cardIssuer: '현대카드',
     bin: '624378',
     factorName: '현대 카드',
@@ -15123,7 +15116,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1652,
+    id: 1650,
     cardIssuer: 'BC카드',
     bin: '624379',
     factorName: 'iM뱅크비씨카드',
@@ -15134,7 +15127,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1653,
+    id: 1651,
     cardIssuer: 'BC카드',
     bin: '624380',
     factorName: '우리카드',
@@ -15144,7 +15137,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1654,
+    id: 1652,
     cardIssuer: 'BC카드',
     bin: '624381',
     factorName: 'NH농협비씨카드',
@@ -15153,7 +15146,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1655,
+    id: 1653,
     cardIssuer: 'BC카드',
     bin: '624382',
     factorName: 'NH농협비씨카드',
@@ -15162,7 +15155,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1656,
+    id: 1654,
     cardIssuer: 'BC카드',
     bin: '624383',
     factorName: 'SC비씨카드',
@@ -15171,7 +15164,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1657,
+    id: 1655,
     cardIssuer: 'BC카드',
     bin: '624384',
     factorName: 'IBK비씨카드',
@@ -15180,7 +15173,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1658,
+    id: 1656,
     cardIssuer: 'NH농협카드',
     bin: '624387',
     factorName: 'NH Diamond',
@@ -15189,7 +15182,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1659,
+    id: 1657,
     cardIssuer: 'NH농협카드',
     bin: '624388',
     factorName: 'NH Diamond',
@@ -15198,7 +15191,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1660,
+    id: 1658,
     cardIssuer: 'BC카드',
     bin: '624389',
     factorName: '우리체크',
@@ -15208,7 +15201,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1661,
+    id: 1659,
     cardIssuer: '삼성카드',
     bin: '624399',
     factorName: '삼성은련법인',
@@ -15217,7 +15210,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1662,
+    id: 1660,
     cardIssuer: '삼성카드',
     bin: '624400',
     factorName: '삼성은련',
@@ -15226,7 +15219,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1663,
+    id: 1661,
     cardIssuer: '삼성카드',
     bin: '624401',
     factorName: '삼성은련체크',
@@ -15235,7 +15228,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1664,
+    id: 1662,
     cardIssuer: 'BC카드',
     bin: '624403',
     factorName: 'NH농협비씨카드',
@@ -15244,7 +15237,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1665,
+    id: 1663,
     cardIssuer: '우리카드',
     bin: '624404',
     factorName: '우리카드',
@@ -15255,7 +15248,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1666,
+    id: 1664,
     cardIssuer: 'BC카드',
     bin: '624406',
     factorName: 'NH농협비씨카드',
@@ -15264,7 +15257,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1667,
+    id: 1665,
     cardIssuer: '삼성카드',
     bin: '624410',
     factorName: '삼성은련',
@@ -15273,7 +15266,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1668,
+    id: 1666,
     cardIssuer: '삼성카드',
     bin: '624411',
     factorName: '삼성은련체크',
@@ -15282,7 +15275,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1669,
+    id: 1667,
     cardIssuer: 'BC카드',
     bin: '624414',
     factorName: '우체국체크',
@@ -15291,7 +15284,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1670,
+    id: 1668,
     cardIssuer: 'BC카드',
     bin: '624420',
     factorName: '우리카드',
@@ -15301,7 +15294,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1671,
+    id: 1669,
     cardIssuer: 'BC카드',
     bin: '624424',
     factorName: '우리카드',
@@ -15311,7 +15304,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1672,
+    id: 1670,
     cardIssuer: 'BC카드',
     bin: '624427',
     factorName: '우리카드',
@@ -15321,7 +15314,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1673,
+    id: 1671,
     cardIssuer: '신한카드',
     bin: '624432',
     factorName: '신한은련개인',
@@ -15332,7 +15325,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1674,
+    id: 1672,
     cardIssuer: 'KB국민카드',
     bin: '624434',
     factorName: 'KB국민카드',
@@ -15341,7 +15334,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1675,
+    id: 1673,
     cardIssuer: '하나카드',
     bin: '624435',
     factorName: '하나카드',
@@ -15350,7 +15343,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1676,
+    id: 1674,
     cardIssuer: '하나카드',
     bin: '624436',
     factorName: '하나체크카드',
@@ -15359,7 +15352,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1677,
+    id: 1675,
     cardIssuer: 'BC카드',
     bin: '624437',
     factorName: '우리카드',
@@ -15369,7 +15362,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1678,
+    id: 1676,
     cardIssuer: '삼성카드',
     bin: '624440',
     factorName: '삼성은련',
@@ -15378,7 +15371,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1679,
+    id: 1677,
     cardIssuer: '삼성카드',
     bin: '624441',
     factorName: '삼성은련',
@@ -15387,7 +15380,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1680,
+    id: 1678,
     cardIssuer: '삼성카드',
     bin: '624442',
     factorName: '삼성은련',
@@ -15396,7 +15389,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1681,
+    id: 1679,
     cardIssuer: '삼성카드',
     bin: '624443',
     factorName: '삼성은련',
@@ -15405,7 +15398,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1682,
+    id: 1680,
     cardIssuer: '삼성카드',
     bin: '624444',
     factorName: '삼성은련',
@@ -15414,7 +15407,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1683,
+    id: 1681,
     cardIssuer: 'BC카드',
     bin: '624446',
     factorName: '우리카드',
@@ -15424,7 +15417,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1684,
+    id: 1682,
     cardIssuer: 'BC카드',
     bin: '624448',
     factorName: 'IBK비씨카드',
@@ -15433,7 +15426,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1685,
+    id: 1683,
     cardIssuer: 'BC카드',
     bin: '624449',
     factorName: 'NH농협비씨카드',
@@ -15442,7 +15435,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1686,
+    id: 1684,
     cardIssuer: 'BC카드',
     bin: '624450',
     factorName: 'NH농협비씨카드',
@@ -15451,7 +15444,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1687,
+    id: 1685,
     cardIssuer: 'BC카드',
     bin: '624451',
     factorName: 'NH농협비씨카드',
@@ -15460,7 +15453,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1688,
+    id: 1686,
     cardIssuer: 'BC카드',
     bin: '624452',
     factorName: 'NH농협비씨카드',
@@ -15469,7 +15462,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1689,
+    id: 1687,
     cardIssuer: 'KB국민카드',
     bin: '624462',
     factorName: 'KB국민카드',
@@ -15478,7 +15471,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1690,
+    id: 1688,
     cardIssuer: 'BC카드',
     bin: '624471',
     factorName: '우리카드',
@@ -15488,7 +15481,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1691,
+    id: 1689,
     cardIssuer: '신한카드',
     bin: '624479',
     factorName: '신한은련개인',
@@ -15497,7 +15490,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1692,
+    id: 1690,
     cardIssuer: '신한카드',
     bin: '624480',
     factorName: '신한은련개인',
@@ -15506,7 +15499,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1693,
+    id: 1691,
     cardIssuer: 'BC카드',
     bin: '624482',
     factorName: 'SC비씨카드',
@@ -15515,7 +15508,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1694,
+    id: 1692,
     cardIssuer: 'BC카드',
     bin: '625003',
     factorName: '비씨은련카드',
@@ -15524,7 +15517,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1695,
+    id: 1693,
     cardIssuer: 'BC카드',
     bin: '625006',
     factorName: '비씨은련카드',
@@ -15533,7 +15526,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1696,
+    id: 1694,
     cardIssuer: 'BC카드',
     bin: '625011',
     factorName: 'NH비씨카드',
@@ -15542,7 +15535,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1697,
+    id: 1695,
     cardIssuer: 'BC카드',
     bin: '625012',
     factorName: 'NH비씨카드',
@@ -15551,7 +15544,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1698,
+    id: 1696,
     cardIssuer: 'BC카드',
     bin: '625020',
     factorName: '비씨카드',
@@ -15560,7 +15553,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1699,
+    id: 1697,
     cardIssuer: 'BC카드',
     bin: '625023',
     factorName: 'SC비씨카드',
@@ -15569,7 +15562,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1700,
+    id: 1698,
     cardIssuer: 'BC카드',
     bin: '625025',
     factorName: '하나SK비씨카드',
@@ -15578,7 +15571,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1701,
+    id: 1699,
     cardIssuer: 'BC카드',
     bin: '625031',
     factorName: 'iM뱅크비씨카드',
@@ -15589,7 +15582,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1702,
+    id: 1700,
     cardIssuer: 'BC카드',
     bin: '625032',
     factorName: '부산비씨카드',
@@ -15598,7 +15591,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1703,
+    id: 1701,
     cardIssuer: 'BC카드',
     bin: '625039',
     factorName: '경남비씨카드',
@@ -15607,7 +15600,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1704,
+    id: 1702,
     cardIssuer: 'BC카드',
     bin: '625078',
     factorName: '신한비씨카드',
@@ -15616,7 +15609,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1705,
+    id: 1703,
     cardIssuer: 'BC카드',
     bin: '625079',
     factorName: '신한비씨카드',
@@ -15625,7 +15618,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1706,
+    id: 1704,
     cardIssuer: 'BC카드',
     bin: '625103',
     factorName: '비씨은련카드',
@@ -15634,7 +15627,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1707,
+    id: 1705,
     cardIssuer: 'BC카드',
     bin: '625111',
     factorName: 'NH비씨카드',
@@ -15643,7 +15636,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1708,
+    id: 1706,
     cardIssuer: 'BC카드',
     bin: '625112',
     factorName: 'NH비씨카드',
@@ -15652,7 +15645,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1709,
+    id: 1707,
     cardIssuer: 'BC카드',
     bin: '625120',
     factorName: '비씨카드',
@@ -15661,7 +15654,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1710,
+    id: 1708,
     cardIssuer: 'BC카드',
     bin: '625125',
     factorName: '하나SK비씨카드',
@@ -15670,7 +15663,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1711,
+    id: 1709,
     cardIssuer: '광주은행',
     bin: '625127',
     factorName: '광주신용',
@@ -15679,7 +15672,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1712,
+    id: 1710,
     cardIssuer: 'BC카드',
     bin: '625131',
     factorName: 'iM뱅크비씨카드',
@@ -15690,7 +15683,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1713,
+    id: 1711,
     cardIssuer: 'BC카드',
     bin: '625132',
     factorName: '부산비씨카드',
@@ -15699,7 +15692,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1714,
+    id: 1712,
     cardIssuer: 'BC카드',
     bin: '625139',
     factorName: '경남비씨카드',
@@ -15708,7 +15701,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1715,
+    id: 1713,
     cardIssuer: 'BC카드',
     bin: '625178',
     factorName: '신한비씨카드',
@@ -15717,7 +15710,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1716,
+    id: 1714,
     cardIssuer: '광주은행',
     bin: '625179',
     factorName: '광주신용',
@@ -15726,7 +15719,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1717,
+    id: 1715,
     cardIssuer: 'BC카드',
     bin: '625220',
     factorName: '우리카드',
@@ -15736,7 +15729,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1718,
+    id: 1716,
     cardIssuer: 'BC카드',
     bin: '625241',
     factorName: 'IBK비씨카드',
@@ -15745,7 +15738,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1719,
+    id: 1717,
     cardIssuer: 'BC카드',
     bin: '625242',
     factorName: 'IBK비씨카드',
@@ -15754,7 +15747,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1720,
+    id: 1718,
     cardIssuer: '수협은행',
     bin: '625243',
     factorName: '수협카드',
@@ -15763,7 +15756,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1721,
+    id: 1719,
     cardIssuer: '수협은행',
     bin: '625244',
     factorName: '수협카드',
@@ -15772,7 +15765,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1722,
+    id: 1720,
     cardIssuer: '광주은행',
     bin: '625245',
     factorName: '광주신용',
@@ -15781,7 +15774,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1723,
+    id: 1721,
     cardIssuer: '광주은행',
     bin: '625246',
     factorName: '광주신용',
@@ -15790,7 +15783,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1724,
+    id: 1722,
     cardIssuer: 'BC카드',
     bin: '625320',
     factorName: '우리카드',
@@ -15800,7 +15793,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1725,
+    id: 1723,
     cardIssuer: 'KB국민카드',
     bin: '625804',
     factorName: 'KB국민카드',
@@ -15809,7 +15802,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1726,
+    id: 1724,
     cardIssuer: '삼성카드',
     bin: '625814',
     factorName: '삼성은련',
@@ -15818,7 +15811,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1727,
+    id: 1725,
     cardIssuer: '삼성카드',
     bin: '625817',
     factorName: '삼성은련',
@@ -15827,7 +15820,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1728,
+    id: 1726,
     cardIssuer: '신한카드',
     bin: '625840',
     factorName: '신한은련개인',
@@ -15836,7 +15829,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1729,
+    id: 1727,
     cardIssuer: '신한카드',
     bin: '625841',
     factorName: '신한은련법인',
@@ -15845,7 +15838,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1730,
+    id: 1728,
     cardIssuer: '롯데카드',
     bin: '625904',
     factorName: '롯데카드',
@@ -15854,7 +15847,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1731,
+    id: 1729,
     cardIssuer: 'BC카드',
     bin: '626199',
     factorName: '한패스체크',
@@ -15863,7 +15856,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1732,
+    id: 1730,
     cardIssuer: '삼성카드',
     bin: '626222',
     factorName: '삼성은련체크',
@@ -15872,7 +15865,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1733,
+    id: 1731,
     cardIssuer: '하나카드',
     bin: '626236',
     factorName: '하나카드',
@@ -15881,7 +15874,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1734,
+    id: 1732,
     cardIssuer: '하나카드',
     bin: '626237',
     factorName: '하나카드',
@@ -15890,7 +15883,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1735,
+    id: 1733,
     cardIssuer: 'BC카드',
     bin: '626250',
     factorName: '우리카드',
@@ -15900,7 +15893,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1736,
+    id: 1734,
     cardIssuer: '하나카드',
     bin: '626261',
     factorName: '하나체크카드',
@@ -15909,7 +15902,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1737,
+    id: 1735,
     cardIssuer: 'BC카드',
     bin: '626275',
     factorName: '우체국체크',
@@ -15918,7 +15911,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1738,
+    id: 1736,
     cardIssuer: 'BC카드',
     bin: '626277',
     factorName: '우리카드',
@@ -15928,7 +15921,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1739,
+    id: 1737,
     cardIssuer: '하나카드',
     bin: '626303',
     factorName: '하나체크카드',
@@ -15937,7 +15930,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1740,
+    id: 1738,
     cardIssuer: 'NH농협카드',
     bin: '626344',
     factorName: 'NH체크카드',
@@ -15946,7 +15939,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1741,
+    id: 1739,
     cardIssuer: '하나카드',
     bin: '626399',
     factorName: '하나기업',
@@ -15955,7 +15948,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1742,
+    id: 1740,
     cardIssuer: '하나카드',
     bin: '626400',
     factorName: '하나기업체크',
@@ -15964,7 +15957,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1743,
+    id: 1741,
     cardIssuer: 'KB국민카드',
     bin: '626402',
     factorName: 'KB체크기업카드',
@@ -15973,7 +15966,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1744,
+    id: 1742,
     cardIssuer: '하나카드',
     bin: '626409',
     factorName: '하나카드',
@@ -15982,7 +15975,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1745,
+    id: 1743,
     cardIssuer: 'BC카드',
     bin: '626415',
     factorName: 'IBK비씨카드',
@@ -15991,7 +15984,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1746,
+    id: 1744,
     cardIssuer: 'BC카드',
     bin: '626416',
     factorName: 'IBK비씨카드',
@@ -16000,7 +15993,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1747,
+    id: 1745,
     cardIssuer: 'BC카드',
     bin: '626422',
     factorName: '우체국체크',
@@ -16009,7 +16002,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1748,
+    id: 1746,
     cardIssuer: 'BC카드',
     bin: '626426',
     factorName: '우리카드',
@@ -16019,7 +16012,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1749,
+    id: 1747,
     cardIssuer: 'BC카드',
     bin: '628180',
     factorName: '비씨체크카드',
@@ -16028,7 +16021,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1750,
+    id: 1748,
     cardIssuer: 'BC카드',
     bin: '629141',
     factorName: 'SC비씨체크',
@@ -16037,7 +16030,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1751,
+    id: 1749,
     cardIssuer: 'BC카드',
     bin: '636078',
     factorName: '신한비씨체크',
@@ -16046,7 +16039,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1752,
+    id: 1750,
     cardIssuer: 'BC카드',
     bin: '636093',
     factorName: 'NH비씨체크',
@@ -16055,7 +16048,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1753,
+    id: 1751,
     cardIssuer: 'BC카드',
     bin: '636094',
     factorName: '우리체크',
@@ -16065,7 +16058,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1754,
+    id: 1752,
     cardIssuer: 'BC카드',
     bin: '636095',
     factorName: '신한비씨체크',
@@ -16074,7 +16067,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1755,
+    id: 1753,
     cardIssuer: 'BC카드',
     bin: '636189',
     factorName: '하나SK비씨체크',
@@ -16083,7 +16076,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1756,
+    id: 1754,
     cardIssuer: 'BC카드',
     bin: '639339',
     factorName: '부산비씨체크',
@@ -16092,7 +16085,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1757,
+    id: 1755,
     cardIssuer: 'BC카드',
     bin: '639578',
     factorName: '신한비씨체크',
@@ -16101,7 +16094,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1758,
+    id: 1756,
     cardIssuer: '삼성카드',
     bin: '639650',
     factorName: '삼성마스타체크',
@@ -16110,7 +16103,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1759,
+    id: 1757,
     cardIssuer: 'BC카드',
     bin: '654103',
     factorName: 'IBK비씨카드',
@@ -16119,7 +16112,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1760,
+    id: 1758,
     cardIssuer: 'BC카드',
     bin: '654106',
     factorName: 'KB국민비씨카드',
@@ -16128,7 +16121,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1761,
+    id: 1759,
     cardIssuer: 'BC카드',
     bin: '654111',
     factorName: 'NH농협비씨카드',
@@ -16137,7 +16130,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1762,
+    id: 1760,
     cardIssuer: 'BC카드',
     bin: '654112',
     factorName: 'NH농협비씨카드',
@@ -16146,7 +16139,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1763,
+    id: 1761,
     cardIssuer: 'BC카드',
     bin: '654115',
     factorName: '신한비씨카드',
@@ -16155,7 +16148,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1764,
+    id: 1762,
     cardIssuer: '제주은행',
     bin: '654116',
     factorName: '제주카드',
@@ -16164,7 +16157,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1765,
+    id: 1763,
     cardIssuer: '수협은행',
     bin: '654117',
     factorName: '수협카드',
@@ -16173,7 +16166,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1766,
+    id: 1764,
     cardIssuer: 'BC카드',
     bin: '654120',
     factorName: '우리카드',
@@ -16183,7 +16176,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1767,
+    id: 1765,
     cardIssuer: 'BC카드',
     bin: '654123',
     factorName: 'SC비씨카드',
@@ -16192,7 +16185,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1768,
+    id: 1766,
     cardIssuer: 'BC카드',
     bin: '654125',
     factorName: '하나SK비씨카드',
@@ -16201,7 +16194,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1769,
+    id: 1767,
     cardIssuer: 'BC카드',
     bin: '654131',
     factorName: 'iM뱅크비씨카드',
@@ -16212,7 +16205,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1770,
+    id: 1768,
     cardIssuer: 'BC카드',
     bin: '654132',
     factorName: '부산비씨카드',
@@ -16221,7 +16214,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1771,
+    id: 1769,
     cardIssuer: 'BC카드',
     bin: '654139',
     factorName: '경남비씨카드',
@@ -16230,7 +16223,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1772,
+    id: 1770,
     cardIssuer: 'BC카드',
     bin: '654150',
     factorName: '비씨카드',
@@ -16239,7 +16232,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1773,
+    id: 1771,
     cardIssuer: 'BC카드',
     bin: '654203',
     factorName: 'IBK비씨카드',
@@ -16248,7 +16241,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1774,
+    id: 1772,
     cardIssuer: 'BC카드',
     bin: '654206',
     factorName: 'KB국민비씨카드',
@@ -16257,7 +16250,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1775,
+    id: 1773,
     cardIssuer: 'BC카드',
     bin: '654211',
     factorName: 'NH농협비씨카드',
@@ -16266,7 +16259,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1776,
+    id: 1774,
     cardIssuer: 'BC카드',
     bin: '654212',
     factorName: 'NH농협비씨카드',
@@ -16275,7 +16268,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1777,
+    id: 1775,
     cardIssuer: 'BC카드',
     bin: '654215',
     factorName: '신한비씨카드',
@@ -16284,7 +16277,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1778,
+    id: 1776,
     cardIssuer: 'BC카드',
     bin: '654220',
     factorName: '우리카드',
@@ -16294,7 +16287,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1779,
+    id: 1777,
     cardIssuer: 'BC카드',
     bin: '654223',
     factorName: 'SC비씨카드',
@@ -16303,7 +16296,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1780,
+    id: 1778,
     cardIssuer: 'BC카드',
     bin: '654225',
     factorName: '하나SK비씨카드',
@@ -16312,7 +16305,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1781,
+    id: 1779,
     cardIssuer: 'BC카드',
     bin: '654231',
     factorName: 'iM뱅크비씨카드',
@@ -16323,7 +16316,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1782,
+    id: 1780,
     cardIssuer: 'BC카드',
     bin: '654232',
     factorName: '부산비씨카드',
@@ -16332,7 +16325,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1783,
+    id: 1781,
     cardIssuer: 'BC카드',
     bin: '654239',
     factorName: '경남비씨카드',
@@ -16341,7 +16334,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1784,
+    id: 1782,
     cardIssuer: 'BC카드',
     bin: '654250',
     factorName: '비씨카드',
@@ -16350,7 +16343,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1785,
+    id: 1783,
     cardIssuer: 'BC카드',
     bin: '655603',
     factorName: '비씨글로벌카드',
@@ -16359,7 +16352,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1786,
+    id: 1784,
     cardIssuer: 'BC카드',
     bin: '655606',
     factorName: 'KB국민비씨카드',
@@ -16368,7 +16361,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1787,
+    id: 1785,
     cardIssuer: 'BC카드',
     bin: '655611',
     factorName: 'NH비씨카드',
@@ -16377,7 +16370,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1788,
+    id: 1786,
     cardIssuer: 'BC카드',
     bin: '655612',
     factorName: 'NH비씨카드',
@@ -16386,7 +16379,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1789,
+    id: 1787,
     cardIssuer: 'BC카드',
     bin: '655614',
     factorName: '우리카드',
@@ -16396,7 +16389,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1790,
+    id: 1788,
     cardIssuer: 'BC카드',
     bin: '655615',
     factorName: '신한비씨카드',
@@ -16405,7 +16398,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1791,
+    id: 1789,
     cardIssuer: '제주은행',
     bin: '655616',
     factorName: '제주카드',
@@ -16414,7 +16407,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1792,
+    id: 1790,
     cardIssuer: '수협은행',
     bin: '655617',
     factorName: '수협카드',
@@ -16423,7 +16416,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1793,
+    id: 1791,
     cardIssuer: '제주은행',
     bin: '655618',
     factorName: '제주카드',
@@ -16432,7 +16425,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1794,
+    id: 1792,
     cardIssuer: 'BC카드',
     bin: '655620',
     factorName: '우리카드',
@@ -16442,7 +16435,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1795,
+    id: 1793,
     cardIssuer: 'BC카드',
     bin: '655623',
     factorName: 'SC비씨카드',
@@ -16451,7 +16444,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1796,
+    id: 1794,
     cardIssuer: 'BC카드',
     bin: '655625',
     factorName: '하나SK비씨카드',
@@ -16460,7 +16453,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1797,
+    id: 1795,
     cardIssuer: 'BC카드',
     bin: '655631',
     factorName: 'iM뱅크비씨카드',
@@ -16471,7 +16464,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1798,
+    id: 1796,
     cardIssuer: 'BC카드',
     bin: '655632',
     factorName: '부산비씨카드',
@@ -16480,7 +16473,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1799,
+    id: 1797,
     cardIssuer: 'BC카드',
     bin: '655639',
     factorName: '경남비씨카드',
@@ -16489,7 +16482,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1800,
+    id: 1798,
     cardIssuer: 'BC카드',
     bin: '655650',
     factorName: '비씨카드',
@@ -16498,7 +16491,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1801,
+    id: 1799,
     cardIssuer: 'BC카드',
     bin: '655803',
     factorName: '비씨글로벌카드',
@@ -16507,7 +16500,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1802,
+    id: 1800,
     cardIssuer: 'BC카드',
     bin: '655806',
     factorName: 'KB국민비씨카드',
@@ -16516,7 +16509,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1803,
+    id: 1801,
     cardIssuer: 'BC카드',
     bin: '655811',
     factorName: 'NH비씨카드',
@@ -16525,7 +16518,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1804,
+    id: 1802,
     cardIssuer: 'BC카드',
     bin: '655812',
     factorName: 'NH비씨카드',
@@ -16534,7 +16527,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1805,
+    id: 1803,
     cardIssuer: '제주은행',
     bin: '655814',
     factorName: '제주카드',
@@ -16543,7 +16536,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1806,
+    id: 1804,
     cardIssuer: 'BC카드',
     bin: '655815',
     factorName: '신한비씨카드',
@@ -16552,7 +16545,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1807,
+    id: 1805,
     cardIssuer: '제주은행',
     bin: '655816',
     factorName: '제주카드',
@@ -16561,7 +16554,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1808,
+    id: 1806,
     cardIssuer: '수협은행',
     bin: '655817',
     factorName: '수협카드',
@@ -16570,7 +16563,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1809,
+    id: 1807,
     cardIssuer: '제주은행',
     bin: '655818',
     factorName: '제주카드',
@@ -16579,7 +16572,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1810,
+    id: 1808,
     cardIssuer: 'BC카드',
     bin: '655820',
     factorName: '우리카드',
@@ -16589,7 +16582,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1811,
+    id: 1809,
     cardIssuer: 'BC카드',
     bin: '655823',
     factorName: 'SC비씨카드',
@@ -16598,7 +16591,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1812,
+    id: 1810,
     cardIssuer: 'BC카드',
     bin: '655825',
     factorName: '하나SK비씨카드',
@@ -16607,7 +16600,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1813,
+    id: 1811,
     cardIssuer: 'BC카드',
     bin: '655831',
     factorName: 'iM뱅크비씨카드',
@@ -16618,7 +16611,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1814,
+    id: 1812,
     cardIssuer: 'BC카드',
     bin: '655832',
     factorName: '부산비씨카드',
@@ -16627,7 +16620,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1815,
+    id: 1813,
     cardIssuer: 'BC카드',
     bin: '655839',
     factorName: '경남비씨카드',
@@ -16636,7 +16629,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1816,
+    id: 1814,
     cardIssuer: 'BC카드',
     bin: '655850',
     factorName: '비씨카드',
@@ -16645,7 +16638,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1817,
+    id: 1815,
     cardIssuer: '제주은행',
     bin: '655916',
     factorName: '제주카드',
@@ -16654,7 +16647,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1818,
+    id: 1816,
     cardIssuer: '제주은행',
     bin: '655918',
     factorName: '제주카드',
@@ -16663,7 +16656,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1819,
+    id: 1817,
     cardIssuer: 'BC카드',
     bin: '655920',
     factorName: '우리카드',
@@ -16673,7 +16666,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1820,
+    id: 1818,
     cardIssuer: '제주은행',
     bin: '657016',
     factorName: '제주체크',
@@ -16682,7 +16675,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1821,
+    id: 1819,
     cardIssuer: '제주은행',
     bin: '657018',
     factorName: '제주체크',
@@ -16691,7 +16684,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1822,
+    id: 1820,
     cardIssuer: 'BC카드',
     bin: '657020',
     factorName: '우리체크',
@@ -16701,7 +16694,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1823,
+    id: 1821,
     cardIssuer: 'BC카드',
     bin: '657031',
     factorName: 'iM뱅크비씨체크',
@@ -16712,7 +16705,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1824,
+    id: 1822,
     cardIssuer: 'BC카드',
     bin: '657032',
     factorName: '부산비씨체크',
@@ -16721,7 +16714,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1825,
+    id: 1823,
     cardIssuer: 'BC카드',
     bin: '657039',
     factorName: '경남비씨체크',
@@ -16730,7 +16723,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1826,
+    id: 1824,
     cardIssuer: 'BC카드',
     bin: '657303',
     factorName: 'IBK비씨체크',
@@ -16739,7 +16732,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1827,
+    id: 1825,
     cardIssuer: 'BC카드',
     bin: '657306',
     factorName: 'KB국민비씨체크',
@@ -16748,7 +16741,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1828,
+    id: 1826,
     cardIssuer: 'BC카드',
     bin: '657311',
     factorName: 'NH농협비씨체크',
@@ -16757,7 +16750,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1829,
+    id: 1827,
     cardIssuer: 'BC카드',
     bin: '657312',
     factorName: 'NH농협비씨체크',
@@ -16766,7 +16759,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1830,
+    id: 1828,
     cardIssuer: 'BC카드',
     bin: '657314',
     factorName: '우리체크',
@@ -16776,7 +16769,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1831,
+    id: 1829,
     cardIssuer: 'BC카드',
     bin: '657315',
     factorName: '신한비씨체크',
@@ -16785,7 +16778,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1832,
+    id: 1830,
     cardIssuer: '제주은행',
     bin: '657316',
     factorName: '제주체크',
@@ -16794,7 +16787,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1833,
+    id: 1831,
     cardIssuer: '수협은행',
     bin: '657317',
     factorName: '수협체크',
@@ -16803,7 +16796,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1834,
+    id: 1832,
     cardIssuer: '제주은행',
     bin: '657318',
     factorName: '제주체크',
@@ -16812,7 +16805,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1835,
+    id: 1833,
     cardIssuer: 'BC카드',
     bin: '657320',
     factorName: '우리체크',
@@ -16822,7 +16815,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1836,
+    id: 1834,
     cardIssuer: 'BC카드',
     bin: '657323',
     factorName: 'SC비씨체크',
@@ -16831,7 +16824,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1837,
+    id: 1835,
     cardIssuer: 'BC카드',
     bin: '657325',
     factorName: '하나SK비씨체크',
@@ -16840,7 +16833,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1838,
+    id: 1836,
     cardIssuer: 'BC카드',
     bin: '657327',
     factorName: '씨티비씨체크',
@@ -16849,7 +16842,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1839,
+    id: 1837,
     cardIssuer: 'BC카드',
     bin: '657331',
     factorName: 'iM뱅크비씨체크',
@@ -16860,7 +16853,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1840,
+    id: 1838,
     cardIssuer: 'BC카드',
     bin: '657332',
     factorName: '부산비씨체크',
@@ -16869,7 +16862,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1841,
+    id: 1839,
     cardIssuer: 'BC카드',
     bin: '657339',
     factorName: '경남비씨체크',
@@ -16878,7 +16871,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1842,
+    id: 1840,
     cardIssuer: 'BC카드',
     bin: '657350',
     factorName: '비씨체크카드',
@@ -16887,7 +16880,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1843,
+    id: 1841,
     cardIssuer: '삼성카드',
     bin: '700013',
     factorName: '삼성라운지',
@@ -16896,7 +16889,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1844,
+    id: 1842,
     cardIssuer: 'KB국민카드',
     bin: '834000',
     factorName: '모아정보선불',
@@ -16905,7 +16898,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1845,
+    id: 1843,
     cardIssuer: 'KB국민카드',
     bin: '834024',
     factorName: '모아정보선불',
@@ -16914,7 +16907,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1846,
+    id: 1844,
     cardIssuer: 'KB국민카드',
     bin: '834026',
     factorName: '모아정보선불',
@@ -16923,7 +16916,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1847,
+    id: 1845,
     cardIssuer: 'BC카드',
     bin: '900001',
     factorName: '비씨카드',
@@ -16932,7 +16925,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1848,
+    id: 1846,
     cardIssuer: 'BC카드',
     bin: '900050',
     factorName: '비씨카드',
@@ -16941,7 +16934,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1849,
+    id: 1847,
     cardIssuer: 'BC카드',
     bin: '900101',
     factorName: '비씨체크카드',
@@ -16950,7 +16943,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1850,
+    id: 1848,
     cardIssuer: '제주은행',
     bin: '903501',
     factorName: '제주카드',
@@ -16959,7 +16952,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1851,
+    id: 1849,
     cardIssuer: '제주은행',
     bin: '903502',
     factorName: '제주카드',
@@ -16968,7 +16961,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1852,
+    id: 1850,
     cardIssuer: '제주은행',
     bin: '903503',
     factorName: '제주카드',
@@ -16977,7 +16970,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1853,
+    id: 1851,
     cardIssuer: '제주은행',
     bin: '903504',
     factorName: '제주카드',
@@ -16986,7 +16979,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1854,
+    id: 1852,
     cardIssuer: '제주은행',
     bin: '903505',
     factorName: '제주카드',
@@ -16995,7 +16988,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1855,
+    id: 1853,
     cardIssuer: '제주은행',
     bin: '903516',
     factorName: '제주체크카드',
@@ -17004,7 +16997,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1856,
+    id: 1854,
     cardIssuer: '제주은행',
     bin: '903517',
     factorName: '제주체크카드',
@@ -17013,7 +17006,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1857,
+    id: 1855,
     cardIssuer: '제주은행',
     bin: '903518',
     factorName: '제주체크카드',
@@ -17022,7 +17015,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1858,
+    id: 1856,
     cardIssuer: '제주은행',
     bin: '903519',
     factorName: '제주체크카드',
@@ -17031,7 +17024,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1859,
+    id: 1857,
     cardIssuer: '제주은행',
     bin: '903520',
     factorName: '제주체크카드',
@@ -17040,7 +17033,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1860,
+    id: 1858,
     cardIssuer: '제주은행',
     bin: '903551',
     factorName: '제주카드',
@@ -17049,7 +17042,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1861,
+    id: 1859,
     cardIssuer: '제주은행',
     bin: '903552',
     factorName: '제주카드',
@@ -17058,7 +17051,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1862,
+    id: 1860,
     cardIssuer: '제주은행',
     bin: '903553',
     factorName: '제주카드',
@@ -17067,7 +17060,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1863,
+    id: 1861,
     cardIssuer: '제주은행',
     bin: '903554',
     factorName: '제주카드',
@@ -17076,7 +17069,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1864,
+    id: 1862,
     cardIssuer: '제주은행',
     bin: '903555',
     factorName: '제주카드',
@@ -17085,7 +17078,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1865,
+    id: 1863,
     cardIssuer: 'BC카드',
     bin: '910003',
     factorName: 'IBK비씨카드',
@@ -17094,7 +17087,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1866,
+    id: 1864,
     cardIssuer: 'BC카드',
     bin: '910006',
     factorName: 'KB국민비씨카드',
@@ -17103,7 +17096,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1867,
+    id: 1865,
     cardIssuer: '수협은행',
     bin: '910007',
     factorName: '수협카드',
@@ -17112,7 +17105,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1868,
+    id: 1866,
     cardIssuer: 'BC카드',
     bin: '910011',
     factorName: 'NH비씨카드',
@@ -17121,7 +17114,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1869,
+    id: 1867,
     cardIssuer: 'BC카드',
     bin: '910012',
     factorName: 'NH비씨카드',
@@ -17130,7 +17123,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1870,
+    id: 1868,
     cardIssuer: 'BC카드',
     bin: '910020',
     factorName: '우리카드',
@@ -17140,7 +17133,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1871,
+    id: 1869,
     cardIssuer: 'BC카드',
     bin: '910021',
     factorName: '신한비씨카드',
@@ -17149,7 +17142,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1872,
+    id: 1870,
     cardIssuer: 'BC카드',
     bin: '910023',
     factorName: 'SC비씨카드',
@@ -17158,7 +17151,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1873,
+    id: 1871,
     cardIssuer: 'BC카드',
     bin: '910025',
     factorName: '하나비씨카드',
@@ -17167,7 +17160,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1874,
+    id: 1872,
     cardIssuer: '씨티카드',
     bin: '910027',
     factorName: '씨티카드',
@@ -17176,7 +17169,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1875,
+    id: 1873,
     cardIssuer: 'BC카드',
     bin: '910031',
     factorName: 'iM뱅크비씨카드',
@@ -17187,7 +17180,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1876,
+    id: 1874,
     cardIssuer: 'BC카드',
     bin: '910032',
     factorName: '부산비씨카드',
@@ -17196,7 +17189,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1877,
+    id: 1875,
     cardIssuer: '광주은행',
     bin: '910034',
     factorName: '광주신용',
@@ -17205,7 +17198,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1878,
+    id: 1876,
     cardIssuer: '제주은행',
     bin: '910035',
     factorName: '제주카드',
@@ -17214,7 +17207,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1879,
+    id: 1877,
     cardIssuer: 'BC카드',
     bin: '910036',
     factorName: '씨티비씨카드',
@@ -17223,7 +17216,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1880,
+    id: 1878,
     cardIssuer: '전북은행',
     bin: '910037',
     factorName: '전북JB카드',
@@ -17234,7 +17227,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1881,
+    id: 1879,
     cardIssuer: 'BC카드',
     bin: '910039',
     factorName: '경남비씨카드',
@@ -17243,7 +17236,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1882,
+    id: 1880,
     cardIssuer: 'BC카드',
     bin: '910050',
     factorName: '비씨카드',
@@ -17252,7 +17245,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1883,
+    id: 1881,
     cardIssuer: 'BC카드',
     bin: '910120',
     factorName: '우리카드',
@@ -17262,7 +17255,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1884,
+    id: 1882,
     cardIssuer: 'BC카드',
     bin: '910150',
     factorName: '비씨카드',
@@ -17271,7 +17264,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1885,
+    id: 1883,
     cardIssuer: 'BC카드',
     bin: '910550',
     factorName: '비씨GIFT',
@@ -17280,7 +17273,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1886,
+    id: 1884,
     cardIssuer: 'BC카드',
     bin: '920002',
     factorName: '한국산업체크',
@@ -17291,7 +17284,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1887,
+    id: 1885,
     cardIssuer: 'BC카드',
     bin: '920003',
     factorName: 'IBK비씨체크',
@@ -17300,7 +17293,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1888,
+    id: 1886,
     cardIssuer: 'BC카드',
     bin: '920006',
     factorName: 'KB국민비씨체크',
@@ -17309,7 +17302,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1889,
+    id: 1887,
     cardIssuer: '수협은행',
     bin: '920007',
     factorName: '수협체크',
@@ -17318,7 +17311,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1890,
+    id: 1888,
     cardIssuer: 'BC카드',
     bin: '920009',
     factorName: '유안타증권체크',
@@ -17327,7 +17320,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1891,
+    id: 1889,
     cardIssuer: 'BC카드',
     bin: '920011',
     factorName: 'NH비씨체크',
@@ -17336,7 +17329,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1892,
+    id: 1890,
     cardIssuer: 'BC카드',
     bin: '920012',
     factorName: 'NH비씨체크',
@@ -17345,7 +17338,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1893,
+    id: 1891,
     cardIssuer: 'BC카드',
     bin: '920013',
     factorName: 'NH비씨체크',
@@ -17354,7 +17347,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1894,
+    id: 1892,
     cardIssuer: 'BC카드',
     bin: '920014',
     factorName: 'NH비씨체크',
@@ -17363,7 +17356,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1895,
+    id: 1893,
     cardIssuer: 'BC카드',
     bin: '920018',
     factorName: 'KB증권체크',
@@ -17372,7 +17365,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1896,
+    id: 1894,
     cardIssuer: 'BC카드',
     bin: '920020',
     factorName: '우리체크',
@@ -17382,7 +17375,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1897,
+    id: 1895,
     cardIssuer: 'BC카드',
     bin: '920021',
     factorName: '신한비씨체크',
@@ -17391,7 +17384,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1898,
+    id: 1896,
     cardIssuer: 'BC카드',
     bin: '920023',
     factorName: 'SC비씨체크',
@@ -17400,7 +17393,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1899,
+    id: 1897,
     cardIssuer: 'BC카드',
     bin: '920025',
     factorName: '하나비씨체크',
@@ -17409,7 +17402,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1900,
+    id: 1898,
     cardIssuer: '씨티카드',
     bin: '920027',
     factorName: '씨티체크',
@@ -17418,7 +17411,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1901,
+    id: 1899,
     cardIssuer: 'BC카드',
     bin: '920030',
     factorName: '미래에셋체크',
@@ -17427,7 +17420,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1902,
+    id: 1900,
     cardIssuer: 'BC카드',
     bin: '920031',
     factorName: 'iM뱅크비씨체크',
@@ -17438,7 +17431,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1903,
+    id: 1901,
     cardIssuer: 'BC카드',
     bin: '920032',
     factorName: '부산비씨체크',
@@ -17447,7 +17440,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1904,
+    id: 1902,
     cardIssuer: '광주은행',
     bin: '920034',
     factorName: '광주체크',
@@ -17456,7 +17449,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1905,
+    id: 1903,
     cardIssuer: '제주은행',
     bin: '920035',
     factorName: '제주체크',
@@ -17465,7 +17458,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1906,
+    id: 1904,
     cardIssuer: 'BC카드',
     bin: '920036',
     factorName: '씨티비씨체크',
@@ -17474,7 +17467,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1907,
+    id: 1905,
     cardIssuer: '전북은행',
     bin: '920037',
     factorName: '전북JB체크',
@@ -17485,7 +17478,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1908,
+    id: 1906,
     cardIssuer: 'BC카드',
     bin: '920039',
     factorName: '경남비씨체크',
@@ -17494,7 +17487,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1909,
+    id: 1907,
     cardIssuer: 'BC카드',
     bin: '920044',
     factorName: '코나아이체크',
@@ -17503,7 +17496,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1910,
+    id: 1908,
     cardIssuer: 'BC카드',
     bin: '920045',
     factorName: '새마을체크',
@@ -17512,7 +17505,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1911,
+    id: 1909,
     cardIssuer: 'BC카드',
     bin: '920048',
     factorName: '신협체크카드',
@@ -17521,7 +17514,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1912,
+    id: 1910,
     cardIssuer: 'BC카드',
     bin: '920050',
     factorName: '비씨체크카드',
@@ -17530,7 +17523,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1913,
+    id: 1911,
     cardIssuer: 'BC카드',
     bin: '920051',
     factorName: '중국은행체크',
@@ -17539,7 +17532,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1914,
+    id: 1912,
     cardIssuer: 'BC카드',
     bin: '920059',
     factorName: '한국투자체크',
@@ -17548,7 +17541,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1915,
+    id: 1913,
     cardIssuer: 'BC카드',
     bin: '920061',
     factorName: '교보증권체크',
@@ -17557,7 +17550,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1916,
+    id: 1914,
     cardIssuer: 'BC카드',
     bin: '920063',
     factorName: 'SK증권체크',
@@ -17566,7 +17559,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1917,
+    id: 1915,
     cardIssuer: 'BC카드',
     bin: '920064',
     factorName: '산림조합체크',
@@ -17575,7 +17568,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1918,
+    id: 1916,
     cardIssuer: 'BC카드',
     bin: '920071',
     factorName: '우체국체크',
@@ -17584,7 +17577,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1919,
+    id: 1917,
     cardIssuer: 'BC카드',
     bin: '920077',
     factorName: '네이버페이체크',
@@ -17593,7 +17586,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1920,
+    id: 1918,
     cardIssuer: 'BC카드',
     bin: '920079',
     factorName: '동부증권체크',
@@ -17602,7 +17595,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1921,
+    id: 1919,
     cardIssuer: 'BC카드',
     bin: '920080',
     factorName: '유진증권체크',
@@ -17611,7 +17604,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1922,
+    id: 1920,
     cardIssuer: 'BC카드',
     bin: '920082',
     factorName: 'Fint체크',
@@ -17620,7 +17613,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1923,
+    id: 1921,
     cardIssuer: 'BC카드',
     bin: '920085',
     factorName: '한패스체크',
@@ -17629,7 +17622,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1924,
+    id: 1922,
     cardIssuer: 'BC카드',
     bin: '920091',
     factorName: 'NH투자체크',
@@ -17638,7 +17631,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1925,
+    id: 1923,
     cardIssuer: 'BC카드',
     bin: '920092',
     factorName: '카카오페이카드',
@@ -17647,7 +17640,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1926,
+    id: 1924,
     cardIssuer: 'BC카드',
     bin: '920093',
     factorName: 'Gmoney체크',
@@ -17656,7 +17649,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1927,
+    id: 1925,
     cardIssuer: 'BC카드',
     bin: '920094',
     factorName: '모빌체크',
@@ -17665,7 +17658,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1928,
+    id: 1926,
     cardIssuer: 'BC카드',
     bin: '920095',
     factorName: '저축비씨체크',
@@ -17674,7 +17667,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1929,
+    id: 1927,
     cardIssuer: 'BC카드',
     bin: '920096',
     factorName: '케이뱅크체크',
@@ -17683,7 +17676,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1930,
+    id: 1928,
     cardIssuer: 'BC카드',
     bin: '920120',
     factorName: '우리체크',
@@ -17693,7 +17686,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1931,
+    id: 1929,
     cardIssuer: 'BC카드',
     bin: '920215',
     factorName: '농협은행체크',
@@ -17702,7 +17695,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1932,
+    id: 1930,
     cardIssuer: 'BC카드',
     bin: '920232',
     factorName: '부산비씨체크',
@@ -17711,7 +17704,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1933,
+    id: 1931,
     cardIssuer: 'BC카드',
     bin: '920239',
     factorName: '경남비씨체크',
@@ -17720,7 +17713,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1934,
+    id: 1932,
     cardIssuer: 'BC카드',
     bin: '920315',
     factorName: '농협은행체크',
@@ -17729,7 +17722,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1935,
+    id: 1933,
     cardIssuer: 'BC카드',
     bin: '920432',
     factorName: '부산비씨체크',
@@ -17738,7 +17731,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1936,
+    id: 1934,
     cardIssuer: 'BC카드',
     bin: '920439',
     factorName: '경남비씨체크',
@@ -17747,7 +17740,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1937,
+    id: 1935,
     cardIssuer: 'BC카드',
     bin: '930003',
     factorName: 'IBK비씨카드',
@@ -17756,7 +17749,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1938,
+    id: 1936,
     cardIssuer: '수협은행',
     bin: '930007',
     factorName: '수협카드',
@@ -17765,7 +17758,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1939,
+    id: 1937,
     cardIssuer: 'BC카드',
     bin: '930011',
     factorName: 'NH비씨카드',
@@ -17774,7 +17767,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1940,
+    id: 1938,
     cardIssuer: 'BC카드',
     bin: '930020',
     factorName: '우리카드',
@@ -17784,7 +17777,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1941,
+    id: 1939,
     cardIssuer: 'BC카드',
     bin: '930023',
     factorName: 'SC비씨카드',
@@ -17793,7 +17786,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1942,
+    id: 1940,
     cardIssuer: 'BC카드',
     bin: '930025',
     factorName: '하나비씨카드',
@@ -17802,7 +17795,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1943,
+    id: 1941,
     cardIssuer: 'BC카드',
     bin: '930031',
     factorName: 'iM뱅크비씨카드',
@@ -17813,7 +17806,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1944,
+    id: 1942,
     cardIssuer: 'BC카드',
     bin: '930032',
     factorName: '부산비씨카드',
@@ -17822,7 +17815,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1945,
+    id: 1943,
     cardIssuer: '광주은행',
     bin: '930034',
     factorName: '광주신용',
@@ -17831,7 +17824,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1946,
+    id: 1944,
     cardIssuer: '전북은행',
     bin: '930037',
     factorName: '전북JB카드',
@@ -17842,7 +17835,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1947,
+    id: 1945,
     cardIssuer: 'BC카드',
     bin: '930039',
     factorName: '경남비씨카드',
@@ -17851,7 +17844,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1948,
+    id: 1946,
     cardIssuer: 'BC카드',
     bin: '930050',
     factorName: '비씨GIFT',
@@ -17860,7 +17853,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1949,
+    id: 1947,
     cardIssuer: 'BC카드',
     bin: '930051',
     factorName: '비씨카드',
@@ -17869,7 +17862,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1950,
+    id: 1948,
     cardIssuer: '광주은행',
     bin: '930102',
     factorName: '광주GIFT',
@@ -17878,7 +17871,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1951,
+    id: 1949,
     cardIssuer: 'BC카드',
     bin: '930103',
     factorName: 'IBK비씨GIFT',
@@ -17887,7 +17880,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1952,
+    id: 1950,
     cardIssuer: '광주은행',
     bin: '930107',
     factorName: '광주GIFT',
@@ -17896,7 +17889,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1953,
+    id: 1951,
     cardIssuer: 'BC카드',
     bin: '930111',
     factorName: 'NH농협비씨GIFT',
@@ -17905,7 +17898,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1954,
+    id: 1952,
     cardIssuer: 'BC카드',
     bin: '930112',
     factorName: 'NH농협비씨GIFT',
@@ -17914,7 +17907,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1955,
+    id: 1953,
     cardIssuer: '광주은행',
     bin: '930118',
     factorName: '광주GIFT',
@@ -17923,7 +17916,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1956,
+    id: 1954,
     cardIssuer: 'BC카드',
     bin: '930120',
     factorName: '우리GIFT',
@@ -17933,7 +17926,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1957,
+    id: 1955,
     cardIssuer: 'BC카드',
     bin: '930123',
     factorName: 'SC비씨GIFT',
@@ -17942,7 +17935,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1958,
+    id: 1956,
     cardIssuer: 'BC카드',
     bin: '930125',
     factorName: '하나비씨GIFT',
@@ -17951,7 +17944,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1959,
+    id: 1957,
     cardIssuer: 'BC카드',
     bin: '930131',
     factorName: 'iM뱅크비씨GIFT',
@@ -17962,7 +17955,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1960,
+    id: 1958,
     cardIssuer: 'BC카드',
     bin: '930132',
     factorName: '부산비씨GIFT',
@@ -17971,7 +17964,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1961,
+    id: 1959,
     cardIssuer: 'BC카드',
     bin: '930139',
     factorName: '경남비씨GIFT',
@@ -17980,7 +17973,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1962,
+    id: 1960,
     cardIssuer: 'BC카드',
     bin: '930144',
     factorName: '코나아이GIFT',
@@ -17989,7 +17982,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1963,
+    id: 1961,
     cardIssuer: '광주은행',
     bin: '930146',
     factorName: '광주GIFT',
@@ -17998,7 +17991,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1964,
+    id: 1962,
     cardIssuer: 'BC카드',
     bin: '930150',
     factorName: '비씨GIFT',
@@ -18007,7 +18000,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1965,
+    id: 1963,
     cardIssuer: 'BC카드',
     bin: '935003',
     factorName: 'IBK비씨체크',
@@ -18016,7 +18009,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1966,
+    id: 1964,
     cardIssuer: '수협은행',
     bin: '935007',
     factorName: '수협체크',
@@ -18025,7 +18018,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1967,
+    id: 1965,
     cardIssuer: 'BC카드',
     bin: '935016',
     factorName: '비씨선불카드',
@@ -18034,7 +18027,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1968,
+    id: 1966,
     cardIssuer: 'BC카드',
     bin: '935017',
     factorName: '비씨선불카드',
@@ -18043,7 +18036,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 1969,
+    id: 1967,
     cardIssuer: 'BC카드',
     bin: '935020',
     factorName: '우리체크',
@@ -18053,7 +18046,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 1970,
+    id: 1968,
     cardIssuer: 'BC카드',
     bin: '935023',
     factorName: 'SC비씨체크',
@@ -18062,7 +18055,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1971,
+    id: 1969,
     cardIssuer: 'BC카드',
     bin: '935031',
     factorName: 'iM뱅크비씨체크',
@@ -18073,7 +18066,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 1972,
+    id: 1970,
     cardIssuer: 'BC카드',
     bin: '935032',
     factorName: '부산비씨체크',
@@ -18082,7 +18075,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1973,
+    id: 1971,
     cardIssuer: '광주은행',
     bin: '935034',
     factorName: '광주체크',
@@ -18091,7 +18084,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1974,
+    id: 1972,
     cardIssuer: '전북은행',
     bin: '935037',
     factorName: '전북JB체크',
@@ -18102,7 +18095,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 1975,
+    id: 1973,
     cardIssuer: 'BC카드',
     bin: '935039',
     factorName: '경남비씨체크',
@@ -18111,7 +18104,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1976,
+    id: 1974,
     cardIssuer: 'BC카드',
     bin: '935048',
     factorName: '신협체크카드',
@@ -18120,7 +18113,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1977,
+    id: 1975,
     cardIssuer: 'BC카드',
     bin: '935071',
     factorName: '우체국체크',
@@ -18129,7 +18122,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1978,
+    id: 1976,
     cardIssuer: 'BC카드',
     bin: '940011',
     factorName: 'NH농협체크',
@@ -18138,7 +18131,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1979,
+    id: 1977,
     cardIssuer: 'BC카드',
     bin: '940012',
     factorName: 'NH농협체크',
@@ -18147,7 +18140,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1980,
+    id: 1978,
     cardIssuer: '씨티카드',
     bin: '940020',
     factorName: '씨티카드',
@@ -18156,7 +18149,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1981,
+    id: 1979,
     cardIssuer: '씨티카드',
     bin: '940030',
     factorName: '씨티카드',
@@ -18165,7 +18158,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1982,
+    id: 1980,
     cardIssuer: '씨티카드',
     bin: '940040',
     factorName: '씨티카드',
@@ -18174,7 +18167,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1983,
+    id: 1981,
     cardIssuer: '씨티카드',
     bin: '940060',
     factorName: '씨티카드',
@@ -18183,7 +18176,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1984,
+    id: 1982,
     cardIssuer: '씨티카드',
     bin: '940080',
     factorName: '씨티카드',
@@ -18192,7 +18185,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1985,
+    id: 1983,
     cardIssuer: '씨티카드',
     bin: '940090',
     factorName: '씨티카드',
@@ -18201,7 +18194,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1986,
+    id: 1984,
     cardIssuer: '씨티카드',
     bin: '940388',
     factorName: '씨티체크',
@@ -18210,7 +18203,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1987,
+    id: 1985,
     cardIssuer: '수협은행',
     bin: '940701',
     factorName: '수협카드',
@@ -18219,7 +18212,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1988,
+    id: 1986,
     cardIssuer: '수협은행',
     bin: '940702',
     factorName: '수협체크',
@@ -18228,7 +18221,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1989,
+    id: 1987,
     cardIssuer: '수협은행',
     bin: '940703',
     factorName: '수협체크',
@@ -18237,7 +18230,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1990,
+    id: 1988,
     cardIssuer: '수협은행',
     bin: '940704',
     factorName: '수협카드',
@@ -18246,7 +18239,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1991,
+    id: 1989,
     cardIssuer: '수협은행',
     bin: '940706',
     factorName: '수협카드',
@@ -18255,7 +18248,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1992,
+    id: 1990,
     cardIssuer: '수협은행',
     bin: '940707',
     factorName: '수협체크',
@@ -18264,7 +18257,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1993,
+    id: 1991,
     cardIssuer: '수협은행',
     bin: '940708',
     factorName: '수협체크',
@@ -18273,7 +18266,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 1994,
+    id: 1992,
     cardIssuer: '롯데카드',
     bin: '940910',
     factorName: '롯데카드',
@@ -18282,7 +18275,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1995,
+    id: 1993,
     cardIssuer: '롯데카드',
     bin: '940911',
     factorName: '롯데카드',
@@ -18291,7 +18284,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1996,
+    id: 1994,
     cardIssuer: '롯데카드',
     bin: '940912',
     factorName: '롯데카드',
@@ -18300,7 +18293,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1997,
+    id: 1995,
     cardIssuer: '롯데카드',
     bin: '940913',
     factorName: '롯데카드',
@@ -18309,7 +18302,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1998,
+    id: 1996,
     cardIssuer: '롯데카드',
     bin: '940914',
     factorName: '롯데카드',
@@ -18318,7 +18311,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 1999,
+    id: 1997,
     cardIssuer: '롯데카드',
     bin: '940915',
     factorName: '롯데카드',
@@ -18327,7 +18320,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2000,
+    id: 1998,
     cardIssuer: '롯데카드',
     bin: '940916',
     factorName: '롯데카드',
@@ -18336,7 +18329,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2001,
+    id: 1999,
     cardIssuer: '롯데카드',
     bin: '940917',
     factorName: '롯데카드',
@@ -18345,7 +18338,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2002,
+    id: 2000,
     cardIssuer: '롯데카드',
     bin: '940918',
     factorName: '롯데카드',
@@ -18354,7 +18347,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2003,
+    id: 2001,
     cardIssuer: '롯데카드',
     bin: '940919',
     factorName: '롯데법인카드',
@@ -18363,7 +18356,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2004,
+    id: 2002,
     cardIssuer: '롯데카드',
     bin: '940920',
     factorName: '롯데법인카드',
@@ -18372,7 +18365,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2005,
+    id: 2003,
     cardIssuer: '롯데카드',
     bin: '940921',
     factorName: '롯데구매전용',
@@ -18381,7 +18374,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2006,
+    id: 2004,
     cardIssuer: '롯데카드',
     bin: '940922',
     factorName: '롯데구매전용',
@@ -18390,7 +18383,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2007,
+    id: 2005,
     cardIssuer: '롯데카드',
     bin: '940923',
     factorName: '롯데카드',
@@ -18399,7 +18392,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2008,
+    id: 2006,
     cardIssuer: '롯데카드',
     bin: '940924',
     factorName: '롯데카드',
@@ -18408,7 +18401,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2009,
+    id: 2007,
     cardIssuer: '롯데카드',
     bin: '940925',
     factorName: '롯데카드',
@@ -18417,7 +18410,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2010,
+    id: 2008,
     cardIssuer: '롯데카드',
     bin: '940926',
     factorName: '롯데카드',
@@ -18426,7 +18419,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2011,
+    id: 2009,
     cardIssuer: '롯데카드',
     bin: '940927',
     factorName: '롯데법인카드',
@@ -18435,7 +18428,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2012,
+    id: 2010,
     cardIssuer: '롯데카드',
     bin: '940928',
     factorName: '롯데법인카드',
@@ -18444,7 +18437,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2013,
+    id: 2011,
     cardIssuer: '롯데카드',
     bin: '940929',
     factorName: '롯데법인카드',
@@ -18453,7 +18446,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2014,
+    id: 2012,
     cardIssuer: '롯데카드',
     bin: '940930',
     factorName: '롯데법인카드',
@@ -18462,7 +18455,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2015,
+    id: 2013,
     cardIssuer: '롯데카드',
     bin: '940931',
     factorName: '롯데법인카드',
@@ -18471,7 +18464,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2016,
+    id: 2014,
     cardIssuer: '롯데카드',
     bin: '940932',
     factorName: '롯데법인카드',
@@ -18480,7 +18473,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2017,
+    id: 2015,
     cardIssuer: '롯데카드',
     bin: '940933',
     factorName: '롯데체크카드',
@@ -18489,7 +18482,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2018,
+    id: 2016,
     cardIssuer: '롯데카드',
     bin: '940934',
     factorName: '롯데택시유류',
@@ -18498,7 +18491,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2019,
+    id: 2017,
     cardIssuer: '롯데카드',
     bin: '940935',
     factorName: '롯데법인카드',
@@ -18507,7 +18500,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2020,
+    id: 2018,
     cardIssuer: '롯데카드',
     bin: '940936',
     factorName: '롯데법인카드',
@@ -18516,7 +18509,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2021,
+    id: 2019,
     cardIssuer: '롯데카드',
     bin: '940937',
     factorName: '롯데체크카드',
@@ -18525,7 +18518,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2022,
+    id: 2020,
     cardIssuer: '롯데카드',
     bin: '940938',
     factorName: '롯데체크카드',
@@ -18534,7 +18527,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2023,
+    id: 2021,
     cardIssuer: '롯데카드',
     bin: '940939',
     factorName: '롯데카드',
@@ -18543,7 +18536,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2024,
+    id: 2022,
     cardIssuer: '롯데카드',
     bin: '940940',
     factorName: '롯데법인카드',
@@ -18552,7 +18545,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2025,
+    id: 2023,
     cardIssuer: '롯데카드',
     bin: '940941',
     factorName: '롯데체크카드',
@@ -18561,7 +18554,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2026,
+    id: 2024,
     cardIssuer: '롯데카드',
     bin: '940942',
     factorName: '롯데메디플러스',
@@ -18570,7 +18563,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2027,
+    id: 2025,
     cardIssuer: '롯데카드',
     bin: '940943',
     factorName: '롯데체크카드',
@@ -18579,7 +18572,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2028,
+    id: 2026,
     cardIssuer: '롯데카드',
     bin: '940945',
     factorName: '롯데체크카드',
@@ -18588,7 +18581,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2029,
+    id: 2027,
     cardIssuer: '롯데카드',
     bin: '940947',
     factorName: '롯데카드',
@@ -18597,7 +18590,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2030,
+    id: 2028,
     cardIssuer: '롯데카드',
     bin: '940948',
     factorName: '롯데체크카드',
@@ -18606,7 +18599,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2031,
+    id: 2029,
     cardIssuer: '롯데카드',
     bin: '940949',
     factorName: '롯데카드',
@@ -18615,7 +18608,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2032,
+    id: 2030,
     cardIssuer: '롯데카드',
     bin: '940951',
     factorName: '롯데체크카드',
@@ -18624,7 +18617,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2033,
+    id: 2031,
     cardIssuer: '롯데카드',
     bin: '940952',
     factorName: '롯데체크카드',
@@ -18633,7 +18626,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2034,
+    id: 2032,
     cardIssuer: '롯데카드',
     bin: '940953',
     factorName: '롯데체크카드',
@@ -18642,7 +18635,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2035,
+    id: 2033,
     cardIssuer: '롯데카드',
     bin: '940954',
     factorName: '롯데아이행복',
@@ -18651,7 +18644,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2036,
+    id: 2034,
     cardIssuer: '롯데카드',
     bin: '940955',
     factorName: '롯데카드',
@@ -18660,7 +18653,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2037,
+    id: 2035,
     cardIssuer: '롯데카드',
     bin: '940956',
     factorName: '롯데체크카드',
@@ -18669,7 +18662,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2038,
+    id: 2036,
     cardIssuer: '롯데카드',
     bin: '940957',
     factorName: '롯데체크카드',
@@ -18678,7 +18671,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2039,
+    id: 2037,
     cardIssuer: '롯데카드',
     bin: '940958',
     factorName: '롯데카드',
@@ -18687,7 +18680,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2040,
+    id: 2038,
     cardIssuer: '롯데카드',
     bin: '940960',
     factorName: '롯데기프트카드',
@@ -18696,7 +18689,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2041,
+    id: 2039,
     cardIssuer: '롯데카드',
     bin: '940961',
     factorName: '롯데기프트카드',
@@ -18705,7 +18698,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2042,
+    id: 2040,
     cardIssuer: '롯데카드',
     bin: '940962',
     factorName: '롯데기프트카드',
@@ -18714,7 +18707,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2043,
+    id: 2041,
     cardIssuer: '롯데카드',
     bin: '940963',
     factorName: '롯데기프트카드',
@@ -18723,7 +18716,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2044,
+    id: 2042,
     cardIssuer: '롯데카드',
     bin: '940964',
     factorName: '롯데기프트카드',
@@ -18732,7 +18725,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2045,
+    id: 2043,
     cardIssuer: '롯데카드',
     bin: '940965',
     factorName: '롯데기프트카드',
@@ -18741,7 +18734,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2046,
+    id: 2044,
     cardIssuer: '롯데카드',
     bin: '940966',
     factorName: '롯데기프트카드',
@@ -18750,7 +18743,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2047,
+    id: 2045,
     cardIssuer: '롯데카드',
     bin: '940967',
     factorName: '롯데기프트카드',
@@ -18759,7 +18752,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2048,
+    id: 2046,
     cardIssuer: '롯데카드',
     bin: '940968',
     factorName: '롯데기프트카드',
@@ -18768,7 +18761,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2049,
+    id: 2047,
     cardIssuer: '롯데카드',
     bin: '940969',
     factorName: '롯데기프트카드',
@@ -18777,7 +18770,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2050,
+    id: 2048,
     cardIssuer: '롯데카드',
     bin: '940970',
     factorName: '롯데기프트카드',
@@ -18786,7 +18779,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2051,
+    id: 2049,
     cardIssuer: '롯데카드',
     bin: '940971',
     factorName: '롯데대출전용',
@@ -18795,7 +18788,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2052,
+    id: 2050,
     cardIssuer: '롯데카드',
     bin: '940972',
     factorName: '롯데카드',
@@ -18804,7 +18797,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2053,
+    id: 2051,
     cardIssuer: '롯데카드',
     bin: '940973',
     factorName: '롯데기프트카드',
@@ -18813,7 +18806,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2054,
+    id: 2052,
     cardIssuer: '롯데카드',
     bin: '940974',
     factorName: '롯데기프트카드',
@@ -18822,7 +18815,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2055,
+    id: 2053,
     cardIssuer: '롯데카드',
     bin: '940975',
     factorName: '롯데기프트카드',
@@ -18831,7 +18824,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2056,
+    id: 2054,
     cardIssuer: '롯데카드',
     bin: '940976',
     factorName: '롯데기프트카드',
@@ -18840,7 +18833,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2057,
+    id: 2055,
     cardIssuer: '롯데카드',
     bin: '940977',
     factorName: '롯데기프트카드',
@@ -18849,7 +18842,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2058,
+    id: 2056,
     cardIssuer: '롯데카드',
     bin: '940978',
     factorName: '롯데기프트카드',
@@ -18858,7 +18851,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2059,
+    id: 2057,
     cardIssuer: '롯데카드',
     bin: '940979',
     factorName: '롯데기프트카드',
@@ -18867,7 +18860,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2060,
+    id: 2058,
     cardIssuer: '롯데카드',
     bin: '940980',
     factorName: '롯데카드',
@@ -18876,7 +18869,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2061,
+    id: 2059,
     cardIssuer: '롯데카드',
     bin: '940981',
     factorName: '롯데카드',
@@ -18885,7 +18878,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2062,
+    id: 2060,
     cardIssuer: '롯데카드',
     bin: '940982',
     factorName: '롯데기프트카드',
@@ -18894,7 +18887,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2063,
+    id: 2061,
     cardIssuer: '롯데카드',
     bin: '940983',
     factorName: '이즐카드',
@@ -18905,7 +18898,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2064,
+    id: 2062,
     cardIssuer: '롯데카드',
     bin: '940984',
     factorName: '롯데카드',
@@ -18914,7 +18907,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2065,
+    id: 2063,
     cardIssuer: '롯데카드',
     bin: '940985',
     factorName: '롯데카드',
@@ -18923,7 +18916,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2066,
+    id: 2064,
     cardIssuer: '롯데카드',
     bin: '940991',
     factorName: '롯데카드',
@@ -18932,7 +18925,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2067,
+    id: 2065,
     cardIssuer: '롯데카드',
     bin: '940999',
     factorName: '롯데SME카드',
@@ -18941,7 +18934,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2068,
+    id: 2066,
     cardIssuer: '하나카드',
     bin: '941000',
     factorName: '하나카드',
@@ -18950,7 +18943,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2069,
+    id: 2067,
     cardIssuer: '삼성카드',
     bin: '941002',
     factorName: '삼성카드',
@@ -18959,7 +18952,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2070,
+    id: 2068,
     cardIssuer: 'BC카드',
     bin: '941003',
     factorName: 'BC 카드',
@@ -18968,7 +18961,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2071,
+    id: 2069,
     cardIssuer: '삼성카드',
     bin: '941004',
     factorName: '삼성카드',
@@ -18977,7 +18970,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2072,
+    id: 2070,
     cardIssuer: '하나카드',
     bin: '941005',
     factorName: '하나기업',
@@ -18986,7 +18979,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2073,
+    id: 2071,
     cardIssuer: 'BC카드',
     bin: '941006',
     factorName: 'BC 카드',
@@ -18995,7 +18988,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2074,
+    id: 2072,
     cardIssuer: '수협은행',
     bin: '941008',
     factorName: '수협체크',
@@ -19004,7 +18997,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2075,
+    id: 2073,
     cardIssuer: '삼성카드',
     bin: '941009',
     factorName: '삼성카드',
@@ -19013,7 +19006,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2076,
+    id: 2074,
     cardIssuer: '삼성카드',
     bin: '941010',
     factorName: '삼성카드',
@@ -19022,7 +19015,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2077,
+    id: 2075,
     cardIssuer: 'BC카드',
     bin: '941011',
     factorName: 'NH비씨카드',
@@ -19031,7 +19024,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2078,
+    id: 2076,
     cardIssuer: 'BC카드',
     bin: '941012',
     factorName: 'NH비씨카드',
@@ -19040,7 +19033,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2079,
+    id: 2077,
     cardIssuer: '신한카드',
     bin: '941013',
     factorName: '신한카드체크',
@@ -19049,7 +19042,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2080,
+    id: 2078,
     cardIssuer: '신한카드',
     bin: '941014',
     factorName: '신한카드선불',
@@ -19058,7 +19051,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2081,
+    id: 2079,
     cardIssuer: '신한카드',
     bin: '941015',
     factorName: '신한유류구매',
@@ -19067,7 +19060,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2082,
+    id: 2080,
     cardIssuer: '신한카드',
     bin: '941017',
     factorName: '신한유류구매',
@@ -19076,7 +19069,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2083,
+    id: 2081,
     cardIssuer: '신한카드',
     bin: '941018',
     factorName: '신한유류구매',
@@ -19085,7 +19078,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2084,
+    id: 2082,
     cardIssuer: '신한카드',
     bin: '941019',
     factorName: '신한법인체크',
@@ -19094,7 +19087,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2085,
+    id: 2083,
     cardIssuer: 'BC카드',
     bin: '941020',
     factorName: '비씨카드',
@@ -19103,7 +19096,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2086,
+    id: 2084,
     cardIssuer: 'BC카드',
     bin: '941021',
     factorName: '신한비씨카드',
@@ -19112,7 +19105,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2087,
+    id: 2085,
     cardIssuer: 'BC카드',
     bin: '941022',
     factorName: '우리카드',
@@ -19122,7 +19115,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2088,
+    id: 2086,
     cardIssuer: 'BC카드',
     bin: '941023',
     factorName: 'SC비씨카드',
@@ -19131,7 +19124,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2089,
+    id: 2087,
     cardIssuer: 'BC카드',
     bin: '941024',
     factorName: '우리카드',
@@ -19141,7 +19134,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2090,
+    id: 2088,
     cardIssuer: 'BC카드',
     bin: '941025',
     factorName: '하나SK비씨카드',
@@ -19150,7 +19143,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2091,
+    id: 2089,
     cardIssuer: '삼성카드',
     bin: '941026',
     factorName: '삼성법인',
@@ -19159,7 +19152,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2092,
+    id: 2090,
     cardIssuer: 'BC카드',
     bin: '941027',
     factorName: '씨티비씨카드',
@@ -19168,7 +19161,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2093,
+    id: 2091,
     cardIssuer: '삼성카드',
     bin: '941028',
     factorName: '삼성카드',
@@ -19177,7 +19170,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2094,
+    id: 2092,
     cardIssuer: '삼성카드',
     bin: '941029',
     factorName: '삼성체크',
@@ -19186,7 +19179,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2095,
+    id: 2093,
     cardIssuer: '삼성카드',
     bin: '941030',
     factorName: '삼성카드',
@@ -19195,7 +19188,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2096,
+    id: 2094,
     cardIssuer: 'BC카드',
     bin: '941031',
     factorName: 'iM뱅크비씨카드',
@@ -19206,7 +19199,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2097,
+    id: 2095,
     cardIssuer: 'BC카드',
     bin: '941032',
     factorName: '부산비씨카드',
@@ -19215,7 +19208,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2098,
+    id: 2096,
     cardIssuer: '삼성카드',
     bin: '941034',
     factorName: '삼성카드',
@@ -19224,7 +19217,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2099,
+    id: 2097,
     cardIssuer: '삼성카드',
     bin: '941035',
     factorName: '삼성카드',
@@ -19233,7 +19226,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2100,
+    id: 2098,
     cardIssuer: 'BC카드',
     bin: '941036',
     factorName: '씨티비씨카드',
@@ -19242,7 +19235,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2101,
+    id: 2099,
     cardIssuer: '삼성카드',
     bin: '941037',
     factorName: '삼성기프트',
@@ -19251,7 +19244,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2102,
+    id: 2100,
     cardIssuer: '삼성카드',
     bin: '941038',
     factorName: '삼성카드',
@@ -19260,7 +19253,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2103,
+    id: 2101,
     cardIssuer: 'BC카드',
     bin: '941039',
     factorName: '경남비씨카드',
@@ -19269,7 +19262,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2104,
+    id: 2102,
     cardIssuer: '하나카드',
     bin: '941040',
     factorName: '코나카드',
@@ -19280,7 +19273,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2105,
+    id: 2103,
     cardIssuer: '하나카드',
     bin: '941041',
     factorName: '코나카드',
@@ -19291,7 +19284,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2106,
+    id: 2104,
     cardIssuer: '하나카드',
     bin: '941042',
     factorName: '코나카드',
@@ -19302,7 +19295,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2107,
+    id: 2105,
     cardIssuer: '하나카드',
     bin: '941043',
     factorName: '나이스정보통신',
@@ -19313,7 +19306,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2108,
+    id: 2106,
     cardIssuer: 'KB국민카드',
     bin: '941044',
     factorName: 'KB구매전용카드',
@@ -19322,7 +19315,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2109,
+    id: 2107,
     cardIssuer: '하나카드',
     bin: '941045',
     factorName: '나이스정보통신',
@@ -19333,7 +19326,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2110,
+    id: 2108,
     cardIssuer: '하나카드',
     bin: '941046',
     factorName: '나이스정보통신',
@@ -19344,7 +19337,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2111,
+    id: 2109,
     cardIssuer: '하나카드',
     bin: '941047',
     factorName: '나이스정보통신',
@@ -19355,7 +19348,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2112,
+    id: 2110,
     cardIssuer: '하나카드',
     bin: '941048',
     factorName: '카카오페이',
@@ -19366,7 +19359,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2113,
+    id: 2111,
     cardIssuer: 'KB국민카드',
     bin: '941049',
     factorName: 'KB 기업카드',
@@ -19375,7 +19368,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2114,
+    id: 2112,
     cardIssuer: '하나카드',
     bin: '941050',
     factorName: '하나카드',
@@ -19384,7 +19377,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2115,
+    id: 2113,
     cardIssuer: '하나카드',
     bin: '941051',
     factorName: '하나체크카드',
@@ -19393,7 +19386,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2116,
+    id: 2114,
     cardIssuer: '하나카드',
     bin: '941052',
     factorName: '하나체크카드',
@@ -19402,7 +19395,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2117,
+    id: 2115,
     cardIssuer: '하나카드',
     bin: '941053',
     factorName: '하나체크카드',
@@ -19411,7 +19404,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2118,
+    id: 2116,
     cardIssuer: '하나카드',
     bin: '941056',
     factorName: '하나기업',
@@ -19420,7 +19413,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2119,
+    id: 2117,
     cardIssuer: '하나카드',
     bin: '941057',
     factorName: '하나기업',
@@ -19429,7 +19422,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2120,
+    id: 2118,
     cardIssuer: '하나카드',
     bin: '941058',
     factorName: '하나기업',
@@ -19438,7 +19431,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2121,
+    id: 2119,
     cardIssuer: '삼성카드',
     bin: '941059',
     factorName: '삼성카드',
@@ -19449,7 +19442,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2122,
+    id: 2120,
     cardIssuer: '롯데카드',
     bin: '941060',
     factorName: '롯데카드',
@@ -19458,7 +19451,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2123,
+    id: 2121,
     cardIssuer: '신한카드',
     bin: '941061',
     factorName: '신한카드',
@@ -19467,7 +19460,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2124,
+    id: 2122,
     cardIssuer: '신한카드',
     bin: '941062',
     factorName: '신한카드',
@@ -19476,7 +19469,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2125,
+    id: 2123,
     cardIssuer: '신한카드',
     bin: '941063',
     factorName: '신한카드선불',
@@ -19485,7 +19478,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2126,
+    id: 2124,
     cardIssuer: '신한카드',
     bin: '941064',
     factorName: '신한카드법인',
@@ -19494,7 +19487,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2127,
+    id: 2125,
     cardIssuer: '롯데카드',
     bin: '941065',
     factorName: '롯데카드',
@@ -19503,7 +19496,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2128,
+    id: 2126,
     cardIssuer: '신한카드',
     bin: '941066',
     factorName: '신한카드선불',
@@ -19512,7 +19505,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2129,
+    id: 2127,
     cardIssuer: '신한카드',
     bin: '941067',
     factorName: '신한카드선불',
@@ -19521,7 +19514,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2130,
+    id: 2128,
     cardIssuer: '신한카드',
     bin: '941068',
     factorName: '신한카드법인',
@@ -19530,7 +19523,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2131,
+    id: 2129,
     cardIssuer: '신한카드',
     bin: '941069',
     factorName: '신한카드선불',
@@ -19539,7 +19532,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2132,
+    id: 2130,
     cardIssuer: '신한카드',
     bin: '941073',
     factorName: '신한GIFT',
@@ -19548,7 +19541,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2133,
+    id: 2131,
     cardIssuer: '신한카드',
     bin: '941074',
     factorName: '신한카드',
@@ -19557,7 +19550,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2134,
+    id: 2132,
     cardIssuer: '신한카드',
     bin: '941075',
     factorName: '신한카드체크',
@@ -19566,7 +19559,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2135,
+    id: 2133,
     cardIssuer: '신한카드',
     bin: '941076',
     factorName: '신한카드선불',
@@ -19575,7 +19568,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2136,
+    id: 2134,
     cardIssuer: '롯데카드',
     bin: '941077',
     factorName: '롯데체크카드',
@@ -19584,7 +19577,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2137,
+    id: 2135,
     cardIssuer: 'BC카드',
     bin: '941078',
     factorName: '신한비씨카드',
@@ -19593,7 +19586,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2138,
+    id: 2136,
     cardIssuer: '신한카드',
     bin: '941080',
     factorName: '신한카드',
@@ -19602,7 +19595,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2139,
+    id: 2137,
     cardIssuer: '신한카드',
     bin: '941081',
     factorName: '신한카드법인',
@@ -19611,7 +19604,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2140,
+    id: 2138,
     cardIssuer: '신한카드',
     bin: '941082',
     factorName: '신한카드체크',
@@ -19620,7 +19613,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2141,
+    id: 2139,
     cardIssuer: '신한카드',
     bin: '941083',
     factorName: '신한선불카드',
@@ -19629,7 +19622,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2142,
+    id: 2140,
     cardIssuer: '신한카드',
     bin: '941084',
     factorName: '신한카드',
@@ -19638,7 +19631,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2143,
+    id: 2141,
     cardIssuer: '삼성카드',
     bin: '941085',
     factorName: '삼성카드',
@@ -19647,7 +19640,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2144,
+    id: 2142,
     cardIssuer: '신한카드',
     bin: '941086',
     factorName: '신한카드선불',
@@ -19656,7 +19649,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2145,
+    id: 2143,
     cardIssuer: '삼성카드',
     bin: '941087',
     factorName: '삼성카드',
@@ -19665,7 +19658,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2146,
+    id: 2144,
     cardIssuer: '삼성카드',
     bin: '941088',
     factorName: '삼성카드',
@@ -19674,7 +19667,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2147,
+    id: 2145,
     cardIssuer: '삼성카드',
     bin: '941089',
     factorName: '삼성카드',
@@ -19683,7 +19676,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2148,
+    id: 2146,
     cardIssuer: '삼성카드',
     bin: '941090',
     factorName: '삼성카드',
@@ -19692,7 +19685,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2149,
+    id: 2147,
     cardIssuer: '삼성카드',
     bin: '941091',
     factorName: '삼성카드',
@@ -19701,7 +19694,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2150,
+    id: 2148,
     cardIssuer: '삼성카드',
     bin: '941092',
     factorName: '삼성카드',
@@ -19710,7 +19703,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2151,
+    id: 2149,
     cardIssuer: '삼성카드',
     bin: '941093',
     factorName: '삼성카드',
@@ -19719,7 +19712,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2152,
+    id: 2150,
     cardIssuer: '삼성카드',
     bin: '941094',
     factorName: '삼성기프트',
@@ -19728,7 +19721,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2153,
+    id: 2151,
     cardIssuer: '신한카드',
     bin: '941096',
     factorName: '신한선불카드',
@@ -19737,7 +19730,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2154,
+    id: 2152,
     cardIssuer: '신한카드',
     bin: '941097',
     factorName: '신한기프트카드',
@@ -19746,7 +19739,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2155,
+    id: 2153,
     cardIssuer: '신한카드',
     bin: '941098',
     factorName: '신한GIFT',
@@ -19755,7 +19748,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2156,
+    id: 2154,
     cardIssuer: '신한카드',
     bin: '941099',
     factorName: '신한GIFT',
@@ -19764,7 +19757,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2157,
+    id: 2155,
     cardIssuer: '신한카드',
     bin: '941111',
     factorName: '신한카드체크',
@@ -19773,7 +19766,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2158,
+    id: 2156,
     cardIssuer: '신한카드',
     bin: '941112',
     factorName: '신한카드체크',
@@ -19782,7 +19775,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2159,
+    id: 2157,
     cardIssuer: 'NH농협카드',
     bin: '941116',
     factorName: 'NH카드',
@@ -19791,7 +19784,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2160,
+    id: 2158,
     cardIssuer: 'NH농협카드',
     bin: '941117',
     factorName: 'NH카드',
@@ -19800,7 +19793,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2161,
+    id: 2159,
     cardIssuer: 'BC카드',
     bin: '941120',
     factorName: '비씨체크카드',
@@ -19809,7 +19802,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2162,
+    id: 2160,
     cardIssuer: '신한카드',
     bin: '941122',
     factorName: '신한카드',
@@ -19818,7 +19811,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2163,
+    id: 2161,
     cardIssuer: 'BC카드',
     bin: '941150',
     factorName: '비씨카드',
@@ -19827,7 +19820,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2164,
+    id: 2162,
     cardIssuer: '신한카드',
     bin: '941161',
     factorName: '신한카드체크',
@@ -19836,7 +19829,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2165,
+    id: 2163,
     cardIssuer: 'BC카드',
     bin: '941163',
     factorName: 'SK증권체크',
@@ -19845,7 +19838,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2166,
+    id: 2164,
     cardIssuer: '신한카드',
     bin: '941177',
     factorName: '신한카드',
@@ -19854,7 +19847,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2167,
+    id: 2165,
     cardIssuer: '신한카드',
     bin: '941178',
     factorName: '신한카드',
@@ -19863,7 +19856,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2168,
+    id: 2166,
     cardIssuer: '신한카드',
     bin: '941179',
     factorName: '신한카드',
@@ -19872,7 +19865,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2169,
+    id: 2167,
     cardIssuer: '신한카드',
     bin: '941180',
     factorName: '신한카드기프트',
@@ -19881,7 +19874,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2170,
+    id: 2168,
     cardIssuer: '하나카드',
     bin: '941181',
     factorName: '하나카드',
@@ -19890,7 +19883,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2171,
+    id: 2169,
     cardIssuer: '신한카드',
     bin: '941183',
     factorName: '신한카드체크',
@@ -19899,7 +19892,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2172,
+    id: 2170,
     cardIssuer: '신한카드',
     bin: '941184',
     factorName: '신한화물복지',
@@ -19908,7 +19901,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2173,
+    id: 2171,
     cardIssuer: '신한카드',
     bin: '941185',
     factorName: '국민행복체크',
@@ -19917,7 +19910,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2174,
+    id: 2172,
     cardIssuer: '신한카드',
     bin: '941186',
     factorName: '국민행복체크',
@@ -19926,7 +19919,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2175,
+    id: 2173,
     cardIssuer: '신한카드',
     bin: '941187',
     factorName: '국민행복신용',
@@ -19935,7 +19928,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2176,
+    id: 2174,
     cardIssuer: '신한카드',
     bin: '941188',
     factorName: '신한카드',
@@ -19944,7 +19937,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2177,
+    id: 2175,
     cardIssuer: '신한카드',
     bin: '941189',
     factorName: '신한카드체크',
@@ -19953,7 +19946,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2178,
+    id: 2176,
     cardIssuer: '신한카드',
     bin: '941190',
     factorName: '신한카드',
@@ -19962,7 +19955,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2179,
+    id: 2177,
     cardIssuer: '신한카드',
     bin: '941191',
     factorName: '신한카드',
@@ -19971,7 +19964,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2180,
+    id: 2178,
     cardIssuer: '신한카드',
     bin: '941194',
     factorName: '신한카드',
@@ -19980,7 +19973,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2181,
+    id: 2179,
     cardIssuer: '신한카드',
     bin: '941195',
     factorName: '신한카드',
@@ -19989,7 +19982,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2182,
+    id: 2180,
     cardIssuer: 'NH농협카드',
     bin: '941199',
     factorName: 'NH카드',
@@ -19998,7 +19991,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2183,
+    id: 2181,
     cardIssuer: '하나카드',
     bin: '941281',
     factorName: '하나카드',
@@ -20007,7 +20000,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2184,
+    id: 2182,
     cardIssuer: '하나카드',
     bin: '941381',
     factorName: '하나GIFT',
@@ -20016,7 +20009,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2185,
+    id: 2183,
     cardIssuer: 'BC카드',
     bin: '941450',
     factorName: '비씨카드',
@@ -20025,7 +20018,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2186,
+    id: 2184,
     cardIssuer: 'BC카드',
     bin: '941520',
     factorName: '우리카드',
@@ -20035,7 +20028,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2187,
+    id: 2185,
     cardIssuer: '하나카드',
     bin: '941581',
     factorName: '하나기업',
@@ -20044,7 +20037,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2188,
+    id: 2186,
     cardIssuer: '수협은행',
     bin: '941607',
     factorName: '수협체크',
@@ -20053,7 +20046,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2189,
+    id: 2187,
     cardIssuer: 'BC카드',
     bin: '941623',
     factorName: 'SC비씨체크',
@@ -20062,7 +20055,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2190,
+    id: 2188,
     cardIssuer: 'BC카드',
     bin: '941631',
     factorName: 'iM뱅크비씨체크',
@@ -20073,7 +20066,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2191,
+    id: 2189,
     cardIssuer: 'BC카드',
     bin: '941632',
     factorName: '부산비씨체크',
@@ -20082,7 +20075,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2192,
+    id: 2190,
     cardIssuer: '광주은행',
     bin: '941634',
     factorName: '광주체크',
@@ -20091,7 +20084,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2193,
+    id: 2191,
     cardIssuer: '제주은행',
     bin: '941635',
     factorName: '제주체크',
@@ -20100,7 +20093,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2194,
+    id: 2192,
     cardIssuer: 'BC카드',
     bin: '941636',
     factorName: '씨티비씨체크',
@@ -20109,7 +20102,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2195,
+    id: 2193,
     cardIssuer: '전북은행',
     bin: '941637',
     factorName: '전북JB체크',
@@ -20120,7 +20113,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 2196,
+    id: 2194,
     cardIssuer: 'BC카드',
     bin: '941639',
     factorName: '경남비씨체크',
@@ -20129,7 +20122,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2197,
+    id: 2195,
     cardIssuer: 'BC카드',
     bin: '941643',
     factorName: '한국투자체크',
@@ -20138,7 +20131,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2198,
+    id: 2196,
     cardIssuer: 'BC카드',
     bin: '941645',
     factorName: '새마을체크',
@@ -20147,7 +20140,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2199,
+    id: 2197,
     cardIssuer: 'BC카드',
     bin: '941648',
     factorName: '신협체크',
@@ -20156,7 +20149,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2200,
+    id: 2198,
     cardIssuer: 'BC카드',
     bin: '941650',
     factorName: '비씨체크카드',
@@ -20165,7 +20158,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2201,
+    id: 2199,
     cardIssuer: 'BC카드',
     bin: '941671',
     factorName: '우체국체크',
@@ -20174,7 +20167,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2202,
+    id: 2200,
     cardIssuer: '하나카드',
     bin: '941681',
     factorName: '하나카드',
@@ -20183,7 +20176,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2203,
+    id: 2201,
     cardIssuer: 'BC카드',
     bin: '941691',
     factorName: 'NH투자체크',
@@ -20192,7 +20185,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2204,
+    id: 2202,
     cardIssuer: 'BC카드',
     bin: '941696',
     factorName: '케이뱅크체크',
@@ -20201,7 +20194,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2205,
+    id: 2203,
     cardIssuer: '수협은행',
     bin: '941707',
     factorName: '수협카드',
@@ -20210,7 +20203,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2206,
+    id: 2204,
     cardIssuer: 'BC카드',
     bin: '941711',
     factorName: 'NH농협비씨카드',
@@ -20219,7 +20212,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2207,
+    id: 2205,
     cardIssuer: 'BC카드',
     bin: '941712',
     factorName: 'NH농협비씨카드',
@@ -20228,7 +20221,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2208,
+    id: 2206,
     cardIssuer: 'BC카드',
     bin: '941722',
     factorName: '우리카드',
@@ -20238,7 +20231,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2209,
+    id: 2207,
     cardIssuer: 'BC카드',
     bin: '941723',
     factorName: 'SC비씨카드',
@@ -20247,7 +20240,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2210,
+    id: 2208,
     cardIssuer: 'BC카드',
     bin: '941724',
     factorName: '우리카드',
@@ -20257,7 +20250,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2211,
+    id: 2209,
     cardIssuer: 'BC카드',
     bin: '941725',
     factorName: '하나비씨카드',
@@ -20266,7 +20259,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2212,
+    id: 2210,
     cardIssuer: 'BC카드',
     bin: '941731',
     factorName: 'iM뱅크비씨카드',
@@ -20277,7 +20270,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2213,
+    id: 2211,
     cardIssuer: 'BC카드',
     bin: '941732',
     factorName: '부산비씨카드',
@@ -20286,7 +20279,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2214,
+    id: 2212,
     cardIssuer: '광주은행',
     bin: '941734',
     factorName: '광주신용',
@@ -20295,7 +20288,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2215,
+    id: 2213,
     cardIssuer: '제주은행',
     bin: '941735',
     factorName: '제주카드',
@@ -20304,7 +20297,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2216,
+    id: 2214,
     cardIssuer: 'BC카드',
     bin: '941736',
     factorName: '씨티비씨카드',
@@ -20313,7 +20306,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2217,
+    id: 2215,
     cardIssuer: '전북은행',
     bin: '941737',
     factorName: '전북JB카드',
@@ -20324,7 +20317,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 2218,
+    id: 2216,
     cardIssuer: 'BC카드',
     bin: '941739',
     factorName: '경남비씨카드',
@@ -20333,7 +20326,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2219,
+    id: 2217,
     cardIssuer: 'BC카드',
     bin: '941750',
     factorName: '비씨카드',
@@ -20342,7 +20335,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2220,
+    id: 2218,
     cardIssuer: '하나카드',
     bin: '941781',
     factorName: '하나체크카드',
@@ -20351,7 +20344,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2221,
+    id: 2219,
     cardIssuer: '수협은행',
     bin: '941807',
     factorName: '수협체크',
@@ -20360,7 +20353,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2222,
+    id: 2220,
     cardIssuer: '하나카드',
     bin: '941881',
     factorName: '하나기업',
@@ -20369,7 +20362,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2223,
+    id: 2221,
     cardIssuer: '광주은행',
     bin: '941934',
     factorName: '광주카드',
@@ -20378,7 +20371,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2224,
+    id: 2222,
     cardIssuer: '하나카드',
     bin: '941981',
     factorName: '하나기업체크',
@@ -20387,7 +20380,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2225,
+    id: 2223,
     cardIssuer: 'BC카드',
     bin: '942003',
     factorName: 'BC 카드',
@@ -20396,7 +20389,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2226,
+    id: 2224,
     cardIssuer: 'BC카드',
     bin: '942006',
     factorName: 'BC 카드',
@@ -20405,7 +20398,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2227,
+    id: 2225,
     cardIssuer: 'BC카드',
     bin: '942011',
     factorName: 'NH비씨카드',
@@ -20414,7 +20407,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2228,
+    id: 2226,
     cardIssuer: 'BC카드',
     bin: '942012',
     factorName: 'NH비씨카드',
@@ -20423,7 +20416,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2229,
+    id: 2227,
     cardIssuer: '하나카드',
     bin: '942018',
     factorName: '하나선불',
@@ -20432,7 +20425,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2230,
+    id: 2228,
     cardIssuer: '하나카드',
     bin: '942019',
     factorName: '하나선불',
@@ -20441,7 +20434,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2231,
+    id: 2229,
     cardIssuer: 'BC카드',
     bin: '942020',
     factorName: '비씨카드',
@@ -20450,7 +20443,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2232,
+    id: 2230,
     cardIssuer: 'BC카드',
     bin: '942021',
     factorName: '신한비씨카드',
@@ -20459,7 +20452,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2233,
+    id: 2231,
     cardIssuer: 'BC카드',
     bin: '942022',
     factorName: '우리카드',
@@ -20469,7 +20462,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2234,
+    id: 2232,
     cardIssuer: 'BC카드',
     bin: '942023',
     factorName: 'SC비씨카드',
@@ -20478,7 +20471,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2235,
+    id: 2233,
     cardIssuer: 'BC카드',
     bin: '942024',
     factorName: '우리카드',
@@ -20488,7 +20481,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2236,
+    id: 2234,
     cardIssuer: 'BC카드',
     bin: '942025',
     factorName: '하나SK비씨카드',
@@ -20497,7 +20490,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2237,
+    id: 2235,
     cardIssuer: 'BC카드',
     bin: '942027',
     factorName: '씨티비씨카드',
@@ -20506,7 +20499,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2238,
+    id: 2236,
     cardIssuer: 'BC카드',
     bin: '942031',
     factorName: 'iM뱅크비씨카드',
@@ -20517,7 +20510,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2239,
+    id: 2237,
     cardIssuer: 'BC카드',
     bin: '942032',
     factorName: '부산비씨카드',
@@ -20526,7 +20519,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2240,
+    id: 2238,
     cardIssuer: '광주은행',
     bin: '942034',
     factorName: '광주카드',
@@ -20535,7 +20528,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2241,
+    id: 2239,
     cardIssuer: '제주은행',
     bin: '942035',
     factorName: '제주카드',
@@ -20544,7 +20537,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2242,
+    id: 2240,
     cardIssuer: 'BC카드',
     bin: '942036',
     factorName: '씨티비씨카드',
@@ -20553,7 +20546,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2243,
+    id: 2241,
     cardIssuer: 'BC카드',
     bin: '942039',
     factorName: '경남비씨카드',
@@ -20562,7 +20555,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2244,
+    id: 2242,
     cardIssuer: '신한카드',
     bin: '942061',
     factorName: '신한카드체크',
@@ -20571,7 +20564,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2245,
+    id: 2243,
     cardIssuer: '신한카드',
     bin: '942062',
     factorName: '신한카드체크',
@@ -20580,7 +20573,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2246,
+    id: 2244,
     cardIssuer: '신한카드',
     bin: '942063',
     factorName: '신한선불카드',
@@ -20589,7 +20582,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2247,
+    id: 2245,
     cardIssuer: '신한카드',
     bin: '942064',
     factorName: '신한GIFT',
@@ -20598,7 +20591,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2248,
+    id: 2246,
     cardIssuer: '신한카드',
     bin: '942065',
     factorName: '신한법인체크',
@@ -20607,7 +20600,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2249,
+    id: 2247,
     cardIssuer: '신한카드',
     bin: '942069',
     factorName: '신한 KTC',
@@ -20616,7 +20609,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2250,
+    id: 2248,
     cardIssuer: '신한카드',
     bin: '942070',
     factorName: '신한화물복지',
@@ -20625,7 +20618,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2251,
+    id: 2249,
     cardIssuer: '신한카드',
     bin: '942072',
     factorName: '아이사랑카드',
@@ -20634,7 +20627,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2252,
+    id: 2250,
     cardIssuer: '신한카드',
     bin: '942073',
     factorName: '아이사랑체크',
@@ -20643,7 +20636,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2253,
+    id: 2251,
     cardIssuer: '신한카드',
     bin: '942074',
     factorName: '아이사랑체크',
@@ -20652,7 +20645,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2254,
+    id: 2252,
     cardIssuer: '신한카드',
     bin: '942075',
     factorName: '약사대금결제',
@@ -20661,7 +20654,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2255,
+    id: 2253,
     cardIssuer: '신한카드',
     bin: '942076',
     factorName: '신한GIFT',
@@ -20670,7 +20663,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2256,
+    id: 2254,
     cardIssuer: '신한카드',
     bin: '942077',
     factorName: '신한GIFT',
@@ -20679,7 +20672,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2257,
+    id: 2255,
     cardIssuer: 'BC카드',
     bin: '942078',
     factorName: '신한비씨카드',
@@ -20688,7 +20681,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2258,
+    id: 2256,
     cardIssuer: '삼성카드',
     bin: '942082',
     factorName: '삼성카드',
@@ -20697,7 +20690,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2259,
+    id: 2257,
     cardIssuer: '삼성카드',
     bin: '942083',
     factorName: '삼성카드',
@@ -20706,7 +20699,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2260,
+    id: 2258,
     cardIssuer: '삼성카드',
     bin: '942084',
     factorName: '삼성카드',
@@ -20715,7 +20708,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2261,
+    id: 2259,
     cardIssuer: '삼성카드',
     bin: '942085',
     factorName: '삼성법인',
@@ -20724,7 +20717,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2262,
+    id: 2260,
     cardIssuer: '삼성카드',
     bin: '942086',
     factorName: '삼성체크',
@@ -20733,7 +20726,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2263,
+    id: 2261,
     cardIssuer: '삼성카드',
     bin: '942087',
     factorName: '삼성기프트',
@@ -20742,7 +20735,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2264,
+    id: 2262,
     cardIssuer: '삼성카드',
     bin: '942088',
     factorName: '삼성카드',
@@ -20751,7 +20744,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2265,
+    id: 2263,
     cardIssuer: '삼성카드',
     bin: '942089',
     factorName: '삼성가상',
@@ -20760,7 +20753,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2266,
+    id: 2264,
     cardIssuer: '삼성카드',
     bin: '942090',
     factorName: '삼성올앳',
@@ -20769,7 +20762,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2267,
+    id: 2265,
     cardIssuer: '삼성카드',
     bin: '942091',
     factorName: '삼성기프트',
@@ -20778,7 +20771,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2268,
+    id: 2266,
     cardIssuer: '삼성카드',
     bin: '942092',
     factorName: '삼성기프트',
@@ -20787,7 +20780,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2269,
+    id: 2267,
     cardIssuer: '삼성카드',
     bin: '942093',
     factorName: '삼성체크',
@@ -20796,7 +20789,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2270,
+    id: 2268,
     cardIssuer: '삼성카드',
     bin: '942094',
     factorName: '삼성화물복지',
@@ -20805,7 +20798,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2271,
+    id: 2269,
     cardIssuer: '삼성카드',
     bin: '942095',
     factorName: '삼성기프트',
@@ -20814,7 +20807,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2272,
+    id: 2270,
     cardIssuer: '삼성카드',
     bin: '942096',
     factorName: '삼성화물복지',
@@ -20823,7 +20816,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2273,
+    id: 2271,
     cardIssuer: '삼성카드',
     bin: '942099',
     factorName: '삼성카드',
@@ -20832,7 +20825,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2274,
+    id: 2272,
     cardIssuer: '삼성카드',
     bin: '942101',
     factorName: '삼성법인',
@@ -20841,7 +20834,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2275,
+    id: 2273,
     cardIssuer: '삼성카드',
     bin: '942102',
     factorName: '삼성카드',
@@ -20850,7 +20843,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2276,
+    id: 2274,
     cardIssuer: '삼성카드',
     bin: '942103',
     factorName: '삼성카드',
@@ -20859,7 +20852,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2277,
+    id: 2275,
     cardIssuer: '삼성카드',
     bin: '942104',
     factorName: '삼성체크',
@@ -20868,7 +20861,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2278,
+    id: 2276,
     cardIssuer: '삼성카드',
     bin: '942105',
     factorName: '삼성카드',
@@ -20877,7 +20870,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2279,
+    id: 2277,
     cardIssuer: '삼성카드',
     bin: '942106',
     factorName: '삼성카드',
@@ -20886,7 +20879,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2280,
+    id: 2278,
     cardIssuer: '삼성카드',
     bin: '942107',
     factorName: '삼성카드',
@@ -20895,7 +20888,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2281,
+    id: 2279,
     cardIssuer: 'BC카드',
     bin: '942120',
     factorName: '우리카드',
@@ -20905,7 +20898,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2282,
+    id: 2280,
     cardIssuer: 'BC카드',
     bin: '942123',
     factorName: 'SC비씨카드',
@@ -20914,7 +20907,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2283,
+    id: 2281,
     cardIssuer: 'BC카드',
     bin: '942124',
     factorName: '우리카드',
@@ -20924,7 +20917,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2284,
+    id: 2282,
     cardIssuer: 'BC카드',
     bin: '942132',
     factorName: '부산비씨카드',
@@ -20933,7 +20926,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2285,
+    id: 2283,
     cardIssuer: 'BC카드',
     bin: '942150',
     factorName: '비씨카드',
@@ -20942,7 +20935,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2286,
+    id: 2284,
     cardIssuer: 'BC카드',
     bin: '942199',
     factorName: '비씨카드',
@@ -20951,7 +20944,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2287,
+    id: 2285,
     cardIssuer: 'BC카드',
     bin: '942203',
     factorName: 'IBK비씨카드',
@@ -20960,7 +20953,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2288,
+    id: 2286,
     cardIssuer: 'BC카드',
     bin: '942220',
     factorName: '우리카드',
@@ -20970,7 +20963,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2289,
+    id: 2287,
     cardIssuer: 'BC카드',
     bin: '942224',
     factorName: '우리카드',
@@ -20980,7 +20973,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2290,
+    id: 2288,
     cardIssuer: 'BC카드',
     bin: '942239',
     factorName: '경남비씨카드',
@@ -20989,7 +20982,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2291,
+    id: 2289,
     cardIssuer: 'BC카드',
     bin: '942520',
     factorName: '우리카드',
@@ -20999,7 +20992,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2292,
+    id: 2290,
     cardIssuer: 'BC카드',
     bin: '942522',
     factorName: '우리카드',
@@ -21009,7 +21002,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2293,
+    id: 2291,
     cardIssuer: 'BC카드',
     bin: '942524',
     factorName: '우리카드',
@@ -21019,7 +21012,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2294,
+    id: 2292,
     cardIssuer: 'BC카드',
     bin: '942620',
     factorName: '우리카드',
@@ -21029,7 +21022,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2295,
+    id: 2293,
     cardIssuer: 'BC카드',
     bin: '942622',
     factorName: '우리카드',
@@ -21039,7 +21032,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2296,
+    id: 2294,
     cardIssuer: 'BC카드',
     bin: '942624',
     factorName: '우리카드',
@@ -21049,7 +21042,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2297,
+    id: 2295,
     cardIssuer: 'BC카드',
     bin: '942820',
     factorName: '우리카드',
@@ -21059,7 +21052,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2298,
+    id: 2296,
     cardIssuer: 'BC카드',
     bin: '943003',
     factorName: 'BC 카드',
@@ -21068,7 +21061,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2299,
+    id: 2297,
     cardIssuer: 'BC카드',
     bin: '943006',
     factorName: 'BC 카드',
@@ -21077,7 +21070,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2300,
+    id: 2298,
     cardIssuer: 'BC카드',
     bin: '943011',
     factorName: 'NH비씨카드',
@@ -21086,7 +21079,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2301,
+    id: 2299,
     cardIssuer: 'BC카드',
     bin: '943012',
     factorName: 'NH비씨카드',
@@ -21095,7 +21088,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2302,
+    id: 2300,
     cardIssuer: 'NH농협카드',
     bin: '943016',
     factorName: 'NH기업카드',
@@ -21104,7 +21097,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2303,
+    id: 2301,
     cardIssuer: 'NH농협카드',
     bin: '943017',
     factorName: 'NH기업카드',
@@ -21113,7 +21106,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2304,
+    id: 2302,
     cardIssuer: 'BC카드',
     bin: '943020',
     factorName: '비씨카드',
@@ -21122,7 +21115,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2305,
+    id: 2303,
     cardIssuer: 'BC카드',
     bin: '943021',
     factorName: '신한비씨카드',
@@ -21131,7 +21124,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2306,
+    id: 2304,
     cardIssuer: 'BC카드',
     bin: '943022',
     factorName: '우리카드',
@@ -21141,7 +21134,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2307,
+    id: 2305,
     cardIssuer: 'BC카드',
     bin: '943023',
     factorName: 'SC비씨카드',
@@ -21150,7 +21143,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2308,
+    id: 2306,
     cardIssuer: 'BC카드',
     bin: '943024',
     factorName: '우리카드',
@@ -21160,7 +21153,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2309,
+    id: 2307,
     cardIssuer: 'BC카드',
     bin: '943025',
     factorName: '하나SK비씨카드',
@@ -21169,7 +21162,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2310,
+    id: 2308,
     cardIssuer: 'BC카드',
     bin: '943027',
     factorName: '씨티비씨카드',
@@ -21178,7 +21171,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2311,
+    id: 2309,
     cardIssuer: 'BC카드',
     bin: '943031',
     factorName: 'iM뱅크비씨카드',
@@ -21189,7 +21182,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2312,
+    id: 2310,
     cardIssuer: 'BC카드',
     bin: '943032',
     factorName: '부산비씨카드',
@@ -21198,7 +21191,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2313,
+    id: 2311,
     cardIssuer: '광주은행',
     bin: '943034',
     factorName: '광주신용',
@@ -21207,7 +21200,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2314,
+    id: 2312,
     cardIssuer: 'BC카드',
     bin: '943036',
     factorName: '씨티비씨카드',
@@ -21216,7 +21209,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2315,
+    id: 2313,
     cardIssuer: 'BC카드',
     bin: '943039',
     factorName: '경남비씨카드',
@@ -21225,7 +21218,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2316,
+    id: 2314,
     cardIssuer: 'BC카드',
     bin: '943050',
     factorName: '비씨카드',
@@ -21234,7 +21227,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2317,
+    id: 2315,
     cardIssuer: '하나카드',
     bin: '943062',
     factorName: '하나GIFT',
@@ -21243,7 +21236,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2318,
+    id: 2316,
     cardIssuer: 'BC카드',
     bin: '943078',
     factorName: '신한비씨카드',
@@ -21252,7 +21245,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2319,
+    id: 2317,
     cardIssuer: '하나카드',
     bin: '943081',
     factorName: '하나카드',
@@ -21261,7 +21254,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2320,
+    id: 2318,
     cardIssuer: 'NH농협카드',
     bin: '943116',
     factorName: 'NH기업체크',
@@ -21270,7 +21263,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2321,
+    id: 2319,
     cardIssuer: 'NH농협카드',
     bin: '943117',
     factorName: 'NH기업체크',
@@ -21279,7 +21272,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2322,
+    id: 2320,
     cardIssuer: 'BC카드',
     bin: '943132',
     factorName: '부산비씨카드',
@@ -21288,7 +21281,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2323,
+    id: 2321,
     cardIssuer: '현대카드',
     bin: '943133',
     factorName: '현대로컬개인',
@@ -21297,7 +21290,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2324,
+    id: 2322,
     cardIssuer: '현대카드',
     bin: '943134',
     factorName: '현대로컬개인',
@@ -21306,7 +21299,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2325,
+    id: 2323,
     cardIssuer: '현대카드',
     bin: '943135',
     factorName: '현대체크카드',
@@ -21315,7 +21308,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2326,
+    id: 2324,
     cardIssuer: '현대카드',
     bin: '943136',
     factorName: '현대로컬개인',
@@ -21324,7 +21317,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2327,
+    id: 2325,
     cardIssuer: '현대카드',
     bin: '943137',
     factorName: '현대복합체크',
@@ -21333,7 +21326,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2328,
+    id: 2326,
     cardIssuer: '현대카드',
     bin: '943138',
     factorName: '현대로컬개인',
@@ -21342,7 +21335,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2329,
+    id: 2327,
     cardIssuer: '현대카드',
     bin: '943139',
     factorName: '현대체크카드',
@@ -21351,7 +21344,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2330,
+    id: 2328,
     cardIssuer: '현대카드',
     bin: '943140',
     factorName: '현대로컬개인',
@@ -21360,7 +21353,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2331,
+    id: 2329,
     cardIssuer: '현대카드',
     bin: '943141',
     factorName: '현대로컬개인',
@@ -21369,7 +21362,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2332,
+    id: 2330,
     cardIssuer: '현대카드',
     bin: '943142',
     factorName: '현대로컬개인',
@@ -21378,7 +21371,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2333,
+    id: 2331,
     cardIssuer: '현대카드',
     bin: '943143',
     factorName: '현대로컬개인',
@@ -21387,7 +21380,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2334,
+    id: 2332,
     cardIssuer: '현대카드',
     bin: '943144',
     factorName: '현대체크카드',
@@ -21396,7 +21389,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2335,
+    id: 2333,
     cardIssuer: '현대카드',
     bin: '943145',
     factorName: '현대로컬개인',
@@ -21405,7 +21398,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2336,
+    id: 2334,
     cardIssuer: '현대카드',
     bin: '943146',
     factorName: '현대로컬개인',
@@ -21414,7 +21407,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2337,
+    id: 2335,
     cardIssuer: '현대카드',
     bin: '943147',
     factorName: '현대로컬개인',
@@ -21423,7 +21416,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2338,
+    id: 2336,
     cardIssuer: '현대카드',
     bin: '943148',
     factorName: '현대로컬개인',
@@ -21432,7 +21425,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2339,
+    id: 2337,
     cardIssuer: '현대카드',
     bin: '943149',
     factorName: '현대로컬개인',
@@ -21441,7 +21434,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2340,
+    id: 2338,
     cardIssuer: 'BC카드',
     bin: '943150',
     factorName: '비씨카드',
@@ -21450,7 +21443,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2341,
+    id: 2339,
     cardIssuer: '현대카드',
     bin: '943151',
     factorName: '현대로컬개인',
@@ -21459,7 +21452,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2342,
+    id: 2340,
     cardIssuer: '현대카드',
     bin: '943152',
     factorName: '현대로컬개인',
@@ -21468,7 +21461,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2343,
+    id: 2341,
     cardIssuer: '현대카드',
     bin: '943153',
     factorName: '현대로컬개인',
@@ -21477,7 +21470,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2344,
+    id: 2342,
     cardIssuer: '현대카드',
     bin: '943154',
     factorName: '현대로컬개인',
@@ -21486,7 +21479,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2345,
+    id: 2343,
     cardIssuer: '현대카드',
     bin: '943155',
     factorName: '현대로컬개인',
@@ -21495,7 +21488,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2346,
+    id: 2344,
     cardIssuer: '현대카드',
     bin: '943156',
     factorName: '현대로컬개인',
@@ -21504,7 +21497,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2347,
+    id: 2345,
     cardIssuer: '현대카드',
     bin: '943157',
     factorName: '현대로컬개인',
@@ -21513,7 +21506,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2348,
+    id: 2346,
     cardIssuer: '현대카드',
     bin: '943158',
     factorName: '현대로컬개인',
@@ -21522,7 +21515,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2349,
+    id: 2347,
     cardIssuer: '현대카드',
     bin: '943159',
     factorName: '현대로컬개인',
@@ -21531,7 +21524,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2350,
+    id: 2348,
     cardIssuer: '현대카드',
     bin: '943160',
     factorName: '현대체크카드',
@@ -21540,7 +21533,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2351,
+    id: 2349,
     cardIssuer: '현대카드',
     bin: '943161',
     factorName: '현대로컬개인',
@@ -21549,7 +21542,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2352,
+    id: 2350,
     cardIssuer: '하나카드',
     bin: '943181',
     factorName: '하나카드',
@@ -21558,7 +21551,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2353,
+    id: 2351,
     cardIssuer: '하나카드',
     bin: '943210',
     factorName: '하나기업',
@@ -21567,7 +21560,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2354,
+    id: 2352,
     cardIssuer: '하나카드',
     bin: '943211',
     factorName: '하나기업',
@@ -21576,7 +21569,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2355,
+    id: 2353,
     cardIssuer: '하나카드',
     bin: '943212',
     factorName: '하나카드',
@@ -21585,7 +21578,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2356,
+    id: 2354,
     cardIssuer: '하나카드',
     bin: '943213',
     factorName: '하나기업',
@@ -21594,7 +21587,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2357,
+    id: 2355,
     cardIssuer: '하나카드',
     bin: '943214',
     factorName: '하나카드',
@@ -21603,7 +21596,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2358,
+    id: 2356,
     cardIssuer: '하나카드',
     bin: '943215',
     factorName: '하나GIFT',
@@ -21612,7 +21605,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2359,
+    id: 2357,
     cardIssuer: '하나카드',
     bin: '943216',
     factorName: '하나GIFT',
@@ -21621,7 +21614,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2360,
+    id: 2358,
     cardIssuer: '하나카드',
     bin: '943281',
     factorName: '하나카드',
@@ -21630,7 +21623,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2361,
+    id: 2359,
     cardIssuer: '하나카드',
     bin: '943381',
     factorName: '하나카드',
@@ -21639,7 +21632,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2362,
+    id: 2360,
     cardIssuer: 'NH농협카드',
     bin: '943416',
     factorName: 'NH 기업카드',
@@ -21648,7 +21641,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2363,
+    id: 2361,
     cardIssuer: 'NH농협카드',
     bin: '943417',
     factorName: 'NH 기업카드',
@@ -21657,7 +21650,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2364,
+    id: 2362,
     cardIssuer: '하나카드',
     bin: '943481',
     factorName: '토스뱅크',
@@ -21666,7 +21659,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2365,
+    id: 2363,
     cardIssuer: 'BC카드',
     bin: '943520',
     factorName: '우리카드',
@@ -21676,7 +21669,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2366,
+    id: 2364,
     cardIssuer: 'KB국민카드',
     bin: '943541',
     factorName: 'KB체크프리패스',
@@ -21685,7 +21678,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2367,
+    id: 2365,
     cardIssuer: 'KB국민카드',
     bin: '943542',
     factorName: 'KB체크프리패스',
@@ -21694,7 +21687,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2368,
+    id: 2366,
     cardIssuer: 'KB국민카드',
     bin: '943543',
     factorName: 'KB체크프리패스',
@@ -21703,7 +21696,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2369,
+    id: 2367,
     cardIssuer: 'KB국민카드',
     bin: '943544',
     factorName: 'KB체크프리패스',
@@ -21712,7 +21705,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2370,
+    id: 2368,
     cardIssuer: '하나카드',
     bin: '943581',
     factorName: '하나체크카드',
@@ -21721,7 +21714,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2371,
+    id: 2369,
     cardIssuer: 'KB국민카드',
     bin: '943645',
     factorName: 'KB체크카드',
@@ -21730,7 +21723,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2372,
+    id: 2370,
     cardIssuer: 'KB국민카드',
     bin: '943646',
     factorName: 'KB체크카드',
@@ -21739,7 +21732,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2373,
+    id: 2371,
     cardIssuer: 'KB국민카드',
     bin: '943647',
     factorName: 'KB체크기업카드',
@@ -21748,7 +21741,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2374,
+    id: 2372,
     cardIssuer: 'KB국민카드',
     bin: '943648',
     factorName: 'KB체크유류거래',
@@ -21757,7 +21750,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2375,
+    id: 2373,
     cardIssuer: 'KB국민카드',
     bin: '943649',
     factorName: 'KB체크유류거래',
@@ -21766,7 +21759,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2376,
+    id: 2374,
     cardIssuer: 'KB국민카드',
     bin: '943651',
     factorName: 'KB체크카드',
@@ -21775,7 +21768,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2377,
+    id: 2375,
     cardIssuer: 'KB국민카드',
     bin: '943661',
     factorName: 'KB체크카드',
@@ -21784,7 +21777,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2378,
+    id: 2376,
     cardIssuer: 'KB국민카드',
     bin: '943666',
     factorName: 'KB체크카드',
@@ -21793,7 +21786,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2379,
+    id: 2377,
     cardIssuer: '하나카드',
     bin: '943681',
     factorName: '토스뱅크',
@@ -21802,7 +21795,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2380,
+    id: 2378,
     cardIssuer: '전북은행',
     bin: '943711',
     factorName: '전북JB체크',
@@ -21813,7 +21806,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2381,
+    id: 2379,
     cardIssuer: '전북은행',
     bin: '943712',
     factorName: '전북JB체크',
@@ -21824,7 +21817,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2382,
+    id: 2380,
     cardIssuer: '전북은행',
     bin: '943713',
     factorName: '전북JB체크',
@@ -21835,7 +21828,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2383,
+    id: 2381,
     cardIssuer: 'KB국민카드',
     bin: '943714',
     factorName: '전북기업체크',
@@ -21844,7 +21837,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2384,
+    id: 2382,
     cardIssuer: '전북은행',
     bin: '943721',
     factorName: '전북JB카드',
@@ -21855,7 +21848,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2385,
+    id: 2383,
     cardIssuer: '전북은행',
     bin: '943722',
     factorName: '전북JB카드',
@@ -21866,7 +21859,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2386,
+    id: 2384,
     cardIssuer: '전북은행',
     bin: '943723',
     factorName: '전북JB카드',
@@ -21877,7 +21870,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2387,
+    id: 2385,
     cardIssuer: '전북은행',
     bin: '943724',
     factorName: '전북JB카드',
@@ -21888,7 +21881,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2388,
+    id: 2386,
     cardIssuer: '전북은행',
     bin: '943725',
     factorName: '전북JB카드',
@@ -21899,7 +21892,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2389,
+    id: 2387,
     cardIssuer: '전북은행',
     bin: '943726',
     factorName: '전북JB카드',
@@ -21910,7 +21903,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2390,
+    id: 2388,
     cardIssuer: 'KB국민카드',
     bin: '943727',
     factorName: '전북은행카드',
@@ -21919,7 +21912,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2391,
+    id: 2389,
     cardIssuer: '전북은행',
     bin: '943731',
     factorName: '전북JBGIFT',
@@ -21930,7 +21923,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2392,
+    id: 2390,
     cardIssuer: '전북은행',
     bin: '943740',
     factorName: '전북JB카드',
@@ -21941,7 +21934,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2393,
+    id: 2391,
     cardIssuer: '전북은행',
     bin: '943741',
     factorName: '전북JB체크',
@@ -21952,7 +21945,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2394,
+    id: 2392,
     cardIssuer: '전북은행',
     bin: '943742',
     factorName: '전북JB카드',
@@ -21963,7 +21956,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2395,
+    id: 2393,
     cardIssuer: '전북은행',
     bin: '943743',
     factorName: '전북JB체크',
@@ -21974,7 +21967,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2396,
+    id: 2394,
     cardIssuer: '하나카드',
     bin: '943781',
     factorName: '토스뱅크',
@@ -21983,7 +21976,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2397,
+    id: 2395,
     cardIssuer: '하나카드',
     bin: '943881',
     factorName: '토스뱅크',
@@ -21992,7 +21985,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2398,
+    id: 2396,
     cardIssuer: '수협은행',
     bin: '943907',
     factorName: '수협카드',
@@ -22001,7 +21994,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2399,
+    id: 2397,
     cardIssuer: 'BC카드',
     bin: '943921',
     factorName: '신한비씨카드',
@@ -22010,7 +22003,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2400,
+    id: 2398,
     cardIssuer: 'BC카드',
     bin: '943924',
     factorName: '우리카드',
@@ -22020,7 +22013,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2401,
+    id: 2399,
     cardIssuer: 'BC카드',
     bin: '943925',
     factorName: '하나SK비씨카드',
@@ -22029,7 +22022,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2402,
+    id: 2400,
     cardIssuer: 'BC카드',
     bin: '943950',
     factorName: '비씨카드',
@@ -22038,7 +22031,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2403,
+    id: 2401,
     cardIssuer: 'BC카드',
     bin: '943978',
     factorName: '신한비씨카드',
@@ -22047,7 +22040,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2404,
+    id: 2402,
     cardIssuer: 'BC카드',
     bin: '944002',
     factorName: '한국산업체크',
@@ -22058,7 +22051,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2405,
+    id: 2403,
     cardIssuer: 'BC카드',
     bin: '944003',
     factorName: '비씨체크카드',
@@ -22067,7 +22060,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2406,
+    id: 2404,
     cardIssuer: 'BC카드',
     bin: '944006',
     factorName: '비씨체크카드',
@@ -22076,7 +22069,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2407,
+    id: 2405,
     cardIssuer: '수협은행',
     bin: '944007',
     factorName: '수협체크',
@@ -22085,7 +22078,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2408,
+    id: 2406,
     cardIssuer: 'BC카드',
     bin: '944009',
     factorName: '유안타증권체크',
@@ -22094,7 +22087,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2409,
+    id: 2407,
     cardIssuer: 'BC카드',
     bin: '944011',
     factorName: 'NH비씨체크',
@@ -22103,7 +22096,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2410,
+    id: 2408,
     cardIssuer: 'BC카드',
     bin: '944012',
     factorName: 'NH비씨체크',
@@ -22112,7 +22105,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2411,
+    id: 2409,
     cardIssuer: 'KB국민카드',
     bin: '944018',
     factorName: 'KB증권체크',
@@ -22121,7 +22114,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2412,
+    id: 2410,
     cardIssuer: 'BC카드',
     bin: '944021',
     factorName: '신한비씨체크',
@@ -22130,7 +22123,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2413,
+    id: 2411,
     cardIssuer: 'BC카드',
     bin: '944022',
     factorName: '우리체크',
@@ -22140,7 +22133,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2414,
+    id: 2412,
     cardIssuer: 'BC카드',
     bin: '944023',
     factorName: 'SC비씨체크카드',
@@ -22149,7 +22142,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2415,
+    id: 2413,
     cardIssuer: 'BC카드',
     bin: '944024',
     factorName: '우리체크',
@@ -22159,7 +22152,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2416,
+    id: 2414,
     cardIssuer: 'BC카드',
     bin: '944025',
     factorName: '하나SK비씨체크',
@@ -22168,7 +22161,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2417,
+    id: 2415,
     cardIssuer: 'BC카드',
     bin: '944027',
     factorName: '씨티비씨체크',
@@ -22177,7 +22170,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2418,
+    id: 2416,
     cardIssuer: 'BC카드',
     bin: '944030',
     factorName: '미래에셋체크',
@@ -22186,7 +22179,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2419,
+    id: 2417,
     cardIssuer: 'BC카드',
     bin: '944031',
     factorName: 'iM뱅크비씨체크',
@@ -22197,7 +22190,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2420,
+    id: 2418,
     cardIssuer: 'BC카드',
     bin: '944032',
     factorName: '부산비씨체크',
@@ -22206,7 +22199,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2421,
+    id: 2419,
     cardIssuer: '광주은행',
     bin: '944034',
     factorName: '광주체크',
@@ -22215,7 +22208,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2422,
+    id: 2420,
     cardIssuer: 'BC카드',
     bin: '944039',
     factorName: '경남비씨체크',
@@ -22224,7 +22217,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2423,
+    id: 2421,
     cardIssuer: 'BC카드',
     bin: '944043',
     factorName: '우리pay',
@@ -22234,7 +22227,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2424,
+    id: 2422,
     cardIssuer: 'KB국민카드',
     bin: '944044',
     factorName: '코나아이체크',
@@ -22245,7 +22238,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2425,
+    id: 2423,
     cardIssuer: 'BC카드',
     bin: '944045',
     factorName: '새마을체크',
@@ -22254,7 +22247,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2426,
+    id: 2424,
     cardIssuer: 'BC카드',
     bin: '944048',
     factorName: '신협체크카드',
@@ -22263,7 +22256,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2427,
+    id: 2425,
     cardIssuer: 'BC카드',
     bin: '944061',
     factorName: '교보증권체크',
@@ -22272,7 +22265,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2428,
+    id: 2426,
     cardIssuer: 'BC카드',
     bin: '944063',
     factorName: 'SK증권체크',
@@ -22281,7 +22274,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2429,
+    id: 2427,
     cardIssuer: 'BC카드',
     bin: '944064',
     factorName: '산림조합체크',
@@ -22290,7 +22283,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2430,
+    id: 2428,
     cardIssuer: 'BC카드',
     bin: '944071',
     factorName: '우체국체크',
@@ -22299,7 +22292,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2431,
+    id: 2429,
     cardIssuer: 'BC카드',
     bin: '944078',
     factorName: '신한비씨체크',
@@ -22308,7 +22301,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2432,
+    id: 2430,
     cardIssuer: 'BC카드',
     bin: '944079',
     factorName: '동부증권체크',
@@ -22317,7 +22310,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2433,
+    id: 2431,
     cardIssuer: 'BC카드',
     bin: '944080',
     factorName: '유진증권체크',
@@ -22326,7 +22319,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2434,
+    id: 2432,
     cardIssuer: '하나카드',
     bin: '944081',
     factorName: '하나체크카드',
@@ -22335,7 +22328,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2435,
+    id: 2433,
     cardIssuer: 'BC카드',
     bin: '944095',
     factorName: '저축비씨체크',
@@ -22344,7 +22337,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2436,
+    id: 2434,
     cardIssuer: 'BC카드',
     bin: '944096',
     factorName: '케이뱅크체크',
@@ -22353,7 +22346,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2437,
+    id: 2435,
     cardIssuer: 'BC카드',
     bin: '944100',
     factorName: '페이북머니체크',
@@ -22362,7 +22355,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2438,
+    id: 2436,
     cardIssuer: 'BC카드',
     bin: '944101',
     factorName: '하나비씨체크',
@@ -22371,7 +22364,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2439,
+    id: 2437,
     cardIssuer: 'BC카드',
     bin: '944103',
     factorName: 'IBK비씨체크',
@@ -22380,7 +22373,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2440,
+    id: 2438,
     cardIssuer: '전북은행',
     bin: '944104',
     factorName: '전북JB체크',
@@ -22391,7 +22384,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 2441,
+    id: 2439,
     cardIssuer: 'BC카드',
     bin: '944106',
     factorName: '우체국체크',
@@ -22400,7 +22393,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2442,
+    id: 2440,
     cardIssuer: 'BC카드',
     bin: '944108',
     factorName: '우체국체크',
@@ -22409,7 +22402,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2443,
+    id: 2441,
     cardIssuer: 'BC카드',
     bin: '944109',
     factorName: '우체국체크',
@@ -22418,7 +22411,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2444,
+    id: 2442,
     cardIssuer: 'BC카드',
     bin: '944110',
     factorName: '우체국체크',
@@ -22427,7 +22420,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2445,
+    id: 2443,
     cardIssuer: 'BC카드',
     bin: '944111',
     factorName: 'NH농협비씨체크',
@@ -22436,7 +22429,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2446,
+    id: 2444,
     cardIssuer: 'BC카드',
     bin: '944112',
     factorName: 'NH농협비씨체크',
@@ -22445,7 +22438,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2447,
+    id: 2445,
     cardIssuer: 'BC카드',
     bin: '944113',
     factorName: '우체국체크',
@@ -22454,7 +22447,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2448,
+    id: 2446,
     cardIssuer: 'BC카드',
     bin: '944114',
     factorName: '우체국체크',
@@ -22463,7 +22456,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2449,
+    id: 2447,
     cardIssuer: 'BC카드',
     bin: '944115',
     factorName: '우체국체크',
@@ -22472,7 +22465,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2450,
+    id: 2448,
     cardIssuer: 'NH농협카드',
     bin: '944116',
     factorName: 'NH체크카드',
@@ -22481,7 +22474,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2451,
+    id: 2449,
     cardIssuer: 'NH농협카드',
     bin: '944117',
     factorName: 'NH체크카드',
@@ -22490,7 +22483,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2452,
+    id: 2450,
     cardIssuer: 'BC카드',
     bin: '944118',
     factorName: '우체국체크',
@@ -22499,7 +22492,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2453,
+    id: 2451,
     cardIssuer: 'BC카드',
     bin: '944119',
     factorName: '우체국체크',
@@ -22508,7 +22501,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2454,
+    id: 2452,
     cardIssuer: 'BC카드',
     bin: '944120',
     factorName: '우리체크',
@@ -22518,7 +22511,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2455,
+    id: 2453,
     cardIssuer: 'BC카드',
     bin: '944122',
     factorName: '우리체크',
@@ -22528,7 +22521,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2456,
+    id: 2454,
     cardIssuer: 'BC카드',
     bin: '944124',
     factorName: '우리체크',
@@ -22538,7 +22531,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2457,
+    id: 2455,
     cardIssuer: 'BC카드',
     bin: '944126',
     factorName: '우체국체크',
@@ -22547,7 +22540,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2458,
+    id: 2456,
     cardIssuer: 'BC카드',
     bin: '944127',
     factorName: '우체국체크',
@@ -22556,7 +22549,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2459,
+    id: 2457,
     cardIssuer: '전북은행',
     bin: '944128',
     factorName: '전북JB체크',
@@ -22567,7 +22560,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2460,
+    id: 2458,
     cardIssuer: 'BC카드',
     bin: '944129',
     factorName: '우체국체크',
@@ -22576,7 +22569,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2461,
+    id: 2459,
     cardIssuer: 'BC카드',
     bin: '944130',
     factorName: '우체국체크',
@@ -22585,7 +22578,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2462,
+    id: 2460,
     cardIssuer: 'BC카드',
     bin: '944131',
     factorName: 'iM뱅크비씨체크',
@@ -22596,7 +22589,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2463,
+    id: 2461,
     cardIssuer: 'BC카드',
     bin: '944132',
     factorName: '부산비씨체크',
@@ -22605,7 +22598,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2464,
+    id: 2462,
     cardIssuer: 'BC카드',
     bin: '944133',
     factorName: '우체국체크',
@@ -22614,7 +22607,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2465,
+    id: 2463,
     cardIssuer: 'BC카드',
     bin: '944134',
     factorName: '우체국체크',
@@ -22623,7 +22616,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2466,
+    id: 2464,
     cardIssuer: '제주은행',
     bin: '944135',
     factorName: '제주체크',
@@ -22632,7 +22625,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2467,
+    id: 2465,
     cardIssuer: 'BC카드',
     bin: '944138',
     factorName: '우체국체크',
@@ -22641,7 +22634,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2468,
+    id: 2466,
     cardIssuer: 'BC카드',
     bin: '944139',
     factorName: '경남비씨체크',
@@ -22650,7 +22643,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2469,
+    id: 2467,
     cardIssuer: 'BC카드',
     bin: '944140',
     factorName: '우체국체크',
@@ -22659,7 +22652,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2470,
+    id: 2468,
     cardIssuer: 'BC카드',
     bin: '944143',
     factorName: '우체국체크',
@@ -22668,7 +22661,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2471,
+    id: 2469,
     cardIssuer: 'KB국민카드',
     bin: '944144',
     factorName: '코나아이체크',
@@ -22679,7 +22672,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2472,
+    id: 2470,
     cardIssuer: 'BC카드',
     bin: '944145',
     factorName: '새마을체크',
@@ -22688,7 +22681,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2473,
+    id: 2471,
     cardIssuer: 'BC카드',
     bin: '944146',
     factorName: '우체국체크',
@@ -22697,7 +22690,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2474,
+    id: 2472,
     cardIssuer: 'BC카드',
     bin: '944147',
     factorName: '우체국체크',
@@ -22706,7 +22699,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2475,
+    id: 2473,
     cardIssuer: 'BC카드',
     bin: '944148',
     factorName: '신협체크카드',
@@ -22715,7 +22708,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2476,
+    id: 2474,
     cardIssuer: 'BC카드',
     bin: '944149',
     factorName: '우체국체크',
@@ -22724,7 +22717,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2477,
+    id: 2475,
     cardIssuer: 'BC카드',
     bin: '944150',
     factorName: '우체국체크',
@@ -22733,7 +22726,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2478,
+    id: 2476,
     cardIssuer: 'BC카드',
     bin: '944151',
     factorName: '우체국체크',
@@ -22742,7 +22735,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2479,
+    id: 2477,
     cardIssuer: 'BC카드',
     bin: '944152',
     factorName: '우체국체크',
@@ -22751,7 +22744,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2480,
+    id: 2478,
     cardIssuer: 'BC카드',
     bin: '944153',
     factorName: '우체국체크',
@@ -22760,7 +22753,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2481,
+    id: 2479,
     cardIssuer: 'BC카드',
     bin: '944154',
     factorName: '우체국체크',
@@ -22769,7 +22762,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2482,
+    id: 2480,
     cardIssuer: 'BC카드',
     bin: '944155',
     factorName: '비씨체크',
@@ -22778,7 +22771,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2483,
+    id: 2481,
     cardIssuer: 'BC카드',
     bin: '944171',
     factorName: '우체국체크',
@@ -22787,7 +22780,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2484,
+    id: 2482,
     cardIssuer: '하나카드',
     bin: '944181',
     factorName: '하나체크카드',
@@ -22796,7 +22789,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2485,
+    id: 2483,
     cardIssuer: 'BC카드',
     bin: '944182',
     factorName: 'Fint체크',
@@ -22805,7 +22798,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2486,
+    id: 2484,
     cardIssuer: 'BC카드',
     bin: '944192',
     factorName: '카카오페이카드',
@@ -22814,7 +22807,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2487,
+    id: 2485,
     cardIssuer: 'BC카드',
     bin: '944193',
     factorName: 'GmoneyCard',
@@ -22823,7 +22816,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2488,
+    id: 2486,
     cardIssuer: 'BC카드',
     bin: '944194',
     factorName: '모빌체크',
@@ -22832,7 +22825,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2489,
+    id: 2487,
     cardIssuer: 'BC카드',
     bin: '944203',
     factorName: 'IBK비씨체크',
@@ -22841,7 +22834,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2490,
+    id: 2488,
     cardIssuer: 'BC카드',
     bin: '944211',
     factorName: 'NH농협체크',
@@ -22850,7 +22843,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2491,
+    id: 2489,
     cardIssuer: 'BC카드',
     bin: '944212',
     factorName: 'NH농협체크',
@@ -22859,7 +22852,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2492,
+    id: 2490,
     cardIssuer: '하나카드',
     bin: '944281',
     factorName: '하나체크카드',
@@ -22868,7 +22861,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2493,
+    id: 2491,
     cardIssuer: 'BC카드',
     bin: '944303',
     factorName: 'IBK비씨체크',
@@ -22877,7 +22870,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2494,
+    id: 2492,
     cardIssuer: 'BC카드',
     bin: '944306',
     factorName: 'KB국민비씨체크',
@@ -22886,7 +22879,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2495,
+    id: 2493,
     cardIssuer: '수협은행',
     bin: '944307',
     factorName: '수협체크',
@@ -22895,7 +22888,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2496,
+    id: 2494,
     cardIssuer: 'BC카드',
     bin: '944311',
     factorName: 'NH농협비씨체크',
@@ -22904,7 +22897,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2497,
+    id: 2495,
     cardIssuer: 'BC카드',
     bin: '944312',
     factorName: 'NH농협비씨체크',
@@ -22913,7 +22906,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2498,
+    id: 2496,
     cardIssuer: 'BC카드',
     bin: '944320',
     factorName: '우리체크',
@@ -22923,7 +22916,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2499,
+    id: 2497,
     cardIssuer: 'BC카드',
     bin: '944324',
     factorName: '우리체크',
@@ -22933,7 +22926,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2500,
+    id: 2498,
     cardIssuer: 'BC카드',
     bin: '944331',
     factorName: 'iM뱅크비씨카드',
@@ -22944,7 +22937,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2501,
+    id: 2499,
     cardIssuer: '광주은행',
     bin: '944334',
     factorName: '광주체크',
@@ -22953,7 +22946,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2502,
+    id: 2500,
     cardIssuer: 'BC카드',
     bin: '944350',
     factorName: '비씨체크카드',
@@ -22962,7 +22955,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2503,
+    id: 2501,
     cardIssuer: 'BC카드',
     bin: '944403',
     factorName: 'IBK비씨체크',
@@ -22971,7 +22964,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2504,
+    id: 2502,
     cardIssuer: 'BC카드',
     bin: '944411',
     factorName: 'NH농협체크',
@@ -22980,7 +22973,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2505,
+    id: 2503,
     cardIssuer: 'BC카드',
     bin: '944412',
     factorName: 'NH농협체크',
@@ -22989,7 +22982,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2506,
+    id: 2504,
     cardIssuer: 'BC카드',
     bin: '944420',
     factorName: '우리체크',
@@ -22999,7 +22992,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2507,
+    id: 2505,
     cardIssuer: 'BC카드',
     bin: '944422',
     factorName: '우리체크',
@@ -23009,7 +23002,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2508,
+    id: 2506,
     cardIssuer: 'BC카드',
     bin: '944431',
     factorName: 'iM뱅크비씨체크',
@@ -23020,7 +23013,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2509,
+    id: 2507,
     cardIssuer: 'BC카드',
     bin: '944443',
     factorName: '우리pay',
@@ -23030,7 +23023,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2510,
+    id: 2508,
     cardIssuer: 'BC카드',
     bin: '944520',
     factorName: '우리체크',
@@ -23040,7 +23033,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2511,
+    id: 2509,
     cardIssuer: 'BC카드',
     bin: '944522',
     factorName: '우리체크',
@@ -23050,7 +23043,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2512,
+    id: 2510,
     cardIssuer: 'BC카드',
     bin: '944524',
     factorName: '우리체크',
@@ -23060,7 +23053,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2513,
+    id: 2511,
     cardIssuer: 'KB국민카드',
     bin: '944541',
     factorName: 'KB국민카드',
@@ -23069,7 +23062,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2514,
+    id: 2512,
     cardIssuer: 'KB국민카드',
     bin: '944542',
     factorName: 'KB국민카드',
@@ -23078,7 +23071,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2515,
+    id: 2513,
     cardIssuer: 'KB국민카드',
     bin: '944543',
     factorName: 'KB국민카드',
@@ -23087,7 +23080,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2516,
+    id: 2514,
     cardIssuer: 'KB국민카드',
     bin: '944545',
     factorName: 'KB 선불카드',
@@ -23096,7 +23089,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2517,
+    id: 2515,
     cardIssuer: 'KB국민카드',
     bin: '944546',
     factorName: 'KB 선불카드',
@@ -23105,7 +23098,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2518,
+    id: 2516,
     cardIssuer: 'KB국민카드',
     bin: '944547',
     factorName: 'KB 선불카드',
@@ -23114,7 +23107,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2519,
+    id: 2517,
     cardIssuer: 'KB국민카드',
     bin: '944548',
     factorName: 'KB국민카드',
@@ -23123,7 +23116,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2520,
+    id: 2518,
     cardIssuer: 'KB국민카드',
     bin: '944549',
     factorName: 'KB선불카드',
@@ -23132,7 +23125,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2521,
+    id: 2519,
     cardIssuer: 'KB국민카드',
     bin: '944550',
     factorName: 'KB국민카드',
@@ -23141,7 +23134,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2522,
+    id: 2520,
     cardIssuer: 'KB국민카드',
     bin: '944551',
     factorName: 'KB국민카드',
@@ -23150,7 +23143,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2523,
+    id: 2521,
     cardIssuer: 'KB국민카드',
     bin: '944552',
     factorName: 'KB국민카드',
@@ -23159,7 +23152,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2524,
+    id: 2522,
     cardIssuer: 'KB국민카드',
     bin: '944554',
     factorName: 'KB국민카드',
@@ -23168,7 +23161,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2525,
+    id: 2523,
     cardIssuer: 'KB국민카드',
     bin: '944555',
     factorName: 'KB국민카드',
@@ -23177,7 +23170,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2526,
+    id: 2524,
     cardIssuer: 'KB국민카드',
     bin: '944561',
     factorName: 'KB국민카드',
@@ -23186,7 +23179,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2527,
+    id: 2525,
     cardIssuer: 'BC카드',
     bin: '944603',
     factorName: 'IBK비씨체크',
@@ -23195,7 +23188,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2528,
+    id: 2526,
     cardIssuer: 'BC카드',
     bin: '944624',
     factorName: '우리체크',
@@ -23205,7 +23198,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2529,
+    id: 2527,
     cardIssuer: 'BC카드',
     bin: '944631',
     factorName: 'iM뱅크비씨체크',
@@ -23216,7 +23209,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2530,
+    id: 2528,
     cardIssuer: 'BC카드',
     bin: '944664',
     factorName: '산림조합체크',
@@ -23225,7 +23218,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2531,
+    id: 2529,
     cardIssuer: 'BC카드',
     bin: '944691',
     factorName: 'NH투자체크',
@@ -23234,7 +23227,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2532,
+    id: 2530,
     cardIssuer: 'BC카드',
     bin: '944696',
     factorName: '케이뱅크체크',
@@ -23243,7 +23236,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2533,
+    id: 2531,
     cardIssuer: 'BC카드',
     bin: '944703',
     factorName: 'IBK삼성pay',
@@ -23252,7 +23245,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2534,
+    id: 2532,
     cardIssuer: '수협은행',
     bin: '944707',
     factorName: '수협체크',
@@ -23261,7 +23254,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2535,
+    id: 2533,
     cardIssuer: 'BC카드',
     bin: '944711',
     factorName: 'NH농협체크',
@@ -23270,7 +23263,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2536,
+    id: 2534,
     cardIssuer: 'BC카드',
     bin: '944720',
     factorName: '우리체크',
@@ -23280,7 +23273,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2537,
+    id: 2535,
     cardIssuer: 'BC카드',
     bin: '944722',
     factorName: '우리체크',
@@ -23290,7 +23283,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2538,
+    id: 2536,
     cardIssuer: 'BC카드',
     bin: '944732',
     factorName: '부산비씨체크',
@@ -23299,7 +23292,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2539,
+    id: 2537,
     cardIssuer: 'BC카드',
     bin: '944912',
     factorName: 'NH농협체크',
@@ -23308,7 +23301,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2540,
+    id: 2538,
     cardIssuer: 'BC카드',
     bin: '944920',
     factorName: '우리카드',
@@ -23318,7 +23311,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2541,
+    id: 2539,
     cardIssuer: '광주은행',
     bin: '944934',
     factorName: '광주은행',
@@ -23327,7 +23320,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2542,
+    id: 2540,
     cardIssuer: 'BC카드',
     bin: '944948',
     factorName: '신협체크카드',
@@ -23336,7 +23329,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2543,
+    id: 2541,
     cardIssuer: 'BC카드',
     bin: '944949',
     factorName: '신협체크카드',
@@ -23345,7 +23338,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2544,
+    id: 2542,
     cardIssuer: 'BC카드',
     bin: '944950',
     factorName: '비씨카드',
@@ -23354,7 +23347,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2545,
+    id: 2543,
     cardIssuer: 'BC카드',
     bin: '945003',
     factorName: 'IBK비씨카드',
@@ -23363,7 +23356,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2546,
+    id: 2544,
     cardIssuer: 'BC카드',
     bin: '945006',
     factorName: 'KB국민비씨카드',
@@ -23372,7 +23365,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2547,
+    id: 2545,
     cardIssuer: '수협은행',
     bin: '945007',
     factorName: '수협카드',
@@ -23381,7 +23374,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2548,
+    id: 2546,
     cardIssuer: 'BC카드',
     bin: '945011',
     factorName: 'NH농협비씨카드',
@@ -23390,7 +23383,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2549,
+    id: 2547,
     cardIssuer: 'BC카드',
     bin: '945012',
     factorName: 'NH농협비씨카드',
@@ -23399,7 +23392,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2550,
+    id: 2548,
     cardIssuer: 'BC카드',
     bin: '945020',
     factorName: '비씨카드',
@@ -23408,7 +23401,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2551,
+    id: 2549,
     cardIssuer: 'BC카드',
     bin: '945021',
     factorName: '신한비씨카드',
@@ -23417,7 +23410,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2552,
+    id: 2550,
     cardIssuer: 'BC카드',
     bin: '945023',
     factorName: 'SC비씨카드',
@@ -23426,7 +23419,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2553,
+    id: 2551,
     cardIssuer: 'BC카드',
     bin: '945025',
     factorName: '하나SK비씨카드',
@@ -23435,7 +23428,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2554,
+    id: 2552,
     cardIssuer: 'BC카드',
     bin: '945027',
     factorName: '씨티비씨카드',
@@ -23444,7 +23437,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2555,
+    id: 2553,
     cardIssuer: 'BC카드',
     bin: '945031',
     factorName: 'iM뱅크비씨카드',
@@ -23455,7 +23448,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2556,
+    id: 2554,
     cardIssuer: 'BC카드',
     bin: '945032',
     factorName: '부산비씨카드',
@@ -23464,7 +23457,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2557,
+    id: 2555,
     cardIssuer: '제주은행',
     bin: '945035',
     factorName: '제주카드',
@@ -23473,7 +23466,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2558,
+    id: 2556,
     cardIssuer: 'BC카드',
     bin: '945039',
     factorName: '경남비씨카드',
@@ -23482,7 +23475,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2559,
+    id: 2557,
     cardIssuer: 'BC카드',
     bin: '945078',
     factorName: '신한비씨카드',
@@ -23491,7 +23484,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2560,
+    id: 2558,
     cardIssuer: '하나카드',
     bin: '945081',
     factorName: '하나기업',
@@ -23500,7 +23493,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2561,
+    id: 2559,
     cardIssuer: 'BC카드',
     bin: '945103',
     factorName: 'IBK비씨카드',
@@ -23509,7 +23502,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2562,
+    id: 2560,
     cardIssuer: '수협은행',
     bin: '945107',
     factorName: '수협카드',
@@ -23518,7 +23511,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2563,
+    id: 2561,
     cardIssuer: 'BC카드',
     bin: '945111',
     factorName: 'NH농협비씨카드',
@@ -23527,7 +23520,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2564,
+    id: 2562,
     cardIssuer: 'BC카드',
     bin: '945112',
     factorName: 'NH농협비씨카드',
@@ -23536,7 +23529,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2565,
+    id: 2563,
     cardIssuer: 'BC카드',
     bin: '945120',
     factorName: '우리카드',
@@ -23546,7 +23539,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2566,
+    id: 2564,
     cardIssuer: 'BC카드',
     bin: '945131',
     factorName: 'iM뱅크비씨카드',
@@ -23557,7 +23550,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2567,
+    id: 2565,
     cardIssuer: 'BC카드',
     bin: '945132',
     factorName: '부산비씨카드',
@@ -23566,7 +23559,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2568,
+    id: 2566,
     cardIssuer: 'BC카드',
     bin: '945150',
     factorName: '비씨카드',
@@ -23575,7 +23568,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2569,
+    id: 2567,
     cardIssuer: '신한카드',
     bin: '945161',
     factorName: '신한카드체크',
@@ -23584,7 +23577,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2570,
+    id: 2568,
     cardIssuer: '신한카드',
     bin: '945162',
     factorName: '신한카드체크',
@@ -23593,7 +23586,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2571,
+    id: 2569,
     cardIssuer: 'BC카드',
     bin: '945203',
     factorName: 'IBK비씨체크',
@@ -23602,7 +23595,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2572,
+    id: 2570,
     cardIssuer: 'BC카드',
     bin: '945211',
     factorName: 'NH농협비씨체크',
@@ -23611,7 +23604,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2573,
+    id: 2571,
     cardIssuer: 'BC카드',
     bin: '945212',
     factorName: 'NH농협비씨체크',
@@ -23620,7 +23613,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2574,
+    id: 2572,
     cardIssuer: 'BC카드',
     bin: '945220',
     factorName: '우리카드',
@@ -23630,7 +23623,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2575,
+    id: 2573,
     cardIssuer: 'BC카드',
     bin: '945324',
     factorName: '우리카드',
@@ -23640,7 +23633,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2576,
+    id: 2574,
     cardIssuer: 'BC카드',
     bin: '945420',
     factorName: '우리카드',
@@ -23650,7 +23643,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2577,
+    id: 2575,
     cardIssuer: '신한카드',
     bin: '945511',
     factorName: '신한카드',
@@ -23659,7 +23652,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2578,
+    id: 2576,
     cardIssuer: 'BC카드',
     bin: '945520',
     factorName: '우리카드',
@@ -23669,7 +23662,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2579,
+    id: 2577,
     cardIssuer: 'BC카드',
     bin: '945620',
     factorName: '우리카드',
@@ -23679,7 +23672,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2580,
+    id: 2578,
     cardIssuer: 'BC카드',
     bin: '945720',
     factorName: '우리카드',
@@ -23689,7 +23682,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2581,
+    id: 2579,
     cardIssuer: '신한카드',
     bin: '945810',
     factorName: '신한카드선불',
@@ -23698,7 +23691,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2582,
+    id: 2580,
     cardIssuer: '신한카드',
     bin: '945811',
     factorName: '신한카드법인',
@@ -23707,7 +23700,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2583,
+    id: 2581,
     cardIssuer: '신한카드',
     bin: '945812',
     factorName: '신한카드선불',
@@ -23716,7 +23709,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2584,
+    id: 2582,
     cardIssuer: '신한카드',
     bin: '945813',
     factorName: '신한카드기프트',
@@ -23725,7 +23718,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2585,
+    id: 2583,
     cardIssuer: '신한카드',
     bin: '945814',
     factorName: '신한카드법인',
@@ -23734,7 +23727,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2586,
+    id: 2584,
     cardIssuer: '신한카드',
     bin: '945815',
     factorName: '신한선불카드',
@@ -23743,7 +23736,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2587,
+    id: 2585,
     cardIssuer: '신한카드',
     bin: '945816',
     factorName: '신한카드',
@@ -23752,7 +23745,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2588,
+    id: 2586,
     cardIssuer: '신한카드',
     bin: '945817',
     factorName: '신한법인체크',
@@ -23761,7 +23754,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2589,
+    id: 2587,
     cardIssuer: '신한카드',
     bin: '945818',
     factorName: '신한카드',
@@ -23770,7 +23763,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2590,
+    id: 2588,
     cardIssuer: '신한카드',
     bin: '945819',
     factorName: '신한카드',
@@ -23779,7 +23772,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2591,
+    id: 2589,
     cardIssuer: '신한카드',
     bin: '945820',
     factorName: '신한카드체크',
@@ -23788,7 +23781,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2592,
+    id: 2590,
     cardIssuer: '신한카드',
     bin: '945821',
     factorName: '신한카드체크',
@@ -23797,7 +23790,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2593,
+    id: 2591,
     cardIssuer: '신한카드',
     bin: '945822',
     factorName: '신한카드선불',
@@ -23806,7 +23799,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2594,
+    id: 2592,
     cardIssuer: '신한카드',
     bin: '945823',
     factorName: '신한카드선불',
@@ -23815,7 +23808,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2595,
+    id: 2593,
     cardIssuer: '신한카드',
     bin: '945824',
     factorName: '신한카드',
@@ -23824,7 +23817,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2596,
+    id: 2594,
     cardIssuer: '신한카드',
     bin: '945825',
     factorName: '신한카드',
@@ -23833,7 +23826,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2597,
+    id: 2595,
     cardIssuer: 'BC카드',
     bin: '945903',
     factorName: 'IBK비씨카드',
@@ -23842,7 +23835,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2598,
+    id: 2596,
     cardIssuer: 'BC카드',
     bin: '945920',
     factorName: '우리카드',
@@ -23852,7 +23845,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2599,
+    id: 2597,
     cardIssuer: '광주은행',
     bin: '945934',
     factorName: '광주체크',
@@ -23861,7 +23854,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2600,
+    id: 2598,
     cardIssuer: 'BC카드',
     bin: '946003',
     factorName: 'IBK기업GIFT',
@@ -23870,7 +23863,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2601,
+    id: 2599,
     cardIssuer: '수협은행',
     bin: '946007',
     factorName: '수협GIFT',
@@ -23879,7 +23872,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2602,
+    id: 2600,
     cardIssuer: 'BC카드',
     bin: '946011',
     factorName: 'NH비씨기프트',
@@ -23888,7 +23881,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2603,
+    id: 2601,
     cardIssuer: 'BC카드',
     bin: '946012',
     factorName: 'NH비씨기프트',
@@ -23897,7 +23890,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2604,
+    id: 2602,
     cardIssuer: 'BC카드',
     bin: '946020',
     factorName: '비씨GIFT',
@@ -23906,7 +23899,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2605,
+    id: 2603,
     cardIssuer: 'BC카드',
     bin: '946021',
     factorName: '신한비씨GIFT',
@@ -23915,7 +23908,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2606,
+    id: 2604,
     cardIssuer: 'BC카드',
     bin: '946022',
     factorName: '우리GIFT',
@@ -23925,7 +23918,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2607,
+    id: 2605,
     cardIssuer: 'BC카드',
     bin: '946023',
     factorName: 'SC비씨GIFT',
@@ -23934,7 +23927,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2608,
+    id: 2606,
     cardIssuer: 'BC카드',
     bin: '946024',
     factorName: '우리GIFT',
@@ -23944,7 +23937,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2609,
+    id: 2607,
     cardIssuer: 'BC카드',
     bin: '946025',
     factorName: '비씨선불카드',
@@ -23953,7 +23946,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2610,
+    id: 2608,
     cardIssuer: 'BC카드',
     bin: '946027',
     factorName: '씨티비씨GIFT',
@@ -23962,7 +23955,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2611,
+    id: 2609,
     cardIssuer: 'BC카드',
     bin: '946031',
     factorName: 'iM뱅크비씨GIFT',
@@ -23973,7 +23966,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2612,
+    id: 2610,
     cardIssuer: 'BC카드',
     bin: '946032',
     factorName: '부산비씨GIFT',
@@ -23982,7 +23975,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2613,
+    id: 2611,
     cardIssuer: '광주은행',
     bin: '946034',
     factorName: '광주GIFT',
@@ -23991,7 +23984,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2614,
+    id: 2612,
     cardIssuer: 'BC카드',
     bin: '946039',
     factorName: '경남비씨GIFT',
@@ -24000,7 +23993,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2615,
+    id: 2613,
     cardIssuer: 'KB국민카드',
     bin: '946044',
     factorName: '코나아이GIFT',
@@ -24011,7 +24004,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2616,
+    id: 2614,
     cardIssuer: 'BC카드',
     bin: '946046',
     factorName: '새마을GIFT',
@@ -24020,7 +24013,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2617,
+    id: 2615,
     cardIssuer: 'BC카드',
     bin: '946050',
     factorName: '비씨GIFT',
@@ -24029,7 +24022,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2618,
+    id: 2616,
     cardIssuer: 'BC카드',
     bin: '946103',
     factorName: 'IBK비씨스쿨',
@@ -24038,7 +24031,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2619,
+    id: 2617,
     cardIssuer: 'BC카드',
     bin: '946106',
     factorName: 'BC스쿨선불',
@@ -24047,7 +24040,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2620,
+    id: 2618,
     cardIssuer: 'BC카드',
     bin: '946111',
     factorName: 'NH비씨기프트',
@@ -24056,7 +24049,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2621,
+    id: 2619,
     cardIssuer: 'BC카드',
     bin: '946112',
     factorName: 'NH비씨기프트',
@@ -24065,7 +24058,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2622,
+    id: 2620,
     cardIssuer: 'NH농협카드',
     bin: '946116',
     factorName: 'NH기프트카드',
@@ -24074,7 +24067,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2623,
+    id: 2621,
     cardIssuer: 'NH농협카드',
     bin: '946117',
     factorName: 'NH기프트카드',
@@ -24083,7 +24076,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2624,
+    id: 2622,
     cardIssuer: 'BC카드',
     bin: '946120',
     factorName: '비씨GIFT',
@@ -24092,7 +24085,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2625,
+    id: 2623,
     cardIssuer: 'BC카드',
     bin: '946124',
     factorName: '우리GIFT',
@@ -24102,7 +24095,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2626,
+    id: 2624,
     cardIssuer: 'BC카드',
     bin: '946127',
     factorName: '씨티비씨GIFT',
@@ -24111,7 +24104,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2627,
+    id: 2625,
     cardIssuer: 'BC카드',
     bin: '946131',
     factorName: 'iM뱅크비씨GIFT',
@@ -24122,7 +24115,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2628,
+    id: 2626,
     cardIssuer: 'BC카드',
     bin: '946132',
     factorName: '부산비씨GIFT',
@@ -24131,7 +24124,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2629,
+    id: 2627,
     cardIssuer: '광주은행',
     bin: '946134',
     factorName: '광주GIFT',
@@ -24140,7 +24133,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2630,
+    id: 2628,
     cardIssuer: '전북은행',
     bin: '946137',
     factorName: '전북JBGIFT',
@@ -24151,7 +24144,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 2631,
+    id: 2629,
     cardIssuer: 'BC카드',
     bin: '946139',
     factorName: '경남비씨GIFT',
@@ -24160,7 +24153,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2632,
+    id: 2630,
     cardIssuer: '하나카드',
     bin: '946144',
     factorName: '코나카드',
@@ -24171,7 +24164,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2633,
+    id: 2631,
     cardIssuer: 'BC카드',
     bin: '946150',
     factorName: '비씨카드',
@@ -24180,7 +24173,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2634,
+    id: 2632,
     cardIssuer: 'BC카드',
     bin: '946178',
     factorName: '신한비씨GIFT',
@@ -24189,7 +24182,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2635,
+    id: 2633,
     cardIssuer: '하나카드',
     bin: '946181',
     factorName: '하나기업체크',
@@ -24198,7 +24191,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2636,
+    id: 2634,
     cardIssuer: 'NH농협카드',
     bin: '946216',
     factorName: 'NH기프트카드',
@@ -24207,7 +24200,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2637,
+    id: 2635,
     cardIssuer: 'NH농협카드',
     bin: '946217',
     factorName: 'NH기프트카드',
@@ -24216,7 +24209,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2638,
+    id: 2636,
     cardIssuer: 'BC카드',
     bin: '946220',
     factorName: '비씨GIFT',
@@ -24225,7 +24218,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2639,
+    id: 2637,
     cardIssuer: 'BC카드',
     bin: '946250',
     factorName: '비씨GIFT',
@@ -24234,7 +24227,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2640,
+    id: 2638,
     cardIssuer: '광주은행',
     bin: '946253',
     factorName: '광주GIFT',
@@ -24243,7 +24236,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2641,
+    id: 2639,
     cardIssuer: '광주은행',
     bin: '946260',
     factorName: '광주GIFT',
@@ -24252,7 +24245,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2642,
+    id: 2640,
     cardIssuer: '광주은행',
     bin: '946272',
     factorName: '광주GIFT',
@@ -24261,7 +24254,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2643,
+    id: 2641,
     cardIssuer: '광주은행',
     bin: '946285',
     factorName: '광주GIFT',
@@ -24270,7 +24263,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2644,
+    id: 2642,
     cardIssuer: '광주은행',
     bin: '946304',
     factorName: '광주GIFT',
@@ -24279,7 +24272,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2645,
+    id: 2643,
     cardIssuer: '광주은행',
     bin: '946309',
     factorName: '광주GIFT',
@@ -24288,7 +24281,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2646,
+    id: 2644,
     cardIssuer: 'NH농협카드',
     bin: '946316',
     factorName: 'NH기프트카드',
@@ -24297,7 +24290,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2647,
+    id: 2645,
     cardIssuer: 'NH농협카드',
     bin: '946317',
     factorName: 'NH기프트카드',
@@ -24306,7 +24299,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2648,
+    id: 2646,
     cardIssuer: 'BC카드',
     bin: '946320',
     factorName: '비씨GIFT',
@@ -24315,7 +24308,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2649,
+    id: 2647,
     cardIssuer: 'BC카드',
     bin: '946332',
     factorName: '부산비씨GIFT',
@@ -24324,7 +24317,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2650,
+    id: 2648,
     cardIssuer: 'BC카드',
     bin: '946350',
     factorName: '비씨GIFT',
@@ -24333,7 +24326,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2651,
+    id: 2649,
     cardIssuer: '광주은행',
     bin: '946352',
     factorName: '광주GIFT',
@@ -24342,7 +24335,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2652,
+    id: 2650,
     cardIssuer: '광주은행',
     bin: '946361',
     factorName: '광주GIFT',
@@ -24351,7 +24344,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2653,
+    id: 2651,
     cardIssuer: '광주은행',
     bin: '946365',
     factorName: '광주GIFT',
@@ -24360,7 +24353,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2654,
+    id: 2652,
     cardIssuer: '광주은행',
     bin: '946370',
     factorName: '광주GIFT',
@@ -24369,7 +24362,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2655,
+    id: 2653,
     cardIssuer: '광주은행',
     bin: '946372',
     factorName: '광주GIFT',
@@ -24378,7 +24371,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2656,
+    id: 2654,
     cardIssuer: 'BC카드',
     bin: '946403',
     factorName: '비씨선불카드',
@@ -24387,7 +24380,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2657,
+    id: 2655,
     cardIssuer: 'BC카드',
     bin: '946406',
     factorName: '비씨선불카드',
@@ -24396,7 +24389,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2658,
+    id: 2656,
     cardIssuer: 'BC카드',
     bin: '946411',
     factorName: 'NH비씨기프트',
@@ -24405,7 +24398,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2659,
+    id: 2657,
     cardIssuer: 'BC카드',
     bin: '946412',
     factorName: 'NH비씨기프트',
@@ -24414,7 +24407,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2660,
+    id: 2658,
     cardIssuer: 'BC카드',
     bin: '946420',
     factorName: '비씨GIFT',
@@ -24423,7 +24416,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2661,
+    id: 2659,
     cardIssuer: 'BC카드',
     bin: '946423',
     factorName: 'SC비씨GIFT',
@@ -24432,7 +24425,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2662,
+    id: 2660,
     cardIssuer: 'BC카드',
     bin: '946427',
     factorName: '씨티비씨GIFT',
@@ -24441,7 +24434,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2663,
+    id: 2661,
     cardIssuer: 'BC카드',
     bin: '946431',
     factorName: 'iM뱅크비씨GIFT',
@@ -24452,7 +24445,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2664,
+    id: 2662,
     cardIssuer: 'BC카드',
     bin: '946432',
     factorName: '부산비씨GIFT',
@@ -24461,7 +24454,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2665,
+    id: 2663,
     cardIssuer: 'BC카드',
     bin: '946439',
     factorName: '경남비씨GIFT',
@@ -24470,7 +24463,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2666,
+    id: 2664,
     cardIssuer: 'BC카드',
     bin: '946450',
     factorName: 'Oh point',
@@ -24479,7 +24472,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2667,
+    id: 2665,
     cardIssuer: 'BC카드',
     bin: '946478',
     factorName: '신한비씨GIFT',
@@ -24488,7 +24481,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2668,
+    id: 2666,
     cardIssuer: 'BC카드',
     bin: '946503',
     factorName: 'IBK비씨GIFT',
@@ -24497,7 +24490,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2669,
+    id: 2667,
     cardIssuer: 'BC카드',
     bin: '946511',
     factorName: 'NH비씨기프트',
@@ -24506,7 +24499,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2670,
+    id: 2668,
     cardIssuer: 'BC카드',
     bin: '946512',
     factorName: 'NH비씨기프트',
@@ -24515,7 +24508,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2671,
+    id: 2669,
     cardIssuer: 'BC카드',
     bin: '946513',
     factorName: 'NH비씨기프트',
@@ -24524,7 +24517,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2672,
+    id: 2670,
     cardIssuer: 'BC카드',
     bin: '946514',
     factorName: 'NH비씨기프트',
@@ -24533,7 +24526,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2673,
+    id: 2671,
     cardIssuer: 'BC카드',
     bin: '946520',
     factorName: '우리GIFT',
@@ -24543,7 +24536,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2674,
+    id: 2672,
     cardIssuer: 'BC카드',
     bin: '946531',
     factorName: 'iM뱅크비씨GIFT',
@@ -24554,7 +24547,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2675,
+    id: 2673,
     cardIssuer: 'BC카드',
     bin: '946532',
     factorName: '부산비씨GIFT',
@@ -24563,7 +24556,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2676,
+    id: 2674,
     cardIssuer: 'BC카드',
     bin: '946539',
     factorName: '경남비씨GIFT',
@@ -24572,7 +24565,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2677,
+    id: 2675,
     cardIssuer: '하나카드',
     bin: '946544',
     factorName: '코나아이GIFT',
@@ -24583,7 +24576,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2678,
+    id: 2676,
     cardIssuer: 'BC카드',
     bin: '946545',
     factorName: '새마을GIFT',
@@ -24592,7 +24585,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2679,
+    id: 2677,
     cardIssuer: 'BC카드',
     bin: '946550',
     factorName: '비씨GIFT',
@@ -24601,7 +24594,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2680,
+    id: 2678,
     cardIssuer: 'BC카드',
     bin: '946620',
     factorName: '우리GIFT',
@@ -24611,7 +24604,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2681,
+    id: 2679,
     cardIssuer: 'BC카드',
     bin: '946631',
     factorName: 'iM뱅크비씨GIFT',
@@ -24622,7 +24615,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2682,
+    id: 2680,
     cardIssuer: '하나카드',
     bin: '946644',
     factorName: '코나아이GIFT',
@@ -24633,7 +24626,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2683,
+    id: 2681,
     cardIssuer: 'BC카드',
     bin: '946650',
     factorName: 'Oh point',
@@ -24642,7 +24635,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2684,
+    id: 2682,
     cardIssuer: 'BC카드',
     bin: '946720',
     factorName: '우리GIFT',
@@ -24652,7 +24645,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2685,
+    id: 2683,
     cardIssuer: 'BC카드',
     bin: '946731',
     factorName: 'iM뱅크비씨GIFT',
@@ -24663,7 +24656,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2686,
+    id: 2684,
     cardIssuer: 'BC카드',
     bin: '946750',
     factorName: 'Oh point',
@@ -24672,7 +24665,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2687,
+    id: 2685,
     cardIssuer: 'BC카드',
     bin: '946803',
     factorName: 'IBK비씨GIFT',
@@ -24681,7 +24674,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2688,
+    id: 2686,
     cardIssuer: 'BC카드',
     bin: '946820',
     factorName: '우리GIFT',
@@ -24691,7 +24684,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2689,
+    id: 2687,
     cardIssuer: 'BC카드',
     bin: '946831',
     factorName: 'iM뱅크비씨GIFT',
@@ -24702,7 +24695,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2690,
+    id: 2688,
     cardIssuer: 'BC카드',
     bin: '946850',
     factorName: 'BC국민관광',
@@ -24711,7 +24704,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2691,
+    id: 2689,
     cardIssuer: '광주은행',
     bin: '946904',
     factorName: '광주GIFT',
@@ -24720,7 +24713,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2692,
+    id: 2690,
     cardIssuer: '광주은행',
     bin: '946908',
     factorName: '광주GIFT',
@@ -24729,7 +24722,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2693,
+    id: 2691,
     cardIssuer: 'BC카드',
     bin: '946920',
     factorName: '비씨GIFT',
@@ -24738,7 +24731,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2694,
+    id: 2692,
     cardIssuer: 'BC카드',
     bin: '946950',
     factorName: '비씨선불카드',
@@ -24747,7 +24740,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2695,
+    id: 2693,
     cardIssuer: 'BC카드',
     bin: '946952',
     factorName: '비씨GIFT',
@@ -24756,7 +24749,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2696,
+    id: 2694,
     cardIssuer: '광주은행',
     bin: '946961',
     factorName: '광주GIFT',
@@ -24765,7 +24758,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2697,
+    id: 2695,
     cardIssuer: 'BC카드',
     bin: '947003',
     factorName: 'IBK비씨카드',
@@ -24774,7 +24767,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2698,
+    id: 2696,
     cardIssuer: 'BC카드',
     bin: '947006',
     factorName: 'KB국민비씨카드',
@@ -24783,7 +24776,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2699,
+    id: 2697,
     cardIssuer: 'BC카드',
     bin: '947011',
     factorName: 'NH농협비씨카드',
@@ -24792,7 +24785,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2700,
+    id: 2698,
     cardIssuer: 'BC카드',
     bin: '947012',
     factorName: 'NH농협비씨카드',
@@ -24801,7 +24794,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2701,
+    id: 2699,
     cardIssuer: 'BC카드',
     bin: '947020',
     factorName: '비씨카드',
@@ -24810,7 +24803,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2702,
+    id: 2700,
     cardIssuer: 'BC카드',
     bin: '947021',
     factorName: '신한비씨카드',
@@ -24819,7 +24812,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2703,
+    id: 2701,
     cardIssuer: 'BC카드',
     bin: '947023',
     factorName: 'SC비씨카드',
@@ -24828,7 +24821,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2704,
+    id: 2702,
     cardIssuer: 'BC카드',
     bin: '947025',
     factorName: '하나SK비씨카드',
@@ -24837,7 +24830,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2705,
+    id: 2703,
     cardIssuer: 'BC카드',
     bin: '947027',
     factorName: '씨티비씨카드',
@@ -24846,7 +24839,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2706,
+    id: 2704,
     cardIssuer: 'BC카드',
     bin: '947031',
     factorName: 'iM뱅크비씨카드',
@@ -24857,7 +24850,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2707,
+    id: 2705,
     cardIssuer: 'BC카드',
     bin: '947032',
     factorName: '부산비씨카드',
@@ -24866,7 +24859,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2708,
+    id: 2706,
     cardIssuer: 'BC카드',
     bin: '947033',
     factorName: '하나SK비씨카드',
@@ -24875,7 +24868,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2709,
+    id: 2707,
     cardIssuer: 'BC카드',
     bin: '947039',
     factorName: '경남비씨카드',
@@ -24884,7 +24877,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2710,
+    id: 2708,
     cardIssuer: 'BC카드',
     bin: '947050',
     factorName: '비씨선불카드',
@@ -24893,7 +24886,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2711,
+    id: 2709,
     cardIssuer: 'BC카드',
     bin: '947078',
     factorName: '신한비씨카드',
@@ -24902,7 +24895,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2712,
+    id: 2710,
     cardIssuer: '하나카드',
     bin: '947081',
     factorName: '하나카드',
@@ -24911,7 +24904,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2713,
+    id: 2711,
     cardIssuer: 'BC카드',
     bin: '947120',
     factorName: '우리카드',
@@ -24921,7 +24914,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2714,
+    id: 2712,
     cardIssuer: 'BC카드',
     bin: '947124',
     factorName: '우리카드',
@@ -24931,7 +24924,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2715,
+    id: 2713,
     cardIssuer: '광주은행',
     bin: '947134',
     factorName: '광주신용',
@@ -24940,7 +24933,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2716,
+    id: 2714,
     cardIssuer: '전북은행',
     bin: '947137',
     factorName: 'SSG카드',
@@ -24951,7 +24944,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 2717,
+    id: 2715,
     cardIssuer: 'BC카드',
     bin: '947150',
     factorName: '비씨카드',
@@ -24960,7 +24953,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2718,
+    id: 2716,
     cardIssuer: '하나카드',
     bin: '947181',
     factorName: '하나선불',
@@ -24969,7 +24962,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2719,
+    id: 2717,
     cardIssuer: 'BC카드',
     bin: '947203',
     factorName: 'IBK비씨체크',
@@ -24978,7 +24971,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2720,
+    id: 2718,
     cardIssuer: 'BC카드',
     bin: '947206',
     factorName: 'KB국민비씨체크',
@@ -24987,7 +24980,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2721,
+    id: 2719,
     cardIssuer: 'BC카드',
     bin: '947211',
     factorName: 'NH농협비씨체크',
@@ -24996,7 +24989,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2722,
+    id: 2720,
     cardIssuer: 'BC카드',
     bin: '947221',
     factorName: '신한비씨체크',
@@ -25005,7 +24998,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2723,
+    id: 2721,
     cardIssuer: 'BC카드',
     bin: '947225',
     factorName: '하나비씨체크',
@@ -25014,7 +25007,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2724,
+    id: 2722,
     cardIssuer: 'BC카드',
     bin: '947232',
     factorName: '부산비씨체크',
@@ -25023,7 +25016,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2725,
+    id: 2723,
     cardIssuer: 'BC카드',
     bin: '947239',
     factorName: '경남비씨체크',
@@ -25032,7 +25025,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2726,
+    id: 2724,
     cardIssuer: 'BC카드',
     bin: '947271',
     factorName: '우체국체크',
@@ -25041,7 +25034,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2727,
+    id: 2725,
     cardIssuer: 'BC카드',
     bin: '947520',
     factorName: '우리카드',
@@ -25051,7 +25044,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2728,
+    id: 2726,
     cardIssuer: 'BC카드',
     bin: '947920',
     factorName: '우리카드',
@@ -25061,7 +25054,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2729,
+    id: 2727,
     cardIssuer: '광주은행',
     bin: '947934',
     factorName: '광주신용',
@@ -25070,7 +25063,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2730,
+    id: 2728,
     cardIssuer: 'BC카드',
     bin: '947950',
     factorName: '비씨카드',
@@ -25079,7 +25072,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2731,
+    id: 2729,
     cardIssuer: '광주은행',
     bin: '948001',
     factorName: '광주신용',
@@ -25088,7 +25081,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2732,
+    id: 2730,
     cardIssuer: 'BC카드',
     bin: '948002',
     factorName: '우리카드',
@@ -25098,7 +25091,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2733,
+    id: 2731,
     cardIssuer: 'BC카드',
     bin: '948003',
     factorName: '하나비씨카드',
@@ -25107,7 +25100,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2734,
+    id: 2732,
     cardIssuer: 'BC카드',
     bin: '948020',
     factorName: '우리카드',
@@ -25117,7 +25110,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2735,
+    id: 2733,
     cardIssuer: '하나카드',
     bin: '948031',
     factorName: '하나체크카드',
@@ -25126,7 +25119,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2736,
+    id: 2734,
     cardIssuer: '광주은행',
     bin: '948034',
     factorName: '광주신용',
@@ -25135,7 +25128,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2737,
+    id: 2735,
     cardIssuer: 'BC카드',
     bin: '948050',
     factorName: '비씨카드',
@@ -25144,7 +25137,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2738,
+    id: 2736,
     cardIssuer: 'BC카드',
     bin: '948051',
     factorName: '비씨카드',
@@ -25153,7 +25146,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2739,
+    id: 2737,
     cardIssuer: 'BC카드',
     bin: '948120',
     factorName: '우리카드',
@@ -25163,7 +25156,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2740,
+    id: 2738,
     cardIssuer: 'BC카드',
     bin: '948122',
     factorName: '우리카드',
@@ -25173,7 +25166,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2741,
+    id: 2739,
     cardIssuer: 'BC카드',
     bin: '948124',
     factorName: '우리카드',
@@ -25183,7 +25176,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2742,
+    id: 2740,
     cardIssuer: 'BC카드',
     bin: '948125',
     factorName: '하나비씨카드',
@@ -25192,7 +25185,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2743,
+    id: 2741,
     cardIssuer: '광주은행',
     bin: '948134',
     factorName: '광주신용',
@@ -25201,7 +25194,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2744,
+    id: 2742,
     cardIssuer: '제주은행',
     bin: '948135',
     factorName: '제주카드',
@@ -25210,7 +25203,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2745,
+    id: 2743,
     cardIssuer: 'BC카드',
     bin: '948150',
     factorName: '비씨카드',
@@ -25219,7 +25212,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2746,
+    id: 2744,
     cardIssuer: 'BC카드',
     bin: '948151',
     factorName: '비씨카드',
@@ -25228,7 +25221,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2747,
+    id: 2745,
     cardIssuer: 'BC카드',
     bin: '948220',
     factorName: '우리카드',
@@ -25238,7 +25231,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2748,
+    id: 2746,
     cardIssuer: 'BC카드',
     bin: '948222',
     factorName: '우리카드',
@@ -25248,7 +25241,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2749,
+    id: 2747,
     cardIssuer: 'BC카드',
     bin: '948224',
     factorName: '우리카드',
@@ -25258,7 +25251,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2750,
+    id: 2748,
     cardIssuer: '현대카드',
     bin: '948521',
     factorName: '현대로컬개인',
@@ -25267,7 +25260,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2751,
+    id: 2749,
     cardIssuer: 'NH농협카드',
     bin: '948816',
     factorName: 'NH카드',
@@ -25276,7 +25269,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2752,
+    id: 2750,
     cardIssuer: '현대카드',
     bin: '948817',
     factorName: '현대로컬법인',
@@ -25285,7 +25278,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2753,
+    id: 2751,
     cardIssuer: '지드림카드',
     bin: '948911',
     factorName: '광주특수교육',
@@ -25296,7 +25289,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2754,
+    id: 2752,
     cardIssuer: '광주은행',
     bin: '948934',
     factorName: '광주체크',
@@ -25305,7 +25298,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2755,
+    id: 2753,
     cardIssuer: '현대카드',
     bin: '949001',
     factorName: '현대로컬개인',
@@ -25314,7 +25307,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2756,
+    id: 2754,
     cardIssuer: '현대카드',
     bin: '949002',
     factorName: '현대로컬개인',
@@ -25323,7 +25316,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2757,
+    id: 2755,
     cardIssuer: '현대카드',
     bin: '949003',
     factorName: '현대로컬개인',
@@ -25332,7 +25325,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2758,
+    id: 2756,
     cardIssuer: '현대카드',
     bin: '949004',
     factorName: '현대로컬개인',
@@ -25341,7 +25334,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2759,
+    id: 2757,
     cardIssuer: '현대카드',
     bin: '949005',
     factorName: '현대로컬개인',
@@ -25350,7 +25343,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2760,
+    id: 2758,
     cardIssuer: '현대카드',
     bin: '949008',
     factorName: '현대로컬개인',
@@ -25359,7 +25352,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2761,
+    id: 2759,
     cardIssuer: '현대카드',
     bin: '949009',
     factorName: '현대로컬개인',
@@ -25368,7 +25361,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2762,
+    id: 2760,
     cardIssuer: '현대카드',
     bin: '949010',
     factorName: '현대 카드',
@@ -25377,7 +25370,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2763,
+    id: 2761,
     cardIssuer: '현대카드',
     bin: '949011',
     factorName: '현대 카드',
@@ -25386,7 +25379,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2764,
+    id: 2762,
     cardIssuer: '현대카드',
     bin: '949012',
     factorName: '개인블랙',
@@ -25395,7 +25388,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2765,
+    id: 2763,
     cardIssuer: '현대카드',
     bin: '949013',
     factorName: '현대체크카드',
@@ -25404,7 +25397,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2766,
+    id: 2764,
     cardIssuer: '현대카드',
     bin: '949014',
     factorName: '현대선불카드',
@@ -25413,7 +25406,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2767,
+    id: 2765,
     cardIssuer: '현대카드',
     bin: '949015',
     factorName: '현대복합체크',
@@ -25422,7 +25415,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2768,
+    id: 2766,
     cardIssuer: '현대카드',
     bin: '949016',
     factorName: '현대 카드',
@@ -25431,7 +25424,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2769,
+    id: 2767,
     cardIssuer: '현대카드',
     bin: '949017',
     factorName: '현대 카드',
@@ -25440,7 +25433,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2770,
+    id: 2768,
     cardIssuer: '현대카드',
     bin: '949018',
     factorName: '현대 카드',
@@ -25449,7 +25442,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2771,
+    id: 2769,
     cardIssuer: '현대카드',
     bin: '949019',
     factorName: '현대 카드',
@@ -25458,7 +25451,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2772,
+    id: 2770,
     cardIssuer: '현대카드',
     bin: '949020',
     factorName: '현대 카드',
@@ -25467,7 +25460,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2773,
+    id: 2771,
     cardIssuer: '현대카드',
     bin: '949021',
     factorName: '현대 카드',
@@ -25476,7 +25469,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2774,
+    id: 2772,
     cardIssuer: '현대카드',
     bin: '949022',
     factorName: '현대 카드',
@@ -25485,7 +25478,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2775,
+    id: 2773,
     cardIssuer: '현대카드',
     bin: '949023',
     factorName: '현대 카드',
@@ -25494,7 +25487,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2776,
+    id: 2774,
     cardIssuer: '현대카드',
     bin: '949024',
     factorName: '현대 비자',
@@ -25503,7 +25496,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2777,
+    id: 2775,
     cardIssuer: '현대카드',
     bin: '949025',
     factorName: '현대 카드',
@@ -25512,7 +25505,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2778,
+    id: 2776,
     cardIssuer: '현대카드',
     bin: '949026',
     factorName: '현대 카드',
@@ -25521,7 +25514,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2779,
+    id: 2777,
     cardIssuer: '현대카드',
     bin: '949027',
     factorName: '현대 카드',
@@ -25530,7 +25523,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2780,
+    id: 2778,
     cardIssuer: '현대카드',
     bin: '949028',
     factorName: '현대체크카드',
@@ -25539,7 +25532,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2781,
+    id: 2779,
     cardIssuer: '현대카드',
     bin: '949029',
     factorName: '현대체크카드',
@@ -25548,7 +25541,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2782,
+    id: 2780,
     cardIssuer: '현대카드',
     bin: '949032',
     factorName: '현대로컬법인',
@@ -25557,7 +25550,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2783,
+    id: 2781,
     cardIssuer: '현대카드',
     bin: '949033',
     factorName: '법인블랙',
@@ -25566,7 +25559,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2784,
+    id: 2782,
     cardIssuer: '현대카드',
     bin: '949034',
     factorName: '현대로컬법인',
@@ -25575,7 +25568,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2785,
+    id: 2783,
     cardIssuer: '현대카드',
     bin: '949035',
     factorName: '현대법인선불',
@@ -25584,7 +25577,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2786,
+    id: 2784,
     cardIssuer: '현대카드',
     bin: '949036',
     factorName: '현대로컬개인',
@@ -25593,7 +25586,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2787,
+    id: 2785,
     cardIssuer: '현대카드',
     bin: '949037',
     factorName: '현대로컬개인',
@@ -25602,7 +25595,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2788,
+    id: 2786,
     cardIssuer: '현대카드',
     bin: '949038',
     factorName: '현대로컬개인',
@@ -25611,7 +25604,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2789,
+    id: 2787,
     cardIssuer: '현대카드',
     bin: '949039',
     factorName: '현대체크카드',
@@ -25620,7 +25613,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2790,
+    id: 2788,
     cardIssuer: '현대카드',
     bin: '949040',
     factorName: '현대로컬개인',
@@ -25629,7 +25622,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2791,
+    id: 2789,
     cardIssuer: '현대카드',
     bin: '949041',
     factorName: '현대체크카드',
@@ -25638,7 +25631,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2792,
+    id: 2790,
     cardIssuer: '현대카드',
     bin: '949042',
     factorName: '현대로컬개인',
@@ -25647,7 +25640,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2793,
+    id: 2791,
     cardIssuer: '현대카드',
     bin: '949043',
     factorName: '현대체크카드',
@@ -25656,7 +25649,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2794,
+    id: 2792,
     cardIssuer: '현대카드',
     bin: '949044',
     factorName: '현대유가거래',
@@ -25665,7 +25658,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2795,
+    id: 2793,
     cardIssuer: '현대카드',
     bin: '949045',
     factorName: '현대체크카드',
@@ -25674,7 +25667,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2796,
+    id: 2794,
     cardIssuer: '현대카드',
     bin: '949046',
     factorName: '현대로컬개인',
@@ -25683,7 +25676,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2797,
+    id: 2795,
     cardIssuer: '현대카드',
     bin: '949047',
     factorName: '현대로컬개인',
@@ -25692,7 +25685,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2798,
+    id: 2796,
     cardIssuer: 'BC카드',
     bin: '949048',
     factorName: '신협체크카드',
@@ -25701,7 +25694,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2799,
+    id: 2797,
     cardIssuer: 'BC카드',
     bin: '949049',
     factorName: '신협체크카드',
@@ -25710,7 +25703,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2800,
+    id: 2798,
     cardIssuer: '현대카드',
     bin: '949050',
     factorName: '현대선불카드',
@@ -25719,7 +25712,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2801,
+    id: 2799,
     cardIssuer: '현대카드',
     bin: '949051',
     factorName: '현대선불카드',
@@ -25730,7 +25723,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2802,
+    id: 2800,
     cardIssuer: '현대카드',
     bin: '949052',
     factorName: '현대로컬법인',
@@ -25739,7 +25732,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2803,
+    id: 2801,
     cardIssuer: '현대카드',
     bin: '949053',
     factorName: '현대로컬개인',
@@ -25748,7 +25741,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2804,
+    id: 2802,
     cardIssuer: '현대카드',
     bin: '949054',
     factorName: '현대유가체크',
@@ -25757,7 +25750,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2805,
+    id: 2803,
     cardIssuer: '현대카드',
     bin: '949055',
     factorName: '현대유가거래',
@@ -25766,7 +25759,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2806,
+    id: 2804,
     cardIssuer: '현대카드',
     bin: '949056',
     factorName: '현대로컬개인',
@@ -25775,7 +25768,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2807,
+    id: 2805,
     cardIssuer: '현대카드',
     bin: '949057',
     factorName: '현대로컬개인',
@@ -25784,7 +25777,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2808,
+    id: 2806,
     cardIssuer: '현대카드',
     bin: '949058',
     factorName: '현대로컬개인',
@@ -25795,7 +25788,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2809,
+    id: 2807,
     cardIssuer: '현대카드',
     bin: '949059',
     factorName: '현대로컬개인',
@@ -25804,7 +25797,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2810,
+    id: 2808,
     cardIssuer: '현대카드',
     bin: '949060',
     factorName: '현대로컬개인',
@@ -25813,7 +25806,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2811,
+    id: 2809,
     cardIssuer: '현대카드',
     bin: '949061',
     factorName: '현대로컬개인',
@@ -25822,7 +25815,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2812,
+    id: 2810,
     cardIssuer: '현대카드',
     bin: '949062',
     factorName: '현대로컬개인',
@@ -25831,7 +25824,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2813,
+    id: 2811,
     cardIssuer: '현대카드',
     bin: '949063',
     factorName: '현대로컬개인',
@@ -25840,7 +25833,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2814,
+    id: 2812,
     cardIssuer: '현대카드',
     bin: '949064',
     factorName: '현대 카드',
@@ -25849,7 +25842,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2815,
+    id: 2813,
     cardIssuer: '현대카드',
     bin: '949065',
     factorName: '현대 카드',
@@ -25858,7 +25851,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2816,
+    id: 2814,
     cardIssuer: '현대카드',
     bin: '949066',
     factorName: '현대 카드',
@@ -25867,7 +25860,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2817,
+    id: 2815,
     cardIssuer: '현대카드',
     bin: '949067',
     factorName: '현대복합체크',
@@ -25876,7 +25869,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2818,
+    id: 2816,
     cardIssuer: '현대카드',
     bin: '949069',
     factorName: '현대체크카드',
@@ -25885,7 +25878,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2819,
+    id: 2817,
     cardIssuer: '현대카드',
     bin: '949070',
     factorName: '현대 카드',
@@ -25894,7 +25887,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2820,
+    id: 2818,
     cardIssuer: '전북은행',
     bin: '949071',
     factorName: '전북JB카드',
@@ -25905,7 +25898,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 2821,
+    id: 2819,
     cardIssuer: '전북은행',
     bin: '949072',
     factorName: '전북JB카드',
@@ -25916,7 +25909,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 2822,
+    id: 2820,
     cardIssuer: '전북은행',
     bin: '949074',
     factorName: '전북JB카드',
@@ -25927,7 +25920,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 2823,
+    id: 2821,
     cardIssuer: '전북은행',
     bin: '949075',
     factorName: '전북JB카드',
@@ -25938,7 +25931,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 2824,
+    id: 2822,
     cardIssuer: '현대카드',
     bin: '949077',
     factorName: '현대로컬개인',
@@ -25947,7 +25940,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2825,
+    id: 2823,
     cardIssuer: '현대카드',
     bin: '949078',
     factorName: '현대로컬개인',
@@ -25956,7 +25949,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2826,
+    id: 2824,
     cardIssuer: '현대카드',
     bin: '949079',
     factorName: '현대로컬개인',
@@ -25965,7 +25958,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2827,
+    id: 2825,
     cardIssuer: '전북은행',
     bin: '949082',
     factorName: '전북JBGIFT',
@@ -25976,7 +25969,7 @@ const data = [
     changed: '매입사 변경',
   ),
   CardBinModel(
-    id: 2828,
+    id: 2826,
     cardIssuer: '현대카드',
     bin: '949084',
     factorName: '현대선불카드',
@@ -25985,7 +25978,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2829,
+    id: 2827,
     cardIssuer: '현대카드',
     bin: '949085',
     factorName: '현대로컬개인',
@@ -25994,7 +25987,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2830,
+    id: 2828,
     cardIssuer: '현대카드',
     bin: '949086',
     factorName: '현대로컬개인',
@@ -26003,7 +25996,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2831,
+    id: 2829,
     cardIssuer: '현대카드',
     bin: '949087',
     factorName: '현대로컬개인',
@@ -26012,7 +26005,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2832,
+    id: 2830,
     cardIssuer: '현대카드',
     bin: '949088',
     factorName: '현대로컬개인',
@@ -26021,7 +26014,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2833,
+    id: 2831,
     cardIssuer: '현대카드',
     bin: '949089',
     factorName: '현대로컬개인',
@@ -26030,7 +26023,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2834,
+    id: 2832,
     cardIssuer: 'KB국민카드',
     bin: '949090',
     factorName: 'KB국민카드',
@@ -26039,7 +26032,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2835,
+    id: 2833,
     cardIssuer: 'KB국민카드',
     bin: '949091',
     factorName: 'KB국민카드',
@@ -26048,7 +26041,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2836,
+    id: 2834,
     cardIssuer: 'KB국민카드',
     bin: '949092',
     factorName: 'KB국민카드',
@@ -26057,7 +26050,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2837,
+    id: 2835,
     cardIssuer: 'KB국민카드',
     bin: '949093',
     factorName: 'KB체크카드',
@@ -26066,7 +26059,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2838,
+    id: 2836,
     cardIssuer: 'KB국민카드',
     bin: '949094',
     factorName: 'KB체크카드',
@@ -26075,7 +26068,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2839,
+    id: 2837,
     cardIssuer: 'KB국민카드',
     bin: '949095',
     factorName: 'KB체크카드',
@@ -26084,7 +26077,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2840,
+    id: 2838,
     cardIssuer: 'KB국민카드',
     bin: '949096',
     factorName: 'KB 기업카드',
@@ -26093,7 +26086,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2841,
+    id: 2839,
     cardIssuer: '현대카드',
     bin: '949097',
     factorName: '현대체크카드',
@@ -26104,7 +26097,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2842,
+    id: 2840,
     cardIssuer: 'KB국민카드',
     bin: '949098',
     factorName: 'KB국민카드',
@@ -26113,7 +26106,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2843,
+    id: 2841,
     cardIssuer: 'KB국민카드',
     bin: '949099',
     factorName: '카카오뱅크체크',
@@ -26122,7 +26115,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2844,
+    id: 2842,
     cardIssuer: 'KB국민카드',
     bin: '949100',
     factorName: '모아정보선불',
@@ -26131,7 +26124,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2845,
+    id: 2843,
     cardIssuer: 'KB국민카드',
     bin: '949101',
     factorName: 'KB체크유류거래',
@@ -26140,7 +26133,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2846,
+    id: 2844,
     cardIssuer: 'KB국민카드',
     bin: '949102',
     factorName: 'KB선불카드',
@@ -26149,7 +26142,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2847,
+    id: 2845,
     cardIssuer: 'KB국민카드',
     bin: '949103',
     factorName: '카카오뱅크mini',
@@ -26158,7 +26151,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2848,
+    id: 2846,
     cardIssuer: 'KB국민카드',
     bin: '949104',
     factorName: 'KB선불카드',
@@ -26167,7 +26160,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2849,
+    id: 2847,
     cardIssuer: 'KB국민카드',
     bin: '949105',
     factorName: 'KB체크카드',
@@ -26176,7 +26169,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2850,
+    id: 2848,
     cardIssuer: 'KB국민카드',
     bin: '949107',
     factorName: 'PAYCO카드',
@@ -26187,7 +26180,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2851,
+    id: 2849,
     cardIssuer: 'KB국민카드',
     bin: '949108',
     factorName: 'PAYCO카드',
@@ -26198,7 +26191,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2852,
+    id: 2850,
     cardIssuer: 'KB국민카드',
     bin: '949110',
     factorName: '코나카드',
@@ -26207,7 +26200,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2853,
+    id: 2851,
     cardIssuer: 'BC카드',
     bin: '949111',
     factorName: '농협바우처선불',
@@ -26216,7 +26209,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2854,
+    id: 2852,
     cardIssuer: 'KB국민카드',
     bin: '949112',
     factorName: '한화투자증권',
@@ -26225,7 +26218,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2855,
+    id: 2853,
     cardIssuer: 'KB국민카드',
     bin: '949113',
     factorName: '코나카드',
@@ -26236,7 +26229,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2856,
+    id: 2854,
     cardIssuer: 'KB국민카드',
     bin: '949120',
     factorName: 'KB선불카드',
@@ -26245,7 +26238,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2857,
+    id: 2855,
     cardIssuer: 'KB국민카드',
     bin: '949121',
     factorName: 'KB체크카드',
@@ -26254,7 +26247,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2858,
+    id: 2856,
     cardIssuer: 'KB국민카드',
     bin: '949122',
     factorName: 'KB체크카드',
@@ -26263,7 +26256,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2859,
+    id: 2857,
     cardIssuer: 'KB국민카드',
     bin: '949123',
     factorName: 'KB체크카드',
@@ -26272,7 +26265,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2860,
+    id: 2858,
     cardIssuer: 'KB국민카드',
     bin: '949124',
     factorName: 'KB체크카드',
@@ -26281,7 +26274,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2861,
+    id: 2859,
     cardIssuer: 'KB국민카드',
     bin: '949125',
     factorName: 'KB체크카드',
@@ -26290,7 +26283,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2862,
+    id: 2860,
     cardIssuer: 'KB국민카드',
     bin: '949126',
     factorName: 'KB선불카드',
@@ -26299,7 +26292,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2863,
+    id: 2861,
     cardIssuer: 'KB국민카드',
     bin: '949127',
     factorName: 'KB선불카드',
@@ -26308,7 +26301,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2864,
+    id: 2862,
     cardIssuer: 'KB국민카드',
     bin: '949128',
     factorName: 'KB선불카드',
@@ -26317,7 +26310,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2865,
+    id: 2863,
     cardIssuer: 'KB국민카드',
     bin: '949129',
     factorName: 'KB체크카드',
@@ -26326,7 +26319,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2866,
+    id: 2864,
     cardIssuer: 'KB국민카드',
     bin: '949130',
     factorName: 'KB선불카드',
@@ -26335,7 +26328,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2867,
+    id: 2865,
     cardIssuer: 'KB국민카드',
     bin: '949132',
     factorName: 'KB체크카드',
@@ -26344,7 +26337,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2868,
+    id: 2866,
     cardIssuer: 'KB국민카드',
     bin: '949133',
     factorName: '코나카드',
@@ -26353,7 +26346,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2869,
+    id: 2867,
     cardIssuer: 'KB국민카드',
     bin: '949134',
     factorName: '티머니',
@@ -26362,7 +26355,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2870,
+    id: 2868,
     cardIssuer: 'KB국민카드',
     bin: '949135',
     factorName: '카카오뱅크체크',
@@ -26371,7 +26364,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2871,
+    id: 2869,
     cardIssuer: 'KB국민카드',
     bin: '949136',
     factorName: '토스체크',
@@ -26380,7 +26373,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2872,
+    id: 2870,
     cardIssuer: 'KB국민카드',
     bin: '949137',
     factorName: 'KB체크카드',
@@ -26389,7 +26382,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2873,
+    id: 2871,
     cardIssuer: 'BC카드',
     bin: '949211',
     factorName: '농협바우처선불',
@@ -26398,7 +26391,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2874,
+    id: 2872,
     cardIssuer: '지드림카드',
     bin: '949311',
     factorName: '굳센카드',
@@ -26409,7 +26402,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2875,
+    id: 2873,
     cardIssuer: '지드림카드',
     bin: '949411',
     factorName: '참좋은카드',
@@ -26420,7 +26413,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2876,
+    id: 2874,
     cardIssuer: '지드림카드',
     bin: '949511',
     factorName: 'Dream카드',
@@ -26431,7 +26424,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2877,
+    id: 2875,
     cardIssuer: '지드림카드',
     bin: '949529',
     factorName: '농식품바우처',
@@ -26442,7 +26435,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2878,
+    id: 2876,
     cardIssuer: '지드림카드',
     bin: '949530',
     factorName: '부산행복드림',
@@ -26453,7 +26446,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2879,
+    id: 2877,
     cardIssuer: '지드림카드',
     bin: '949531',
     factorName: '제주희망나눔',
@@ -26464,7 +26457,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2880,
+    id: 2878,
     cardIssuer: '지드림카드',
     bin: '949532',
     factorName: '전북꿈활짝',
@@ -26475,7 +26468,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2881,
+    id: 2879,
     cardIssuer: 'BC카드',
     bin: '949533',
     factorName: '농협바우처선불',
@@ -26484,7 +26477,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2882,
+    id: 2880,
     cardIssuer: '지드림카드',
     bin: '949535',
     factorName: '전남꿈그린',
@@ -26495,7 +26488,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2883,
+    id: 2881,
     cardIssuer: '지드림카드',
     bin: '949536',
     factorName: '충북치료지원',
@@ -26506,7 +26499,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2884,
+    id: 2882,
     cardIssuer: '지드림카드',
     bin: '949537',
     factorName: '세종자라미',
@@ -26517,7 +26510,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2885,
+    id: 2883,
     cardIssuer: '지드림카드',
     bin: '949538',
     factorName: '충남디딤',
@@ -26528,7 +26521,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2886,
+    id: 2884,
     cardIssuer: '지드림카드',
     bin: '949539',
     factorName: '제주꿈바당',
@@ -26539,7 +26532,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2887,
+    id: 2885,
     cardIssuer: '지드림카드',
     bin: '949542',
     factorName: '경북짱짱카드',
@@ -26550,7 +26543,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2888,
+    id: 2886,
     cardIssuer: '지드림카드',
     bin: '949543',
     factorName: '노인복지카드',
@@ -26561,7 +26554,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2889,
+    id: 2887,
     cardIssuer: '지드림카드',
     bin: '949544',
     factorName: '전북꿈키움',
@@ -26572,7 +26565,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2890,
+    id: 2888,
     cardIssuer: 'BC카드',
     bin: '949545',
     factorName: '농협바우처선불',
@@ -26581,7 +26574,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2891,
+    id: 2889,
     cardIssuer: '지드림카드',
     bin: '949546',
     factorName: '노인복지카드',
@@ -26592,7 +26585,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2892,
+    id: 2890,
     cardIssuer: 'BC카드',
     bin: '949547',
     factorName: '농협바우처선불',
@@ -26601,7 +26594,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2893,
+    id: 2891,
     cardIssuer: '지드림카드',
     bin: '949548',
     factorName: '울산시교육청',
@@ -26612,7 +26605,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2894,
+    id: 2892,
     cardIssuer: '지드림카드',
     bin: '949611',
     factorName: '대전특수교육',
@@ -26623,7 +26616,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2895,
+    id: 2893,
     cardIssuer: '지드림카드',
     bin: '949711',
     factorName: '대구행복카드',
@@ -26634,7 +26627,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2896,
+    id: 2894,
     cardIssuer: 'BC카드',
     bin: '949811',
     factorName: '농협바우처선불',
@@ -26643,7 +26636,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2897,
+    id: 2895,
     cardIssuer: '지드림카드',
     bin: '949911',
     factorName: '경남특기적성',
@@ -26654,7 +26647,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2898,
+    id: 2896,
     cardIssuer: 'BC카드',
     bin: '950003',
     factorName: 'IBK비씨체크',
@@ -26663,7 +26656,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2899,
+    id: 2897,
     cardIssuer: 'BC카드',
     bin: '950011',
     factorName: 'NH농협비씨체크',
@@ -26672,7 +26665,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2900,
+    id: 2898,
     cardIssuer: 'BC카드',
     bin: '950012',
     factorName: 'NH농협비씨체크',
@@ -26681,7 +26674,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2901,
+    id: 2899,
     cardIssuer: '현대카드',
     bin: '951001',
     factorName: '현대로컬법인',
@@ -26690,7 +26683,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2902,
+    id: 2900,
     cardIssuer: '현대카드',
     bin: '951002',
     factorName: '현대로컬법인',
@@ -26699,7 +26692,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2903,
+    id: 2901,
     cardIssuer: '광주은행',
     bin: '953001',
     factorName: '광주신용',
@@ -26708,7 +26701,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2904,
+    id: 2902,
     cardIssuer: '광주은행',
     bin: '953002',
     factorName: '광주체크',
@@ -26717,7 +26710,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2905,
+    id: 2903,
     cardIssuer: '광주은행',
     bin: '953003',
     factorName: '광주체크',
@@ -26726,7 +26719,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2906,
+    id: 2904,
     cardIssuer: '광주은행',
     bin: '953004',
     factorName: '광주체크',
@@ -26735,7 +26728,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2907,
+    id: 2905,
     cardIssuer: '광주은행',
     bin: '953005',
     factorName: '광주신용',
@@ -26744,7 +26737,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2908,
+    id: 2906,
     cardIssuer: '광주은행',
     bin: '954034',
     factorName: '광주GIFT',
@@ -26753,7 +26746,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2909,
+    id: 2907,
     cardIssuer: 'BC카드',
     bin: '954039',
     factorName: '경남비씨체크',
@@ -26762,7 +26755,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2910,
+    id: 2908,
     cardIssuer: '광주은행',
     bin: '954334',
     factorName: '광주체크',
@@ -26771,7 +26764,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2911,
+    id: 2909,
     cardIssuer: '광주은행',
     bin: '960161',
     factorName: '광주GIFT',
@@ -26780,7 +26773,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2912,
+    id: 2910,
     cardIssuer: '광주은행',
     bin: '960167',
     factorName: '광주GIFT',
@@ -26789,7 +26782,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2913,
+    id: 2911,
     cardIssuer: '광주은행',
     bin: '960171',
     factorName: '광주GIFT',
@@ -26798,7 +26791,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2914,
+    id: 2912,
     cardIssuer: '광주은행',
     bin: '960172',
     factorName: '광주GIFT',
@@ -26807,7 +26800,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2915,
+    id: 2913,
     cardIssuer: 'BC카드',
     bin: '970003',
     factorName: 'IBK비씨체크',
@@ -26816,7 +26809,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2916,
+    id: 2914,
     cardIssuer: 'BC카드',
     bin: '970031',
     factorName: 'iM뱅크비씨체크',
@@ -26827,7 +26820,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2917,
+    id: 2915,
     cardIssuer: 'BC카드',
     bin: '970032',
     factorName: '부산비씨체크',
@@ -26836,7 +26829,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2918,
+    id: 2916,
     cardIssuer: 'BC카드',
     bin: '970039',
     factorName: '경남비씨체크',
@@ -26845,7 +26838,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2919,
+    id: 2917,
     cardIssuer: 'BC카드',
     bin: '970045',
     factorName: '새마을체크',
@@ -26854,7 +26847,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2920,
+    id: 2918,
     cardIssuer: '삼성카드',
     bin: '971000',
     factorName: '삼성체크',
@@ -26863,7 +26856,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2921,
+    id: 2919,
     cardIssuer: '삼성카드',
     bin: '971001',
     factorName: '지역사랑선불',
@@ -26872,7 +26865,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2922,
+    id: 2920,
     cardIssuer: '삼성카드',
     bin: '971002',
     factorName: '삼성체크',
@@ -26881,7 +26874,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2923,
+    id: 2921,
     cardIssuer: '삼성카드',
     bin: '971010',
     factorName: '삼성카드',
@@ -26890,7 +26883,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2924,
+    id: 2922,
     cardIssuer: '삼성카드',
     bin: '972000',
     factorName: '삼성카드',
@@ -26899,7 +26892,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2925,
+    id: 2923,
     cardIssuer: 'BC카드',
     bin: '999950',
     factorName: '비씨카드',
@@ -26908,7 +26901,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2926,
+    id: 2924,
     cardIssuer: 'BC카드',
     bin: '999960',
     factorName: '비씨선불카드',
@@ -26917,7 +26910,7 @@ const data = [
     creditDebit: '기프트',
   ),
   CardBinModel(
-    id: 2927,
+    id: 2925,
     cardIssuer: 'BC카드',
     bin: '999977',
     factorName: '네이버페이체크',
@@ -26926,7 +26919,7 @@ const data = [
     creditDebit: '체크',
   ),
   CardBinModel(
-    id: 2928,
+    id: 2926,
     cardIssuer: '신한카드',
     bin: '999999',
     factorName: '신한카드',
@@ -26935,7 +26928,7 @@ const data = [
     creditDebit: '신용',
   ),
   CardBinModel(
-    id: 2929,
+    id: 2927,
     cardIssuer: '현대카드',
     bin: '341122',
     factorName: '현대아멕스',
@@ -26945,7 +26938,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2930,
+    id: 2928,
     cardIssuer: '현대카드',
     bin: '341348',
     factorName: '현대아멕스',
@@ -26955,7 +26948,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2931,
+    id: 2929,
     cardIssuer: 'BC카드',
     bin: '356741',
     factorName: '비씨카드',
@@ -26965,7 +26958,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2932,
+    id: 2930,
     cardIssuer: '현대카드',
     bin: '405691',
     factorName: '현대비자법인',
@@ -26975,7 +26968,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2933,
+    id: 2931,
     cardIssuer: 'KB국민카드',
     bin: '411026',
     factorName: 'KB체크카드',
@@ -26985,7 +26978,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2934,
+    id: 2932,
     cardIssuer: '삼성카드',
     bin: '45790600',
     factorName: '삼성비자',
@@ -26995,7 +26988,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2935,
+    id: 2933,
     cardIssuer: '현대카드',
     bin: '45992700',
     factorName: '현대체크카드',
@@ -27005,7 +26998,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2936,
+    id: 2934,
     cardIssuer: 'KB국민카드',
     bin: '470349',
     factorName: 'KB국민카드',
@@ -27015,7 +27008,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2937,
+    id: 2935,
     cardIssuer: 'BC카드',
     bin: '484062',
     factorName: '우리카드',
@@ -27026,7 +27019,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2938,
+    id: 2936,
     cardIssuer: '현대카드',
     bin: '486230',
     factorName: '현대비자',
@@ -27036,7 +27029,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2939,
+    id: 2937,
     cardIssuer: '현대카드',
     bin: '49060900',
     factorName: '현대비자개인',
@@ -27046,7 +27039,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2940,
+    id: 2938,
     cardIssuer: '현대카드',
     bin: '49061000',
     factorName: '현대체크카드',
@@ -27056,7 +27049,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2941,
+    id: 2939,
     cardIssuer: '현대카드',
     bin: '49061300',
     factorName: '현대비자법인',
@@ -27066,7 +27059,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2942,
+    id: 2940,
     cardIssuer: '현대카드',
     bin: '492752',
     factorName: '현대비자',
@@ -27076,7 +27069,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2943,
+    id: 2941,
     cardIssuer: '현대카드',
     bin: '493020',
     factorName: '현대비자',
@@ -27086,7 +27079,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2944,
+    id: 2942,
     cardIssuer: '현대카드',
     bin: '493046',
     factorName: '현대비자',
@@ -27096,7 +27089,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2945,
+    id: 2943,
     cardIssuer: '현대카드',
     bin: '49410300',
     factorName: '현대비자개인',
@@ -27106,7 +27099,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2946,
+    id: 2944,
     cardIssuer: 'KB국민카드',
     bin: '49876100',
     factorName: 'KB국민카드',
@@ -27116,7 +27109,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2947,
+    id: 2945,
     cardIssuer: 'NH농협카드',
     bin: '513462',
     factorName: 'NH카드',
@@ -27126,7 +27119,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2948,
+    id: 2946,
     cardIssuer: 'NH농협카드',
     bin: '513723',
     factorName: 'NH카드',
@@ -27136,7 +27129,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2949,
+    id: 2947,
     cardIssuer: '현대카드',
     bin: '513739',
     factorName: '현대마스터법인',
@@ -27146,7 +27139,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2950,
+    id: 2948,
     cardIssuer: '현대카드',
     bin: '520215',
     factorName: '현대마스터',
@@ -27156,7 +27149,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2951,
+    id: 2949,
     cardIssuer: '현대카드',
     bin: '520217',
     factorName: '현대마스터',
@@ -27166,7 +27159,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2952,
+    id: 2950,
     cardIssuer: 'BC카드',
     bin: '520779',
     factorName: '우리카드',
@@ -27177,7 +27170,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2953,
+    id: 2951,
     cardIssuer: 'KB국민카드',
     bin: '52095789',
     factorName: 'KB국민카드',
@@ -27187,7 +27180,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2954,
+    id: 2952,
     cardIssuer: '신한카드',
     bin: '521826',
     factorName: '신한카드체크',
@@ -27198,7 +27191,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2955,
+    id: 2953,
     cardIssuer: '현대카드',
     bin: '523040',
     factorName: '현대마스터',
@@ -27208,7 +27201,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2956,
+    id: 2954,
     cardIssuer: '삼성카드',
     bin: '524283',
     factorName: '삼성마스터',
@@ -27218,7 +27211,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2957,
+    id: 2955,
     cardIssuer: '현대카드',
     bin: '525872',
     factorName: '현대마스터',
@@ -27228,7 +27221,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2958,
+    id: 2956,
     cardIssuer: 'NH농협카드',
     bin: '530108',
     factorName: 'NH체크카드',
@@ -27238,7 +27231,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2959,
+    id: 2957,
     cardIssuer: 'NH농협카드',
     bin: '530468',
     factorName: 'NH체크카드',
@@ -27248,7 +27241,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2960,
+    id: 2958,
     cardIssuer: 'BC카드',
     bin: '53141019',
     factorName: '한패스체크',
@@ -27258,7 +27251,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2961,
+    id: 2959,
     cardIssuer: 'KB국민카드',
     bin: '557162',
     factorName: '카카오뱅크체크',
@@ -27268,7 +27261,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2962,
+    id: 2960,
     cardIssuer: '제주은행',
     bin: '62630169',
     factorName: '제주카드',
@@ -27278,7 +27271,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2963,
+    id: 2961,
     cardIssuer: '제주은행',
     bin: '62630170',
     factorName: '제주카드',
@@ -27288,7 +27281,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2964,
+    id: 2962,
     cardIssuer: '제주은행',
     bin: '62630171',
     factorName: '제주체크',
@@ -27298,7 +27291,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2965,
+    id: 2963,
     cardIssuer: '제주은행',
     bin: '62642540',
     factorName: '제주체크',
@@ -27308,7 +27301,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2966,
+    id: 2964,
     cardIssuer: '제주은행',
     bin: '62642541',
     factorName: '제주카드',
@@ -27318,7 +27311,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2967,
+    id: 2965,
     cardIssuer: 'BC카드',
     bin: '654900',
     factorName: '우리카드',
@@ -27329,7 +27322,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2968,
+    id: 2966,
     cardIssuer: 'BC카드',
     bin: '654901',
     factorName: '우리카드',
@@ -27340,7 +27333,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2969,
+    id: 2967,
     cardIssuer: 'BC카드',
     bin: '920087',
     factorName: '코인샷체크',
@@ -27350,7 +27343,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2970,
+    id: 2968,
     cardIssuer: '롯데카드',
     bin: '940986',
     factorName: '이즐카드',
@@ -27361,7 +27354,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2971,
+    id: 2969,
     cardIssuer: '신한카드',
     bin: '941192',
     factorName: '신한카드체크',
@@ -27371,7 +27364,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2972,
+    id: 2970,
     cardIssuer: 'NH농협카드',
     bin: '941216',
     factorName: 'NH카드',
@@ -27381,7 +27374,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2973,
+    id: 2971,
     cardIssuer: 'NH농협카드',
     bin: '941217',
     factorName: 'NH카드',
@@ -27391,7 +27384,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2974,
+    id: 2972,
     cardIssuer: 'BC카드',
     bin: '944187',
     factorName: '코인샷체크',
@@ -27401,7 +27394,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2975,
+    id: 2973,
     cardIssuer: 'BC카드',
     bin: '944196',
     factorName: '케이뱅크하이틴',
@@ -27412,7 +27405,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2976,
+    id: 2974,
     cardIssuer: 'NH농협카드',
     bin: '944216',
     factorName: 'NH체크카드',
@@ -27422,7 +27415,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2977,
+    id: 2975,
     cardIssuer: 'NH농협카드',
     bin: '944217',
     factorName: 'NH체크카드',
@@ -27432,7 +27425,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2978,
+    id: 2976,
     cardIssuer: '광주은행',
     bin: '944234',
     factorName: '광주체크',
@@ -27442,7 +27435,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2979,
+    id: 2977,
     cardIssuer: '하나카드',
     bin: '94428160',
     factorName: '지역화폐선불',
@@ -27452,7 +27445,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2980,
+    id: 2978,
     cardIssuer: 'KB국민카드',
     bin: '944556',
     factorName: 'KB국민카드',
@@ -27462,7 +27455,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2981,
+    id: 2979,
     cardIssuer: 'BC카드',
     bin: '945122',
     factorName: '우리카드',
@@ -27473,7 +27466,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2982,
+    id: 2980,
     cardIssuer: 'BC카드',
     bin: '945124',
     factorName: '우리카드',
@@ -27484,7 +27477,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2983,
+    id: 2981,
     cardIssuer: 'NH농협카드',
     bin: '946016',
     factorName: 'NH기프트카드',
@@ -27494,7 +27487,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2984,
+    id: 2982,
     cardIssuer: 'NH농협카드',
     bin: '946017',
     factorName: 'NH기프트카드',
@@ -27504,7 +27497,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2985,
+    id: 2983,
     cardIssuer: '광주은행',
     bin: '946334',
     factorName: '광주GIFT',
@@ -27514,7 +27507,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2986,
+    id: 2984,
     cardIssuer: 'BC카드',
     bin: '946422',
     factorName: '우리GIFT',
@@ -27525,7 +27518,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2987,
+    id: 2985,
     cardIssuer: 'BC카드',
     bin: '946424',
     factorName: '우리GIFT',
@@ -27536,7 +27529,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 2988,
+    id: 2986,
     cardIssuer: 'BC카드',
     bin: '946632',
     factorName: '부산비씨GIFT',
@@ -27546,7 +27539,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2989,
+    id: 2987,
     cardIssuer: '광주은행',
     bin: '948234',
     factorName: '광주카드',
@@ -27556,7 +27549,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2990,
+    id: 2988,
     cardIssuer: 'BC카드',
     bin: '948250',
     factorName: '비씨카드',
@@ -27566,7 +27559,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2991,
+    id: 2989,
     cardIssuer: '하나카드',
     bin: '949106',
     factorName: '하나체크카드',
@@ -27576,7 +27569,7 @@ const data = [
     updatedAt: '2022. 10',
   ),
   CardBinModel(
-    id: 2992,
+    id: 2990,
     cardIssuer: '지드림카드',
     bin: '949549',
     factorName: 'NH바우처',
@@ -27587,7 +27580,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 2993,
+    id: 2991,
     cardIssuer: '현대카드',
     bin: '41402100',
     factorName: '현대비자개인',
@@ -27597,7 +27590,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 2994,
+    id: 2992,
     cardIssuer: '현대카드',
     bin: '43368900',
     factorName: '현대비자개인',
@@ -27607,7 +27600,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 2995,
+    id: 2993,
     cardIssuer: '현대카드',
     bin: '44044700',
     factorName: '현대비자개인',
@@ -27617,7 +27610,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 2996,
+    id: 2994,
     cardIssuer: '현대카드',
     bin: '45992800',
     factorName: '현대비자개인',
@@ -27627,7 +27620,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 2997,
+    id: 2995,
     cardIssuer: '현대카드',
     bin: '45992900',
     factorName: '현대비자개인',
@@ -27637,7 +27630,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 2998,
+    id: 2996,
     cardIssuer: 'KB국민카드',
     bin: '479021',
     factorName: 'KB 기업카드',
@@ -27647,7 +27640,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 2999,
+    id: 2997,
     cardIssuer: 'NH농협카드',
     bin: '528938',
     factorName: 'NH카드',
@@ -27657,7 +27650,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3000,
+    id: 2998,
     cardIssuer: 'NH농협카드',
     bin: '531130',
     factorName: 'NH카드',
@@ -27667,7 +27660,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3001,
+    id: 2999,
     cardIssuer: 'BC카드',
     bin: '920086',
     factorName: '비즈플레이체크',
@@ -27677,7 +27670,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3002,
+    id: 3000,
     cardIssuer: 'NH농협카드',
     bin: '941316',
     factorName: 'NH카드',
@@ -27687,7 +27680,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3003,
+    id: 3001,
     cardIssuer: 'NH농협카드',
     bin: '941317',
     factorName: 'NH카드',
@@ -27697,7 +27690,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3004,
+    id: 3002,
     cardIssuer: '현대카드',
     bin: '943163',
     factorName: '현대로컬개인',
@@ -27707,7 +27700,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3005,
+    id: 3003,
     cardIssuer: '현대카드',
     bin: '943164',
     factorName: '현대로컬개인',
@@ -27717,7 +27710,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3006,
+    id: 3004,
     cardIssuer: '현대카드',
     bin: '943165',
     factorName: '현대로컬개인',
@@ -27727,7 +27720,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3007,
+    id: 3005,
     cardIssuer: '현대카드',
     bin: '943166',
     factorName: '현대로컬개인',
@@ -27737,7 +27730,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3008,
+    id: 3006,
     cardIssuer: '전북은행',
     bin: '943715',
     factorName: '전북은행카드',
@@ -27747,7 +27740,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3009,
+    id: 3007,
     cardIssuer: '전북은행',
     bin: '943744',
     factorName: '전북JB체크',
@@ -27757,7 +27750,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3010,
+    id: 3008,
     cardIssuer: '전북은행',
     bin: '943745',
     factorName: '전북JB체크',
@@ -27767,7 +27760,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3011,
+    id: 3009,
     cardIssuer: '전북은행',
     bin: '943746',
     factorName: '전북JB체크',
@@ -27777,7 +27770,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3012,
+    id: 3010,
     cardIssuer: '전북은행',
     bin: '943747',
     factorName: '전북JB체크',
@@ -27787,7 +27780,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3013,
+    id: 3011,
     cardIssuer: 'KB국민카드',
     bin: '943748',
     factorName: '다날',
@@ -27797,7 +27790,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3014,
+    id: 3012,
     cardIssuer: 'BC카드',
     bin: '944386',
     factorName: '비즈플레이체크',
@@ -27807,7 +27800,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3015,
+    id: 3013,
     cardIssuer: 'BC카드',
     bin: '948251',
     factorName: '비씨카드',
@@ -27817,7 +27810,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3016,
+    id: 3014,
     cardIssuer: '하나카드',
     bin: '949109',
     factorName: '하나체크카드',
@@ -27827,7 +27820,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3017,
+    id: 3015,
     cardIssuer: 'KB국민카드',
     bin: '949131',
     factorName: '퍼핀카드',
@@ -27838,7 +27831,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 3018,
+    id: 3016,
     cardIssuer: 'BC카드',
     bin: '949552',
     factorName: '농협바우처선불',
@@ -27848,7 +27841,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3019,
+    id: 3017,
     cardIssuer: '삼성카드',
     bin: '971003',
     factorName: '삼성체크',
@@ -27858,7 +27851,7 @@ const data = [
     updatedAt: '2023. 01',
   ),
   CardBinModel(
-    id: 3020,
+    id: 3018,
     cardIssuer: '광주은행',
     bin: '22315110',
     factorName: '광주신용',
@@ -27868,7 +27861,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3021,
+    id: 3019,
     cardIssuer: '신한카드',
     bin: '356653',
     factorName: '신한카드',
@@ -27878,7 +27871,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3022,
+    id: 3020,
     cardIssuer: 'KB국민카드',
     bin: '37954101',
     factorName: 'KB국민카드',
@@ -27888,7 +27881,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3023,
+    id: 3021,
     cardIssuer: 'KB국민카드',
     bin: '37954102',
     factorName: 'KB국민카드',
@@ -27898,7 +27891,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3024,
+    id: 3022,
     cardIssuer: '신한카드',
     bin: '418510',
     factorName: '신한법인체크',
@@ -27908,7 +27901,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3025,
+    id: 3023,
     cardIssuer: '현대카드',
     bin: '421810',
     factorName: '현대비자법인',
@@ -27918,7 +27911,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3026,
+    id: 3024,
     cardIssuer: '광주은행',
     bin: '42183433',
     factorName: '광주신용',
@@ -27928,7 +27921,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3027,
+    id: 3025,
     cardIssuer: '광주은행',
     bin: '42183434',
     factorName: '광주신용',
@@ -27938,7 +27931,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3028,
+    id: 3026,
     cardIssuer: '광주은행',
     bin: '42183481',
     factorName: '광주신용',
@@ -27948,7 +27941,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3029,
+    id: 3027,
     cardIssuer: '현대카드',
     bin: '421923',
     factorName: '현대비자개인',
@@ -27958,7 +27951,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3030,
+    id: 3028,
     cardIssuer: 'KB국민카드',
     bin: '44044800',
     factorName: 'KB국민카드',
@@ -27968,7 +27961,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3031,
+    id: 3029,
     cardIssuer: 'BC카드',
     bin: '45661600',
     factorName: '우리카드',
@@ -27979,7 +27972,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3032,
+    id: 3030,
     cardIssuer: 'BC카드',
     bin: '45662900',
     factorName: '우리카드',
@@ -27990,7 +27983,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3033,
+    id: 3031,
     cardIssuer: 'BC카드',
     bin: '45665500',
     factorName: '우리카드',
@@ -28001,7 +27994,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3034,
+    id: 3032,
     cardIssuer: '광주은행',
     bin: '45990229',
     factorName: '광주신용',
@@ -28011,7 +28004,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3035,
+    id: 3033,
     cardIssuer: '광주은행',
     bin: '45990233',
     factorName: '광주신용',
@@ -28021,7 +28014,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3036,
+    id: 3034,
     cardIssuer: '광주은행',
     bin: '45990234',
     factorName: '광주신용',
@@ -28031,7 +28024,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3037,
+    id: 3035,
     cardIssuer: '광주은행',
     bin: '45990281',
     factorName: '광주신용',
@@ -28041,7 +28034,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3038,
+    id: 3036,
     cardIssuer: '광주은행',
     bin: '45995229',
     factorName: '광주신용',
@@ -28051,7 +28044,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3039,
+    id: 3037,
     cardIssuer: '광주은행',
     bin: '45995233',
     factorName: '광주신용',
@@ -28061,7 +28054,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3040,
+    id: 3038,
     cardIssuer: '광주은행',
     bin: '45995234',
     factorName: '광주신용',
@@ -28071,7 +28064,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3041,
+    id: 3039,
     cardIssuer: '광주은행',
     bin: '45995272',
     factorName: '광주신용',
@@ -28081,7 +28074,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3042,
+    id: 3040,
     cardIssuer: '광주은행',
     bin: '45995281',
     factorName: '광주신용',
@@ -28091,7 +28084,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3043,
+    id: 3041,
     cardIssuer: 'BC카드',
     bin: '46953600',
     factorName: '비씨카드',
@@ -28101,7 +28094,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3044,
+    id: 3042,
     cardIssuer: '현대카드',
     bin: '479016',
     factorName: '현대비자법인',
@@ -28111,7 +28104,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3045,
+    id: 3043,
     cardIssuer: '현대카드',
     bin: '48007400',
     factorName: '현대비자개인',
@@ -28121,7 +28114,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3046,
+    id: 3044,
     cardIssuer: '현대카드',
     bin: '48007412',
     factorName: '현대비자개인',
@@ -28131,7 +28124,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3047,
+    id: 3045,
     cardIssuer: '현대카드',
     bin: '48007413',
     factorName: '현대비자개인',
@@ -28141,7 +28134,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3048,
+    id: 3046,
     cardIssuer: '현대카드',
     bin: '48007429',
     factorName: '현대비자개인',
@@ -28151,7 +28144,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3049,
+    id: 3047,
     cardIssuer: '광주은행',
     bin: '51519333',
     factorName: '광주체크',
@@ -28161,7 +28154,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3050,
+    id: 3048,
     cardIssuer: '광주은행',
     bin: '51519334',
     factorName: '광주체크',
@@ -28171,7 +28164,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3051,
+    id: 3049,
     cardIssuer: '우리카드',
     bin: '527585',
     factorName: '우리카드',
@@ -28181,7 +28174,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3052,
+    id: 3050,
     cardIssuer: '광주은행',
     bin: '52928133',
     factorName: '광주신용',
@@ -28191,7 +28184,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3053,
+    id: 3051,
     cardIssuer: '광주은행',
     bin: '52928134',
     factorName: '광주신용',
@@ -28201,7 +28194,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3054,
+    id: 3052,
     cardIssuer: '광주은행',
     bin: '52931810',
     factorName: '광주신용',
@@ -28211,7 +28204,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3055,
+    id: 3053,
     cardIssuer: '우리카드',
     bin: '531764',
     factorName: '우리카드',
@@ -28221,7 +28214,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3056,
+    id: 3054,
     cardIssuer: '광주은행',
     bin: '53301481',
     factorName: '광주신용',
@@ -28231,7 +28224,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3057,
+    id: 3055,
     cardIssuer: '광주은행',
     bin: '53301482',
     factorName: '광주신용',
@@ -28241,7 +28234,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3058,
+    id: 3056,
     cardIssuer: '광주은행',
     bin: '53333730',
     factorName: '광주신용',
@@ -28251,7 +28244,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3059,
+    id: 3057,
     cardIssuer: '우리카드',
     bin: '533909',
     factorName: '우리카드',
@@ -28261,7 +28254,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3060,
+    id: 3058,
     cardIssuer: '우리카드',
     bin: '536548',
     factorName: '우리카드',
@@ -28271,7 +28264,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3061,
+    id: 3059,
     cardIssuer: 'BC카드',
     bin: '53655882',
     factorName: '비씨카드',
@@ -28281,7 +28274,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3062,
+    id: 3060,
     cardIssuer: 'KB국민카드',
     bin: '53665281',
     factorName: '코나카드',
@@ -28291,7 +28284,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3063,
+    id: 3061,
     cardIssuer: 'KB국민카드',
     bin: '53665293',
     factorName: '코나카드',
@@ -28301,7 +28294,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3064,
+    id: 3062,
     cardIssuer: '광주은행',
     bin: '53766280',
     factorName: '광주체크',
@@ -28311,7 +28304,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3065,
+    id: 3063,
     cardIssuer: '우리카드',
     bin: '537699',
     factorName: '우리카드',
@@ -28321,7 +28314,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3066,
+    id: 3064,
     cardIssuer: '우리카드',
     bin: '538733',
     factorName: '우리카드',
@@ -28331,7 +28324,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3067,
+    id: 3065,
     cardIssuer: '우리카드',
     bin: '538941',
     factorName: '우리카드',
@@ -28341,7 +28334,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3068,
+    id: 3066,
     cardIssuer: '광주은행',
     bin: '54172181',
     factorName: '광주체크',
@@ -28351,7 +28344,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3069,
+    id: 3067,
     cardIssuer: '광주은행',
     bin: '54172182',
     factorName: '광주체크',
@@ -28361,7 +28354,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3070,
+    id: 3068,
     cardIssuer: '광주은행',
     bin: '55315981',
     factorName: '광주신용',
@@ -28371,7 +28364,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3071,
+    id: 3069,
     cardIssuer: '광주은행',
     bin: '55315982',
     factorName: '광주신용',
@@ -28381,7 +28374,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3072,
+    id: 3070,
     cardIssuer: '광주은행',
     bin: '55372733',
     factorName: '광주신용',
@@ -28391,7 +28384,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3073,
+    id: 3071,
     cardIssuer: '광주은행',
     bin: '55372734',
     factorName: '광주신용',
@@ -28401,7 +28394,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3074,
+    id: 3072,
     cardIssuer: 'BC카드',
     bin: '941124',
     factorName: '우리카드',
@@ -28412,7 +28405,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3075,
+    id: 3073,
     cardIssuer: 'BC카드',
     bin: '941222',
     factorName: '우리카드',
@@ -28423,7 +28416,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3076,
+    id: 3074,
     cardIssuer: 'BC카드',
     bin: '941224',
     factorName: '우리카드',
@@ -28434,7 +28427,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3077,
+    id: 3075,
     cardIssuer: 'KB국민카드',
     bin: '943667',
     factorName: 'KB체크카드',
@@ -28444,7 +28437,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3078,
+    id: 3076,
     cardIssuer: 'BC카드',
     bin: '944243',
     factorName: '우리pay',
@@ -28455,7 +28448,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3079,
+    id: 3077,
     cardIssuer: 'KB국민카드',
     bin: '944557',
     factorName: 'KB국민카드',
@@ -28465,7 +28458,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3080,
+    id: 3078,
     cardIssuer: 'KB국민카드',
     bin: '944558',
     factorName: 'KB국민카드',
@@ -28475,7 +28468,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3081,
+    id: 3079,
     cardIssuer: 'KB국민카드',
     bin: '944560',
     factorName: 'KB국민카드',
@@ -28485,7 +28478,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3082,
+    id: 3080,
     cardIssuer: 'BC카드',
     bin: '946051',
     factorName: '비씨GIFT',
@@ -28495,7 +28488,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3083,
+    id: 3081,
     cardIssuer: 'BC카드',
     bin: '948022',
     factorName: '우리카드',
@@ -28506,7 +28499,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3084,
+    id: 3082,
     cardIssuer: 'BC카드',
     bin: '949551',
     factorName: '농협바우처선불',
@@ -28516,7 +28509,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3085,
+    id: 3083,
     cardIssuer: '우리카드',
     bin: '950001',
     factorName: '우리카드',
@@ -28526,7 +28519,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3086,
+    id: 3084,
     cardIssuer: '우리카드',
     bin: '950002',
     factorName: '우리카드',
@@ -28536,7 +28529,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3087,
+    id: 3085,
     cardIssuer: '우리카드',
     bin: '950005',
     factorName: '우리카드',
@@ -28546,7 +28539,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3088,
+    id: 3086,
     cardIssuer: '우리카드',
     bin: '950061',
     factorName: '우리카드',
@@ -28556,7 +28549,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3089,
+    id: 3087,
     cardIssuer: '우리카드',
     bin: '950062',
     factorName: '우리카드',
@@ -28566,7 +28559,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3090,
+    id: 3088,
     cardIssuer: '우리카드',
     bin: '952001',
     factorName: '우리카드',
@@ -28576,7 +28569,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3091,
+    id: 3089,
     cardIssuer: '우리카드',
     bin: '952061',
     factorName: '우리카드',
@@ -28586,7 +28579,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3092,
+    id: 3090,
     cardIssuer: '삼성카드',
     bin: '971004',
     factorName: '코나아이',
@@ -28596,7 +28589,7 @@ const data = [
     updatedAt: '2023. 04',
   ),
   CardBinModel(
-    id: 3093,
+    id: 3091,
     cardIssuer: '현대카드',
     bin: '341123',
     factorName: '현대아멕스법인',
@@ -28606,7 +28599,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3094,
+    id: 3092,
     cardIssuer: '현대카드',
     bin: '341124',
     factorName: '현대아멕스개인',
@@ -28616,7 +28609,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3095,
+    id: 3093,
     cardIssuer: '우리카드',
     bin: '35677500',
     factorName: '우리카드',
@@ -28626,7 +28619,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3096,
+    id: 3094,
     cardIssuer: '현대카드',
     bin: '37466405',
     factorName: '현대아멕스법인',
@@ -28636,7 +28629,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3097,
+    id: 3095,
     cardIssuer: '현대카드',
     bin: '37466406',
     factorName: '현대아멕스법인',
@@ -28646,7 +28639,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3098,
+    id: 3096,
     cardIssuer: '현대카드',
     bin: '37466407',
     factorName: '현대아멕스법인',
@@ -28656,7 +28649,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3099,
+    id: 3097,
     cardIssuer: '현대카드',
     bin: '37764901',
     factorName: '현대아멕스개인',
@@ -28666,7 +28659,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3100,
+    id: 3098,
     cardIssuer: '현대카드',
     bin: '40067200',
     factorName: '현대비자개인',
@@ -28676,7 +28669,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3101,
+    id: 3099,
     cardIssuer: '현대카드',
     bin: '43116400',
     factorName: '현대비자개인',
@@ -28686,7 +28679,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3102,
+    id: 3100,
     cardIssuer: 'KB국민카드',
     bin: '490705',
     factorName: 'PAYCO카드',
@@ -28696,7 +28689,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3103,
+    id: 3101,
     cardIssuer: '현대카드',
     bin: '513391',
     factorName: '현대마스터법인',
@@ -28706,7 +28699,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3104,
+    id: 3102,
     cardIssuer: '현대카드',
     bin: '514299',
     factorName: '현대마스터법인',
@@ -28716,7 +28709,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3105,
+    id: 3103,
     cardIssuer: 'BC카드',
     bin: '518881',
     factorName: '우리카드',
@@ -28727,7 +28720,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3106,
+    id: 3104,
     cardIssuer: '우리카드',
     bin: '529127',
     factorName: '우리카드',
@@ -28737,7 +28730,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3107,
+    id: 3105,
     cardIssuer: '우리카드',
     bin: '537148',
     factorName: '우리카드',
@@ -28747,7 +28740,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3108,
+    id: 3106,
     cardIssuer: 'BC카드',
     bin: '920043',
     factorName: '우리체크',
@@ -28758,7 +28751,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3109,
+    id: 3107,
     cardIssuer: 'BC카드',
     bin: '920055',
     factorName: '섹타나인체크',
@@ -28768,7 +28761,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3110,
+    id: 3108,
     cardIssuer: '하나카드',
     bin: '941016',
     factorName: '코나카드',
@@ -28778,7 +28771,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3111,
+    id: 3109,
     cardIssuer: '신한카드',
     bin: '942013',
     factorName: '신한선불카드',
@@ -28788,7 +28781,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3112,
+    id: 3110,
     cardIssuer: '현대카드',
     bin: '943167',
     factorName: '현대로컬개인',
@@ -28798,7 +28791,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3113,
+    id: 3111,
     cardIssuer: '현대카드',
     bin: '943168',
     factorName: '현대로컬개인',
@@ -28808,7 +28801,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3114,
+    id: 3112,
     cardIssuer: 'BC카드',
     bin: '944055',
     factorName: '섹타나인체크',
@@ -28818,7 +28811,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3115,
+    id: 3113,
     cardIssuer: 'BC카드',
     bin: '946732',
     factorName: '부산비씨GIFT',
@@ -28828,7 +28821,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3116,
+    id: 3114,
     cardIssuer: 'KB국민카드',
     bin: '949138',
     factorName: '로드시스템',
@@ -28838,7 +28831,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3117,
+    id: 3115,
     cardIssuer: 'KB국민카드',
     bin: '949139',
     factorName: '아이씨비',
@@ -28848,7 +28841,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3118,
+    id: 3116,
     cardIssuer: '우리카드',
     bin: '950004',
     factorName: '우리카드',
@@ -28858,7 +28851,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3119,
+    id: 3117,
     cardIssuer: '우리카드',
     bin: '950022',
     factorName: '우리카드',
@@ -28868,7 +28861,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3120,
+    id: 3118,
     cardIssuer: '우리카드',
     bin: '952002',
     factorName: '우리카드',
@@ -28878,7 +28871,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3121,
+    id: 3119,
     cardIssuer: '우리카드',
     bin: '958001',
     factorName: '우리카드',
@@ -28888,7 +28881,7 @@ const data = [
     updatedAt: '2023. 07',
   ),
   CardBinModel(
-    id: 3122,
+    id: 3120,
     cardIssuer: '우리카드',
     bin: '432706',
     factorName: '우리카드',
@@ -28899,7 +28892,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 3123,
+    id: 3121,
     cardIssuer: 'BC카드',
     bin: '45117700',
     factorName: '비씨카드',
@@ -28909,7 +28902,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3124,
+    id: 3122,
     cardIssuer: '우리카드',
     bin: '464996',
     factorName: '우리카드',
@@ -28919,7 +28912,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3125,
+    id: 3123,
     cardIssuer: '우리카드',
     bin: '467856',
     factorName: '우리카드',
@@ -28929,7 +28922,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3126,
+    id: 3124,
     cardIssuer: '우리카드',
     bin: '467914',
     factorName: '우리카드',
@@ -28940,7 +28933,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 3127,
+    id: 3125,
     cardIssuer: '현대카드',
     bin: '46890800',
     factorName: '현대비자개인',
@@ -28950,7 +28943,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3128,
+    id: 3126,
     cardIssuer: '현대카드',
     bin: '46891300',
     factorName: '현대비자개인',
@@ -28960,7 +28953,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3129,
+    id: 3127,
     cardIssuer: '우리카드',
     bin: '469369',
     factorName: '우리카드',
@@ -28970,7 +28963,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3130,
+    id: 3128,
     cardIssuer: '현대카드',
     bin: '47602100',
     factorName: '현대비자개인',
@@ -28980,7 +28973,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3131,
+    id: 3129,
     cardIssuer: '우리카드',
     bin: '483533',
     factorName: '우리카드',
@@ -28990,7 +28983,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3132,
+    id: 3130,
     cardIssuer: 'BC카드',
     bin: '48993399',
     factorName: '비씨카드',
@@ -29000,7 +28993,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3133,
+    id: 3131,
     cardIssuer: '우리카드',
     bin: '490275',
     factorName: '우리카드',
@@ -29010,7 +29003,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3134,
+    id: 3132,
     cardIssuer: 'BC카드',
     bin: '49073100',
     factorName: '네이버체크',
@@ -29020,7 +29013,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3135,
+    id: 3133,
     cardIssuer: '우리카드',
     bin: '530569',
     factorName: '우리카드',
@@ -29030,7 +29023,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3136,
+    id: 3134,
     cardIssuer: 'BC카드',
     bin: '53141075',
     factorName: 'GME체크',
@@ -29040,7 +29033,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3137,
+    id: 3135,
     cardIssuer: '우리카드',
     bin: '534351',
     factorName: '우리카드',
@@ -29050,7 +29043,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3138,
+    id: 3136,
     cardIssuer: '우리카드',
     bin: '658010',
     factorName: '우리카드',
@@ -29060,7 +29053,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3139,
+    id: 3137,
     cardIssuer: 'BC카드',
     bin: '920058',
     factorName: 'GME체크',
@@ -29070,7 +29063,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3140,
+    id: 3138,
     cardIssuer: 'BC카드',
     bin: '920062',
     factorName: '네이버체크',
@@ -29080,7 +29073,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3141,
+    id: 3139,
     cardIssuer: '신한카드',
     bin: '941071',
     factorName: '신한카드',
@@ -29090,7 +29083,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3142,
+    id: 3140,
     cardIssuer: '하나카드',
     bin: '942040',
     factorName: '비즈플레이',
@@ -29101,7 +29094,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 3143,
+    id: 3141,
     cardIssuer: '하나카드',
     bin: '942047',
     factorName: '나이스정보통신',
@@ -29111,7 +29104,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3144,
+    id: 3142,
     cardIssuer: '하나카드',
     bin: '942048',
     factorName: '나이스정보통신',
@@ -29121,7 +29114,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3145,
+    id: 3143,
     cardIssuer: '현대카드',
     bin: '943169',
     factorName: '현대로컬개인',
@@ -29131,7 +29124,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3146,
+    id: 3144,
     cardIssuer: '현대카드',
     bin: '943170',
     factorName: '현대로컬개인',
@@ -29141,7 +29134,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3147,
+    id: 3145,
     cardIssuer: '현대카드',
     bin: '943173',
     factorName: '현대로컬개인',
@@ -29151,7 +29144,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3148,
+    id: 3146,
     cardIssuer: 'NH농협카드',
     bin: '943316',
     factorName: 'NH기업카드',
@@ -29161,7 +29154,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3149,
+    id: 3147,
     cardIssuer: 'NH농협카드',
     bin: '943317',
     factorName: 'NH기업카드',
@@ -29171,7 +29164,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3150,
+    id: 3148,
     cardIssuer: 'KB국민카드',
     bin: '943668',
     factorName: 'KB체크카드',
@@ -29181,7 +29174,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3151,
+    id: 3149,
     cardIssuer: 'BC카드',
     bin: '944161',
     factorName: '네이버체크',
@@ -29191,7 +29184,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3152,
+    id: 3150,
     cardIssuer: 'BC카드',
     bin: '945303',
     factorName: 'IBK비씨카드',
@@ -29201,7 +29194,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3153,
+    id: 3151,
     cardIssuer: 'KB국민카드',
     bin: '946045',
     factorName: 'KB선불카드',
@@ -29211,7 +29204,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3154,
+    id: 3152,
     cardIssuer: '광주은행',
     bin: '946234',
     factorName: '광주GIFT',
@@ -29221,7 +29214,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3155,
+    id: 3153,
     cardIssuer: '광주은행',
     bin: '946235',
     factorName: '광주GIFT',
@@ -29231,7 +29224,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3156,
+    id: 3154,
     cardIssuer: '광주은행',
     bin: '946236',
     factorName: '광주GIFT',
@@ -29241,7 +29234,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3157,
+    id: 3155,
     cardIssuer: 'BC카드',
     bin: '949553',
     factorName: '농협바우처선불',
@@ -29251,7 +29244,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3158,
+    id: 3156,
     cardIssuer: 'BC카드',
     bin: '949554',
     factorName: '농협바우처선불',
@@ -29261,7 +29254,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3159,
+    id: 3157,
     cardIssuer: '신한카드',
     bin: '949596',
     factorName: '신한카드',
@@ -29271,7 +29264,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3160,
+    id: 3158,
     cardIssuer: '우리카드',
     bin: '952010',
     factorName: '우리카드',
@@ -29281,7 +29274,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3161,
+    id: 3159,
     cardIssuer: '삼성카드',
     bin: '971011',
     factorName: '삼성카드',
@@ -29291,7 +29284,7 @@ const data = [
     updatedAt: '2023. 10',
   ),
   CardBinModel(
-    id: 3162,
+    id: 3160,
     cardIssuer: '현대카드',
     bin: '37030005',
     factorName: '현대아멕스개인',
@@ -29301,7 +29294,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3163,
+    id: 3161,
     cardIssuer: '현대카드',
     bin: '37030006',
     factorName: '현대아멕스개인',
@@ -29311,7 +29304,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3164,
+    id: 3162,
     cardIssuer: '현대카드',
     bin: '37030007',
     factorName: '현대아멕스개인',
@@ -29321,7 +29314,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3165,
+    id: 3163,
     cardIssuer: '현대카드',
     bin: '37764902',
     factorName: '현대아멕스개인',
@@ -29331,7 +29324,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3166,
+    id: 3164,
     cardIssuer: '현대카드',
     bin: '37764903',
     factorName: '현대아멕스개인',
@@ -29341,7 +29334,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3167,
+    id: 3165,
     cardIssuer: '현대카드',
     bin: '37764904',
     factorName: '현대아멕스개인',
@@ -29351,7 +29344,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3168,
+    id: 3166,
     cardIssuer: '현대카드',
     bin: '37764905',
     factorName: '현대아멕스개인',
@@ -29361,7 +29354,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3169,
+    id: 3167,
     cardIssuer: '현대카드',
     bin: '37764906',
     factorName: '현대아멕스개인',
@@ -29371,7 +29364,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3170,
+    id: 3168,
     cardIssuer: '신한카드',
     bin: '40287800',
     factorName: '신한카드체크',
@@ -29382,7 +29375,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 3171,
+    id: 3169,
     cardIssuer: '삼성카드',
     bin: '40759000',
     factorName: '삼성비자',
@@ -29392,7 +29385,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3172,
+    id: 3170,
     cardIssuer: '현대카드',
     bin: '433160',
     factorName: '현대비자개인',
@@ -29402,7 +29395,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3173,
+    id: 3171,
     cardIssuer: '현대카드',
     bin: '44810800',
     factorName: '현대비자개인',
@@ -29412,7 +29405,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3174,
+    id: 3172,
     cardIssuer: '현대카드',
     bin: '44813901',
     factorName: '현대비자개인',
@@ -29422,7 +29415,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3175,
+    id: 3173,
     cardIssuer: '현대카드',
     bin: '45605800',
     factorName: '현대비자개인',
@@ -29432,7 +29425,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3176,
+    id: 3174,
     cardIssuer: '신한카드',
     bin: '46172300',
     factorName: '신한카드체크',
@@ -29443,7 +29436,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 3177,
+    id: 3175,
     cardIssuer: '현대카드',
     bin: '46402200',
     factorName: '현대비자개인',
@@ -29453,7 +29446,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3178,
+    id: 3176,
     cardIssuer: '신한카드',
     bin: '466518',
     factorName: '신한카드체크',
@@ -29464,7 +29457,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 3179,
+    id: 3177,
     cardIssuer: '삼성카드',
     bin: '47061800',
     factorName: '삼성비자법인',
@@ -29474,7 +29467,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3180,
+    id: 3178,
     cardIssuer: '현대카드',
     bin: '49061400',
     factorName: '현대비자개인',
@@ -29484,7 +29477,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3181,
+    id: 3179,
     cardIssuer: 'BC카드',
     bin: '52499087',
     factorName: '한패스체크',
@@ -29494,7 +29487,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3182,
+    id: 3180,
     cardIssuer: '우리카드',
     bin: '528747',
     factorName: '우리카드',
@@ -29504,7 +29497,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3183,
+    id: 3181,
     cardIssuer: 'KB국민카드',
     bin: '531439',
     factorName: '카카오뱅크체크',
@@ -29514,7 +29507,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3184,
+    id: 3182,
     cardIssuer: '우리카드',
     bin: '534188',
     factorName: '우리카드',
@@ -29524,7 +29517,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3185,
+    id: 3183,
     cardIssuer: '우리카드',
     bin: '540646',
     factorName: '우리카드',
@@ -29534,7 +29527,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3186,
+    id: 3184,
     cardIssuer: '우리카드',
     bin: '540696',
     factorName: '우리카드',
@@ -29544,7 +29537,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3187,
+    id: 3185,
     cardIssuer: '신한카드',
     bin: '543473',
     factorName: '신한카드체크',
@@ -29554,7 +29547,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3188,
+    id: 3186,
     cardIssuer: 'BC카드',
     bin: '920089',
     factorName: '로드시스템',
@@ -29564,7 +29557,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3189,
+    id: 3187,
     cardIssuer: '수협은행',
     bin: '941907',
     factorName: '수협카드',
@@ -29574,7 +29567,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3190,
+    id: 3188,
     cardIssuer: '현대카드',
     bin: '943171',
     factorName: '현대로컬개인',
@@ -29584,7 +29577,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3191,
+    id: 3189,
     cardIssuer: '현대카드',
     bin: '943172',
     factorName: '현대로컬개인',
@@ -29594,7 +29587,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3192,
+    id: 3190,
     cardIssuer: 'BC카드',
     bin: '944189',
     factorName: '로드시스템',
@@ -29604,7 +29597,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3193,
+    id: 3191,
     cardIssuer: 'BC카드',
     bin: '944195',
     factorName: '저축비씨체크',
@@ -29614,7 +29607,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3194,
+    id: 3192,
     cardIssuer: 'KB국민카드',
     bin: '944559',
     factorName: 'KB국민카드',
@@ -29624,7 +29617,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3195,
+    id: 3193,
     cardIssuer: 'BC카드',
     bin: '946832',
     factorName: '부산비씨GIFT',
@@ -29634,7 +29627,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3196,
+    id: 3194,
     cardIssuer: '우리카드',
     bin: '950023',
     factorName: '우리화물복지',
@@ -29644,7 +29637,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3197,
+    id: 3195,
     cardIssuer: '우리카드',
     bin: '952014',
     factorName: '우리화물복지',
@@ -29654,7 +29647,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3198,
+    id: 3196,
     cardIssuer: '삼성카드',
     bin: '971012',
     factorName: '삼성카드',
@@ -29664,7 +29657,7 @@ const data = [
     updatedAt: '2024. 01',
   ),
   CardBinModel(
-    id: 3199,
+    id: 3197,
     cardIssuer: '우리카드',
     bin: '461727',
     factorName: '우리체크',
@@ -29676,7 +29669,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3200,
+    id: 3198,
     cardIssuer: '우리카드',
     bin: '464940',
     factorName: '우리카드',
@@ -29686,7 +29679,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3201,
+    id: 3199,
     cardIssuer: '광주은행',
     bin: '51519335',
     factorName: '광주체크',
@@ -29696,7 +29689,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3202,
+    id: 3200,
     cardIssuer: 'KB국민카드',
     bin: '52095715',
     factorName: 'KB체크기업카드',
@@ -29706,7 +29699,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3203,
+    id: 3201,
     cardIssuer: 'KB국민카드',
     bin: '52095787',
     factorName: 'KB체크기업카드',
@@ -29716,7 +29709,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3204,
+    id: 3202,
     cardIssuer: '우리카드',
     bin: '532758',
     factorName: '우리카드',
@@ -29726,7 +29719,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3205,
+    id: 3203,
     cardIssuer: '우리카드',
     bin: '537375',
     factorName: '우리카드',
@@ -29736,7 +29729,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3206,
+    id: 3204,
     cardIssuer: '우리카드',
     bin: '541220',
     factorName: '우리카드',
@@ -29746,7 +29739,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3207,
+    id: 3205,
     cardIssuer: 'KB국민카드',
     bin: '543349',
     factorName: 'KB체크카드',
@@ -29756,7 +29749,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3208,
+    id: 3206,
     cardIssuer: 'KB국민카드',
     bin: '543981',
     factorName: 'KB체크카드',
@@ -29766,7 +29759,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3209,
+    id: 3207,
     cardIssuer: 'BC카드',
     bin: '549375',
     factorName: '우체국체크',
@@ -29776,7 +29769,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3210,
+    id: 3208,
     cardIssuer: '신한카드',
     bin: '553942',
     factorName: '신한카드',
@@ -29786,7 +29779,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3211,
+    id: 3209,
     cardIssuer: 'BC카드',
     bin: '554245',
     factorName: '새마을체크',
@@ -29796,7 +29789,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3212,
+    id: 3210,
     cardIssuer: 'BC카드',
     bin: '920056',
     factorName: '머니트리체크',
@@ -29806,7 +29799,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3213,
+    id: 3211,
     cardIssuer: '하나카드',
     bin: '943048',
     factorName: '카카오페이',
@@ -29816,7 +29809,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3214,
+    id: 3212,
     cardIssuer: 'BC카드',
     bin: '944158',
     factorName: '머니트리체크',
@@ -29826,7 +29819,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3215,
+    id: 3213,
     cardIssuer: 'BC카드',
     bin: '946932',
     factorName: '부산비씨GIFT',
@@ -29836,7 +29829,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3216,
+    id: 3214,
     cardIssuer: 'KB국민카드',
     bin: '949140',
     factorName: '니즈페이카드',
@@ -29846,7 +29839,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3217,
+    id: 3215,
     cardIssuer: '우리카드',
     bin: '950024',
     factorName: '우리화물복지',
@@ -29856,7 +29849,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3218,
+    id: 3216,
     cardIssuer: '우리카드',
     bin: '950025',
     factorName: '우리카드',
@@ -29866,7 +29859,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3219,
+    id: 3217,
     cardIssuer: '우리카드',
     bin: '952015',
     factorName: '우리화물복지',
@@ -29876,7 +29869,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3220,
+    id: 3218,
     cardIssuer: '삼성카드',
     bin: '971005',
     factorName: '한국선불카드',
@@ -29886,7 +29879,7 @@ const data = [
     updatedAt: '2024. 04',
   ),
   CardBinModel(
-    id: 3221,
+    id: 3219,
     cardIssuer: '현대카드',
     bin: '37030008',
     factorName: '현대아멕스개인',
@@ -29896,7 +29889,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3222,
+    id: 3220,
     cardIssuer: '현대카드',
     bin: '37030009',
     factorName: '현대아멕스개인',
@@ -29906,7 +29899,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3223,
+    id: 3221,
     cardIssuer: '현대카드',
     bin: '37030010',
     factorName: '현대아멕스개인',
@@ -29916,7 +29909,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3224,
+    id: 3222,
     cardIssuer: '현대카드',
     bin: '37764907',
     factorName: '현대아멕스개인',
@@ -29926,7 +29919,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3225,
+    id: 3223,
     cardIssuer: '현대카드',
     bin: '37764908',
     factorName: '현대아멕스개인',
@@ -29936,7 +29929,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3226,
+    id: 3224,
     cardIssuer: '현대카드',
     bin: '37764909',
     factorName: '현대아멕스개인',
@@ -29946,7 +29939,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3227,
+    id: 3225,
     cardIssuer: '현대카드',
     bin: '37764910',
     factorName: '현대아멕스개인',
@@ -29956,7 +29949,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3228,
+    id: 3226,
     cardIssuer: '현대카드',
     bin: '44482700',
     factorName: '현대비자개인',
@@ -29966,7 +29959,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3229,
+    id: 3227,
     cardIssuer: '현대카드',
     bin: '45532100',
     factorName: '현대비자개인',
@@ -29976,7 +29969,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3230,
+    id: 3228,
     cardIssuer: '삼성카드',
     bin: '46890910',
     factorName: '삼성개인신용',
@@ -29986,7 +29979,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3231,
+    id: 3229,
     cardIssuer: '삼성카드',
     bin: '46890920',
     factorName: '삼성개인신용',
@@ -29996,7 +29989,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3232,
+    id: 3230,
     cardIssuer: '삼성카드',
     bin: '46890990',
     factorName: '삼성개인신용',
@@ -30006,7 +29999,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3233,
+    id: 3231,
     cardIssuer: '현대카드',
     bin: '46891200',
     factorName: '현대비자개인',
@@ -30016,7 +30009,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3234,
+    id: 3232,
     cardIssuer: '현대카드',
     bin: '46891400',
     factorName: '현대비자개인',
@@ -30026,7 +30019,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3235,
+    id: 3233,
     cardIssuer: '현대카드',
     bin: '47552100',
     factorName: '현대비자개인',
@@ -30036,7 +30029,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3236,
+    id: 3234,
     cardIssuer: '현대카드',
     bin: '49060901',
     factorName: '현대비자개인',
@@ -30046,7 +30039,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3237,
+    id: 3235,
     cardIssuer: '현대카드',
     bin: '498890',
     factorName: '현대비자개인',
@@ -30056,7 +30049,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3238,
+    id: 3236,
     cardIssuer: '현대카드',
     bin: '499935',
     factorName: '현대비자법인',
@@ -30066,7 +30059,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3239,
+    id: 3237,
     cardIssuer: '현대카드',
     bin: '52472700',
     factorName: '현대마스터개인',
@@ -30076,7 +30069,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3240,
+    id: 3238,
     cardIssuer: '현대카드',
     bin: '52472701',
     factorName: '현대마스터개인',
@@ -30086,7 +30079,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3241,
+    id: 3239,
     cardIssuer: '현대카드',
     bin: '52472718',
     factorName: '현대마스터개인',
@@ -30096,7 +30089,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3242,
+    id: 3240,
     cardIssuer: '현대카드',
     bin: '52472738',
     factorName: '현대마스터개인',
@@ -30106,7 +30099,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3243,
+    id: 3241,
     cardIssuer: '현대카드',
     bin: '52472752',
     factorName: '현대마스터개인',
@@ -30116,7 +30109,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3244,
+    id: 3242,
     cardIssuer: '현대카드',
     bin: '52472799',
     factorName: '현대마스터개인',
@@ -30126,7 +30119,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3245,
+    id: 3243,
     cardIssuer: 'BC카드',
     bin: '543246',
     factorName: '부산비씨카드',
@@ -30137,7 +30130,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 3246,
+    id: 3244,
     cardIssuer: 'BC카드',
     bin: '544474',
     factorName: '부산비씨카드',
@@ -30147,7 +30140,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3247,
+    id: 3245,
     cardIssuer: 'NH농협카드',
     bin: '550802',
     factorName: 'NH체크카드',
@@ -30157,7 +30150,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3248,
+    id: 3246,
     cardIssuer: 'KB국민카드',
     bin: '550849',
     factorName: 'KB국민카드',
@@ -30167,7 +30160,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3249,
+    id: 3247,
     cardIssuer: 'NH농협카드',
     bin: '554415',
     factorName: 'NH체크카드',
@@ -30177,7 +30170,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3250,
+    id: 3248,
     cardIssuer: '우리카드',
     bin: '605601',
     factorName: '우리카드',
@@ -30187,7 +30180,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3251,
+    id: 3249,
     cardIssuer: 'BC카드',
     bin: '900003',
     factorName: 'IBK비씨카드',
@@ -30197,7 +30190,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3252,
+    id: 3250,
     cardIssuer: 'BC카드',
     bin: '900006',
     factorName: 'KB국민비씨카드',
@@ -30207,7 +30200,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3253,
+    id: 3251,
     cardIssuer: '수협은행',
     bin: '900007',
     factorName: '수협카드',
@@ -30217,7 +30210,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3254,
+    id: 3252,
     cardIssuer: 'BC카드',
     bin: '900011',
     factorName: 'NH농협카드',
@@ -30227,7 +30220,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3255,
+    id: 3253,
     cardIssuer: 'BC카드',
     bin: '900012',
     factorName: 'NH농협비씨카드',
@@ -30237,7 +30230,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3256,
+    id: 3254,
     cardIssuer: 'BC카드',
     bin: '900020',
     factorName: '우리카드',
@@ -30248,7 +30241,7 @@ const data = [
     remarks: '우리BC카드',
   ),
   CardBinModel(
-    id: 3257,
+    id: 3255,
     cardIssuer: 'BC카드',
     bin: '900021',
     factorName: '신한비씨카드',
@@ -30258,7 +30251,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3258,
+    id: 3256,
     cardIssuer: 'BC카드',
     bin: '900023',
     factorName: 'SC비씨카드',
@@ -30268,7 +30261,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3259,
+    id: 3257,
     cardIssuer: 'BC카드',
     bin: '900025',
     factorName: '하나비씨카드',
@@ -30278,7 +30271,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3260,
+    id: 3258,
     cardIssuer: 'BC카드',
     bin: '900031',
     factorName: 'iM뱅크비씨카드',
@@ -30288,7 +30281,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3261,
+    id: 3259,
     cardIssuer: 'BC카드',
     bin: '900032',
     factorName: '부산비씨카드',
@@ -30298,7 +30291,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3262,
+    id: 3260,
     cardIssuer: 'BC카드',
     bin: '900039',
     factorName: '경남비씨카드',
@@ -30308,7 +30301,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3263,
+    id: 3261,
     cardIssuer: '하나카드',
     bin: '941048',
     factorName: '카카오페이',
@@ -30318,7 +30311,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3264,
+    id: 3262,
     cardIssuer: '신한카드',
     bin: '941070',
     factorName: '신한카드',
@@ -30328,7 +30321,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3265,
+    id: 3263,
     cardIssuer: '현대카드',
     bin: '943175',
     factorName: '현대로컬개인',
@@ -30338,7 +30331,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3266,
+    id: 3264,
     cardIssuer: '현대카드',
     bin: '943176',
     factorName: '현대로컬개인',
@@ -30348,7 +30341,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3267,
+    id: 3265,
     cardIssuer: '현대카드',
     bin: '943177',
     factorName: '현대로컬개인',
@@ -30358,7 +30351,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3268,
+    id: 3266,
     cardIssuer: '현대카드',
     bin: '943178',
     factorName: '현대로컬개인',
@@ -30368,7 +30361,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3269,
+    id: 3267,
     cardIssuer: '현대카드',
     bin: '943179',
     factorName: '현대로컬개인',
@@ -30378,7 +30371,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3270,
+    id: 3268,
     cardIssuer: '현대카드',
     bin: '943180',
     factorName: '현대로컬개인',
@@ -30388,7 +30381,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3271,
+    id: 3269,
     cardIssuer: '현대카드',
     bin: '943182',
     factorName: '현대로컬개인',
@@ -30398,7 +30391,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3272,
+    id: 3270,
     cardIssuer: '현대카드',
     bin: '943183',
     factorName: '현대로컬개인',
@@ -30408,7 +30401,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3273,
+    id: 3271,
     cardIssuer: '현대카드',
     bin: '943184',
     factorName: '현대로컬개인',
@@ -30418,7 +30411,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3274,
+    id: 3272,
     cardIssuer: '현대카드',
     bin: '943185',
     factorName: '현대로컬개인',
@@ -30429,7 +30422,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 3275,
+    id: 3273,
     cardIssuer: 'KB국민카드',
     bin: '943669',
     factorName: 'KB체크카드',
@@ -30439,7 +30432,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3276,
+    id: 3274,
     cardIssuer: '수협은행',
     bin: '944102',
     factorName: '수협체크',
@@ -30449,7 +30442,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3277,
+    id: 3275,
     cardIssuer: 'KB국민카드',
     bin: '944562',
     factorName: 'KB국민카드',
@@ -30459,7 +30452,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3278,
+    id: 3276,
     cardIssuer: '삼성카드',
     bin: '971006',
     factorName: '웰컴페이카드',
@@ -30469,7 +30462,7 @@ const data = [
     updatedAt: '2024. 07',
   ),
   CardBinModel(
-    id: 3279,
+    id: 3277,
     cardIssuer: '신한카드',
     bin: '373042',
     factorName: '신한카드법인',
@@ -30479,7 +30472,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3280,
+    id: 3278,
     cardIssuer: '신한카드',
     bin: '373043',
     factorName: '신한카드법인',
@@ -30489,7 +30482,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3281,
+    id: 3279,
     cardIssuer: '현대카드',
     bin: '37764911',
     factorName: '현대아멕스개인',
@@ -30499,7 +30492,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3282,
+    id: 3280,
     cardIssuer: 'KB국민카드',
     bin: '421565',
     factorName: 'KB국민카드',
@@ -30509,7 +30502,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3283,
+    id: 3281,
     cardIssuer: '현대카드',
     bin: '42649600',
     factorName: '현대비자개인',
@@ -30519,7 +30512,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3284,
+    id: 3282,
     cardIssuer: '현대카드',
     bin: '42649900',
     factorName: '현대비자개인',
@@ -30529,7 +30522,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3285,
+    id: 3283,
     cardIssuer: '현대카드',
     bin: '42718200',
     factorName: '현대비자개인',
@@ -30539,7 +30532,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3286,
+    id: 3284,
     cardIssuer: '현대카드',
     bin: '44409000',
     factorName: '현대비자법인',
@@ -30549,7 +30542,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3287,
+    id: 3285,
     cardIssuer: '우리카드',
     bin: '510296',
     factorName: '우리카드',
@@ -30559,7 +30552,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3288,
+    id: 3286,
     cardIssuer: '삼성카드',
     bin: '51770980',
     factorName: '삼성개인신용',
@@ -30569,7 +30562,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3289,
+    id: 3287,
     cardIssuer: '현대카드',
     bin: '52737550',
     factorName: '현대마스터개인',
@@ -30579,7 +30572,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3290,
+    id: 3288,
     cardIssuer: '삼성카드',
     bin: '52741900',
     factorName: '삼성개인신용',
@@ -30589,7 +30582,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3291,
+    id: 3289,
     cardIssuer: '우리카드',
     bin: '530863',
     factorName: '우리카드',
@@ -30599,7 +30592,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3292,
+    id: 3290,
     cardIssuer: '우리카드',
     bin: '543621',
     factorName: '우리카드',
@@ -30609,7 +30602,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3293,
+    id: 3291,
     cardIssuer: 'BC카드',
     bin: '544449',
     factorName: '경남비씨체크',
@@ -30619,7 +30612,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3294,
+    id: 3292,
     cardIssuer: '현대카드',
     bin: '54492305',
     factorName: '현대마스터개인',
@@ -30629,7 +30622,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3295,
+    id: 3293,
     cardIssuer: '우리카드',
     bin: '547149',
     factorName: '우리카드',
@@ -30641,7 +30634,7 @@ const data = [
     remarks: 'BC카드 > 우리카드',
   ),
   CardBinModel(
-    id: 3296,
+    id: 3294,
     cardIssuer: '삼성카드',
     bin: '54886900',
     factorName: '삼성개인신용',
@@ -30651,7 +30644,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3297,
+    id: 3295,
     cardIssuer: '우리카드',
     bin: '551616',
     factorName: '우리카드',
@@ -30661,7 +30654,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3298,
+    id: 3296,
     cardIssuer: '삼성카드',
     bin: '55241200',
     factorName: '삼성개인신용',
@@ -30671,7 +30664,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3299,
+    id: 3297,
     cardIssuer: 'BC카드',
     bin: '629149',
     factorName: '로드시스템체크',
@@ -30681,7 +30674,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3300,
+    id: 3298,
     cardIssuer: 'NH농협카드',
     bin: '941416',
     factorName: 'NH카드',
@@ -30691,7 +30684,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3301,
+    id: 3299,
     cardIssuer: 'NH농협카드',
     bin: '941417',
     factorName: 'NH카드',
@@ -30701,7 +30694,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3302,
+    id: 3300,
     cardIssuer: '하나카드',
     bin: '943049',
     factorName: '오렌지스퀘어',
@@ -30711,7 +30704,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3303,
+    id: 3301,
     cardIssuer: '현대카드',
     bin: '943186',
     factorName: '현대로컬개인',
@@ -30721,7 +30714,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3304,
+    id: 3302,
     cardIssuer: '현대카드',
     bin: '943187',
     factorName: '현대로컬개인',
@@ -30731,7 +30724,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3305,
+    id: 3303,
     cardIssuer: '현대카드',
     bin: '943188',
     factorName: '현대로컬개인',
@@ -30741,7 +30734,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3306,
+    id: 3304,
     cardIssuer: '현대카드',
     bin: '943189',
     factorName: '현대로컬개인',
@@ -30751,7 +30744,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3307,
+    id: 3305,
     cardIssuer: '현대카드',
     bin: '943190',
     factorName: '현대로컬개인',
@@ -30761,7 +30754,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3308,
+    id: 3306,
     cardIssuer: 'BC카드',
     bin: '944185',
     factorName: '한패스체크',
@@ -30771,7 +30764,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3309,
+    id: 3307,
     cardIssuer: 'NH농협카드',
     bin: '944516',
     factorName: 'NH체크카드',
@@ -30781,7 +30774,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3310,
+    id: 3308,
     cardIssuer: 'NH농협카드',
     bin: '944517',
     factorName: 'NH체크카드',
@@ -30791,7 +30784,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3311,
+    id: 3309,
     cardIssuer: 'BC카드',
     bin: '947325',
     factorName: '하나비씨체크',
@@ -30801,7 +30794,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3312,
+    id: 3310,
     cardIssuer: 'BC카드',
     bin: '948225',
     factorName: '하나비씨카드',
@@ -30811,7 +30804,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3313,
+    id: 3311,
     cardIssuer: 'KB국민카드',
     bin: '949141',
     factorName: '이나인페이',
@@ -30821,7 +30814,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3314,
+    id: 3312,
     cardIssuer: 'KB국민카드',
     bin: '949142',
     factorName: '아이엠뱅크체크',
@@ -30831,7 +30824,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3315,
+    id: 3313,
     cardIssuer: '지드림카드',
     bin: '949555',
     factorName: 'NH바우처',
@@ -30841,7 +30834,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3316,
+    id: 3314,
     cardIssuer: '지드림카드',
     bin: '949556',
     factorName: 'NH바우처',
@@ -30851,7 +30844,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3317,
+    id: 3315,
     cardIssuer: '우리카드',
     bin: '950026',
     factorName: '우리카드',
@@ -30861,7 +30854,7 @@ const data = [
     updatedAt: '2024. 10',
   ),
   CardBinModel(
-    id: 3318,
+    id: 3316,
     cardIssuer: 'BC카드',
     bin: '415714',
     factorName: 'iM뱅크비씨카드',
@@ -30871,7 +30864,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3319,
+    id: 3317,
     cardIssuer: 'KB국민카드',
     bin: '420628',
     factorName: 'KB국민카드',
@@ -30881,7 +30874,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3320,
+    id: 3318,
     cardIssuer: 'KB국민카드',
     bin: '420629',
     factorName: 'KB기업카드',
@@ -30891,7 +30884,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3321,
+    id: 3319,
     cardIssuer: 'KB국민카드',
     bin: '421029',
     factorName: 'KB체크기업카드',
@@ -30901,7 +30894,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3322,
+    id: 3320,
     cardIssuer: 'KB국민카드',
     bin: '421038',
     factorName: 'KB국민카드',
@@ -30911,7 +30904,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3323,
+    id: 3321,
     cardIssuer: 'KB국민카드',
     bin: '421059',
     factorName: 'KB국민카드',
@@ -30921,7 +30914,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3324,
+    id: 3322,
     cardIssuer: '현대카드',
     bin: '42110600',
     factorName: '현대비자개인',
@@ -30931,7 +30924,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3325,
+    id: 3323,
     cardIssuer: 'KB국민카드',
     bin: '421850',
     factorName: 'KB기업카드',
@@ -30941,7 +30934,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3326,
+    id: 3324,
     cardIssuer: 'BC카드',
     bin: '428477',
     factorName: '부산비씨카드',
@@ -30951,7 +30944,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3327,
+    id: 3325,
     cardIssuer: 'BC카드',
     bin: '432156',
     factorName: '비씨카드',
@@ -30961,7 +30954,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3328,
+    id: 3326,
     cardIssuer: 'KB국민카드',
     bin: '434480',
     factorName: 'KB국민카드',
@@ -30971,7 +30964,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3329,
+    id: 3327,
     cardIssuer: 'KB국민카드',
     bin: '463652',
     factorName: 'KB체크기업카드',
@@ -30981,7 +30974,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3330,
+    id: 3328,
     cardIssuer: 'KB국민카드',
     bin: '463654',
     factorName: 'KB체크기업카드',
@@ -30991,7 +30984,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3331,
+    id: 3329,
     cardIssuer: '현대카드',
     bin: '46408200',
     factorName: '현대비자개인',
@@ -31001,7 +30994,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3332,
+    id: 3330,
     cardIssuer: 'KB국민카드',
     bin: '464097',
     factorName: 'KB기업카드',
@@ -31011,7 +31004,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3333,
+    id: 3331,
     cardIssuer: 'KB국민카드',
     bin: '464431',
     factorName: 'KB국민카드',
@@ -31021,7 +31014,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3334,
+    id: 3332,
     cardIssuer: 'KB국민카드',
     bin: '464432',
     factorName: 'KB국민카드',
@@ -31031,7 +31024,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3335,
+    id: 3333,
     cardIssuer: 'KB국민카드',
     bin: '464441',
     factorName: 'KB국민카드',
@@ -31041,7 +31034,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3336,
+    id: 3334,
     cardIssuer: 'KB국민카드',
     bin: '464456',
     factorName: 'KB국민카드',
@@ -31051,7 +31044,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3337,
+    id: 3335,
     cardIssuer: 'KB국민카드',
     bin: '464485',
     factorName: 'KB국민카드',
@@ -31061,7 +31054,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3338,
+    id: 3336,
     cardIssuer: 'KB국민카드',
     bin: '465237',
     factorName: 'KB국민카드',
@@ -31071,7 +31064,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3339,
+    id: 3337,
     cardIssuer: 'KB국민카드',
     bin: '465283',
     factorName: 'KB기업카드',
@@ -31081,7 +31074,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3340,
+    id: 3338,
     cardIssuer: 'KB국민카드',
     bin: '46672100',
     factorName: 'KB국민카드',
@@ -31091,7 +31084,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3341,
+    id: 3339,
     cardIssuer: 'KB국민카드',
     bin: '484404',
     factorName: 'KB체크기업카드',
@@ -31101,7 +31094,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3342,
+    id: 3340,
     cardIssuer: 'KB국민카드',
     bin: '484464',
     factorName: 'KB국민카드',
@@ -31111,7 +31104,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3343,
+    id: 3341,
     cardIssuer: 'KB국민카드',
     bin: '49300300',
     factorName: 'KB국민카드',
@@ -31121,7 +31114,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3344,
+    id: 3342,
     cardIssuer: 'KB국민카드',
     bin: '49300301',
     factorName: 'KB국민카드',
@@ -31131,7 +31124,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3345,
+    id: 3343,
     cardIssuer: 'KB국민카드',
     bin: '49300304',
     factorName: 'KB국민카드',
@@ -31141,7 +31134,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3346,
+    id: 3344,
     cardIssuer: 'KB국민카드',
     bin: '49300305',
     factorName: 'KB국민카드',
@@ -31151,7 +31144,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3347,
+    id: 3345,
     cardIssuer: 'KB국민카드',
     bin: '49300306',
     factorName: 'KB국민카드',
@@ -31161,7 +31154,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3348,
+    id: 3346,
     cardIssuer: 'KB국민카드',
     bin: '49300307',
     factorName: 'KB국민카드',
@@ -31171,7 +31164,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3349,
+    id: 3347,
     cardIssuer: 'KB국민카드',
     bin: '49300308',
     factorName: 'KB국민카드',
@@ -31181,7 +31174,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3350,
+    id: 3348,
     cardIssuer: 'KB국민카드',
     bin: '49300309',
     factorName: 'KB국민카드',
@@ -31191,7 +31184,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3351,
+    id: 3349,
     cardIssuer: 'KB국민카드',
     bin: '49415300',
     factorName: 'KB체크카드',
@@ -31201,7 +31194,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3352,
+    id: 3350,
     cardIssuer: 'KB국민카드',
     bin: '49415301',
     factorName: 'KB체크카드',
@@ -31211,7 +31204,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3353,
+    id: 3351,
     cardIssuer: 'KB국민카드',
     bin: '49415302',
     factorName: 'KB체크카드',
@@ -31221,7 +31214,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3354,
+    id: 3352,
     cardIssuer: 'KB국민카드',
     bin: '49415303',
     factorName: 'KB체크카드',
@@ -31231,7 +31224,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3355,
+    id: 3353,
     cardIssuer: 'KB국민카드',
     bin: '49415304',
     factorName: 'KB체크카드',
@@ -31241,7 +31234,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3356,
+    id: 3354,
     cardIssuer: 'KB국민카드',
     bin: '49415305',
     factorName: 'KB체크카드',
@@ -31251,7 +31244,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3357,
+    id: 3355,
     cardIssuer: 'KB국민카드',
     bin: '49415306',
     factorName: 'KB체크카드',
@@ -31261,7 +31254,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3358,
+    id: 3356,
     cardIssuer: 'KB국민카드',
     bin: '49415307',
     factorName: 'KB체크카드',
@@ -31271,7 +31264,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3359,
+    id: 3357,
     cardIssuer: 'KB국민카드',
     bin: '49415308',
     factorName: 'KB체크카드',
@@ -31281,7 +31274,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3360,
+    id: 3358,
     cardIssuer: 'KB국민카드',
     bin: '49415309',
     factorName: 'KB체크카드',
@@ -31291,7 +31284,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3361,
+    id: 3359,
     cardIssuer: 'KB국민카드',
     bin: '49415310',
     factorName: 'KB체크카드',
@@ -31301,7 +31294,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3362,
+    id: 3360,
     cardIssuer: 'KB국민카드',
     bin: '49415311',
     factorName: 'KB체크카드',
@@ -31311,7 +31304,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3363,
+    id: 3361,
     cardIssuer: 'KB국민카드',
     bin: '49415312',
     factorName: 'KB체크카드',
@@ -31321,7 +31314,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3364,
+    id: 3362,
     cardIssuer: 'KB국민카드',
     bin: '49415313',
     factorName: 'KB체크카드',
@@ -31331,7 +31324,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3365,
+    id: 3363,
     cardIssuer: 'KB국민카드',
     bin: '49415314',
     factorName: 'KB체크카드',
@@ -31341,7 +31334,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3366,
+    id: 3364,
     cardIssuer: 'KB국민카드',
     bin: '49415315',
     factorName: 'KB체크카드',
@@ -31351,7 +31344,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3367,
+    id: 3365,
     cardIssuer: 'KB국민카드',
     bin: '49415316',
     factorName: 'KB체크카드',
@@ -31361,7 +31354,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3368,
+    id: 3366,
     cardIssuer: 'KB국민카드',
     bin: '49415317',
     factorName: 'KB체크카드',
@@ -31371,7 +31364,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3369,
+    id: 3367,
     cardIssuer: 'KB국민카드',
     bin: '49415318',
     factorName: 'KB체크카드',
@@ -31381,7 +31374,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3370,
+    id: 3368,
     cardIssuer: 'KB국민카드',
     bin: '49415319',
     factorName: 'KB체크카드',
@@ -31391,7 +31384,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3371,
+    id: 3369,
     cardIssuer: 'KB국민카드',
     bin: '49415320',
     factorName: 'KB체크카드',
@@ -31401,7 +31394,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3372,
+    id: 3370,
     cardIssuer: 'KB국민카드',
     bin: '49415321',
     factorName: 'KB체크카드',
@@ -31411,7 +31404,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3373,
+    id: 3371,
     cardIssuer: 'KB국민카드',
     bin: '49415322',
     factorName: 'KB체크카드',
@@ -31421,7 +31414,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3374,
+    id: 3372,
     cardIssuer: 'KB국민카드',
     bin: '49415323',
     factorName: 'KB체크카드',
@@ -31431,7 +31424,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3375,
+    id: 3373,
     cardIssuer: 'KB국민카드',
     bin: '49415324',
     factorName: 'KB체크카드',
@@ -31441,7 +31434,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3376,
+    id: 3374,
     cardIssuer: 'KB국민카드',
     bin: '49415325',
     factorName: 'KB체크카드',
@@ -31451,7 +31444,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3377,
+    id: 3375,
     cardIssuer: 'KB국민카드',
     bin: '49415326',
     factorName: 'KB체크카드',
@@ -31461,7 +31454,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3378,
+    id: 3376,
     cardIssuer: 'KB국민카드',
     bin: '49415327',
     factorName: 'KB체크카드',
@@ -31471,7 +31464,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3379,
+    id: 3377,
     cardIssuer: 'KB국민카드',
     bin: '49415328',
     factorName: 'KB체크카드',
@@ -31481,7 +31474,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3380,
+    id: 3378,
     cardIssuer: 'KB국민카드',
     bin: '49415329',
     factorName: 'KB체크카드',
@@ -31491,7 +31484,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3381,
+    id: 3379,
     cardIssuer: 'KB국민카드',
     bin: '49415330',
     factorName: 'KB체크카드',
@@ -31501,7 +31494,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3382,
+    id: 3380,
     cardIssuer: 'KB국민카드',
     bin: '49415331',
     factorName: 'KB체크카드',
@@ -31511,7 +31504,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3383,
+    id: 3381,
     cardIssuer: 'KB국민카드',
     bin: '49415332',
     factorName: 'KB체크카드',
@@ -31521,7 +31514,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3384,
+    id: 3382,
     cardIssuer: 'KB국민카드',
     bin: '49415333',
     factorName: 'KB체크카드',
@@ -31531,7 +31524,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3385,
+    id: 3383,
     cardIssuer: 'KB국민카드',
     bin: '49415334',
     factorName: 'KB체크카드',
@@ -31541,7 +31534,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3386,
+    id: 3384,
     cardIssuer: '우리카드',
     bin: '534957',
     factorName: '우리카드',
@@ -31551,7 +31544,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3387,
+    id: 3385,
     cardIssuer: '신한카드',
     bin: '539511',
     factorName: '신한카드',
@@ -31561,7 +31554,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3388,
+    id: 3386,
     cardIssuer: 'KB국민카드',
     bin: '541456',
     factorName: 'KB국민카드',
@@ -31571,7 +31564,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3389,
+    id: 3387,
     cardIssuer: 'KB국민카드',
     bin: '543644',
     factorName: 'KB국민카드',
@@ -31581,7 +31574,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3390,
+    id: 3388,
     cardIssuer: 'KB국민카드',
     bin: '544847',
     factorName: 'KB체크카드',
@@ -31591,7 +31584,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3391,
+    id: 3389,
     cardIssuer: 'KB국민카드',
     bin: '544924',
     factorName: 'KB체크카드',
@@ -31601,7 +31594,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3392,
+    id: 3390,
     cardIssuer: '우리카드',
     bin: '548134',
     factorName: '우리카드',
@@ -31611,7 +31604,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3393,
+    id: 3391,
     cardIssuer: 'KB국민카드',
     bin: '550537',
     factorName: 'KB체크카드',
@@ -31621,7 +31614,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3394,
+    id: 3392,
     cardIssuer: 'BC카드',
     bin: '900036',
     factorName: '씨티비씨카드',
@@ -31631,7 +31624,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3395,
+    id: 3393,
     cardIssuer: '롯데카드',
     bin: '940987',
     factorName: '롯데카드',
@@ -31641,7 +31634,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3396,
+    id: 3394,
     cardIssuer: '신한카드',
     bin: '941155',
     factorName: '신한카드',
@@ -31651,7 +31644,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3397,
+    id: 3395,
     cardIssuer: '신한카드',
     bin: '941156',
     factorName: '신한카드체크',
@@ -31661,7 +31654,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3398,
+    id: 3396,
     cardIssuer: '현대카드',
     bin: '943191',
     factorName: '현대로컬개인',
@@ -31671,7 +31664,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3399,
+    id: 3397,
     cardIssuer: '현대카드',
     bin: '943192',
     factorName: '현대로컬개인',
@@ -31681,7 +31674,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3400,
+    id: 3398,
     cardIssuer: 'KB국민카드',
     bin: '943670',
     factorName: 'KB체크카드',
@@ -31691,7 +31684,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3401,
+    id: 3399,
     cardIssuer: 'BC카드',
     bin: '947350',
     factorName: '비씨GIFT',
@@ -31701,7 +31694,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3402,
+    id: 3400,
     cardIssuer: 'BC카드',
     bin: '948350',
     factorName: '비씨카드',
@@ -31711,7 +31704,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3403,
+    id: 3401,
     cardIssuer: 'BC카드',
     bin: '949557',
     factorName: '농협바우처선불',
@@ -31721,7 +31714,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3404,
+    id: 3402,
     cardIssuer: '우리카드',
     bin: '950021',
     factorName: '우리화물복지',
@@ -31731,7 +31724,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3405,
+    id: 3403,
     cardIssuer: '우리카드',
     bin: '950027',
     factorName: '우리카드',
@@ -31741,7 +31734,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3406,
+    id: 3404,
     cardIssuer: '우리카드',
     bin: '952013',
     factorName: '우리카드',
@@ -31751,7 +31744,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3407,
+    id: 3405,
     cardIssuer: '우리카드',
     bin: '952016',
     factorName: '우리카드',
@@ -31761,7 +31754,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3408,
+    id: 3406,
     cardIssuer: '우리카드',
     bin: '952017',
     factorName: '우리카드',
@@ -31771,7 +31764,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3409,
+    id: 3407,
     cardIssuer: '우리카드',
     bin: '952062',
     factorName: '우리화물복지',
@@ -31781,7 +31774,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3410,
+    id: 3408,
     cardIssuer: '우리카드',
     bin: '952063',
     factorName: '우리화물복지',
@@ -31791,7 +31784,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3411,
+    id: 3409,
     cardIssuer: '우리카드',
     bin: '952064',
     factorName: '우리화물복지',
@@ -31801,7 +31794,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3412,
+    id: 3410,
     cardIssuer: '우리카드',
     bin: '955000',
     factorName: '우리카드',
@@ -31811,7 +31804,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3413,
+    id: 3411,
     cardIssuer: '삼성카드',
     bin: '971013',
     factorName: '삼성개인신용',
@@ -31821,7 +31814,7 @@ const data = [
     updatedAt: '2024. 11',
   ),
   CardBinModel(
-    id: 3414,
+    id: 3412,
     cardIssuer: '롯데카드',
     bin: '372366',
     factorName: '롯데카드',
@@ -31831,7 +31824,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3415,
+    id: 3413,
     cardIssuer: '신한카드',
     bin: '40706700',
     factorName: '신한카드체크',
@@ -31841,7 +31834,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3416,
+    id: 3414,
     cardIssuer: '신한카드',
     bin: '40706701',
     factorName: '신한카드체크',
@@ -31851,7 +31844,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3417,
+    id: 3415,
     cardIssuer: '신한카드',
     bin: '40706702',
     factorName: '신한카드체크',
@@ -31861,7 +31854,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3418,
+    id: 3416,
     cardIssuer: '신한카드',
     bin: '40706703',
     factorName: '신한카드체크',
@@ -31871,7 +31864,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3419,
+    id: 3417,
     cardIssuer: '신한카드',
     bin: '40706704',
     factorName: '신한카드체크',
@@ -31881,7 +31874,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3420,
+    id: 3418,
     cardIssuer: '신한카드',
     bin: '40706705',
     factorName: '신한카드체크',
@@ -31891,7 +31884,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3421,
+    id: 3419,
     cardIssuer: '신한카드',
     bin: '40706706',
     factorName: '신한카드체크',
@@ -31901,7 +31894,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3422,
+    id: 3420,
     cardIssuer: '신한카드',
     bin: '40706707',
     factorName: '신한카드체크',
@@ -31911,7 +31904,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3423,
+    id: 3421,
     cardIssuer: '현대카드',
     bin: '411142',
     factorName: '현대비자개인',
@@ -31921,7 +31914,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3424,
+    id: 3422,
     cardIssuer: '현대카드',
     bin: '414324',
     factorName: '현대비자개인',
@@ -31931,7 +31924,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3425,
+    id: 3423,
     cardIssuer: '현대카드',
     bin: '414493',
     factorName: '현대비자개인',
@@ -31941,7 +31934,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3426,
+    id: 3424,
     cardIssuer: '신한카드',
     bin: '425326',
     factorName: '신한카드체크',
@@ -31951,7 +31944,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3427,
+    id: 3425,
     cardIssuer: 'KB국민카드',
     bin: '444350',
     factorName: 'KB국민카드',
@@ -31961,7 +31954,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3428,
+    id: 3426,
     cardIssuer: '롯데카드',
     bin: '449115',
     factorName: '롯데법인카드',
@@ -31971,7 +31964,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3429,
+    id: 3427,
     cardIssuer: '현대카드',
     bin: '449819',
     factorName: '현대비자개인',
@@ -31981,7 +31974,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3430,
+    id: 3428,
     cardIssuer: '신한카드',
     bin: '450654',
     factorName: '신한카드',
@@ -31991,7 +31984,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3431,
+    id: 3429,
     cardIssuer: '신한카드',
     bin: '46676200',
     factorName: '신한카드',
@@ -32001,7 +31994,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3432,
+    id: 3430,
     cardIssuer: '신한카드',
     bin: '46676201',
     factorName: '신한카드',
@@ -32011,7 +32004,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3433,
+    id: 3431,
     cardIssuer: '신한카드',
     bin: '46676202',
     factorName: '신한카드',
@@ -32021,7 +32014,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3434,
+    id: 3432,
     cardIssuer: '신한카드',
     bin: '46676203',
     factorName: '신한카드',
@@ -32031,7 +32024,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3435,
+    id: 3433,
     cardIssuer: '신한카드',
     bin: '46676204',
     factorName: '신한카드',
@@ -32041,7 +32034,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3436,
+    id: 3434,
     cardIssuer: '신한카드',
     bin: '46676205',
     factorName: '신한카드',
@@ -32051,7 +32044,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3437,
+    id: 3435,
     cardIssuer: '신한카드',
     bin: '46676206',
     factorName: '신한카드',
@@ -32061,7 +32054,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3438,
+    id: 3436,
     cardIssuer: '신한카드',
     bin: '46676207',
     factorName: '신한카드',
@@ -32071,7 +32064,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3439,
+    id: 3437,
     cardIssuer: '신한카드',
     bin: '46676208',
     factorName: '신한카드',
@@ -32081,7 +32074,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3440,
+    id: 3438,
     cardIssuer: '신한카드',
     bin: '46676209',
     factorName: '신한카드',
@@ -32091,7 +32084,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3441,
+    id: 3439,
     cardIssuer: '신한카드',
     bin: '46676210',
     factorName: '신한카드',
@@ -32101,7 +32094,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3442,
+    id: 3440,
     cardIssuer: '신한카드',
     bin: '46676211',
     factorName: '신한카드',
@@ -32111,7 +32104,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3443,
+    id: 3441,
     cardIssuer: '신한카드',
     bin: '46676212',
     factorName: '신한카드',
@@ -32121,7 +32114,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3444,
+    id: 3442,
     cardIssuer: '신한카드',
     bin: '46676213',
     factorName: '신한카드',
@@ -32131,7 +32124,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3445,
+    id: 3443,
     cardIssuer: '신한카드',
     bin: '46676214',
     factorName: '신한카드',
@@ -32141,7 +32134,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3446,
+    id: 3444,
     cardIssuer: '신한카드',
     bin: '473183',
     factorName: '신한카드',
@@ -32151,7 +32144,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3447,
+    id: 3445,
     cardIssuer: '신한카드',
     bin: '473203',
     factorName: '신한카드법인',
@@ -32161,7 +32154,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3448,
+    id: 3446,
     cardIssuer: '신한카드',
     bin: '473301',
     factorName: '신한카드',
@@ -32171,7 +32164,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3449,
+    id: 3447,
     cardIssuer: '신한카드',
     bin: '481943',
     factorName: '신한카드체크',
@@ -32181,7 +32174,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3450,
+    id: 3448,
     cardIssuer: '신한카드',
     bin: '486901',
     factorName: '신한카드체크',
@@ -32191,7 +32184,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3451,
+    id: 3449,
     cardIssuer: '현대카드',
     bin: '488902',
     factorName: '현대비자개인',
@@ -32201,7 +32194,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3452,
+    id: 3450,
     cardIssuer: '신한카드',
     bin: '491936',
     factorName: '신한카드',
@@ -32211,7 +32204,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3453,
+    id: 3451,
     cardIssuer: 'KB국민카드',
     bin: '49300310',
     factorName: 'KB국민카드',
@@ -32221,7 +32214,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3454,
+    id: 3452,
     cardIssuer: '신한카드',
     bin: '515395',
     factorName: '신한카드체크',
@@ -32231,7 +32224,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3455,
+    id: 3453,
     cardIssuer: 'KB국민카드',
     bin: '544643',
     factorName: 'KB국민카드',
@@ -32241,7 +32234,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3456,
+    id: 3454,
     cardIssuer: 'KB국민카드',
     bin: '544822',
     factorName: 'KB체크카드',
@@ -32251,7 +32244,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3457,
+    id: 3455,
     cardIssuer: 'BC카드',
     bin: '544963',
     factorName: 'iM뱅크비씨카드',
@@ -32261,7 +32254,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3458,
+    id: 3456,
     cardIssuer: 'KB국민카드',
     bin: '545355',
     factorName: 'KB체크카드',
@@ -32271,7 +32264,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3459,
+    id: 3457,
     cardIssuer: 'KB국민카드',
     bin: '546198',
     factorName: 'KB체크카드',
@@ -32281,7 +32274,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3460,
+    id: 3458,
     cardIssuer: '신한카드',
     bin: '548180',
     factorName: '신한카드',
@@ -32291,7 +32284,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3461,
+    id: 3459,
     cardIssuer: '롯데카드',
     bin: '548287',
     factorName: '롯데카드',
@@ -32301,7 +32294,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3462,
+    id: 3460,
     cardIssuer: '롯데카드',
     bin: '548954',
     factorName: '롯데카드',
@@ -32311,7 +32304,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3463,
+    id: 3461,
     cardIssuer: '롯데카드',
     bin: '554876',
     factorName: '롯데카드',
@@ -32321,7 +32314,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3464,
+    id: 3462,
     cardIssuer: '신한카드',
     bin: '559976',
     factorName: '신한카드',
@@ -32331,7 +32324,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3465,
+    id: 3463,
     cardIssuer: 'BC카드',
     bin: '941103',
     factorName: 'IBK비씨카드',
@@ -32341,7 +32334,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3466,
+    id: 3464,
     cardIssuer: '신한카드',
     bin: '941157',
     factorName: '신한카드',
@@ -32351,7 +32344,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3467,
+    id: 3465,
     cardIssuer: '신한카드',
     bin: '941158',
     factorName: '신한카드체크',
@@ -32361,7 +32354,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3468,
+    id: 3466,
     cardIssuer: '신한카드',
     bin: '941159',
     factorName: '신한카드체크',
@@ -32371,7 +32364,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3469,
+    id: 3467,
     cardIssuer: 'BC카드',
     bin: '944231',
     factorName: 'iM뱅크비씨체크',
@@ -32381,7 +32374,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3470,
+    id: 3468,
     cardIssuer: 'BC카드',
     bin: '944803',
     factorName: '비씨체크',
@@ -32391,7 +32384,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3471,
+    id: 3469,
     cardIssuer: 'BC카드',
     bin: '947131',
     factorName: 'iM뱅크비씨카드',
@@ -32401,7 +32394,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3472,
+    id: 3470,
     cardIssuer: 'BC카드',
     bin: '950028',
     factorName: '우리카드',
@@ -32411,7 +32404,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3473,
+    id: 3471,
     cardIssuer: '우리카드',
     bin: '952011',
     factorName: '우리카드',
@@ -32421,7 +32414,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3474,
+    id: 3472,
     cardIssuer: 'BC카드',
     bin: '952018',
     factorName: '우리체크',
@@ -32431,7 +32424,7 @@ const data = [
     updatedAt: '2025. 03',
   ),
   CardBinModel(
-    id: 3475,
+    id: 3473,
     cardIssuer: '삼성카드',
     bin: '356804',
     factorName: '삼성개인신용',
@@ -32441,7 +32434,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3476,
+    id: 3474,
     cardIssuer: '삼성카드',
     bin: '356805',
     factorName: '삼성법인신용',
@@ -32451,7 +32444,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3477,
+    id: 3475,
     cardIssuer: '현대카드',
     bin: '37236401',
     factorName: '현대아멕스개인',
@@ -32461,7 +32454,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3478,
+    id: 3476,
     cardIssuer: '우리카드',
     bin: '410642',
     factorName: '우리카드',
@@ -32471,7 +32464,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3479,
+    id: 3477,
     cardIssuer: '우리카드',
     bin: '410680',
     factorName: '우리카드',
@@ -32481,7 +32474,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3480,
+    id: 3478,
     cardIssuer: '신한카드',
     bin: '424598',
     factorName: '신한카드체크',
@@ -32491,7 +32484,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3481,
+    id: 3479,
     cardIssuer: '하나카드',
     bin: '443082',
     factorName: '하나체크카드',
@@ -32501,7 +32494,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3482,
+    id: 3480,
     cardIssuer: 'KB국민카드',
     bin: '448798',
     factorName: 'KB국민카드',
@@ -32511,7 +32504,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3483,
+    id: 3481,
     cardIssuer: '우리카드',
     bin: '449703',
     factorName: '우리카드',
@@ -32521,7 +32514,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3484,
+    id: 3482,
     cardIssuer: '우리카드',
     bin: '449704',
     factorName: '우리카드',
@@ -32531,7 +32524,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3485,
+    id: 3483,
     cardIssuer: '하나카드',
     bin: '461218',
     factorName: '하나기업',
@@ -32541,7 +32534,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3486,
+    id: 3484,
     cardIssuer: '하나카드',
     bin: '467400',
     factorName: '하나기업',
@@ -32551,7 +32544,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3487,
+    id: 3485,
     cardIssuer: '하나카드',
     bin: '478948',
     factorName: '하나카드',
@@ -32561,7 +32554,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3488,
+    id: 3486,
     cardIssuer: '하나카드',
     bin: '478965',
     factorName: '하나카드',
@@ -32571,7 +32564,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3489,
+    id: 3487,
     cardIssuer: '하나카드',
     bin: '479022',
     factorName: '하나카드',
@@ -32581,7 +32574,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3490,
+    id: 3488,
     cardIssuer: '하나카드',
     bin: '479025',
     factorName: '하나기업체크',
@@ -32591,7 +32584,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3491,
+    id: 3489,
     cardIssuer: '하나카드',
     bin: '486893',
     factorName: '하나카드',
@@ -32601,7 +32594,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3492,
+    id: 3490,
     cardIssuer: '하나카드',
     bin: '522420',
     factorName: '하나체크카드',
@@ -32611,7 +32604,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3493,
+    id: 3491,
     cardIssuer: 'BC카드',
     bin: '52936050',
     factorName: 'IBK비씨카드',
@@ -32621,7 +32614,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3494,
+    id: 3492,
     cardIssuer: '하나카드',
     bin: '532288',
     factorName: '하나카드',
@@ -32631,7 +32624,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3495,
+    id: 3493,
     cardIssuer: 'BC카드',
     bin: '544587',
     factorName: '비씨카드',
@@ -32641,7 +32634,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3496,
+    id: 3494,
     cardIssuer: 'KB국민카드',
     bin: '545399',
     factorName: 'KB국민카드',
@@ -32651,7 +32644,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3497,
+    id: 3495,
     cardIssuer: '우리카드',
     bin: '545577',
     factorName: '우리카드',
@@ -32661,7 +32654,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3498,
+    id: 3496,
     cardIssuer: 'KB국민카드',
     bin: '546360',
     factorName: 'KB체크카드',
@@ -32671,7 +32664,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3499,
+    id: 3497,
     cardIssuer: 'BC카드',
     bin: '546423',
     factorName: 'IBK비씨체크',
@@ -32681,7 +32674,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3500,
+    id: 3498,
     cardIssuer: '신한카드',
     bin: '546504',
     factorName: '신한카드',
@@ -32691,7 +32684,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3501,
+    id: 3499,
     cardIssuer: '롯데카드',
     bin: '54802836',
     factorName: '롯데법인카드',
@@ -32701,7 +32694,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3502,
+    id: 3500,
     cardIssuer: '롯데카드',
     bin: '54810810',
     factorName: '롯데법인카드',
@@ -32711,7 +32704,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3503,
+    id: 3501,
     cardIssuer: '하나카드',
     bin: '548187',
     factorName: '하나카드',
@@ -32721,7 +32714,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3504,
+    id: 3502,
     cardIssuer: '우리카드',
     bin: '548217',
     factorName: '우리카드',
@@ -32731,7 +32724,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3505,
+    id: 3503,
     cardIssuer: '하나카드',
     bin: '548781',
     factorName: '하나카드',
@@ -32741,7 +32734,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3506,
+    id: 3504,
     cardIssuer: 'BC카드',
     bin: '920054',
     factorName: '다날체크',
@@ -32751,7 +32744,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3507,
+    id: 3505,
     cardIssuer: '롯데카드',
     bin: '940988',
     factorName: '롯데카드',
@@ -32761,7 +32754,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3508,
+    id: 3506,
     cardIssuer: '신한카드',
     bin: '941154',
     factorName: '신한카드',
@@ -32771,7 +32764,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3509,
+    id: 3507,
     cardIssuer: '신한카드',
     bin: '941160',
     factorName: '신한카드',
@@ -32781,7 +32774,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3510,
+    id: 3508,
     cardIssuer: '하나카드',
     bin: '943051',
     factorName: '당근페이',
@@ -32791,7 +32784,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3511,
+    id: 3509,
     cardIssuer: '하나카드',
     bin: '943052',
     factorName: 'SK플래닛',
@@ -32801,7 +32794,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3512,
+    id: 3510,
     cardIssuer: 'KB국민카드',
     bin: '943671',
     factorName: 'KB체크카드',
@@ -32811,7 +32804,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3513,
+    id: 3511,
     cardIssuer: 'KB국민카드',
     bin: '944563',
     factorName: 'KB국민카드',
@@ -32821,7 +32814,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3514,
+    id: 3512,
     cardIssuer: '광주은행',
     bin: '945935',
     factorName: '광주GIFT',
@@ -32831,7 +32824,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3515,
+    id: 3513,
     cardIssuer: '광주은행',
     bin: '945936',
     factorName: '광주GIFT',
@@ -32841,7 +32834,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3516,
+    id: 3514,
     cardIssuer: '지드림카드',
     bin: '949558',
     factorName: 'NH바우처',
@@ -32851,7 +32844,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3517,
+    id: 3515,
     cardIssuer: '우리카드',
     bin: '950029',
     factorName: '우리카드',
@@ -32861,7 +32854,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3518,
+    id: 3516,
     cardIssuer: '우리카드',
     bin: '950031',
     factorName: '우리카드',
@@ -32871,7 +32864,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3519,
+    id: 3517,
     cardIssuer: 'BC카드',
     bin: '954054',
     factorName: '다날체크',
@@ -32881,7 +32874,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3520,
+    id: 3518,
     cardIssuer: '삼성카드',
     bin: '971007',
     factorName: '삼성개인체크',
@@ -32891,7 +32884,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3521,
+    id: 3519,
     cardIssuer: '삼성카드',
     bin: '971008',
     factorName: '삼성개인체크',
@@ -32901,7 +32894,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3522,
+    id: 3520,
     cardIssuer: '삼성카드',
     bin: '971014',
     factorName: '삼성체크',
@@ -32911,7 +32904,7 @@ const data = [
     updatedAt: '2025. 06',
   ),
   CardBinModel(
-    id: 3523,
+    id: 3521,
     cardIssuer: '삼성카드',
     bin: '971015',
     factorName: '삼성월렛머니',
@@ -32922,7 +32915,7 @@ const data = [
     changed: '변경',
   ),
   CardBinModel(
-    id: 3524,
+    id: 3522,
     cardIssuer: '신한카드',
     bin: '341136',
     factorName: '신한카드',
@@ -32932,7 +32925,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3525,
+    id: 3523,
     cardIssuer: '신한카드',
     bin: '341137',
     factorName: '신한카드법인',
@@ -32942,7 +32935,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3526,
+    id: 3524,
     cardIssuer: '현대카드',
     bin: '37029919',
     factorName: '현대아멕스개인',
@@ -32952,7 +32945,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3527,
+    id: 3525,
     cardIssuer: '현대카드',
     bin: '37030101',
     factorName: '현대아멕스법인',
@@ -32962,7 +32955,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3528,
+    id: 3526,
     cardIssuer: '현대카드',
     bin: '37030102',
     factorName: '현대아멕스법인',
@@ -32972,7 +32965,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3529,
+    id: 3527,
     cardIssuer: '현대카드',
     bin: '37030103',
     factorName: '현대아멕스법인',
@@ -32982,7 +32975,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3530,
+    id: 3528,
     cardIssuer: '현대카드',
     bin: '37030104',
     factorName: '현대아멕스법인',
@@ -32992,7 +32985,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3531,
+    id: 3529,
     cardIssuer: '현대카드',
     bin: '37030105',
     factorName: '현대아멕스법인',
@@ -33002,7 +32995,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3532,
+    id: 3530,
     cardIssuer: '현대카드',
     bin: '37030106',
     factorName: '현대아멕스법인',
@@ -33012,7 +33005,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3533,
+    id: 3531,
     cardIssuer: '현대카드',
     bin: '37030107',
     factorName: '현대아멕스법인',
@@ -33022,7 +33015,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3534,
+    id: 3532,
     cardIssuer: '현대카드',
     bin: '411255',
     factorName: '현대비자개인',
@@ -33032,7 +33025,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3535,
+    id: 3533,
     cardIssuer: '현대카드',
     bin: '412495',
     factorName: '현대비자개인',
@@ -33042,7 +33035,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3536,
+    id: 3534,
     cardIssuer: 'KB국민카드',
     bin: '427841',
     factorName: 'KB체크카드',
@@ -33052,7 +33045,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3537,
+    id: 3535,
     cardIssuer: 'BC카드',
     bin: '469556',
     factorName: 'IBK비씨카드',
@@ -33062,7 +33055,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3538,
+    id: 3536,
     cardIssuer: 'BC카드',
     bin: '53020035',
     factorName: '헥토카드체크',
@@ -33072,7 +33065,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3539,
+    id: 3537,
     cardIssuer: 'NH농협카드',
     bin: '53415215',
     factorName: 'NH Platinum',
@@ -33082,7 +33075,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3540,
+    id: 3538,
     cardIssuer: 'NH농협카드',
     bin: '53415222',
     factorName: 'NH Platinum',
@@ -33092,7 +33085,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3541,
+    id: 3539,
     cardIssuer: '삼성카드',
     bin: '544809',
     factorName: '삼성개인신용',
@@ -33102,7 +33095,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3542,
+    id: 3540,
     cardIssuer: '우리카드',
     bin: '546254',
     factorName: '우리카드',
@@ -33112,7 +33105,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3543,
+    id: 3541,
     cardIssuer: 'BC카드',
     bin: '546517',
     factorName: '비씨카드',
@@ -33122,7 +33115,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3544,
+    id: 3542,
     cardIssuer: 'BC카드',
     bin: '548364',
     factorName: '비씨카드',
@@ -33132,7 +33125,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3545,
+    id: 3543,
     cardIssuer: '삼성카드',
     bin: '548419',
     factorName: '삼성개인신용',
@@ -33142,7 +33135,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3546,
+    id: 3544,
     cardIssuer: '수협은행',
     bin: '548527',
     factorName: '수협카드',
@@ -33152,7 +33145,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3547,
+    id: 3545,
     cardIssuer: '신한카드',
     bin: '62636139',
     factorName: '신한은련개인',
@@ -33162,7 +33155,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3548,
+    id: 3546,
     cardIssuer: '신한카드',
     bin: '62636140',
     factorName: '신한은련개인',
@@ -33172,7 +33165,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3549,
+    id: 3547,
     cardIssuer: '신한카드',
     bin: '62636141',
     factorName: '신한은련개인',
@@ -33182,7 +33175,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3550,
+    id: 3548,
     cardIssuer: '신한카드',
     bin: '62636142',
     factorName: '신한은련법인',
@@ -33192,7 +33185,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3551,
+    id: 3549,
     cardIssuer: '신한카드',
     bin: '62636143',
     factorName: '신한은련법인',
@@ -33202,7 +33195,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3552,
+    id: 3550,
     cardIssuer: '신한카드',
     bin: '62636144',
     factorName: '신한은련체크',
@@ -33212,7 +33205,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3553,
+    id: 3551,
     cardIssuer: 'BC카드',
     bin: '920057',
     factorName: '헥토카드체크',
@@ -33222,7 +33215,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3554,
+    id: 3552,
     cardIssuer: 'BC카드',
     bin: '940757',
     factorName: '헥토카드체크',
@@ -33232,7 +33225,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3555,
+    id: 3553,
     cardIssuer: '롯데카드',
     bin: '940950',
     factorName: '롯데체크카드',
@@ -33242,7 +33235,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3556,
+    id: 3554,
     cardIssuer: '롯데카드',
     bin: '940989',
     factorName: '롯데카드',
@@ -33252,29 +33245,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3557,
-    cardIssuer: 'NH농협카드',
-    bin: '94151116',
-    factorName: 'NH Platinum',
-    corporate: '개인',
-    brand: '로컬',
-    creditDebit: '신용',
-    updatedAt: '2026. 01',
-    changed: '삭제',
-  ),
-  CardBinModel(
-    id: 3558,
-    cardIssuer: 'NH농협카드',
-    bin: '94151117',
-    factorName: 'NH Platinum',
-    corporate: '개인',
-    brand: '로컬',
-    creditDebit: '신용',
-    updatedAt: '2026. 01',
-    changed: '삭제',
-  ),
-  CardBinModel(
-    id: 3559,
+    id: 3555,
     cardIssuer: '신한카드',
     bin: '942067',
     factorName: '신한카드',
@@ -33284,7 +33255,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3560,
+    id: 3556,
     cardIssuer: 'BC카드',
     bin: '944261',
     factorName: '네이버체크',
@@ -33294,7 +33265,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3561,
+    id: 3557,
     cardIssuer: 'BC카드',
     bin: '948351',
     factorName: '비씨카드',
@@ -33304,7 +33275,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3562,
+    id: 3558,
     cardIssuer: 'BC카드',
     bin: '948352',
     factorName: '비씨카드',
@@ -33314,7 +33285,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3563,
+    id: 3559,
     cardIssuer: 'KB국민카드',
     bin: '949143',
     factorName: '토스체크',
@@ -33324,7 +33295,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3564,
+    id: 3560,
     cardIssuer: '우리카드',
     bin: '950033',
     factorName: '우리카드',
@@ -33334,7 +33305,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3565,
+    id: 3561,
     cardIssuer: '광주은행',
     bin: '960173',
     factorName: '광주GIFT',
@@ -33344,7 +33315,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3566,
+    id: 3562,
     cardIssuer: '광주은행',
     bin: '960174',
     factorName: '광주GIFT',
@@ -33354,7 +33325,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3567,
+    id: 3563,
     cardIssuer: '광주은행',
     bin: '960175',
     factorName: '광주GIFT',
@@ -33364,7 +33335,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3568,
+    id: 3564,
     cardIssuer: '광주은행',
     bin: '960176',
     factorName: '광주GIFT',
@@ -33374,7 +33345,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3569,
+    id: 3565,
     cardIssuer: '광주은행',
     bin: '960177',
     factorName: '광주GIFT',
@@ -33384,7 +33355,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3570,
+    id: 3566,
     cardIssuer: '광주은행',
     bin: '960178',
     factorName: '광주GIFT',
@@ -33394,7 +33365,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3571,
+    id: 3567,
     cardIssuer: '광주은행',
     bin: '960179',
     factorName: '광주GIFT',
@@ -33404,7 +33375,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3572,
+    id: 3568,
     cardIssuer: '광주은행',
     bin: '960180',
     factorName: '광주GIFT',
@@ -33414,7 +33385,7 @@ const data = [
     updatedAt: '2025. 09',
   ),
   CardBinModel(
-    id: 3573,
+    id: 3569,
     cardIssuer: 'KB국민카드',
     bin: '356453',
     factorName: 'KB국민카드',
@@ -33422,10 +33393,9 @@ const data = [
     brand: 'JCB',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3574,
+    id: 3570,
     cardIssuer: '신한카드',
     bin: '357136',
     factorName: '신한카드체크',
@@ -33433,10 +33403,9 @@ const data = [
     brand: 'JCB',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3575,
+    id: 3571,
     cardIssuer: '현대카드',
     bin: '37764913',
     factorName: '현대아멕스개인',
@@ -33444,10 +33413,9 @@ const data = [
     brand: '아멕스',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3576,
+    id: 3572,
     cardIssuer: '현대카드',
     bin: '37764914',
     factorName: '현대아멕스개인',
@@ -33455,10 +33423,9 @@ const data = [
     brand: '아멕스',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3577,
+    id: 3573,
     cardIssuer: '현대카드',
     bin: '37764915',
     factorName: '현대아멕스개인',
@@ -33466,10 +33433,9 @@ const data = [
     brand: '아멕스',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3578,
+    id: 3574,
     cardIssuer: '현대카드',
     bin: '37764916',
     factorName: '현대아멕스개인',
@@ -33477,10 +33443,9 @@ const data = [
     brand: '아멕스',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3579,
+    id: 3575,
     cardIssuer: '현대카드',
     bin: '40164567',
     factorName: '현대비자개인',
@@ -33488,10 +33453,9 @@ const data = [
     brand: '비자',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3580,
+    id: 3576,
     cardIssuer: '현대카드',
     bin: '40188518',
     factorName: '현대비자개인',
@@ -33499,10 +33463,9 @@ const data = [
     brand: '비자',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3581,
+    id: 3577,
     cardIssuer: 'KB국민카드',
     bin: '42143101',
     factorName: 'KB기업카드',
@@ -33510,10 +33473,9 @@ const data = [
     brand: '비자',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3582,
+    id: 3578,
     cardIssuer: '현대카드',
     bin: '42143200',
     factorName: '현대비자개인',
@@ -33521,10 +33483,9 @@ const data = [
     brand: '비자',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3583,
+    id: 3579,
     cardIssuer: '현대카드',
     bin: '42143900',
     factorName: '현대아멕스개인',
@@ -33532,10 +33493,9 @@ const data = [
     brand: '비자',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3584,
+    id: 3580,
     cardIssuer: '하나카드',
     bin: '511129',
     factorName: '토스뱅크',
@@ -33543,10 +33503,9 @@ const data = [
     brand: '마스터',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3585,
+    id: 3581,
     cardIssuer: '하나카드',
     bin: '511495',
     factorName: '토스뱅크',
@@ -33554,10 +33513,9 @@ const data = [
     brand: '마스터',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3586,
+    id: 3582,
     cardIssuer: '신한카드',
     bin: '512457',
     factorName: '신한카드체크',
@@ -33565,10 +33523,9 @@ const data = [
     brand: '마스터',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3587,
+    id: 3583,
     cardIssuer: 'BC카드',
     bin: '519976',
     factorName: 'IBK비씨체크',
@@ -33576,10 +33533,9 @@ const data = [
     brand: '마스터',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3588,
+    id: 3584,
     cardIssuer: '현대카드',
     bin: '53063631',
     factorName: '현대마스터개인',
@@ -33587,10 +33543,9 @@ const data = [
     brand: '마스터',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3589,
+    id: 3585,
     cardIssuer: '하나카드',
     bin: '53610966',
     factorName: '토스뱅크',
@@ -33598,10 +33553,9 @@ const data = [
     brand: '마스터',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3590,
+    id: 3586,
     cardIssuer: '신한카드',
     bin: '54802842',
     factorName: '신한카드',
@@ -33609,10 +33563,9 @@ const data = [
     brand: '마스터',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3591,
+    id: 3587,
     cardIssuer: '우리카드',
     bin: '624334',
     factorName: '우리카드',
@@ -33620,10 +33573,9 @@ const data = [
     brand: '은련',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3592,
+    id: 3588,
     cardIssuer: 'BC카드',
     bin: '900048',
     factorName: '신협체크',
@@ -33631,10 +33583,9 @@ const data = [
     brand: '로컬',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3593,
+    id: 3589,
     cardIssuer: 'BC카드',
     bin: '920150',
     factorName: '비씨체크',
@@ -33642,10 +33593,9 @@ const data = [
     brand: '로컬',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3594,
+    id: 3590,
     cardIssuer: 'BC카드',
     bin: '920196',
     factorName: '케이뱅크체크',
@@ -33653,10 +33603,9 @@ const data = [
     brand: '로컬',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3595,
+    id: 3591,
     cardIssuer: '신한카드',
     bin: '941113',
     factorName: '신한카드체크',
@@ -33664,10 +33613,9 @@ const data = [
     brand: '로컬',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3596,
+    id: 3592,
     cardIssuer: 'NH농협카드',
     bin: '941616',
     factorName: 'NH Platinum',
@@ -33675,10 +33623,9 @@ const data = [
     brand: '로컬',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3597,
+    id: 3593,
     cardIssuer: 'NH농협카드',
     bin: '941617',
     factorName: 'NH Platinum',
@@ -33686,10 +33633,9 @@ const data = [
     brand: '로컬',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3598,
+    id: 3594,
     cardIssuer: '신한카드',
     bin: '942068',
     factorName: '신한카드체크',
@@ -33697,10 +33643,9 @@ const data = [
     brand: '로컬',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3599,
+    id: 3595,
     cardIssuer: '신한카드',
     bin: '942079',
     factorName: '신한카드',
@@ -33708,10 +33653,9 @@ const data = [
     brand: '로컬',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3600,
+    id: 3596,
     cardIssuer: '현대카드',
     bin: '943196',
     factorName: '현대로컬개인',
@@ -33719,10 +33663,9 @@ const data = [
     brand: '로컬',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3601,
+    id: 3597,
     cardIssuer: '현대카드',
     bin: '943197',
     factorName: '현대로컬개인',
@@ -33730,10 +33673,9 @@ const data = [
     brand: '로컬',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3602,
+    id: 3598,
     cardIssuer: '현대카드',
     bin: '943198',
     factorName: '현대로컬개인',
@@ -33741,10 +33683,9 @@ const data = [
     brand: '로컬',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3603,
+    id: 3599,
     cardIssuer: '제주은행',
     bin: '944235',
     factorName: '제주GIFT',
@@ -33752,10 +33693,9 @@ const data = [
     brand: '로컬',
     creditDebit: '기프트',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3604,
+    id: 3600,
     cardIssuer: 'BC카드',
     bin: '944294',
     factorName: '모빌체크',
@@ -33763,10 +33703,9 @@ const data = [
     brand: '로컬',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3605,
+    id: 3601,
     cardIssuer: 'KB국민카드',
     bin: '949144',
     factorName: '크로스카드',
@@ -33774,10 +33713,9 @@ const data = [
     brand: '로컬',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3606,
+    id: 3602,
     cardIssuer: '지드림카드',
     bin: '949559',
     factorName: '전북택시바우처',
@@ -33785,10 +33723,9 @@ const data = [
     brand: '로컬',
     creditDebit: '기프트',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3607,
+    id: 3603,
     cardIssuer: '지드림카드',
     bin: '949560',
     factorName: '청소년복지',
@@ -33796,10 +33733,9 @@ const data = [
     brand: '로컬',
     creditDebit: '기프트',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3608,
+    id: 3604,
     cardIssuer: '지드림카드',
     bin: '949561',
     factorName: '교복비지원',
@@ -33807,10 +33743,9 @@ const data = [
     brand: '로컬',
     creditDebit: '기프트',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3609,
+    id: 3605,
     cardIssuer: 'BC카드',
     bin: '952020',
     factorName: '우리비씨체크',
@@ -33818,10 +33753,9 @@ const data = [
     brand: '로컬',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3610,
+    id: 3606,
     cardIssuer: 'BC카드',
     bin: '954139',
     factorName: '경남비씨카드',
@@ -33829,10 +33763,9 @@ const data = [
     brand: '로컬',
     creditDebit: '신용',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3611,
+    id: 3607,
     cardIssuer: 'BC카드',
     bin: '954239',
     factorName: '경남비씨체크',
@@ -33840,10 +33773,9 @@ const data = [
     brand: '로컬',
     creditDebit: '체크',
     updatedAt: '2026. 01',
-    changed: '신규',
   ),
   CardBinModel(
-    id: 3612,
+    id: 3608,
     cardIssuer: '삼성카드',
     bin: '971016',
     factorName: '삼성개인신용',
@@ -33851,6 +33783,390 @@ const data = [
     brand: '로컬',
     creditDebit: '신용',
     updatedAt: '2026. 01',
+  ),
+  CardBinModel(
+    id: 3609,
+    cardIssuer: '현대카드',
+    bin: '37764918',
+    factorName: '현대아멕스개인',
+    corporate: '개인',
+    brand: '아멕스',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3610,
+    cardIssuer: '현대카드',
+    bin: '37764919',
+    factorName: '현대아멕스개인',
+    corporate: '개인',
+    brand: '아멕스',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3611,
+    cardIssuer: '현대카드',
+    bin: '40062201',
+    factorName: '현대비자법인',
+    corporate: '법인',
+    brand: '비자',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3612,
+    cardIssuer: '현대카드',
+    bin: '40472600',
+    factorName: '현대비자개인',
+    corporate: '개인',
+    brand: '비자',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3613,
+    cardIssuer: '현대카드',
+    bin: '42721100',
+    factorName: '현대비자개인',
+    corporate: '개인',
+    brand: '비자',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3614,
+    cardIssuer: '현대카드',
+    bin: '42722000',
+    factorName: '현대비자개인',
+    corporate: '개인',
+    brand: '비자',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3615,
+    cardIssuer: '현대카드',
+    bin: '42722100',
+    factorName: '현대비자개인',
+    corporate: '개인',
+    brand: '비자',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3616,
+    cardIssuer: 'BC카드',
+    bin: '442076',
+    factorName: '비씨공통카드',
+    corporate: '법인',
+    brand: '비자',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3617,
+    cardIssuer: '삼성카드',
+    bin: '45747800',
+    factorName: '삼성비자법인',
+    corporate: '법인',
+    brand: '비자',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3618,
+    cardIssuer: 'BC카드',
+    bin: '460448',
+    factorName: '비씨공통카드',
+    corporate: '법인',
+    brand: '비자',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3619,
+    cardIssuer: 'BC카드',
+    bin: '463879',
+    factorName: '비씨공통카드',
+    corporate: '개인',
+    brand: '비자',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3620,
+    cardIssuer: 'BC카드',
+    bin: '489966',
+    factorName: '비씨공통카드',
+    corporate: '개인',
+    brand: '비자',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3621,
+    cardIssuer: 'BC카드',
+    bin: '489970',
+    factorName: '비씨공통카드',
+    corporate: '법인',
+    brand: '비자',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3622,
+    cardIssuer: 'BC카드',
+    bin: '51986934',
+    factorName: '비씨카드',
+    corporate: '개인',
+    brand: '마스터',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3623,
+    cardIssuer: '광주은행',
+    bin: '900034',
+    factorName: '광주카드',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3624,
+    cardIssuer: '제주은행',
+    bin: '900035',
+    factorName: '제주카드',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3625,
+    cardIssuer: 'BC카드',
+    bin: '900045',
+    factorName: '새마을체크',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '체크',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3626,
+    cardIssuer: 'BC카드',
+    bin: '900071',
+    factorName: '우체국체크',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '체크',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3627,
+    cardIssuer: 'BC카드',
+    bin: '900096',
+    factorName: '케이뱅크체크',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '체크',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3628,
+    cardIssuer: 'BC카드',
+    bin: '920038',
+    factorName: '다우데이타체크',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '체크',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3629,
+    cardIssuer: '신한카드',
+    bin: '930927',
+    factorName: '신한카드체크',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3630,
+    cardIssuer: 'BC카드',
+    bin: '935038',
+    factorName: '다우데이타체크',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '체크',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3631,
+    cardIssuer: '하나카드',
+    bin: '943063',
+    factorName: '카카오페이',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '체크',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3632,
+    cardIssuer: '현대카드',
+    bin: '943193',
+    factorName: '현대로컬개인',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3633,
+    cardIssuer: '현대카드',
+    bin: '943194',
+    factorName: '현대로컬체크',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '체크',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3634,
+    cardIssuer: '현대카드',
+    bin: '943195',
+    factorName: '현대선불카드',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '기프트',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3635,
+    cardIssuer: '현대카드',
+    bin: '943200',
+    factorName: '현대로컬개인',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3636,
+    cardIssuer: '현대카드',
+    bin: '943201',
+    factorName: '현대로컬개인',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3637,
+    cardIssuer: '현대카드',
+    bin: '943202',
+    factorName: '현대로컬개인',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3638,
+    cardIssuer: '우리카드',
+    bin: '95003400',
+    factorName: '우리카드',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3639,
+    cardIssuer: '우리카드',
+    bin: '95006400',
+    factorName: '우리카드',
+    corporate: '법인',
+    brand: '로컬',
+    creditDebit: '신용',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3640,
+    cardIssuer: '우리카드',
+    bin: '95202100',
+    factorName: '우리카드',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '체크',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3641,
+    cardIssuer: '우리카드',
+    bin: '952022',
+    factorName: '우리카드',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '체크',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3642,
+    cardIssuer: '우리카드',
+    bin: '95206600',
+    factorName: '우리카드',
+    corporate: '법인',
+    brand: '로컬',
+    creditDebit: '체크',
+    updatedAt: '2026. 04',
+    changed: '신규',
+  ),
+  CardBinModel(
+    id: 3643,
+    cardIssuer: '광주은행',
+    bin: '960181',
+    factorName: '광주GIFT',
+    corporate: '개인',
+    brand: '로컬',
+    creditDebit: '기프트',
+    updatedAt: '2026. 04',
     changed: '신규',
   ),
 ];
