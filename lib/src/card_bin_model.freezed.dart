@@ -63,18 +63,13 @@ mixin _$CardBinModel {
         (other.runtimeType == runtimeType &&
             other is CardBinModel &&
             (identical(other.id, id) || other.id == id) &&
-            (identical(other.cardIssuer, cardIssuer) ||
-                other.cardIssuer == cardIssuer) &&
+            (identical(other.cardIssuer, cardIssuer) || other.cardIssuer == cardIssuer) &&
             (identical(other.bin, bin) || other.bin == bin) &&
-            (identical(other.factorName, factorName) ||
-                other.factorName == factorName) &&
-            (identical(other.corporate, corporate) ||
-                other.corporate == corporate) &&
+            (identical(other.factorName, factorName) || other.factorName == factorName) &&
+            (identical(other.corporate, corporate) || other.corporate == corporate) &&
             (identical(other.brand, brand) || other.brand == brand) &&
-            (identical(other.creditDebit, creditDebit) ||
-                other.creditDebit == creditDebit) &&
-            (identical(other.updatedAt, updatedAt) ||
-                other.updatedAt == updatedAt) &&
+            (identical(other.creditDebit, creditDebit) || other.creditDebit == creditDebit) &&
+            (identical(other.updatedAt, updatedAt) || other.updatedAt == updatedAt) &&
             (identical(other.changed, changed) || other.changed == changed) &&
             (identical(other.remarks, remarks) || other.remarks == remarks));
   }
@@ -109,15 +104,14 @@ class _CardBinModel implements CardBinModel {
     @JsonKey(name: '발급사') required this.cardIssuer,
     @JsonKey(name: 'BIN') required this.bin,
     @JsonKey(name: '전표인자명') required this.factorName,
-    @JsonKey(name: '개인/법인') required this.corporate,
-    @JsonKey(name: '브랜드') required this.brand,
-    @JsonKey(name: '신용/체크') required this.creditDebit,
+    @JsonKey(name: '개인/법인') this.corporate = '개인',
+    @JsonKey(name: '브랜드') this.brand = '로컬',
+    @JsonKey(name: '신용/체크') this.creditDebit = '신용',
     @JsonKey(name: '등록/수정일자') this.updatedAt,
     @JsonKey(name: '변경사항') this.changed,
     @JsonKey(name: '비고') this.remarks,
   });
-  factory _CardBinModel.fromJson(Map<String, dynamic> json) =>
-      _$CardBinModelFromJson(json);
+  factory _CardBinModel.fromJson(Map<String, dynamic> json) => _$CardBinModelFromJson(json);
 
   /// 순번
   @override
@@ -180,18 +174,13 @@ class _CardBinModel implements CardBinModel {
         (other.runtimeType == runtimeType &&
             other is _CardBinModel &&
             (identical(other.id, id) || other.id == id) &&
-            (identical(other.cardIssuer, cardIssuer) ||
-                other.cardIssuer == cardIssuer) &&
+            (identical(other.cardIssuer, cardIssuer) || other.cardIssuer == cardIssuer) &&
             (identical(other.bin, bin) || other.bin == bin) &&
-            (identical(other.factorName, factorName) ||
-                other.factorName == factorName) &&
-            (identical(other.corporate, corporate) ||
-                other.corporate == corporate) &&
+            (identical(other.factorName, factorName) || other.factorName == factorName) &&
+            (identical(other.corporate, corporate) || other.corporate == corporate) &&
             (identical(other.brand, brand) || other.brand == brand) &&
-            (identical(other.creditDebit, creditDebit) ||
-                other.creditDebit == creditDebit) &&
-            (identical(other.updatedAt, updatedAt) ||
-                other.updatedAt == updatedAt) &&
+            (identical(other.creditDebit, creditDebit) || other.creditDebit == creditDebit) &&
+            (identical(other.updatedAt, updatedAt) || other.updatedAt == updatedAt) &&
             (identical(other.changed, changed) || other.changed == changed) &&
             (identical(other.remarks, remarks) || other.remarks == remarks));
   }
