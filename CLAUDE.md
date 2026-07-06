@@ -43,22 +43,24 @@ Defined in `.vscode/settings.json` under `gitlens.ai.generateCommitMessage.custo
 
 ## Architecture Overview
 
-The package has **two distinct layers** that are not yet fully wired together. Understanding this split is critical before making changes.
+The package has **two layers**, wired together by `CreditCardTypeDetectorKorean`. Understanding this split is critical before making changes.
 
-### Layer 1 — International vendor detection (`lib/types/`)
+### Layer 1 — International vendor detection (upstream dependency)
 
-A port/adaptation of the `credit_card_type_detector` package logic:
+International brand detection is provided by the `credit_card_type_detector` package (a direct dependency), not by code in this repo. The barrel re-exports the two symbols this package builds on:
 
-- `types/constants.dart` — Card brand type codes (`TYPE_VISA`, etc.), BIN prefix patterns (`cardNumPatternDefaults`), valid card number lengths (`ccNumLengthDefaults`), and security code defaults (`ccSecurityCodeDefaults`). All internationally-scoped data lives here.
-- `types/models.dart` — Data classes: `CreditCardType` (brand + patterns + lengths + security code), `Pattern` (prefix or prefix-range), `SecurityCode` (CVV/CVC/CID variants), `CardCollection` (map wrapper with add/update/remove).
-- `types/detector.dart` — Top-level functions: `detectCCType(String)` matches a card number against `cardNumPatternDefaults` and returns a sorted list of `CreditCardType` by match strength. Also exposes `addCardType`, `updateCardType`, `removeCardType`, `resetCardTypes` for runtime customization of the card collection. **None of these are currently exported from the package** (not in `lib/index.dart`).
+- `detectCCType(String)` — matches a card number against the upstream BIN patterns and returns a list of `CreditCardType` sorted by match strength.
+- `CreditCardType` — the upstream brand model (brand + patterns + lengths + security code).
+
+There is **no `lib/types/` directory** in this repo; the upstream logic lives in the dependency and is surfaced through `detectCard()` (see Layer 2).
 
 ### Layer 2 — Korean domestic BIN database (`lib/src/`)
 
 - `src/card_bin_constants.dart` — Korean card issuer name constants (`CARD_ISSUER_SHINHAN`, etc.) and Korean brand label constants (`TYPE_LOCAL_KO = '로컬'`, `TYPE_VISA_KO = '비자'`, etc.), plus card category constants (개인/법인, 신용/체크/기프트).
 - `src/card_bin_model.dart` — `CardBinModel`: flat data class mapping one row of the BIN CSV. Fields: `id`, `cardIssuer`, `bin`, `factorName`, `corporate`, `brand`, `creditDebit`, plus optional `updatedAt`/`changed`/`remarks`. Has `fromJson` / `toJson`.
-- `src/data.dart` — **Generated file, ~30k lines.** A `final data = [...]` list of `CardBinModel` instances, one per BIN row from the source CSV. Do not hand-edit. Regenerate from the CSV when the source data changes.
-- `src/card_bin_detector.dart` — Currently an **empty placeholder class** (`CreditCardTypeDetectorKorean`). This is where the Korean BIN lookup logic should be implemented, bridging `data.dart` with the detection API.
+- `src/data.dart` — **Generated file (tens of thousands of lines).** A `const data = [...]` list of `CardBinModel` instances, one per BIN row from the source CSV. Do not hand-edit. Regenerate from the CSV when the source data changes.
+- `src/card_detection_result.dart` — `CardDetectionResult`: combines a Korean BIN lookup (`koreanBins`) with the international brand result (`internationalTypes`) for a single card number.
+- `src/card_bin_detector.dart` — `CreditCardTypeDetectorKorean`: the implemented detector. Builds lazy indexes over `data` (by BIN, issuer, brand, card type, corporate) and exposes `detect()` (longest-prefix BIN lookup), `detectCard()` (Korean + international combined), and `findByIssuer` / `findByBrand` / `findByCardType` / `findByCorporate`.
 
 ### Source data
 
@@ -66,13 +68,13 @@ A port/adaptation of the `credit_card_type_detector` package logic:
 
 ### Public API surface
 
-`lib/index.dart` currently only exports `src/card_bin_detector.dart`. The `types/` layer functions (`detectCCType`, etc.) and the `data` list are not part of the public API yet. When wiring things together, be intentional about what gets exported.
+The public entry point is `lib/credit_card_type_detector_korean.dart` (there is no `lib/index.dart`). It exports the Korean layer — `card_bin_constants.dart`, `card_bin_detector.dart`, `card_bin_model.dart`, `card_detection_result.dart` — and re-exports `detectCCType` and `CreditCardType` from the upstream `credit_card_type_detector` package. The `data` list is intentionally **not** exported.
 
 ## Linting & Analysis
 
 - Strict analysis via `very_good_analysis` with `strict-casts`, `strict-inference`, `strict-raw-types` all enabled.
-- Several rules are explicitly ignored in `analysis_options.yaml`: `avoid_equals_and_hash_code_on_mutable_classes`, `constant_identifier_names`, `directives_ordering`, `lines_longer_than_80_chars`, `public_member_api_docs`.
-- Line length limit is 120 chars (VSCode setting), not the default 80.
+- Several analyzer diagnostics are downgraded to ignore in `analysis_options.yaml` (under `analyzer.errors`): `avoid_types_on_closure_parameters`, `constant_identifier_names`, `directives_ordering`, `document_ignores`, `lines_longer_than_80_chars`, `use_setters_to_change_properties`.
+- Line length is 120 chars — set in both `analysis_options.yaml` (`formatter.page_width: 120`) and `.vscode/settings.json` (`dart.lineLength: 120`), not the default 80.
 - `import_sorter` is active — imports are grouped and prefixed with emoji comments (e.g., `// 📦 Package imports:`, `// 🌎 Project imports:`). Run the sorter after adding imports.
 
 ## CI
@@ -85,6 +87,7 @@ GitHub Actions (`.github/workflows/main.yaml`) runs on push/PR to `main`:
 
 ## Known state / things to be aware of
 
-- `CreditCardTypeDetectorKorean` class is a placeholder with no logic. The core work of this package — looking up a card number against the Korean BIN database and returning issuer info — has not been implemented yet.
-- `types/detector.dart` operates on a module-level mutable `_customCards` variable (cloned from `_defaultCCTypes` at load time). This is stateful; `resetCardTypes()` restores defaults.
-- `CreditCardType.hipercard()` named constructor is a copy-paste bug: it sets `type = TYPE_HIPER` instead of `TYPE_HIPERCARD` (same for `prettyType`, `lengths`, `patterns`, `securityCode`). Same issue exists in the upstream package.
+- `CreditCardTypeDetectorKorean` is fully implemented (BIN lookup + query helpers). The indexes over `data` are built lazily at first use and cached for the process lifetime.
+- `detect()` matches by **longest prefix first** — 8-digit BINs win over overlapping 6-digit BINs. Input is sanitized (all non-digits stripped) and must be ≥ 6 digits.
+- All list results are returned via `List.unmodifiable`, so callers cannot mutate the package's internal index buffers.
+- Upstream-dependency caveats (in `credit_card_type_detector`, not this repo): `detectCCType` keeps a mutable module-level card collection with `addCardType` / `resetCardTypes` mutators — this package re-exports **only** `detectCCType` and `CreditCardType`, not those mutators. Also, `CreditCardType.hipercard()` sets `type = TYPE_HIPER` instead of `TYPE_HIPERCARD` (an upstream copy-paste bug).
