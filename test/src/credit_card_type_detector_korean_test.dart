@@ -154,6 +154,21 @@ void main() {
         expect(result.koreanBins, isEmpty);
         expect(result.internationalTypes, isEmpty);
       });
+
+      test('value equality — same card number yields equal results', () {
+        // Domestic-only BIN 200001: internationalTypes is empty on both sides,
+        // so equality rests on CardBinModel's value equality.
+        final a = detector.detectCard('2000011234567890');
+        final b = detector.detectCard('2000011234567890');
+        expect(a, equals(b));
+        expect(a.hashCode, equals(b.hashCode));
+      });
+
+      test('value equality — different card numbers are not equal', () {
+        final domestic = detector.detectCard('2000011234567890');
+        final unknown = detector.detectCard('0000001234567890');
+        expect(domestic, isNot(equals(unknown)));
+      });
     });
 
     // ─── findBy* query methods ──────────────────────────────────────────────
