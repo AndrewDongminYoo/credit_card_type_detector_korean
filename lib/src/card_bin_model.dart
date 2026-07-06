@@ -25,13 +25,13 @@ sealed class CardBinModel with _$CardBinModel {
     @JsonKey(name: '전표인자명') required String factorName,
 
     /// 개인/법인
-    @JsonKey(name: '개인/법인') required String corporate,
+    @JsonKey(name: '개인/법인') @Default('개인') String corporate,
 
     /// 브랜드
-    @JsonKey(name: '브랜드') required String brand,
+    @JsonKey(name: '브랜드') @Default('로컬') String brand,
 
     /// 신용/체크
-    @JsonKey(name: '신용/체크') required String creditDebit,
+    @JsonKey(name: '신용/체크') @Default('신용') String creditDebit,
 
     /// 등록/수정일자
     @JsonKey(name: '등록/수정일자') String? updatedAt,
