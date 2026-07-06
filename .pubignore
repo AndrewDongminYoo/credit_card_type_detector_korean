@@ -1,0 +1,21 @@
+# Files excluded from the published package (not needed by consumers).
+#
+# NOTE: a .pubignore overrides .gitignore in the same directory for `pub
+# publish`, so non-dot paths that .gitignore excludes must be repeated here
+# or they would leak into the published archive.
+build/
+coverage/
+pubspec.lock
+
+# BIN source CSV — only used to regenerate lib/src/data.dart, which is
+# already bundled. Shipping it would nearly double the download size.
+*.csv
+
+# Agent / planning docs
+CLAUDE.md
+AGENTS.md
+PLAN.md
+
+# Dev tooling config and artifacts
+cspell.json
+coverage_badge.svg
