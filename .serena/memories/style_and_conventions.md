@@ -3,8 +3,8 @@
 Linting/analysis:
 
 - Uses `very_good_analysis` with strict casts/inference/raw-types enabled.
-- `analysis_options.yaml` ignores: `avoid_equals_and_hash_code_on_mutable_classes`, `avoid_types_on_closure_parameters`, `constant_identifier_names`, `directives_ordering`, `lines_longer_than_80_chars`, `public_member_api_docs`, `use_setters_to_change_properties`.
-- Line length target is 120 (VS Code setting).
+- `analysis_options.yaml` downgrades these to ignore (under `analyzer.errors`): `avoid_types_on_closure_parameters`, `constant_identifier_names`, `directives_ordering`, `document_ignores`, `lines_longer_than_80_chars`, `use_setters_to_change_properties`.
+- Line length is 120 (`formatter.page_width` in `analysis_options.yaml`; `dart.lineLength` in VS Code).
 
 Imports:
 

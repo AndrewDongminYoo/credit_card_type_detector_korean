@@ -1,24 +1,23 @@
 # Architecture
 
-Two layers are present and not yet fully wired together:
+Two layers, wired together by `CreditCardTypeDetectorKorean`:
 
-1. International vendor detection (`lib/types/`)
+1. International vendor detection (upstream dependency)
 
-- Port/adaptation of `credit_card_type_detector`.
-- `types/constants.dart` defines brand codes, BIN prefix patterns, length defaults, security code defaults.
-- `types/models.dart` defines `CreditCardType`, `Pattern`, `SecurityCode`, `CardCollection`.
-- `types/detector.dart` exposes `detectCCType(String)` and functions to add/update/remove/reset card types.
+- Provided by the `credit_card_type_detector` package, not by code in this repo — there is no `lib/types/` directory.
+- The barrel re-exports `detectCCType(String)` and `CreditCardType` from that dependency.
 
 2. Korean domestic BIN database (`lib/src/`)
 
 - `card_bin_constants.dart`: issuer/brand/category constants (Korean labels)
-- `card_bin_model.dart`: `CardBinModel` with CSV/JSON field mapping (Korean column names)
-- `data.dart`: generated list of `CardBinModel` rows from the CSV (do not hand-edit)
-- `card_bin_detector.dart`: placeholder for higher-level BIN lookup logic
+- `card_bin_model.dart`: `CardBinModel` (freezed) with CSV/JSON field mapping (Korean column names)
+- `data.dart`: generated `const data` list of `CardBinModel` rows from the CSV (do not hand-edit)
+- `card_bin_detector.dart`: `CreditCardTypeDetectorKorean` — implemented. Lazy indexes over `data`; `detect()` (longest-prefix BIN lookup), `detectCard()` (Korean + international), `findByIssuer` / `findByBrand` / `findByCardType` / `findByCorporate`.
+- `card_detection_result.dart`: `CardDetectionResult` (`koreanBins` + `internationalTypes`).
 
 Public API:
 
-- `lib/index.dart` currently exports only `src/card_bin_detector.dart`.
+- The barrel `lib/credit_card_type_detector_korean.dart` exports the Korean layer and re-exports `detectCCType` / `CreditCardType`. There is no `lib/index.dart`. The `data` list is not exported.
 
 Data rules:
 
