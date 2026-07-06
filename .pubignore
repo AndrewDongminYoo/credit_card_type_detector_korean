@@ -3,6 +3,7 @@
 # NOTE: a .pubignore overrides .gitignore in the same directory for `pub
 # publish`, so non-dot paths that .gitignore excludes must be repeated here
 # or they would leak into the published archive.
+build/
 coverage/
 pubspec.lock
 
