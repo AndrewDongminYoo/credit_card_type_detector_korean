@@ -79,7 +79,7 @@ root and overwrites `lib/src/data.dart`. You can also pass the path
 explicitly:
 
 ```sh
-dart tool/generate_data.dart path/to/신용카드\ BIN_Table\(20260115\).xls\ -\ 상세.csv
+dart tool/generate_data.dart path/to/신용카드\ BIN_Table\(20260428\).xls\ -\ 상세.csv
 ```
 
 ---

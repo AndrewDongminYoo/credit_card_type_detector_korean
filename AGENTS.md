@@ -20,7 +20,7 @@ There are two layers that are not yet wired together: international vendor detec
 
 ## **Data Source**
 
-The authoritative BIN table is `신용카드 BIN_Table(20260115).xls - 상세.csv` at repo root. `lib/src/data.dart` should reflect this file.
+The authoritative BIN table is `신용카드 BIN_Table(20260428).xls - 상세.csv` at repo root. `lib/src/data.dart` should reflect this file.
 `lib/src/data.dart` is generated; do not hand-edit it.
 
 - Keep `bin` as a string to preserve leading zeros.

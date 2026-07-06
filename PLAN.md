@@ -7,7 +7,7 @@ This package bridges two layers that already exist in the codebase but are **not
 | Layer                         | Location                                                         | Status                                                |
 | ----------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
 | International brand detection | `lib/types/` (`detectCCType`, `CreditCardType`, patterns)        | Implemented, **not exported**                         |
-| Korean BIN database           | `lib/src/` (`data.dart` — 3,612 rows, `CardBinModel`, constants) | Data ready, **detector is empty placeholder**         |
+| Korean BIN database           | `lib/src/` (`data.dart` — 3,643 rows, `CardBinModel`, constants) | Data ready, **detector is empty placeholder**         |
 | Public API                    | `lib/index.dart`                                                 | Only exports the empty `CreditCardTypeDetectorKorean` |
 
 The core task is to implement `CreditCardTypeDetectorKorean` so that, given a card number, it performs a BIN-prefix lookup against the Korean database **and** surfaces the international brand detection result alongside it.
@@ -16,7 +16,7 @@ The core task is to implement `CreditCardTypeDetectorKorean` so that, given a ca
 
 ## Phase 1 — BIN Lookup Index
 
-**Goal:** Build an efficient, pre-indexed data structure over `data.dart` so that BIN lookups are O(1) instead of O(n) linear scans across 3,612 rows.
+**Goal:** Build an efficient, pre-indexed data structure over `data.dart` so that BIN lookups are O(1) instead of O(n) linear scans across 3,643 rows.
 
 ### What to do
 
