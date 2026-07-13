@@ -7,3 +7,4 @@ export 'src/card_bin_constants.dart';
 export 'src/card_bin_detector.dart';
 export 'src/card_bin_model.dart';
 export 'src/card_detection_result.dart';
+export 'src/dataset_version.dart';

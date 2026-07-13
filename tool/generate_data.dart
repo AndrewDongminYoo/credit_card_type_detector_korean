@@ -44,8 +44,11 @@ void main(List<String> args) {
 
   File('$projectRoot/lib/src/data.dart').writeAsStringSync(output);
 
+  final version = _datasetVersion(csvPath);
+  File('$projectRoot/lib/src/dataset_version.dart').writeAsStringSync(_buildVersionFile(version));
+
   // ignore: avoid_print
-  print('Generated ${entries.length} entries → $projectRoot/lib/src/data.dart');
+  print('Generated ${entries.length} entries (dataset $version) → $projectRoot/lib/src/');
 }
 
 // ---------------------------------------------------------------------------
@@ -115,29 +118,45 @@ String _toCardBinModel(List<String> fields) {
   // 0: 순번   1: 발급사   2: BIN   3: 전표인자명
   // 4: 개인/법인   5: 브랜드   6: 신용/체크
   // 7: 등록/수정일자   8: 변경사항   9: 비고
-  final sb = StringBuffer()
-    ..write('  CardBinModel(\n')
-    ..write('    id: ${int.parse(fields[0].trim())},\n')
-    ..write("    cardIssuer: '${_dartString(fields[1].trim())}',\n")
-    ..write("    bin: '${_dartString(fields[2].trim())}',\n")
-    ..write("    factorName: '${_dartString(fields[3].trim())}',\n")
-    ..write("    corporate: '${_dartString(fields[4].trim())}',\n")
-    ..write("    brand: '${_dartString(fields[5].trim())}',\n")
-    ..write("    creditDebit: '${_dartString(fields[6].trim())}',\n");
+  //
+  // Each entry is emitted on a single line; `dart format` (run after
+  // generation) wraps only the few entries that exceed the page width. This
+  // keeps the generated file byte-identical to the committed one so the CI
+  // integrity gate can regenerate and diff it.
+  final args = <String>[
+    'id: ${int.parse(fields[0].trim())}',
+    "cardIssuer: '${_dartString(fields[1].trim())}'",
+    "bin: '${_dartString(fields[2].trim())}'",
+    "factorName: '${_dartString(fields[3].trim())}'",
+  ];
+
+  // Fields backed by a model-level @Default — emit only when the value differs
+  // from the default, matching the compact form committed to the repo.
+  final corporate = fields[4].trim();
+  if (corporate.isNotEmpty && corporate != '개인') {
+    args.add("corporate: '${_dartString(corporate)}'");
+  }
+  final brand = fields[5].trim();
+  if (brand.isNotEmpty && brand != '로컬') {
+    args.add("brand: '${_dartString(brand)}'");
+  }
+  final creditDebit = fields[6].trim();
+  if (creditDebit.isNotEmpty && creditDebit != '신용') {
+    args.add("creditDebit: '${_dartString(creditDebit)}'");
+  }
 
   // Optional fields — only emit when non-empty.
   if (fields.length > 7 && fields[7].trim().isNotEmpty) {
-    sb.write("    updatedAt: '${_dartString(fields[7].trim())}',\n");
+    args.add("updatedAt: '${_dartString(fields[7].trim())}'");
   }
   if (fields.length > 8 && fields[8].trim().isNotEmpty) {
-    sb.write("    changed: '${_dartString(fields[8].trim())}',\n");
+    args.add("changed: '${_dartString(fields[8].trim())}'");
   }
   if (fields.length > 9 && fields[9].trim().isNotEmpty) {
-    sb.write("    remarks: '${_dartString(fields[9].trim())}',\n");
+    args.add("remarks: '${_dartString(fields[9].trim())}'");
   }
 
-  sb.write('  )');
-  return sb.toString();
+  return '  CardBinModel(${args.join(', ')})';
 }
 
 String _buildFile(List<String> entries) {
@@ -165,6 +184,36 @@ String _buildFile(List<String> entries) {
   }
 
   sb.write('];\n');
+  return sb.toString();
+}
+
+/// Extract the dataset release date (`YYYY-MM-DD`) from the CSV file name.
+///
+/// The KICC export is named like `신용카드 BIN_Table(20260428).xls - 상세.csv`,
+/// carrying an 8-digit `YYYYMMDD` stamp that identifies the dataset revision.
+String _datasetVersion(String csvPath) {
+  final name = _pathBasename(csvPath);
+  final match = RegExp(r'(\d{4})(\d{2})(\d{2})').firstMatch(name);
+  if (match == null) {
+    _exit(
+      'Could not extract a YYYYMMDD date from the CSV file name: $name\n'
+      'Expected a name like "신용카드 BIN_Table(20260428).xls - 상세.csv".',
+    );
+  }
+  return '${match.group(1)}-${match.group(2)}-${match.group(3)}';
+}
+
+/// Render `lib/src/dataset_version.dart` for the given [version].
+String _buildVersionFile(String version) {
+  final sb = StringBuffer()
+    ..write('/// The release date of the bundled Korean BIN dataset, in ISO 8601\n')
+    ..write('/// (`YYYY-MM-DD`) form.\n')
+    ..write('///\n')
+    ..write('/// **This file is auto-generated** by `dart tool/generate_data.dart`,\n')
+    ..write('/// derived from the source CSV file name. Do not edit by hand.\n')
+    ..write('///\n')
+    ..write('/// Read this to tell how current the bundled copy of the BIN table is.\n')
+    ..write("const datasetVersion = '$version';\n");
   return sb.toString();
 }
 
@@ -218,7 +267,7 @@ String _pathBasename(String p) {
   return p.contains(sep) ? p.substring(p.lastIndexOf(sep) + 1) : p;
 }
 
-void _exit(String message) {
+Never _exit(String message) {
   stderr.writeln('Error: $message');
   exit(1);
 }

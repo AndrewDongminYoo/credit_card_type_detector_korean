@@ -450,4 +450,14 @@ void main() {
       });
     });
   });
+
+  group('datasetVersion', () {
+    test('is exposed and formatted as an ISO 8601 date', () {
+      expect(datasetVersion, matches(RegExp(r'^\d{4}-\d{2}-\d{2}$')));
+    });
+
+    test('matches the bundled dataset revision', () {
+      expect(datasetVersion, '2026-04-28');
+    });
+  });
 }

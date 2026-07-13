@@ -44,6 +44,11 @@ void main() {
   final visaCards = detector.findByBrand(TYPE_VISA_KO);
   final creditCards = detector.findByCardType(CREDIT_CARD);
   final corporate = detector.findByCorporate(CARD_TYPE_CORPORATE);
+
+  // ── Dataset freshness ─────────────────────────────────────────
+  // ISO 8601 release date of the bundled BIN table, so callers can tell how
+  // current their copy is.
+  print('BIN dataset revision: $datasetVersion'); // e.g. 2026-04-28
 }
 ```
 
