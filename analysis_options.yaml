@@ -15,5 +15,5 @@ analyzer:
     strict-raw-types: true
 
 formatter:
-  page_width: 120
+  page_width: 160
   trailing_commas: preserve

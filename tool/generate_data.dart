@@ -194,11 +194,7 @@ String _projectRoot() {
 /// NFC literals written in source code.  We therefore match only on the ASCII
 /// portion of the expected name (`BIN_Table`) together with the `.csv` extension.
 String _findCsv(String root) {
-  final csvFiles = Directory(root)
-      .listSync()
-      .whereType<File>()
-      .where((f) => _pathBasename(f.path).contains('BIN_Table') && f.path.endsWith('.csv'))
-      .toList();
+  final csvFiles = Directory(root).listSync().whereType<File>().where((f) => _pathBasename(f.path).contains('BIN_Table') && f.path.endsWith('.csv')).toList();
 
   if (csvFiles.isEmpty) {
     _exit(
