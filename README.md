@@ -4,12 +4,9 @@
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 [![License: BSD-3-Clause][license_badge]][license_link]
 
-Korean domestic credit-card BIN detector built on top of
-[`credit_card_type_detector`](https://pub.dev/packages/credit_card_type_detector).
+Korean domestic credit-card BIN detector built on top of [`credit_card_type_detector`](https://pub.dev/packages/credit_card_type_detector).
 
-Given a card number it returns matching entries from the official Korean BIN
-table (신용카드 BIN_Table), optionally combined with the international brand
-detected by the upstream package.
+Given a card number it returns matching entries from the official Korean BIN table (신용카드 BIN_Table), optionally combined with the international brand detected by the upstream package.
 
 ## Installation 💻
 
@@ -54,16 +51,13 @@ void main() {
 
 ## Regenerating the BIN dataset 🔄
 
-The bundled BIN data (`lib/src/data.dart`) is generated from the upstream CSV
-published by **KICC** (Korea International Card & Commerce).
+The bundled BIN data (`lib/src/data.dart`) is generated from the upstream CSV published by **KICC** (Korea International Card & Commerce).
 
 ### Where to download the CSV
 
-1. Visit the KICC VAN support page:
-   [https://www.kicc.co.kr/kr/support/pds/van/pds_van_list.jsp?s_menu=4&t_menu=1](https://www.kicc.co.kr/kr/support/pds/van/pds_van_list.jsp?s_menu=4&t_menu=1)
+1. Visit the [KICC VAN support page](https://www.kicc.co.kr/kr/support/pds/van/pds_van_list.jsp?s_menu=4&t_menu=1):
 2. Find the latest **신용카드 BIN_Table … .xls** entry and download it.
-3. Open the `.xls` file in Excel (or a compatible tool) and export the
-   **상세** sheet as a **CSV (UTF-8)** file.
+3. Open the `.xls` file in Excel (or a compatible tool) and export the **상세** sheet as a **CSV (UTF-8)** file.
 4. Place the exported `.csv` in the project root.
 
 ### Running the generator
@@ -75,8 +69,7 @@ dart tool/generate_data.dart
 ```
 
 The script auto-discovers any file matching `*BIN_Table*.csv` in the project
-root and overwrites `lib/src/data.dart`. You can also pass the path
-explicitly:
+root and overwrites `lib/src/data.dart`. You can also pass the path explicitly:
 
 ```sh
 dart tool/generate_data.dart path/to/신용카드\ BIN_Table\(20260428\).xls\ -\ 상세.csv
