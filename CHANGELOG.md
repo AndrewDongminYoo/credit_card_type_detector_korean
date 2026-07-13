@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.2.0
+
+- Add `datasetVersion` — the release date (ISO 8601) of the bundled BIN table, exported from the package so callers can tell how current their copy is.
+- Generate `datasetVersion` from the source CSV file name in `tool/generate_data.dart`.
+- Add a CI integrity gate that regenerates the bundled data from the source CSV and fails on drift, so `lib/src/data.dart` can no longer silently diverge from its source.
+
 ## 0.1.1
 
 - Update the bundled BIN dataset to the KICC 신용카드 BIN_Table (2026-04) table: 3 643 entries (was 3 612).
