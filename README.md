@@ -74,11 +74,19 @@ dart tool/generate_data.dart
 ```
 
 The script auto-discovers any file matching `*BIN_Table*.csv` in the project
-root and overwrites `lib/src/data.dart`. You can also pass the path explicitly:
+root and overwrites `lib/src/data.dart`. It also writes `lib/src/dataset_version.dart`, stamping the `datasetVersion` constant with the `YYYYMMDD` date parsed from the CSV file name. You can also pass the path explicitly:
 
 ```sh
 dart tool/generate_data.dart path/to/신용카드\ BIN_Table\(20260428\).xls\ -\ 상세.csv
 ```
+
+After regenerating, format the output so it matches what CI expects:
+
+```sh
+dart format lib/src/data.dart lib/src/dataset_version.dart
+```
+
+CI regenerates these two files from the committed CSV and fails if they differ from what is checked in, so the generated data can never silently drift from its source.
 
 ---
 

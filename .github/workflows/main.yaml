@@ -30,4 +30,30 @@ jobs:
     with:
       check_ignore: true
       coverage_excludes: "**/*.g.dart **/*.freezed.dart"
+      format_line_length: 160
       min_coverage: 100
+
+  # Integrity gate: the bundled BIN dataset (lib/src/data.dart) and its version
+  # stamp (lib/src/dataset_version.dart) are generated from the source CSV.
+  # Regenerate them here and fail if they drift from what is committed — this
+  # catches hand-edits to the generated files and stale version stamps.
+  verify_generated_data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+
+      - name: Install dependencies
+        run: dart pub get
+
+      - name: Regenerate dataset from source CSV
+        run: dart run tool/generate_data.dart
+
+      - name: Format generated files
+        run: dart format lib/src/data.dart lib/src/dataset_version.dart --line-length 160
+
+      - name: Fail on drift between CSV and committed generated files
+        run: git diff --exit-code -- lib/src/data.dart lib/src/dataset_version.dart
