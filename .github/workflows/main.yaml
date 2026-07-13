@@ -23,7 +23,7 @@ jobs:
     with:
       includes: "**/*.md"
       modified_files_only: false
-      config_file: cspell.json
+      config: cspell.json
 
   build:
     uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/dart_package.yml@v1
