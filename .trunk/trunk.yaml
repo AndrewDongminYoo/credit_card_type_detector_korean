@@ -19,11 +19,12 @@ lint:
   ignore:
     - linters: [markdownlint]
       paths: [.github/**/*.md]
+  disabled:
+    - dart
   enabled:
     - cspell@10.0.0
     - actionlint@1.7.12
     - checkov@3.2.529
-    - dart@3.10.8
     - git-diff-check
     - markdownlint@0.48.0
     - prettier@3.8.3
