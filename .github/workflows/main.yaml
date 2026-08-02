@@ -19,17 +19,17 @@ env:
 
 jobs:
   semantic_pull_request:
-    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/semantic_pull_request.yml@v1
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/semantic_pull_request.yml@c2e27845f65775943bc310b3ab89e5c5432b8d4d # v1.19.2
 
   spell-check:
-    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/spell_check.yml@v1
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/spell_check.yml@c2e27845f65775943bc310b3ab89e5c5432b8d4d # v1.19.2
     with:
       includes: "**/*.md"
       modified_files_only: false
       config: cspell.json
 
   build:
-    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/dart_package.yml@v1
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/dart_package.yml@c2e27845f65775943bc310b3ab89e5c5432b8d4d # v1.19.2
     with:
       check_ignore: true
       coverage_excludes: "**/*.g.dart **/*.freezed.dart"
@@ -43,9 +43,9 @@ jobs:
   verify_generated_data:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: dart-lang/setup-dart@v1
+      - uses: dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260 # v1.7.2
         with:
           sdk: stable
 
