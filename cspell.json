@@ -1,18 +1,12 @@
 {
   "version": "0.2",
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
-  "dictionaries": ["vgv_allowed", "vgv_forbidden", "card-specific"],
+  "import": [
+    "https://raw.githubusercontent.com/AndrewDongminYoo/quality-configs/v0.8.0/configs/cspell.config.yaml",
+    "https://raw.githubusercontent.com/AndrewDongminYoo/quality-configs/v0.8.0/configs/cspell/vgv.config.yaml"
+  ],
+  "dictionaries": ["card-specific"],
   "dictionaryDefinitions": [
-    {
-      "name": "vgv_allowed",
-      "path": "https://raw.githubusercontent.com/verygoodopensource/very_good_dictionaries/main/allowed.txt",
-      "description": "Allowed VGV Spellings"
-    },
-    {
-      "name": "vgv_forbidden",
-      "path": "https://raw.githubusercontent.com/verygoodopensource/very_good_dictionaries/main/forbidden.txt",
-      "description": "Forbidden VGV Spellings"
-    },
     {
       "name": "card-specific",
       "path": ".cspell/card-specific.txt",
