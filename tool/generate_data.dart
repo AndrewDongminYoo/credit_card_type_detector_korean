@@ -189,7 +189,7 @@ String _buildFile(List<String> entries) {
 
 /// Extract the dataset release date (`YYYY-MM-DD`) from the CSV file name.
 ///
-/// The KICC export is named like `신용카드 BIN_Table(20260428).xls - 상세.csv`,
+/// The KICC export is named like `신용카드 BIN_Table(20260115).xls - 상세.csv`,
 /// carrying an 8-digit `YYYYMMDD` stamp that identifies the dataset revision.
 String _datasetVersion(String csvPath) {
   final name = _pathBasename(csvPath);
@@ -197,7 +197,7 @@ String _datasetVersion(String csvPath) {
   if (match == null) {
     _exit(
       'Could not extract a YYYYMMDD date from the CSV file name: $name\n'
-      'Expected a name like "신용카드 BIN_Table(20260428).xls - 상세.csv".',
+      'Expected a name like "신용카드 BIN_Table(20260115).xls - 상세.csv".',
     );
   }
   return '${match.group(1)}-${match.group(2)}-${match.group(3)}';

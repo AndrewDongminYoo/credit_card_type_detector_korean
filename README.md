@@ -48,7 +48,7 @@ void main() {
   // ── Dataset freshness ─────────────────────────────────────────
   // ISO 8601 release date of the bundled BIN table, so callers can tell how
   // current their copy is.
-  print('BIN dataset revision: $datasetVersion'); // e.g. 2026-04-28
+  print('BIN dataset revision: $datasetVersion'); // e.g. 2026-01-15
 }
 ```
 
@@ -56,13 +56,13 @@ void main() {
 
 ## Regenerating the BIN dataset 🔄
 
-The bundled BIN data (`lib/src/data.dart`) is generated from the upstream CSV published by **KICC** (Korea International Card & Commerce).
+The bundled BIN data (`lib/src/data.dart`) is generated from a CSV export of the upstream Excel workbook published by **KICC** (Korea Information & Communications Co., Ltd.).
 
 ### Where to download the CSV
 
-1. Visit the [KICC VAN support page](https://www.kicc.co.kr/kr/support/pds/van/pds_van_list.jsp?s_menu=4&t_menu=1):
-2. Find the latest **신용카드 BIN_Table … .xls** entry and download it.
-3. Open the `.xls` file in Excel (or a compatible tool) and export the **상세** sheet as a **CSV (UTF-8)** file.
+1. Visit the [KICC data page](https://www.kicc.co.kr/cs/data?cid=14&rootCid=2&page=1).
+2. Find the current published **신용카드 BIN_Table …** entry and download its `.zip` attachment.
+3. Extract the `.xls` workbook, open it in Excel (or a compatible tool), and export the **상세** sheet as a **CSV (UTF-8)** file.
 4. Place the exported `.csv` in the project root.
 
 ### Running the generator
@@ -77,7 +77,7 @@ The script auto-discovers any file matching `*BIN_Table*.csv` in the project
 root and overwrites `lib/src/data.dart`. It also writes `lib/src/dataset_version.dart`, stamping the `datasetVersion` constant with the `YYYYMMDD` date parsed from the CSV file name. You can also pass the path explicitly:
 
 ```sh
-dart tool/generate_data.dart path/to/신용카드\ BIN_Table\(20260428\).xls\ -\ 상세.csv
+dart tool/generate_data.dart path/to/신용카드\ BIN_Table\(20260115\).xls\ -\ 상세.csv
 ```
 
 After regenerating, format the output so it matches what CI expects:

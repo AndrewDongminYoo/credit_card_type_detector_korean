@@ -64,7 +64,7 @@ There is **no `lib/types/` directory** in this repo; the upstream logic lives in
 
 ### Source data
 
-`신용카드 BIN_Table(20260428).xls - 상세.csv` — The upstream BIN table (3,643 rows) from which `src/data.dart` was generated. CSV headers (Korean): `순번, 발급사, BIN, 전표인자명, 개인/법인, 브랜드, 신용/체크, 등록/수정일자, 변경사항, 비고`.
+`신용카드 BIN_Table(20260115).xls - 상세.csv` — The upstream BIN table (3,612 rows) from which `src/data.dart` was generated. CSV headers (Korean): `순번, 발급사, BIN, 전표인자명, 개인/법인, 브랜드, 신용/체크, 등록/수정일자, 변경사항, 비고`.
 
 ### Public API surface
 

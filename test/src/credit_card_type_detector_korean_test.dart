@@ -457,7 +457,7 @@ void main() {
     });
 
     test('matches the bundled dataset revision', () {
-      expect(datasetVersion, '2026-04-28');
+      expect(datasetVersion, '2026-01-15');
     });
   });
 }

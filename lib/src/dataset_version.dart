@@ -5,4 +5,4 @@
 /// derived from the source CSV file name. Do not edit by hand.
 ///
 /// Read this to tell how current the bundled copy of the BIN table is.
-const datasetVersion = '2026-04-28';
+const datasetVersion = '2026-01-15';
