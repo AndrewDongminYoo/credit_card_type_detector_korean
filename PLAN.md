@@ -228,3 +228,12 @@ Phase 6 (Data regen tooling) — independent, can run at any time
 - BIN values are stored as strings to preserve leading zeros. Do not cast to `int` during indexing.
 - The `types/` layer's mutable `_customCards` state (`resetCardTypes()`, etc.) is orthogonal to Korean BIN lookup. Do not entangle them.
 - Strict analysis is enabled (`very_good_analysis`). Every new symbol should compile cleanly under strict casts/inference/raw-types before moving to the next phase.
+
+## Reconciliation (2026-09-23)
+
+This plan is a record of the 2026-02-04 implementation, and the steps above are kept as written.
+The shipped code is the authority where they differ, and `CLAUDE.md` owns the current architecture.
+
+- `lib/types/` no longer exists: commit `5519708` removed `constants.dart`, `detector.dart` and `models.dart`, and international brand detection now comes from the `credit_card_type_detector` dependency in `pubspec.yaml`.
+- The Phase 7 `hipercard` fix was not made in this repo. `lib/types/models.dart` still mapped `CreditCardType.hipercard()` to `TYPE_HIPER` in the last version before `5519708` deleted it, and the box was ticked later in `495b94b`. The bug is an upstream caveat, recorded in `CLAUDE.md`.
+- `lib/index.dart` was replaced by the barrel `lib/credit_card_type_detector_korean.dart` in `495b94b`.
