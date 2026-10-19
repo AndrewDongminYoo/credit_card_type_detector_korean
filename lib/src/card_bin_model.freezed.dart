@@ -59,40 +59,45 @@ mixin _$CardBinModel {
 
   @override
   bool operator ==(Object other) {
+    final _this = this as CardBinModel;
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is CardBinModel &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.cardIssuer, cardIssuer) || other.cardIssuer == cardIssuer) &&
-            (identical(other.bin, bin) || other.bin == bin) &&
-            (identical(other.factorName, factorName) || other.factorName == factorName) &&
-            (identical(other.corporate, corporate) || other.corporate == corporate) &&
-            (identical(other.brand, brand) || other.brand == brand) &&
-            (identical(other.creditDebit, creditDebit) || other.creditDebit == creditDebit) &&
-            (identical(other.updatedAt, updatedAt) || other.updatedAt == updatedAt) &&
-            (identical(other.changed, changed) || other.changed == changed) &&
-            (identical(other.remarks, remarks) || other.remarks == remarks));
+            (identical(other.id, _this.id) || other.id == _this.id) &&
+            (identical(other.cardIssuer, _this.cardIssuer) || other.cardIssuer == _this.cardIssuer) &&
+            (identical(other.bin, _this.bin) || other.bin == _this.bin) &&
+            (identical(other.factorName, _this.factorName) || other.factorName == _this.factorName) &&
+            (identical(other.corporate, _this.corporate) || other.corporate == _this.corporate) &&
+            (identical(other.brand, _this.brand) || other.brand == _this.brand) &&
+            (identical(other.creditDebit, _this.creditDebit) || other.creditDebit == _this.creditDebit) &&
+            (identical(other.updatedAt, _this.updatedAt) || other.updatedAt == _this.updatedAt) &&
+            (identical(other.changed, _this.changed) || other.changed == _this.changed) &&
+            (identical(other.remarks, _this.remarks) || other.remarks == _this.remarks));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(
-    runtimeType,
-    id,
-    cardIssuer,
-    bin,
-    factorName,
-    corporate,
-    brand,
-    creditDebit,
-    updatedAt,
-    changed,
-    remarks,
-  );
+  int get hashCode {
+    final _this = this as CardBinModel;
+    return Object.hash(
+      runtimeType,
+      _this.id,
+      _this.cardIssuer,
+      _this.bin,
+      _this.factorName,
+      _this.corporate,
+      _this.brand,
+      _this.creditDebit,
+      _this.updatedAt,
+      _this.changed,
+      _this.remarks,
+    );
+  }
 
   @override
   String toString() {
-    return 'CardBinModel(id: $id, cardIssuer: $cardIssuer, bin: $bin, factorName: $factorName, corporate: $corporate, brand: $brand, creditDebit: $creditDebit, updatedAt: $updatedAt, changed: $changed, remarks: $remarks)';
+    final _this = this as CardBinModel;
+    return 'CardBinModel(id: ${_this.id}, cardIssuer: ${_this.cardIssuer}, bin: ${_this.bin}, factorName: ${_this.factorName}, corporate: ${_this.corporate}, brand: ${_this.brand}, creditDebit: ${_this.creditDebit}, updatedAt: ${_this.updatedAt}, changed: ${_this.changed}, remarks: ${_this.remarks})';
   }
 }
 
@@ -187,19 +192,21 @@ class _CardBinModel implements CardBinModel {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(
-    runtimeType,
-    id,
-    cardIssuer,
-    bin,
-    factorName,
-    corporate,
-    brand,
-    creditDebit,
-    updatedAt,
-    changed,
-    remarks,
-  );
+  int get hashCode {
+    return Object.hash(
+      runtimeType,
+      id,
+      cardIssuer,
+      bin,
+      factorName,
+      corporate,
+      brand,
+      creditDebit,
+      updatedAt,
+      changed,
+      remarks,
+    );
+  }
 
   @override
   String toString() {

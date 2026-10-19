@@ -23,29 +23,34 @@ mixin _$CardDetectionResult {
 
   @override
   bool operator ==(Object other) {
+    final _this = this as CardDetectionResult;
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is CardDetectionResult &&
             const DeepCollectionEquality().equals(
               other.koreanBins,
-              koreanBins,
+              _this.koreanBins,
             ) &&
             const DeepCollectionEquality().equals(
               other.internationalTypes,
-              internationalTypes,
+              _this.internationalTypes,
             ));
   }
 
   @override
-  int get hashCode => Object.hash(
-    runtimeType,
-    const DeepCollectionEquality().hash(koreanBins),
-    const DeepCollectionEquality().hash(internationalTypes),
-  );
+  int get hashCode {
+    final _this = this as CardDetectionResult;
+    return Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(_this.koreanBins),
+      const DeepCollectionEquality().hash(_this.internationalTypes),
+    );
+  }
 
   @override
   String toString() {
-    return 'CardDetectionResult(koreanBins: $koreanBins, internationalTypes: $internationalTypes)';
+    final _this = this as CardDetectionResult;
+    return 'CardDetectionResult(koreanBins: ${_this.koreanBins}, internationalTypes: ${_this.internationalTypes})';
   }
 }
 
@@ -88,21 +93,23 @@ class _CardDetectionResult implements CardDetectionResult {
         (other.runtimeType == runtimeType &&
             other is _CardDetectionResult &&
             const DeepCollectionEquality().equals(
-              other._koreanBins,
+              other.koreanBins,
               _koreanBins,
             ) &&
             const DeepCollectionEquality().equals(
-              other._internationalTypes,
+              other.internationalTypes,
               _internationalTypes,
             ));
   }
 
   @override
-  int get hashCode => Object.hash(
-    runtimeType,
-    const DeepCollectionEquality().hash(_koreanBins),
-    const DeepCollectionEquality().hash(_internationalTypes),
-  );
+  int get hashCode {
+    return Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(_koreanBins),
+      const DeepCollectionEquality().hash(_internationalTypes),
+    );
+  }
 
   @override
   String toString() {
