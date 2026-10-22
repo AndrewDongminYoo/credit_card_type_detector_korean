@@ -29,7 +29,7 @@ jobs:
       config: cspell.json
 
   build:
-    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/dart_package.yml@7af5da7884ffd1a1223fec2e0bab23026499e9f4 # v2.0.1
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/dart_package.yml@bf86fc749b907c6cc60e655f7f2ef619287b1b15 # v2.0.3
     with:
       check_ignore: true
       coverage_excludes: "**/*.g.dart **/*.freezed.dart"
