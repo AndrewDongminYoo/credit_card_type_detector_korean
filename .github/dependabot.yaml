@@ -5,7 +5,13 @@ updates:
     directory: /
     schedule:
       interval: daily
+    groups:
+      github-actions:
+        patterns: ["*"]
   - package-ecosystem: pub
     directory: /
     schedule:
       interval: daily
+    groups:
+      pub:
+        patterns: ["*"]
