@@ -15,6 +15,6 @@
   ],
   "useGitignore": true,
   "suggestionsTimeout": 5000,
-  "ignoreWords": ["plaintext"],
+  "ignoreWords": ["plaintext", "timezone"],
   "words": ["credit_card_type_detector_korean"]
 }
