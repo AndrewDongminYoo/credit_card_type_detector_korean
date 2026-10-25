@@ -4,14 +4,19 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
+      day: monday
+      timezone: Asia/Seoul
     groups:
       github-actions:
         patterns: ["*"]
   - package-ecosystem: pub
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
+      day: monday
+      timezone: Asia/Seoul
+    open-pull-requests-limit: 3
     groups:
       pub:
         patterns: ["*"]
