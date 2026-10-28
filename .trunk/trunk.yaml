@@ -12,10 +12,39 @@ plugins:
 # Many linters and tools depend on runtimes - configure them here. (https://docs.trunk.io/runtimes)
 runtimes:
   enabled:
-    - node@22.16.0
+    - node@22.23.4
     - python@3.14.4
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
+  definitions:
+    - name: osv-scanner
+      commands:
+        - name: scan
+          run: osv-scanner scan source --lockfile=${target} --format=json
+          output: sarif
+          success_codes: [0, 1]
+          is_security: true
+          read_output_from: stdout
+          parser:
+            run: python3 ${plugin}/linters/osv-scanner/osv_to_sarif.py
+            runtime: python
+    - name: trufflehog
+      commands:
+        - name: lint
+          run: trufflehog filesystem --json --fail --no-verification --no-update ${target}
+          direct_configs:
+            - .trunk/configs/trufflehog_to_sarif.py
+          output: sarif
+          success_codes: [0, 183]
+          batch: true
+          cache_results: true
+          cache_ttl: 1h
+          is_security: true
+          read_output_from: stdout
+          parser:
+            run: python3 .trunk/configs/trufflehog_to_sarif.py
+            runtime: python
+          sandbox_type: copy_targets
   ignore:
     - linters: [markdownlint]
       paths: [.github/**/*.md]
@@ -27,13 +56,14 @@ lint:
     - cspell@10.4.0
     - git-diff-check
     - markdownlint@0.50.0
+    - osv-scanner@2.7.0
     - pinact@4.1.1!:
         commands: [lint, upgrade]
     - prettier@3.9.10
     - shellcheck@0.11.0
     - shfmt@3.14.1
     - svgo@4.1.0
-    - trufflehog@3.99.2
+    - trufflehog@3.99.7
     - yamllint@1.38.0
 actions:
   enabled:
