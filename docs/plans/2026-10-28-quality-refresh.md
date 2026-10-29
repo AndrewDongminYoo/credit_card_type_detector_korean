@@ -57,7 +57,7 @@ The existing VS Code 120-character override is documented as an advisory; the re
 
 Raise only Trunk's managed Node to 22.23.4 to satisfy CSpell 10.4.0's Node `>=22.18.0` requirement.
 Use the reviewed project reader to preserve encoded TruffleHog findings that the inherited converter dropped.
-The reader and ten tests are copied byte-identically from the root-verified source; the expected SHA-256 values are `304dd73de26d39ca2bc7fb3aed50f9844ba8c9228c77d4d6bd3c32f3aed6a573` and `e09a236268aff901c1afb872e3ab89246d6b5d50e07b08f35725fdca543ed13a`.
+Initial reader provenance before the source-line repair: the reader and ten tests are copied byte-identically from the root-verified source; the expected SHA-256 values are `304dd73de26d39ca2bc7fb3aed50f9844ba8c9228c77d4d6bd3c32f3aed6a573` and `e09a236268aff901c1afb872e3ab89246d6b5d50e07b08f35725fdca543ed13a`.
 Keep the existing scanner flags, sandbox, OSV converter and Pinact command allowlist.
 Root's actual OSV Pub controls found both expected advisories for `archive` 3.3.1 and blocked Trunk, while 3.3.8 passed; the converter's line 0 affects position accuracy while advisory blocking remains functional.
 Reuse the Dart, coverage, CSV and generated-model baseline by exact hash because this follow-up does not change their inputs.
@@ -71,3 +71,10 @@ The wire-identifier exception uses word matching that ignores case and applies o
 Both the tracked Markdown and a different misspelling in that test file followed full-surface pass → expected failure → exact restoration → pass sequences.
 Existing imports, scan paths, source bytes, CSV labels and reviewed reader/test hashes remained intact.
 The final evidence receipt records the full no-fix Trunk result after this follow-up.
+
+## Source-Line Repair
+
+The current reader uses the independently reviewed `localizations` repair at `b47e59659a886ad673a2f4a9bed6a3bf4986615b`.
+It prefers a positive integer filesystem line only when the literal starts on that line.
+Invalid hints retain literal-search and file-level fallbacks.
+Thirteen CLI tests cover repeated and out-of-order findings in addition to the existing lossless conversion cases.

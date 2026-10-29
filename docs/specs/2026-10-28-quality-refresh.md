@@ -31,7 +31,7 @@ The resolved `crypto` 3.0.8 and `web` 1.1.2 updates are development-only transit
 - Advisory dispositions have specific evidence and affected knowledge claims are reconciled.
 - OSV reads the real Pub lockfile; scan coverage identifies hosted, Git and SDK sources separately.
 - TruffleHog runs with `--no-verification` and the reviewed project JSONL reader; literal, encoded and clean controls prove findings remain actionable.
-- The project reader and its ten standard-library tests match the reviewed source hashes, and CI runs those tests.
+- The project reader and its thirteen standard-library tests match the reviewed source hashes, and CI runs those tests.
 - The reader is a Trunk direct config so it is copied into the sandbox and included in cache invalidation.
 - OSV retains its inherited JSON converter after actual vulnerable/clean Pub controls confirmed blocking; line 0 affects position accuracy while advisory blocking remains functional.
 - The actual managed Node version satisfies CSpell's engine requirement and a tracked Markdown spelling canary fails before its exact restoration passes.
@@ -52,3 +52,10 @@ Its supplied source commit `9670d54de3076c5239713f54900c7a855bd18478` remains un
 
 Push and PR creation require explicit repository-specific approval.
 After approval, continue the requested hosted gates, merge, cleanup and memory recording.
+
+## Source-Line Repair
+
+The current reader uses the independently reviewed `localizations` repair at `b47e59659a886ad673a2f4a9bed6a3bf4986615b`.
+It prefers a positive integer filesystem line only when the literal starts on that line.
+Invalid hints retain literal-search and file-level fallbacks.
+Thirteen CLI tests cover repeated and out-of-order findings in addition to the existing lossless conversion cases.
