@@ -16,5 +16,27 @@
   "useGitignore": true,
   "suggestionsTimeout": 5000,
   "ignoreWords": ["plaintext", "timezone"],
-  "words": ["credit_card_type_detector_korean"]
+  "words": [
+    "APFS",
+    "corporates",
+    "credit_card_type_detector_korean",
+    "Dongmin",
+    "dongminyu",
+    "HANA",
+    "normalised",
+    "normalises",
+    "podspec",
+    "pubignore",
+    "sarif",
+    "SCRIPTDIR",
+    "Signiture",
+    "UNIONPAY",
+    "Verdana"
+  ],
+  "overrides": [
+    {
+      "filename": ".trunk/configs/tests/test_trufflehog_to_sarif.py",
+      "ignoreWords": ["github"]
+    }
+  ]
 }

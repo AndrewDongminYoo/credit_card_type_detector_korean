@@ -83,7 +83,7 @@ dart tool/generate_data.dart path/to/신용카드\ BIN_Table\(20260115\).xls\ -\
 After regenerating, format the output so it matches what CI expects:
 
 ```sh
-dart format lib/src/data.dart lib/src/dataset_version.dart
+dart format --line-length 160 lib/src/data.dart lib/src/dataset_version.dart
 ```
 
 CI regenerates these two files from the committed CSV and fails if they differ from what is checked in, so the generated data can never silently drift from its source.
@@ -103,16 +103,29 @@ Out of the box, on each pull request and push, the CI `formats`, `lints`, and `t
 To run all unit tests:
 
 ```sh
-dart pub global activate coverage
+dart pub get --enforce-lockfile
 dart test --coverage=coverage
 dart run coverage:format_coverage \
   --lcov \
   --check-ignore \
-  --ignore-files="**/*.g.dart" \
+  --ignore-files="**/*.g.dart,**/*.freezed.dart" \
   --in=coverage \
   --out=coverage/lcov.info \
   --package=. \
   --report-on=lib
+```
+
+CI enforces 100% line coverage with these generated-file exclusions and coverage ignore comments.
+The public package supports Dart `>=3.10.0 <4.0.0`; development generators and analysis currently require Dart 3.13 or later.
+The committed lockfile records the development resolution and is excluded from the published package.
+
+Repository quality checks use Trunk's managed Node 22.23.4 to meet CSpell 10.4.0's Node `>=22.18.0` requirement.
+The TruffleHog reader keeps encoded findings actionable even when a literal source location is unavailable.
+Run its standard-library regression tests and the repository quality checks with:
+
+```sh
+python3 -B .trunk/configs/tests/test_trufflehog_to_sarif.py
+trunk check --all --no-fix --jobs=2
 ```
 
 To view the generated coverage report you can use [lcov](https://github.com/linux-test-project/lcov).

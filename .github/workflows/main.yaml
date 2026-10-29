@@ -35,6 +35,10 @@ jobs:
       coverage_excludes: "**/*.g.dart **/*.freezed.dart"
       format_line_length: 160
       min_coverage: 100
+      setup: |
+        python3 -B .trunk/configs/tests/test_trufflehog_to_sarif.py
+        git diff --exit-code -- pubspec.lock
+        dart pub get --enforce-lockfile
 
   # Integrity gate: the bundled BIN dataset (lib/src/data.dart) and its version
   # stamp (lib/src/dataset_version.dart) are generated from the source CSV.
@@ -50,7 +54,7 @@ jobs:
           sdk: stable
 
       - name: Install dependencies
-        run: dart pub get
+        run: dart pub get --enforce-lockfile
 
       - name: Regenerate dataset from source CSV
         run: dart run tool/generate_data.dart
