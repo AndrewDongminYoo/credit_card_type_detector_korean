@@ -2,7 +2,7 @@
 # To learn more about the format of this file, see https://docs.trunk.io/reference/trunk-yaml
 version: 0.1
 cli:
-  version: 1.25.0
+  version: 1.29.0
 # Trunk provides extensibility via plugins. (https://docs.trunk.io/plugins)
 plugins:
   sources:
@@ -17,6 +17,10 @@ runtimes:
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
   definitions:
+    - name: pinact
+      commands:
+        - name: upgrade
+          enabled: true
     - name: osv-scanner
       commands:
         - name: scan
@@ -45,26 +49,25 @@ lint:
             run: python3 .trunk/configs/trufflehog_to_sarif.py
             runtime: python
           sandbox_type: copy_targets
-  ignore:
-    - linters: [markdownlint]
-      paths: [.github/**/*.md]
   disabled:
     - dart
   enabled:
     - actionlint@1.7.12
-    - checkov@3.4.0
-    - cspell@10.4.0
+    - checkov@3.4.3
+    - cspell@10.4.1
     - git-diff-check
     - markdownlint@0.50.0
     - osv-scanner@2.7.0
-    - pinact@4.1.1!:
-        commands: [lint, upgrade]
+    - pinact@4.1.1!
     - prettier@3.9.10
     - shellcheck@0.11.0
     - shfmt@3.14.1
     - svgo@4.1.0
-    - trufflehog@3.99.7
+    - trufflehog@3.99.8
     - yamllint@1.38.0
+  ignore:
+    - linters: [markdownlint]
+      paths: [.github/**/*.md]
 actions:
   enabled:
     - trunk-announce
